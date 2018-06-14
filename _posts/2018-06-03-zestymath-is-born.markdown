@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Zestymath is Born"
 date:   2018-06-13 15:37:28 -0700
 categories: jekyll update
 ---
