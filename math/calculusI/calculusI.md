@@ -1,7 +1,7 @@
 ---
 layout: page
-title:
-permalink: /math/calculus/
+title: Calculus
+permalink: /math/calculusI/
 ---
 
 Welcome to the course on calculus! This is mostly experimental, as I work out the kinks of web development. Here i am testing some mathjax.

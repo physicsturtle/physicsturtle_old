@@ -12,7 +12,7 @@ You can find the source code for the Jekyll new theme at:
 
 
 
-<a class="page-link" href="https://zestymath.github.io/physics/electromagnetism-I/">Electromagnetism I</a>
+<a class="page-link" href="/physics/electromagnetism-I/">Electromagnetism I</a>
 
 
 
