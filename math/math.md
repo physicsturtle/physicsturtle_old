@@ -8,7 +8,7 @@ welcome to the math page
 
 
 
-<a class="page-link" href="/math/calculusI/">Calculus I</a>
+<a class="page-link" href="/math/calculus-I/">Calculus I</a>
 
 
 
