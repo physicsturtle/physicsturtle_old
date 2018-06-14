@@ -11,7 +11,7 @@ email: zestymathofficial@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Welcome to Zestymath! Here we learn math
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://zestymath.github.io" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  zestymath
 
