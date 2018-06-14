@@ -4,12 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Hey everyone! Welcome to Zestymath! We want to make science fun, accessible, and free for everyone. The content of this website will mainly consist of math and physics content, and you're all welcome to request content relevant to math, physics, and even engineering/computer science topics. There will be continuous updates for adding new material, and editing expositions of old material. We really enjoy writing educational resources for you all, and hope you have fun learning, can pass it on to your peers, whether you're in high school, university, or a self-motivated learner. 
