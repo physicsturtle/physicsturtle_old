@@ -4,4 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hey everyone! Welcome to Zestymath! We want to make science fun, accessible, and free for everyone. The content of this website will mainly consist of math and physics content, and you're all welcome to request content relevant to math, physics, and even engineering/computer science topics. There will be continuous updates for adding new material, and editing expositions of old material. We really enjoy writing educational resources for you all, and hope you have fun learning, can pass it on to your peers, whether you're in high school, university, or a self-motivated learner. 
+Zestymath is a mathematics education website that I have been wanting to build for a very long time. My vision for the website is to write course material for a large variety of undergraduate topics in STEM. In particular, math and physics, and maybe some engineering as well. The secondary purpose of this project is to create content for me to read if I ever need to refer to topics which I have previously learned but need a refresher on. 
+
+One of the things that I hope will make this website stand out is that I will very explicitly calculate everything, requiring the reader to fill in minimal details in derivations and solutions. The website was created on Tuesday June 12, 2018. 
+

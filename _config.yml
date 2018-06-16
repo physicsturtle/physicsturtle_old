@@ -9,7 +9,7 @@
 title: zestymath
 email: zestymathofficial@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to Zestymath! Here we learn math
+  Welcome to Zestymath! Let's learn something together.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://zestymath.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
