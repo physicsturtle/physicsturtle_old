@@ -12,7 +12,7 @@ Hey everyone! Welcome to Multi-Variable and Vector Calculus. This subject is sup
 <li>  <a class="page-link" href="/math/calculus-III/"> Unit I </a> </li>
 <ol>
 {% for my_page in site.pages %}
-{% if  my_page.category == "calculus-III"%}
+{% if  my_page.course == "calculus-III" and my_page.unit == "unit1" %}
 <li> <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> </li>
 {% endif %}
 {% endfor %}
@@ -20,7 +20,7 @@ Hey everyone! Welcome to Multi-Variable and Vector Calculus. This subject is sup
 <li>  <a class="page-link" href="/math/calculus-III/"> Unit 3 </a> </li>
 <ol>
 {% for my_page in site.pages %}
-{% if  my_page.category == "calculus-III" and my_page.id == "unit3" %}
+{% if  my_page.course == "calculus-III" and my_page.unit == "unit3" %}
 <li> <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> </li>
 {% endif %}
 {% endfor %}

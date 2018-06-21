@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Introduction to 3D Space
-category: calculus-III
+course: calculus-III
+unit: unit1
 ---
 
-This is the home page of unit 1. Unit 1 is 
+Unit 1 lays out the foundations for understanding how to work with objects in 3 dimensional space. There won't be any calculus yet, but we'll try and understand how to draw pictures, including vectors and graphs. This will be one of the most important skills throughout the rest of the course to intuitively understand the mathematics through graphical means. 

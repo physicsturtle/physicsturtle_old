@@ -1,10 +1,13 @@
 ---
 layout: page
 title: Higher Dimensional Coordinate Systems
-category: calculus-III
+course: calculus-III
+unit: unit1
 ---
 
 In your first course on calculus, all of the functions were of a single variable, for example \\(y = f(x)\\). We have the *dependent variable* \\(y\\), depending on the *independent variable* \\(x\\). This can be represented graphically by something like (insert graph here). 
+
+![3dcoord](3dcoord.png){:height="300" width="300"}
 
 We now introduce the three dimensional coordinate system \\((x,y,z)\\). It now requires three numbers to specify any point in space! This looks like (insert figure here).
 
