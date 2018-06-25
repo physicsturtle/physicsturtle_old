@@ -8,3 +8,5 @@ Zestymath is a mathematics education website that I have been wanting to build f
 
 One of the things that I hope will make this website stand out is that I will very explicitly calculate everything, requiring the reader to fill in minimal details in derivations and solutions. The website was created on Tuesday June 12, 2018. 
 
+As for the author, I am currently an undergraduate studying Engineering Physics. I have been interested in education for a few years now, and have been trying to get this project off the ground for a long time. Let's see where it goes. 
+
