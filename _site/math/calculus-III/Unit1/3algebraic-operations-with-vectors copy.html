@@ -6,14 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Electromagnetism I</title>
+  <title>Algebraic Operations with Vectors</title>
   <meta name="description" content="Welcome to Zestymath! Let's learn something together.
 ">
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://zestymath.github.io/physics/electromagnetism-I/">
+  <link rel="canonical" href="http://zestymath.github.io/math/calculus-III/Unit1/3algebraic-operations-with-vectors%20copy.html">
   <link rel="alternate" type="application/rss+xml" title="zestymath" href="http://zestymath.github.io/feed.xml">
       <style>
           .center {
@@ -22,21 +22,7 @@
               margin-right: auto;
               width: 50%;
           }
-        #answer {
-            width: 100%;
-            display: none;
-        }
           </style>
-      <script>
-          function myFunction() {
-              var x = document.getElementById("answer");
-              if (x.style.display === "block") {
-                  x.style.display = "none";
-              } else {
-                  x.style.display = "block";
-              }
-          }
-      </script>
 </head>
 
 
@@ -138,152 +124,49 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Electromagnetism I</h1>
+    <h1 class="post-title">Algebraic Operations with Vectors</h1>
   </header>
 
   <div class="post-content">
-    <p>Hey everyone! Welcome to Multi-Variable and Vector Calculus. This subject is super important, and you’ll soon come to realize it has many applications pretty much anywhere you look. It is also a great step to bridge your first year calculus knowledge with some other areas of math, such as linear algebra and geometry. If you haven’t had much experience with those areas of math, we’ll explain some of that along the way.</p>
+    <p>In the last section, we discussed adding and subtracting vectors geometrically. Now we will do the same, but algebraically. This will be more abstract, but will allow us to tackle much more complex problems.</p>
 
-<p><a class="page-link" href="/physics/electromagnetism-I/introduction">Introduction </a></p>
+<p>Two vectors \(\textbf{v} = (v_1,v_2,v_3) \) and \(\textbf{u} = (u_1,u_2,u_3)\) can be added <em>componentwise</em>.</p>
 
-<ul>
-<li>  <a class="page-link" href="/math/calculus-III/"> Unit I </a> </li>
-<ol>
+<p>\[ \textbf{v} + \textbf{u} = (v_1+u_1,v_2+u_2,v_3+u_3) \]</p>
 
+<p>from which we see that \(\textbf{u} + \textbf{v} = \textbf{v} + \textbf{u}\). Next, we have subtraction, which is defined in the obvious way</p>
 
+<p>\[ \textbf{v} - \textbf{u} = (v_1-u_1,v_2-u_2,v_3-u_3) \]</p>
 
+<p>Vectors can also be scaled by some <em>scaler</em> \(\lambda \in \mathbb{R}\),</p>
 
+<p>\[ \lambda\textbf{v} = (\lambda v_1, \lambda v_2, \lambda v_3) \]</p>
 
+<p>It is then straightforward to define <em>linear combinations</em> of multiple vectors. A linear combination is a sum of vectors, each multiplied by their own scaler (which could be any number, including 1 or 0). For example, a linear combination of \(\textbf{u}\) and \(\textbf{v}\) could be</p>
 
+<p>\[ a\textbf{u} + b\textbf{v} = (au_1 + bv_1,au_2 + bv_2, au_3 + bv_3) \]</p>
 
+<p>Linear combinations can also be taken between more than 2 vectors.</p>
 
+<p><button onclick="myFunction()">Try it</button></p>
 
+<div id="myDIV">
+This is my DIV element.
+</div>
 
+<p><b>Note:</b> The element will not take up any space when the display property set to "none".</p>
 
+<script>
+function myFunction() {
+var x = document.getElementById("myDIV");
+if (x.style.display === "none") {
+x.style.display = "block";
+} else {
+x.style.display = "none";
+}
+}
+</script>
 
-
-
-<li> <a class="page-link" href="/physics/electromagnetism-I/unit1/electric-charge.html">Electromagnetism I</a> </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<li> <a class="page-link" href="/physics/electromagnetism-I/introduction.html">Introduction</a> </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</ol>
-<li>  <a class="page-link" href="/math/calculus-III/"> Unit 3 </a> </li>
-<ol>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</ol>
-</ul>
 
   </div>
 

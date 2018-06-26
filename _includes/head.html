@@ -18,5 +18,19 @@
               margin-right: auto;
               width: 50%;
           }
+        #answer {
+            width: 100%;
+            display: none;
+        }
           </style>
+      <script>
+          function myFunction() {
+              var x = document.getElementById("answer");
+              if (x.style.display === "block") {
+                  x.style.display = "none";
+              } else {
+                  x.style.display = "block";
+              }
+          }
+      </script>
 </head>

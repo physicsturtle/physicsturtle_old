@@ -10,7 +10,7 @@ In your first course on calculus, all of the functions were of a single variable
 
 
 
-We now introduce the three dimensional coordinate system \\((x,y,z)\\). It now requires three numbers to specify any point in space! This looks like (insert figure here).
+We now introduce the three dimensional coordinate system \\((x,y,z)\\). It now requires three numbers to specify any point in space! This looks like 
 
 <figure class="center">
 <p><img src="3dcoord.png" alt="Three Dimensional Coordinates" style="width:300px;height:300px;"> </p>

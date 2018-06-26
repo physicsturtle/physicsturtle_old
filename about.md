@@ -8,5 +8,11 @@ Zestymath is a mathematics education website that I have been wanting to build f
 
 One of the things that I hope will make this website stand out is that I will very explicitly calculate everything, requiring the reader to fill in minimal details in derivations and solutions. The website was created on Tuesday June 12, 2018. 
 
+The goals of the site can be summarized as follows:
+
+1. To provide a comprehensive physics and mathematics reference, including explicit calculations, worked examples, and exercises; our goal is for the reader to be able to do their own calculations
+2. To be a course supplement to physics and math courses around the world
+3. To be an online open source textbook of mathematics and physics
+
 As for the author, I am currently an undergraduate studying Engineering Physics. I have been interested in education for a few years now, and have been trying to get this project off the ground for a long time. Let's see where it goes. 
 

@@ -1,19 +1,28 @@
 ---
 layout: page
-title: Higher Dimensional Coordinate Systems
-course: calculus-III
+title: Symmetries
+course: quantum-mechanics-II
 unit: unit1
 ---
 
-In your first course on calculus, all of the functions were of a single variable, for example \\(y = f(x)\\). We have the *dependent variable* \\(y\\), depending on the *independent variable* \\(x\\). This can be represented graphically by something like (insert graph here). 
+Symmetries are very important in quantum mechanics. For this, we need to clear definitions. 
 
-<img src="3dcoord.png" alt="Three Dimensional Coordinates" style="width:500px;height:600px;" class="center">
+**Definition** A symmetry of a quantum system is a unitary operator. 
 
-We now introduce the three dimensional coordinate system \\((x,y,z)\\). It now requires three numbers to specify any point in space! This looks like (insert figure here).
+Let's look at the translation operator, defined by \\((\hat{T}_a\psi)(x) = \psi(x-a)\\)
+
+First, let's show that this is a symmetry. To show that something is a symmetry, we need to find its adjoint and show that it is equal to its inverse. In order to do this, we can calculate
+$$\begin{eqnarray}
+\langle \psi |\left( \hat{T}_a |\phi\rangle\right) &=& \int\psi^*(x) (T_a\phi)(x) dx \\
+&=& \int\psi^*(x)\phi(x-a) dx \\
+&=& \int\psi^*(x+a)\phi(x) dx\\
+&=& \int \psi(x+a)^*\phi(x)dx\\
+&=& \int (\hat{T}_{-a}\psi)(x)\phi(x)dx\\
+&=& \left(\langle\psi|\hat{T}_{-a}\right)|\phi\rangle
+\end{eqnarray}$$
+
+Thus the translation operator is unitary. Now we are interested in finding its associated hermitian operator, because to every symmetry corresponds a convserved quantity, which is expressed through a hermitian operator. We can taylor expand the translation operator as follows. 
 
 
-In this three dimensional coordinate system, space is divided up into 8 different *octants*. We call the octant with all of \\(x,y,z\\) positive the *first octant*. Note how this coordinate system has been drawn. It is called a *right-handed* coordinate system. This can be contrasted with a *left-handed* coordinate system. It is convention to **always** use a right-handed coordinate system. 
-
-The set of points constituting our three dimensional space is known as \\(\mathbb{R}^3\\). When drawing points in three dimensional space, it is very useful to draw lines parallel to the axes, like so, to show where the point fits in space. Learning to draw clear three dimensional figures will be very useful. 
-
+In general, we expand a unitary operator as \\(\hat{T}_\epsilon = 1 + i\epsilon\hat{A}\\). This can be matched with a taylor series in a normal variable, \\((T_\epsilon \psi)(x) = \psi(x-\epsilon) = \psi(x) - \epsilon\psi'(x)\\). Then comparing this with \\(\hat{T}_\epsilon\psi)(x) = (1-i\epsilon\hat{A})(\psi)(x) = \psi(x) - i\epsilon(\hat{A}\psi)(x)\\), we find that \\(\hat{A}(\psi)(x) = -i\\psi'(x)\\). This means that \\(\hat{A} = -i\frac{d}{dx}\\), which is the momentum operator. 
 

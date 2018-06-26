@@ -22,7 +22,21 @@
               margin-right: auto;
               width: 50%;
           }
+        #answer {
+            width: 100%;
+            display: none;
+        }
           </style>
+      <script>
+          function myFunction() {
+              var x = document.getElementById("answer");
+              if (x.style.display === "block") {
+                  x.style.display = "none";
+              } else {
+                  x.style.display = "block";
+              }
+          }
+      </script>
 </head>
 
 
@@ -44,6 +58,8 @@
       </a>
       <!--hide the physics content for now... my_page.title == "Physics" or -->
       <div class="trigger" >
+        
+          
         
           
         
@@ -90,7 +106,17 @@
           
         
           
+        
+          
+        
+          
+        
+          
           <a class="page-link" href="/math/">Math</a>
+          
+        
+          
+        
           
         
           
@@ -119,7 +145,7 @@
   <div class="post-content">
     <p>In your first course on calculus, all of the functions were of a single variable, for example \(y = f(x)\). We have the <em>dependent variable</em> \(y\), depending on the <em>independent variable</em> \(x\). This can be represented graphically by something like (insert graph here).</p>
 
-<p>We now introduce the three dimensional coordinate system \((x,y,z)\). It now requires three numbers to specify any point in space! This looks like (insert figure here).</p>
+<p>We now introduce the three dimensional coordinate system \((x,y,z)\). It now requires three numbers to specify any point in space! This looks like</p>
 
 <figure class="center">
 <p><img src="3dcoord.png" alt="Three Dimensional Coordinates" style="width:300px;height:300px;" /> </p>

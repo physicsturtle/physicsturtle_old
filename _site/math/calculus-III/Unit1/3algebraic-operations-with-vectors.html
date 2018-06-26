@@ -22,7 +22,21 @@
               margin-right: auto;
               width: 50%;
           }
+        #answer {
+            width: 100%;
+            display: none;
+        }
           </style>
+      <script>
+          function myFunction() {
+              var x = document.getElementById("answer");
+              if (x.style.display === "block") {
+                  x.style.display = "none";
+              } else {
+                  x.style.display = "block";
+              }
+          }
+      </script>
 </head>
 
 
@@ -44,6 +58,8 @@
       </a>
       <!--hide the physics content for now... my_page.title == "Physics" or -->
       <div class="trigger" >
+        
+          
         
           
         
@@ -90,7 +106,17 @@
           
         
           
+        
+          
+        
+          
+        
+          
           <a class="page-link" href="/math/">Math</a>
+          
+        
+          
+        
           
         
           
@@ -116,24 +142,37 @@
   </header>
 
   <div class="post-content">
-    <p><button onclick="myFunction()">Try it</button></p>
+    <p>In the last section, we discussed adding and subtracting vectors geometrically. Now we will do the same, but algebraically. This will be more abstract, but will allow us to tackle much more complex problems.</p>
 
-<div id="myDIV">
-This is my DIV element.
+<p>Two vectors \(\textbf{v} = (v_1,v_2,v_3) \) and \(\textbf{u} = (u_1,u_2,u_3)\) can be added <em>componentwise</em>.</p>
+
+<p>\[ \textbf{v} + \textbf{u} = (v_1+u_1,v_2+u_2,v_3+u_3) \]</p>
+
+<p>from which we see that \(\textbf{u} + \textbf{v} = \textbf{v} + \textbf{u}\). Next, we have subtraction, which is defined in the obvious way</p>
+
+<p>\[ \textbf{v} - \textbf{u} = (v_1-u_1,v_2-u_2,v_3-u_3) \]</p>
+
+<p>Vectors can also be scaled by some <em>scaler</em> \(\lambda \in \mathbb{R}\),</p>
+
+<p>\[ \lambda\textbf{v} = (\lambda v_1, \lambda v_2, \lambda v_3) \]</p>
+
+<p>It is then straightforward to define <em>linear combinations</em> of multiple vectors. A linear combination is a sum of vectors, each multiplied by their own scaler (which could be any number, including 1 or 0). For example, a linear combination of \(\textbf{u}\) and \(\textbf{v}\) could be</p>
+
+<p>\[ a\textbf{u} + b\textbf{v} = (au_1 + bv_1,au_2 + bv_2, au_3 + bv_3) \]</p>
+
+<p>Linear combinations can also be taken between more than 2 vectors. You may be wondering now if there are ways to multiply vectors or divide vectors. In this course, there are no ways to multiply or divide vectors in a way that is analogous to your preexisting notions of multiplication and division. However, there are two ways of multiplying vectors, the dot and cross products, which will be new to you, and those will be coverd in the next couple sections.</p>
+
+<p><button onclick="myFunction(answer)">Show Answer</button></p>
+
+<div id="answer">
+hihihi
 </div>
 
-<p><b>Note:</b> The element will not take up any space when the display property set to "none".</p>
+<p><button onclick="myFunction(answer2)">Show Answer</button></p>
 
-<script>
-function myFunction() {
-var x = document.getElementById("myDIV");
-if (x.style.display === "none") {
-x.style.display = "block";
-} else {
-x.style.display = "none";
-}
-}
-</script>
+<div id="answer2">
+hihihi 2
+</div>
 
 
   </div>

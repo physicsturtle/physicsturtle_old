@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Higher Dimensional Coordinate Systems</title>
+  <title>Symmetries</title>
   <meta name="description" content="Welcome to Zestymath! Let's learn something together.
 ">
 <script type="text/javascript" async
@@ -22,7 +22,21 @@
               margin-right: auto;
               width: 50%;
           }
+        #answer {
+            width: 100%;
+            display: none;
+        }
           </style>
+      <script>
+          function myFunction() {
+              var x = document.getElementById("answer");
+              if (x.style.display === "block") {
+                  x.style.display = "none";
+              } else {
+                  x.style.display = "block";
+              }
+          }
+      </script>
 </head>
 
 
@@ -44,6 +58,8 @@
       </a>
       <!--hide the physics content for now... my_page.title == "Physics" or -->
       <div class="trigger" >
+        
+          
         
           
         
@@ -90,7 +106,17 @@
           
         
           
+        
+          
+        
+          
+        
+          
           <a class="page-link" href="/math/">Math</a>
+          
+        
+          
+        
           
         
           
@@ -112,19 +138,30 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Higher Dimensional Coordinate Systems</h1>
+    <h1 class="post-title">Symmetries</h1>
   </header>
 
   <div class="post-content">
-    <p>In your first course on calculus, all of the functions were of a single variable, for example \(y = f(x)\). We have the <em>dependent variable</em> \(y\), depending on the <em>independent variable</em> \(x\). This can be represented graphically by something like (insert graph here).</p>
+    <p>Symmetries are very important in quantum mechanics. For this, we need to clear definitions.</p>
 
-<p><img src="3dcoord.png" alt="Three Dimensional Coordinates" style="width:500px;height:600px;" class="center" /></p>
+<p><strong>Definition</strong> A symmetry of a quantum system is a unitary operator.</p>
 
-<p>We now introduce the three dimensional coordinate system \((x,y,z)\). It now requires three numbers to specify any point in space! This looks like (insert figure here).</p>
+<p>Let’s look at the translation operator, defined by \((\hat{T}_a\psi)(x) = \psi(x-a)\)</p>
 
-<p>In this three dimensional coordinate system, space is divided up into 8 different <em>octants</em>. We call the octant with all of \(x,y,z\) positive the <em>first octant</em>. Note how this coordinate system has been drawn. It is called a <em>right-handed</em> coordinate system. This can be contrasted with a <em>left-handed</em> coordinate system. It is convention to <strong>always</strong> use a right-handed coordinate system.</p>
+<p>First, let’s show that this is a symmetry. To show that something is a symmetry, we need to find its adjoint and show that it is equal to its inverse. In order to do this, we can calculate
+<script type="math/tex">% <![CDATA[
+\begin{eqnarray}
+\langle \psi |\left( \hat{T}_a |\phi\rangle\right) &=& \int\psi^*(x) (T_a\phi)(x) dx \\
+&=& \int\psi^*(x)\phi(x-a) dx \\
+&=& \int\psi^*(x+a)\phi(x) dx\\
+&=& \int \psi(x+a)^*\phi(x)dx\\
+&=& \int (\hat{T}_{-a}\psi)(x)\phi(x)dx\\
+&=& \left(\langle\psi|\hat{T}_{-a}\right)|\phi\rangle
+\end{eqnarray} %]]></script></p>
 
-<p>The set of points constituting our three dimensional space is known as \(\mathbb{R}^3\). When drawing points in three dimensional space, it is very useful to draw lines parallel to the axes, like so, to show where the point fits in space. Learning to draw clear three dimensional figures will be very useful.</p>
+<p>Thus the translation operator is unitary. Now we are interested in finding its associated hermitian operator, because to every symmetry corresponds a convserved quantity, which is expressed through a hermitian operator. We can taylor expand the translation operator as follows.</p>
+
+<p>In general, we expand a unitary operator as \(\hat{T}<em>\epsilon = 1 + i\epsilon\hat{A}\). This can be matched with a taylor series in a normal variable, \((T</em>\epsilon \psi)(x) = \psi(x-\epsilon) = \psi(x) - \epsilon\psi’(x)\). Then comparing this with \(\hat{T}_\epsilon\psi)(x) = (1-i\epsilon\hat{A})(\psi)(x) = \psi(x) - i\epsilon(\hat{A}\psi)(x)\), we find that \(\hat{A}(\psi)(x) = -i\psi’(x)\). This means that \(\hat{A} = -i\frac{d}{dx}\), which is the momentum operator.</p>
 
 
   </div>
