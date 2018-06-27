@@ -6,15 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Introduction</title>
-  <meta name="description" content="Welcome to Zestymath! Let's learn something together.
+  <title>Change of Coordinates</title>
+  <meta name="description" content="Welcome to Zestymath! Let's learn something together. Please use the e-mail contact if you find any mistakes. 
 ">
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://zestymath.github.io/cheat-sheets/fourier-transform%20copy.html">
-  <link rel="alternate" type="application/rss+xml" title="zestymath" href="http://zestymath.github.io/feed.xml">
+  <link rel="canonical" href="http://zestymath.github.io/math/calculus-III/supplements/coordinate-change.html">
+  <link rel="alternate" type="application/rss+xml" title="Zestymath" href="http://zestymath.github.io/feed.xml">
       <style>
           .center {
               display: block;
@@ -22,7 +22,21 @@
               margin-right: auto;
               width: 50%;
           }
+        #answer {
+            width: 100%;
+            display: none;
+        }
           </style>
+      <script>
+          function myFunction(name) {
+              var x = document.getElementById("answer");
+              if (x.style.display === "block") {
+                  x.style.display = "none";
+              } else {
+                  x.style.display = "block";
+              }
+          }
+      </script>
 </head>
 
 
@@ -32,7 +46,7 @@
 
   <div class="wrapper" >
 
-    <a class="site-title" href="/">zestymath</a>
+    <a class="site-title" href="/">Zestymath</a>
 
     <nav class="site-nav" >
       <a href="#" class="menu-icon">
@@ -44,6 +58,8 @@
       </a>
       <!--hide the physics content for now... my_page.title == "Physics" or -->
       <div class="trigger" >
+        
+          
         
           
         
@@ -94,7 +110,17 @@
           
         
           
+        
+          
+        
+          
           <a class="page-link" href="/math/">Math</a>
+          
+        
+          
+        
+          
+        
           
         
           
@@ -116,28 +142,29 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Introduction</h1>
+      
+    <h1 class="post-title">Change of Coordinates</h1>
   </header>
-
+  
   <div class="post-content">
-    <p>The basic idea behind single variable calculus is having two variables. One dependent, and one independent. For example, the dependent variable distance along an axis an object is a function of the independent variable time. Multi-variable calculus aims to allow one to perform similar calculations, but allowing many more degrees of freedom. The three new types of problems are exemplified by the following.</p>
+    <p>Here we are going to discuss how to find formulas for gradient, divergence, curl, and laplacian in various coordinate systems, starting from their definitions in Cartesian. We will aim to provide intuition for this, and also will give formulas for the most common coordinate transformations, namely cylindrical and spherical. We will have other coordinate systems as exercises.</p>
 
-<ol>
-  <li>The description of the movement of a particle moving in 3D space, rather than just along a line.</li>
-  <li>The study of a gravitational or electric potential as it varies throughout 3D space.</li>
-  <li>The study of velocity fields of a fluid throughout 3D space.</li>
-</ol>
+<p>In cartesian coordinates, the definition of the gradient of a function \(f = f(x,y,z)\) is</p>
 
-<p>If any of those terms or examples are unfamiliar to you, don’t worry as we will be going into much more depth later on.</p>
+<p>\[ \nabla f = \frac{\partial f}{\partial x} \hat{x} + \frac{\partial f}{\partial y}\hat{y} + \frac{\partial f}{\partial z}\hat{z} \]</p>
 
-<p>In addition to many physical problems, multi-variable calculus also involves problems in optimization, geometry, probability, economics, and other areas of science and economics and more. Within this course we will not be able to explore all of these areas, but hope to at least touch on physics, optimization, geometry, and probability.</p>
+<p>When we express this in terms of another coordinate system, we can’t only change the derivative terms. We must also change the unit vectors, which is what makes this so difficult. Let’s do this geometrically first!</p>
 
-<p>Prerequisites:</p>
-<ol>
-  <li>First courses in single variable differential and integral calculus are a necessity</li>
-  <li>An exposure to basic ideas of linear algebra will be very helpful</li>
-  <li>An exposure to introductory physics will be useful for developing physical intuition</li>
-</ol>
+<p>(fill this in)</p>
+
+<p>Now let’s do this completely generally. Suppose that we have two coordinate systems, \(x,y,z\), and \(u,v,z\). We also have the relationships between them,</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\left\{\begin{eqnarray}
+x &=& x(u,v,w) \\
+y &=& y(u,v,z) \\
+z &=& z(u,v,w)
+\end{eqnarray}\right. %]]></script>
 
   </div>
 
@@ -146,16 +173,16 @@
       </div>
     </div>
 
-    <footer class="site-footer">
+    <footer class="site-footer" style="background-color: rgb(64, 87, 157)">
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">zestymath</h2>
+    <h2 class="footer-heading">Zestymath</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>zestymath</li>
+          <li>Zestymath</li>
           <li><a href="mailto:zestymathofficial@gmail.com">zestymathofficial@gmail.com</a></li>
         </ul>
       </div>
@@ -171,17 +198,11 @@
           
 
           
-          <li>
-            <a href="https://twitter.com/zestymath"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
-</span><span class="username">zestymath</span></a>
-
-          </li>
-          
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>Welcome to Zestymath! Let's learn something together.
+        <p>Welcome to Zestymath! Let's learn something together. Please use the e-mail contact if you find any mistakes. 
 </p>
       </div>
     </div>

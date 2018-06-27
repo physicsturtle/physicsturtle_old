@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: course
 title: Calculus I
 permalink: /math/calculus-I/
 ---
