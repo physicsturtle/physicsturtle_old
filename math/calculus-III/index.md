@@ -5,24 +5,48 @@ permalink: /math/calculus-III/
 banner: calculus-III.png
 ---
 
-Hey everyone! Welcome to Multi-Variable and Vector Calculus. This subject is super important, and you'll soon come to realize it has many applications pretty much anywhere you look. It is also a great step to bridge your first year calculus knowledge with some other areas of math, such as linear algebra and geometry. If you haven't had much experience with those areas of math, we'll explain some of that along the way.
+Welcome to Multi-Variable and Vector Calculus. This subject has many applications pretty much anywhere you look. It is also a great step to bridge your first year calculus knowledge with some other areas of math, such as linear algebra and geometry. 
 
 
-<a class="page-link" href="/math/calculus-III/introduction">Introduction </a>
+<a class="page-link" href="/math/calculus-III/introduction">Introduction - What is Multivariable Calculus? </a>
 
 <ul>
-<li>  <a class="page-link" href="/math/calculus-III/unit1/"> Unit I </a> </li>
+<li>  <a class="page-link" href="/math/calculus-III/unit1/"> Unit 1 - Introduction to 3D Space and Vectors </a> </li>
 <ol>
 {% for my_page in site.pages %}
-{% if  my_page.course == "calculus-III" and my_page.unit == "unit1" %}
+{% if  my_page.course == "calculus-III" and my_page.unit == "unit1" and my_page.layout == "lesson" %}
 <li> <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> </li>
 {% endif %}
 {% endfor %}
 </ol>
-<li>  <a class="page-link" href="/math/calculus-III/"> Unit 3 </a> </li>
+<li>  <a class="page-link" href="/math/calculus-III/unit2/"> Unit 2 - Plane and Space Curves </a> </li>
 <ol>
 {% for my_page in site.pages %}
-{% if  my_page.course == "calculus-III" and my_page.unit == "unit3" %}
+{% if  my_page.course == "calculus-III" and my_page.unit == "unit2" and my_page.layout == "lesson" %}
+<li> <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> </li>
+{% endif %}
+{% endfor %}
+</ol>
+<li>  <a class="page-link" href="/math/calculus-III/"> Unit 3 - Partial Differentiation </a> </li>
+<ol>
+{% for my_page in site.pages %}
+{% if  my_page.course == "calculus-III" and my_page.unit == "unit3" and my_page.layout == "lesson" %}
+<li> <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> </li>
+{% endif %}
+{% endfor %}
+</ol>
+<li>  <a class="page-link" href="/math/calculus-III/unit1/"> Unit 4 - Multiple Integration </a> </li>
+<ol>
+{% for my_page in site.pages %}
+{% if  my_page.course == "calculus-III" and my_page.unit == "unit4" and my_page.layout == "lesson" %}
+<li> <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> </li>
+{% endif %}
+{% endfor %}
+</ol>
+<li>  <a class="page-link" href="/math/calculus-III/unit1/"> Unit 5 - Vector Calculus </a> </li>
+<ol>
+{% for my_page in site.pages %}
+{% if  my_page.course == "calculus-III" and my_page.unit == "unit5" and my_page.layout == "lesson" %}
 <li> <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> </li>
 {% endif %}
 {% endfor %}
@@ -30,10 +54,16 @@ Hey everyone! Welcome to Multi-Variable and Vector Calculus. This subject is sup
 <li> <a class="page-link" href="/math/supplements/"> Supplementary Material </a> </li>
 <ol>
 {% for my_page in site.pages %}
-{% if  my_page.course == "calculus-III" and my_page.unit == "supplement" %}
+{% if  my_page.course == "calculus-III" and my_page.unit == "supplement" and my_page.layout == "lesson" %}
 <li> <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> </li>
 {% endif %}
 {% endfor %}
 </ol>
 </ul>
 
+
+
+**Sources**
+1. Calculus - 7 ed. Stewart, James (2012)
+2. Vector Analysis - Spiegel, Murray R. (1959)
+3. Differential Geometry of Curves and Surfaces - 2 ed. do Carmo, Manfredo (2017)

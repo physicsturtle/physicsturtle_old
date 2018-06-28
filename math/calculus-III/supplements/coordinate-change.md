@@ -3,7 +3,6 @@ layout: lesson
 title: Change of Coordinates
 course: calculus-III
 unit: supplement
-banner: ../calculus-III.png
 ---
 
 Here we are going to discuss how to find formulas for gradient, divergence, curl, and laplacian in various coordinate systems, starting from their definitions in Cartesian. We will aim to provide intuition for this, and also will give formulas for the most common coordinate transformations, namely cylindrical and spherical. We will have other coordinate systems as exercises. 
