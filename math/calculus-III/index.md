@@ -5,8 +5,9 @@ permalink: /math/calculus-III/
 banner: calculus-III.png
 ---
 
-Welcome to Multi-Variable and Vector Calculus. This subject has many applications pretty much anywhere you look. It is also a great step to bridge your first year calculus knowledge with some other areas of math, such as linear algebra and geometry. 
+Welcome to Multi-Variable and Vector Calculus. This is a really exciting subject and is the first step into allowing one to tackle real world physics and engineering problems. 
 
+This course is a **work in progress**. The goal is for it to be finished by the end of December 2018. 
 
 <a class="page-link" href="/math/calculus-III/introduction">Introduction - What is Multivariable Calculus? </a>
 

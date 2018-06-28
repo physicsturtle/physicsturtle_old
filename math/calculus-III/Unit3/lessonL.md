@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Bordered Hessian
+title: Bordered Hessian*
 course: calculus-III
 unit: unit3
 ---
