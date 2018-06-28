@@ -62,7 +62,6 @@ Welcome to Multi-Variable and Vector Calculus. This subject has many application
 </ul>
 
 
-
 **Sources**
 1. Calculus - 7 ed. Stewart, James (2012)
 2. Vector Analysis - Spiegel, Murray R. (1959)

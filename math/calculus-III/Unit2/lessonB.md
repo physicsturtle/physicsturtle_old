@@ -5,11 +5,8 @@ course: calculus-III
 unit: unit2
 ---
 
-Often in single variable calculus, we had functions of the form \\(y = f(x\\); a single variable input and single variable output. Something else could write is \\(x = f(t)\\), where, physically, this means the position \\(x\\) of a particle as a function of the time \\(t\\). 
+We now want to discuss how to differentiate vector valued functions. This is done in the obvious way; that is, if \\(\textbf{r}(t) = (x(t),y(t),z(t))\\), we define the componentwise differentiation
 
-(make javascript of particle moving)
+$$ \frac{d\textbf{r}}{dt} = \left(\frac{dx}{dt},\frac{dy}{dt},\frac{dz}{dt}\right).$$
 
-It is often more interesting to consider a particle moving in 2 or 3 dimensions. Let's consider a function \\(\textbf{r}(t) = (x(t),y(t))\\), or \\(\textbf{r}(t) = (x(t),y(t),z(t))\\), describing the *vector valued* position of a particle in 2 or 3 dimensions. 
-
-
-
+Geometrically, \\(\textbf{r}'(t)\\) represents the *tangent* vector to the curve at the point \\(\textbf{r}(t)\\).

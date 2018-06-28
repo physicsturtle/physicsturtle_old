@@ -9,7 +9,11 @@ Often in single variable calculus, we had functions of the form \\(y = f(x\\); a
 
 (make javascript of particle moving)
 
-It is often more interesting to consider a particle moving in 2 or 3 dimensions. Let's consider a function \\(\textbf{r}(t) = (x(t),y(t))\\), or \\(\textbf{r}(t) = (x(t),y(t),z(t))\\), describing the *vector valued* position of a particle in 2 or 3 dimensions. 
+It is often more interesting to consider a particle moving in 2 or 3 dimensions. Let's consider a function \\(\textbf{r}(t) = (x(t),y(t))\\), or \\(\textbf{r}(t) = (x(t),y(t),z(t))\\), describing the *vector valued* position of a particle in 2 or 3 dimensions. These functions trace out a curve in 2 or 3 dimensions as time is increased 
+
+(make javascript of particle moving)
+
+
 
 
 

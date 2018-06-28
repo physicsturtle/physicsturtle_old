@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Introduction
+course: calculus-III
 ---
 
 The basic idea behind single variable calculus is having two variables. One dependent, and one independent. For example, the dependent variable distance along an axis an object is a function of the independent variable time. Multi-variable calculus aims to allow one to perform similar calculations, but allowing many more degrees of freedom. The three new types of problems are exemplified by the following.
