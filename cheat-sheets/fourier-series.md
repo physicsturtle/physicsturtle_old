@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Fourier Series
+
 ---
 
 The definition of a Fourier series is 

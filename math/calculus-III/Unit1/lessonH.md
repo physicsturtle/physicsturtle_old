@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Equations of Lines
+title: Quadric Surfaces
 course: calculus-III
 unit: unit1
 ---
