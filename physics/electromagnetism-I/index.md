@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: course
 title: Electromagnetism I
 permalink: /physics/electromagnetism-I/
 ---

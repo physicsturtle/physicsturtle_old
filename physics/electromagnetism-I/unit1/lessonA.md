@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: lesson
 title: Electromagnetism I
-category: electromagnetism-I
-id: unit1
+course: electromagnetism-I
+unit: unit1
 ---
 
 

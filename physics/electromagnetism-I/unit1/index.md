@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Electromagnetism I
+title: Unit 1
+course: electromagnetism-I
+unit: unit1
 ---
 
 
