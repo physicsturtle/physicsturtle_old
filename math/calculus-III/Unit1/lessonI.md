@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Cross Product and Determinant
+title: Quadric Surfaces
 course: calculus-III
 unit: unit1
 ---
