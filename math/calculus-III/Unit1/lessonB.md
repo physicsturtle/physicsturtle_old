@@ -12,16 +12,29 @@ It is often useful to translate the vector around in space, while keeping all of
 
 insert figure
 
-In this course, vectors will always be denoted by boldface letters, for example, \\(\textbf{v} = (a,b,c)\\). If written by hand, this is most often done as \\( \vec{v} = (a,b,c)\\). In more advanced mathematics, this special notation is often dropped altogether, writing \\(v = (a,b,c)\\). We will not be writing vectors in such a way in this course. Now let's discuss operations with vectors from a geometric standpoint. Vectors can be geometrically added *tip to tail* by drawing the tip of one on top of the tail of the other. For example, in two dimensions, 
+In this course, vectors will always be denoted by boldface letters, for example, \\(\textbf{v} = (a,b,c)\\). If written by hand, this is most often done as \\( \vec{v} = (a,b,c)\\). In more advanced mathematics, this special notation is often dropped altogether, writing \\(v = (a,b,c)\\). We will not be writing vectors in such a way in this course. Now let's discuss operations with vectors from a geometric standpoint. 
 
-inser figure
+#### Scalar Multiplication
+Vectors can be multiplied by scalars, and this changes the vector's length but not its direction. Actually, the direction can be changed, but only to point in the opposite direction. This is done by multiplying by a negative number. Let's show graphically how multiplying vectors by scalars works: 
+
+(insert figure here)
+
+
+#### Addition 
+Vectors can be geometrically added *tip to tail* by drawing the tip of one on top of the tail of the other. For example, in two dimensions, 
+
+(insert figure here)
 
 The same aproach works in three dimensions, although it may be harder to draw. 
 
-In order to subtract vectors geometrically, we need to introduce the *negative* of a vector. The negative of a vector has the same magnitude but the exact opposite direction. 
+
+#### Subtraction
+In order to subtract vectors geometrically, we need to introduce the *negative* of a vector. The negative of a vector has the same magnitude but the exact opposite direction. The negative of a vector is obtained by multiplying it by \\(-1\\). Then, the negative of the vector is added to the original. For example, 
+
+(insert figure here)
 
 
-we can also scale vectors by a scalar. 
+
 
 
 

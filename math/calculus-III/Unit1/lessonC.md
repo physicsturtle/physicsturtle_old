@@ -19,11 +19,20 @@ Vectors can also be scaled by some *scaler* \\(\lambda \in \mathbb{R}\\),
 
 \\[ \lambda\textbf{v} = (\lambda v_1, \lambda v_2, \lambda v_3) \\]
 
-It is then straightforward to define *linear combinations* of multiple vectors. A linear combination is a sum of vectors, each multiplied by their own scaler (which could be any number, including 1 or 0). For example, a linear combination of \\(\textbf{u}\\) and \\(\textbf{v}\\) could be 
+It is then straightforward to define *linear combinations* of multiple vectors. A linear combination is a sum of vectors, each multiplied by their own scalar (which could be any number, including 1 or 0). For example, a linear combination of \\(\textbf{u}\\) and \\(\textbf{v}\\) could be 
 
 \\[ a\textbf{u} + b\textbf{v} = (au_1 + bv_1,au_2 + bv_2, au_3 + bv_3) \\]
 
-Linear combinations can also be taken between more than 2 vectors. You may be wondering now if there are ways to multiply vectors or divide vectors. In this course, there are no ways to multiply or divide vectors in a way that is analogous to your preexisting notions of multiplication and division. However, there are two ways of multiplying vectors, the dot and cross products, which will be new to you, and those will be coverd in the next couple sections. 
+Linear combinations can also be taken between more than 2 vectors. 
+
+You may now be wondering now if there are ways to multiply vectors or divide vectors. In this course, there are no ways to multiply or divide vectors in a way that is analogous to your preexisting notions of multiplication and division. However, there are two other ways of multiplying vectors which we will cover: the dot and cross products. Those will be covered in the next couple sections. 
+
+
+### Remarks
+A common question that is asked at around this point is, "What is the difference between a point and a vector?"
+
+
+### Exercises
 
 <button onclick="myFunction('answer')" class="answerButton">Show Answer</button>
 
