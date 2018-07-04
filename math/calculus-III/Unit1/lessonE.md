@@ -81,3 +81,5 @@ $$\begin{eqnarray}
 \end{eqnarray}$$
 
 which is precisely the second definition.
+
+### Exercises
