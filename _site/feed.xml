@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zestymath</title>
-    <description>Welcome to Zestymath! Let's learn something together. Please use the e-mail contact to let us know if you find any mistakes. 
+    <description>Welcome to Zestymath! Let's learn something together. Please use the e-mail contact to let us know if you find any mistakes, no matter how small. 
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Jul 2018 21:38:37 -0700</pubDate>
-    <lastBuildDate>Tue, 03 Jul 2018 21:38:37 -0700</lastBuildDate>
+    <pubDate>Tue, 03 Jul 2018 21:40:17 -0700</pubDate>
+    <lastBuildDate>Tue, 03 Jul 2018 21:40:17 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
