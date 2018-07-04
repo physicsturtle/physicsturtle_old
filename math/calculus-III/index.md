@@ -9,6 +9,8 @@ Welcome to Multi-Variable and Vector Calculus. This is a really exciting subject
 
 This course is a **work in progress**. The goal is for it to be finished by the end of December 2018. 
 
+Sections marked with an asterisk * should be regarded as optional, and everything else as essential.
+
 <a class="page-link" href="/math/calculus-III/introduction">Introduction - What is Multivariable Calculus? </a>
 
 <ul>

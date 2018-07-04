@@ -28,8 +28,21 @@ Linear combinations can also be taken between more than 2 vectors.
 You may now be wondering now if there are ways to multiply vectors or divide vectors. In this course, there are no ways to multiply or divide vectors in a way that is analogous to your preexisting notions of multiplication and division. However, there are two other ways of multiplying vectors which we will cover: the dot and cross products. Those will be covered in the next couple sections. 
 
 
-### Remarks
-A common question that is asked at around this point is, "What is the difference between a point and a vector?"
+#### Remarks
+A common question that is asked at around this point is, "What is the difference between a point and a vector?" This is a question that students often think too much about. The way that I like to think about it is that a point is a geometric object, while a vector is an algebraic object. What I mean by that is that points cannot be added together, subtracted, or multiplied by numbers. They can only be drawn. On the other hand, vectors can be added, subtracted, multiplied by scalars, and even differentiated or integrated. They, of course, can be drawn as well, as was demonstrated in the geometry of vectors section. In these notes, we will draw few distinctions between vectors and points.
+
+#### Notation
+In addition to the notation that we will be using, \\( \textbf{v} = (a,b,c)\\), it is also common for vectors to be written as follows:
+
+$$ \textbf{v} = \langle a,b,c \rangle $$
+
+$$ \textbf{v} = \begin{bmatrix} a & b & c \end{bmatrix} $$
+
+$$ \textbf{v} = \begin{pmatrix} a \\ b \\ c \end{pmatrix} $$
+
+$$ \textbf{v} = \begin{bmatrix} a \\ b \\ c \end{bmatrix} $$
+
+When vectors are written this way, at least in this course, they will usually be referring to the *cartesian* components of the vectors. That is, each of these notations can also be written as $$\textbf{v} = a\hat{\textbf{x}} + b\hat{\textbf{y}} + c\hat{\textbf{z}}$$.  If we want to write vectors in different basis, then that will be clear in the context. 
 
 
 ### Exercises
