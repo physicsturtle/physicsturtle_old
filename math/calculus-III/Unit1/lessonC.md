@@ -15,7 +15,7 @@ from which we see that \\(\textbf{u} + \textbf{v} = \textbf{v} + \textbf{u}\\). 
 
 \\[ \textbf{v} - \textbf{u} = (v_1-u_1,v_2-u_2,v_3-u_3) \\]
 
-Vectors can also be scaled by some *scaler* \\(\lambda \in \mathbb{R}\\),
+Vectors can also be scaled by some *scalar* \\(\lambda \in \mathbb{R}\\),
 
 \\[ \lambda\textbf{v} = (\lambda v_1, \lambda v_2, \lambda v_3) \\]
 
@@ -47,10 +47,13 @@ When vectors are written this way, at least in this course, they will usually be
 
 ### Exercises
 
+Try these on your own first.
+1. Prove the following property of vectors!
+
 <button onclick="myFunction('answer')" class="answerButton">Show Answer</button>
 
 <div  id="answer" class="answer">
-hihihi
+\(x\)
 </div>
 
 

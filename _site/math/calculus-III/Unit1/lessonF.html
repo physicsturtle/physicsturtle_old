@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Cross Product and Determinant</title>
+  <title>Determinant and Cross Product</title>
   <meta name="description" content="Welcome to Zestymath! Let's learn something together. Please use the e-mail contact to let us know if you find any mistakes, no matter how small. 
 ">
 <script type="text/javascript" async
@@ -27,9 +27,15 @@
             display: none;
         }
       .answerButton{
-        border-radius: 8px;
-        font-size: 16px;
-        background-color: green;
+          background-color: #4CAF50; /* Green */
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          border-radius: 16px;
+          font-size: 16px;
 
       }
           </style>
@@ -232,7 +238,37 @@
           
         
           
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
           <a class="page-link" href="/math/">Math</a>
+          
+        
           
         
           
@@ -265,15 +301,23 @@
 
   <header class="post-header">
       
-    <h1 class="post-title">Cross Product and Determinant</h1>
+    <h1 class="post-title">Determinant and Cross Product</h1>
   </header>
   
   <div class="post-content">
     <p>The cross product is one of the two ways of multiplying vectors. It can only be defined between vectors in exactly 3 dimensions. Despite this, there are ways to think about the cross product in 2 dimensions. Additionally, definitions of the cross product can be made in more than 3 dimensions, but that is outside the scope of this course.</p>
 
-<h3 id="geometric-definition">Geometric Definition</h3>
-
 <h3 id="the-determinant">The Determinant</h3>
+
+<p>Let us first define what a determinant is. If you have taken linear algebra already, you will be very familiar with the concept of a determinant, what it means, and how to calculate it. Here we will not assume that you have seen it before. A determinant is a type of function. It takes in vectors as input, and outputs a single scalar. The number of vectors that it takes in depends on the dimension of the vectors. In 2 dimensions, the determinant takes two 2 dimensional vectors. In 3 dimensions, the determinant takes three 3 dimensional vectors, and so on.</p>
+
+<h5 id="two-dimensions">Two Dimensions</h5>
+<p>If we have a vector \(\textbf{a} = (a_1,a_2)\) and another vector \(\textbf{b} = (b_1,b_2)\), then the <em>determinant</em> of them is defined as</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{vmatrix} a_1 & a_2 \\ b_1 & b_2 \end{vmatrix} = a_1b_2 - a_2b_1 %]]></script>
+
+<h3 id="geometric-definition">Geometric Definition</h3>
 
 <h3 id="abstract-definition">Abstract Definition</h3>
 

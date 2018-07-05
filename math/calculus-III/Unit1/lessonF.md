@@ -1,15 +1,28 @@
 ---
 layout: lesson
-title: Cross Product and Determinant
+title: Determinant and Cross Product
 course: calculus-III
 unit: unit1
 ---
 
 The cross product is one of the two ways of multiplying vectors. It can only be defined between vectors in exactly 3 dimensions. Despite this, there are ways to think about the cross product in 2 dimensions. Additionally, definitions of the cross product can be made in more than 3 dimensions, but that is outside the scope of this course. 
 
+### The Determinant
+
+Let us first define what a determinant is. If you have taken linear algebra already, you will be very familiar with the concept of a determinant, what it means, and how to calculate it. Here we will not assume that you have seen it before. A determinant is a type of function. It takes in vectors as input, and outputs a single scalar. The number of vectors that it takes in depends on the dimension of the vectors. In 2 dimensions, the determinant takes two 2 dimensional vectors. In 3 dimensions, the determinant takes three 3 dimensional vectors, and so on. 
+
+##### Two Dimensions
+If we have a vector \\(\textbf{a} = (a_1,a_2)\\) and another vector \\(\textbf{b} = (b_1,b_2)\\), then the *determinant* of them is defined as 
+
+$$\begin{vmatrix} a_1 & a_2 \\ b_1 & b_2 \end{vmatrix} = a_1b_2 - a_2b_1$$
+
+
+
 ### Geometric Definition
 
-### The Determinant
+
+
+
 
 ### Abstract Definition
 

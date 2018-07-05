@@ -15,7 +15,7 @@
       <!--hide the physics content for now... my_page.title == "Physics" or -->
       <div class="trigger" >
         {% for my_page in site.pages %}
-          {% if  my_page.title == "Math" or  my_page.title == "About" or my_page.title == "Cheat Sheets"  %}
+          {% if  my_page.title == "Math" or my_page.title == "About" or my_page.title == "Cheat Sheets"  %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}
