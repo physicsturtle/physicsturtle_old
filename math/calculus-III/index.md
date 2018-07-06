@@ -11,9 +11,13 @@ This course is a **work in progress**. The goal is for it to be finished by the 
 
 Sections marked with an asterisk * should be regarded as optional, and everything else as essential.
 
+Solutions to all exercises will eventually be written, even if they aren't available at the moment.
+
 <a class="page-link" href="/math/calculus-III/introduction">Introduction - What is Multivariable Calculus? </a>
 
 <a class="page-link" href="/math/calculus-III/prerequisites"> Prerequisites</a>
+
+<a class="page-link" href="/math/calculus-III/learning-outcomes"> Learning Outcomes</a>
 
 <ul>
 <li>  <a class="page-link" href="/math/calculus-III/unit1/"> Unit 1 - Introduction to 3D Space and Vectors </a> </li>
@@ -68,6 +72,8 @@ Sections marked with an asterisk * should be regarded as optional, and everythin
 
 
 **Sources**
-1. Calculus - 7 ed. Stewart, James (2012)
+
+1. Calculus, 7 ed. - Stewart, James (2012)
 2. Vector Analysis - Spiegel, Murray R. (1959)
-3. Differential Geometry of Curves and Surfaces - 2 ed. do Carmo, Manfredo (2017)
+3. Differential Geometry of Curves and Surfaces - 2 ed. do Carmo, Manfredo (2016)
+4. Calculus on Manifolds - Spivak, Michael (1965)
