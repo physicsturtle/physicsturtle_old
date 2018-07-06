@@ -16,6 +16,11 @@ If we have a vector \\(\textbf{a} = (a_1,a_2)\\) and another vector \\(\textbf{b
 
 $$\begin{vmatrix} a_1 & a_2 \\ b_1 & b_2 \end{vmatrix} = a_1b_2 - a_2b_1$$
 
+Where normally, we can put these vectors into a *matrix*
+
+$$\begin{bmatrix} a_1 & a_2 \\ b_1 & b_2 \end{bmatrix}$$
+
+and then the *determinant* operation is done on the matrix. Since this is not a course on linear algebra, we do not expect fluency in the language of matrices.
 
 
 ### Geometric Definition
