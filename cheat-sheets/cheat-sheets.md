@@ -8,9 +8,10 @@ Here are a collection of reference sheets that may be useful.
 
 <ul>
 <li> <a class="page-link" href="/cheat-sheets/vector-calculus/">Vector Calculus Formulas</a> </li>
+<li> <a class="page-link" href="/cheat-sheets/laplace-transform/"> Laplace Transforms </a> </li>
 </ul>
 
-<a class="page-link" href="/math/calculus-III/">Calculus III - Multivariable and Vector Calculus</a>
+
 <a class="page-link" href="/math/calculus-III/">Calculus III - Multivariable and Vector Calculus</a>
 <a class="page-link" href="/math/calculus-III/">Calculus III - Multivariable and Vector Calculus</a>
 <a class="page-link" href="/math/calculus-III/">Calculus III - Multivariable and Vector Calculus</a>
