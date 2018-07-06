@@ -14,9 +14,4 @@ If any of those terms or examples are unfamiliar to you, don't worry as we will 
 
 In addition to many physical problems, multi-variable calculus also involves problems in optimization, geometry, probability, economics, and other areas of science and economics and more. Within this course we will not be able to explore all of these areas, but hope to at least touch on physics, optimization, geometry, and probability.
 
-Prerequisites:
-1.  First courses in single variable differential and integral calculus are a necessity
-2. An exposure to basic ideas of linear algebra will be very helpful
-3. An exposure to introductory physics will be useful for developing physical intuition
-
 We aim for the student to become proficient in computation, and to have a physical intuition behind the material as well. 

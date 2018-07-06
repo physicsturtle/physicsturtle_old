@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Divergence Theorem
+title: Stokes Theorem
 course: calculus-III
 unit: unit5
 ---

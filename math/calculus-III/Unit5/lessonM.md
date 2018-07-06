@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Divergence
+title: Differential Forms*
 course: calculus-III
 unit: unit5
 ---

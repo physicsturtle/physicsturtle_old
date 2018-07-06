@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Stokes Theorem
+title: Surface Integrals 
 course: calculus-III
 unit: unit5
 ---

@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Maxwell's Equations
+title: Applications
 course: calculus-III
 unit: unit5
 ---

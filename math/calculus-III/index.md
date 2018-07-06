@@ -13,6 +13,8 @@ Sections marked with an asterisk * should be regarded as optional, and everythin
 
 <a class="page-link" href="/math/calculus-III/introduction">Introduction - What is Multivariable Calculus? </a>
 
+<a class="page-link" href="/math/calculus-III/prerequisites"> Prerequisites</a>
+
 <ul>
 <li>  <a class="page-link" href="/math/calculus-III/unit1/"> Unit 1 - Introduction to 3D Space and Vectors </a> </li>
 <ol>

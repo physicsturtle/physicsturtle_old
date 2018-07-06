@@ -9,7 +9,7 @@ The cross product is one of the two ways of multiplying vectors. It can only be 
 
 ### The Determinant
 
-Let us first define what a determinant is. If you have taken linear algebra already, you will be very familiar with the concept of a determinant, what it means, and how to calculate it. Here we will not assume that you have seen it before. A determinant is a type of function. It takes in vectors as input, and outputs a single scalar. The number of vectors that it takes in depends on the dimension of the vectors. In 2 dimensions, the determinant takes two 2 dimensional vectors. In 3 dimensions, the determinant takes three 3 dimensional vectors, and so on. 
+Let us first define what a determinant is. If you have taken linear algebra already, you will be very familiar with the concept of a determinant, what it means, and how to calculate it. Here is a quick review to refresh your memory. A determinant is a type of function. It takes in vectors as input, and outputs a single scalar. The number of vectors that it takes in depends on the dimension of the vectors. In 2 dimensions, the determinant takes two 2 dimensional vectors. In 3 dimensions, the determinant takes three 3 dimensional vectors, and so on. 
 
 ##### Two Dimensions
 If we have a vector \\(\textbf{a} = (a_1,a_2)\\) and another vector \\(\textbf{b} = (b_1,b_2)\\), then the *determinant* of them is defined as 

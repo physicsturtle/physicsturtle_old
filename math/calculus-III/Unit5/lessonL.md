@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Differential Forms*
+title: Maxwell's Equations
 course: calculus-III
 unit: unit5
 ---

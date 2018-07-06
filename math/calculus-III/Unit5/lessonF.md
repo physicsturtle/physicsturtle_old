@@ -1,10 +1,17 @@
 ---
 layout: lesson
-title: Laplacian
+title: Curl
 course: calculus-III
 unit: unit5
 ---
 
-In single variable calculus, we had functions of the form \\(y = f(x)\\), with a single variable depending on a single variable. In the last unit, we had functions of the form \\(\textbf{r}(t) = (x(t),y(t),z(t))\\), which was multiple variables \\((x,y,z\\)) depending on a single variable, \\(t\\). Here, we will be looking at functions which depend on multiple variables, for example \\(z = f(x,y)\\), or \\(u = f(x,y,z)\\). 
+The curl is an operation which can only be defined in three dimensions. 
 
 
+#### Frequently Asked Questions
+
+If we want to define curl in a different coordinate system, such as spherical, can we use the same definition? That is, if \\(\textbf{F} = F_r\hat{\textbf{r}} + F_\theta\hat{\boldsymbol{\theta}}+F_\varphi\hat{\boldsymbol{\varphi}}\\), can we say that
+
+$$ \nabla\times\textbf{F} = \begin{vmatrix} \hat{\textbf{r}} & \hat{\boldsymbol{\theta}} & \hat{\boldsymbol{\varphi}} \\  \frac{\partial}{\partial r} & \frac{\partial}{\partial\theta} & \frac{\partial}{\partial\varphi} \\ F_r & F_\theta & F_\varphi \end{vmatrix} ?$$
+
+The answer is **no**. 

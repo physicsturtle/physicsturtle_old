@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Surface Integrals 
+title: Laplacian
 course: calculus-III
 unit: unit5
 ---
