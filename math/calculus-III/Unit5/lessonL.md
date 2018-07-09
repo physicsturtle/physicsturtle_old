@@ -1,10 +1,10 @@
 ---
 layout: lesson
-title: Maxwell's Equations
+title: Maxwell's Equations*
 course: calculus-III
 unit: unit5
 ---
 
-In single variable calculus, we had functions of the form \\(y = f(x)\\), with a single variable depending on a single variable. In the last unit, we had functions of the form \\(\textbf{r}(t) = (x(t),y(t),z(t))\\), which was multiple variables \\((x,y,z\\)) depending on a single variable, \\(t\\). Here, we will be looking at functions which depend on multiple variables, for example \\(z = f(x,y)\\), or \\(u = f(x,y,z)\\). 
+In this section, we will have a brief discussion of Maxwell's equations of electromagnetism. By this time, you are completely equipped to work with these equations in their full vector-calculus formulation. 
 
 

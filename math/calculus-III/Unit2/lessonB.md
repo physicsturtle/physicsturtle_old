@@ -24,10 +24,7 @@ Although I said earlier that we define the limit of a vector function by taking 
 
 $$\lim_{t\to a} \textbf{r}(t) = \textbf{R}$$ 
 
-if for every \\(\epsilon > 0\\), there exists some \\(\delta > 0\\) such that \\(\|\textbf{r}(t) - \textbf{R}\| < \epsilon \\) whenever \\(|t - a| < \delta\\). 
-
-
-This actually implies the above definition of componentwise limit taking. Let us now show that.
+if for every \\(\epsilon > 0\\), there exists some \\(\delta > 0\\) such that \\(\\|\textbf{r}(t) - \textbf{R}\\| < \epsilon \\) whenever \\(\|t - a\| < \delta\\). This actually implies the above definition of componentwise limit taking. Let us now show that.
 
 
 

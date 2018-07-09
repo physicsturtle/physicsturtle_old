@@ -21,6 +21,11 @@ $$\int_{-\infty}^\infty \delta(t) dt = \int_{-\epsilon}^\epsilon \delta(t) dt = 
 
 no matter how small \\(\epsilon\\) is, as long as it is positive. What this means is that the delta function has area 1, despite being zero everywhere except at \\(T = 0\\).
 
+The definition of the Laplace Transform is 
+
+$$ F(s) = \int_0^\infty f(t)e^{-st} dt$$
+
+
 ### Common Laplace Transforms
 
 | \\(f(t)\\)|\\(F(s)\\)|

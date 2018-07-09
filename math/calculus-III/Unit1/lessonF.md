@@ -39,3 +39,5 @@ The determinant of two vectors can be interpreted geometrically as the area of t
 
 ### Abstract Definition
 
+
+### The Cross Product

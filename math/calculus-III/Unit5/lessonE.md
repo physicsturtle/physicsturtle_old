@@ -5,6 +5,6 @@ course: calculus-III
 unit: unit5
 ---
 
-In single variable calculus, we had functions of the form \\(y = f(x)\\), with a single variable depending on a single variable. In the last unit, we had functions of the form \\(\textbf{r}(t) = (x(t),y(t),z(t))\\), which was multiple variables \\((x,y,z\\)) depending on a single variable, \\(t\\). Here, we will be looking at functions which depend on multiple variables, for example \\(z = f(x,y)\\), or \\(u = f(x,y,z)\\). 
+The divergence is a quantity that measures the, well, *divergence* of a vector field. Suppose we had a velocity field modelling fluid flow, and somewhere in this velocity field is a source that emits fluid. Fluid will then flow *away from* this source, and thus all of the velocity vectors will also point away from the source. The vector field would be *diverging* close to this source. On the contrary, suppose we had a sink that sucks up the fluid. The vectors would all be pointing towards the sink because the fluid is flowing there, and thus the vector field would have a *negative divergence*, or, convergence, there.
 
 

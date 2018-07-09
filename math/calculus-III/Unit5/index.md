@@ -12,7 +12,7 @@ $$ f: \mathbb{R}^n \to \mathbb{R}^m$$
 we will be considering functions where \\(n = m = 2\\) or \\(n = m = 3\\). These kinds of functions are known as *vector fields*. 
 
 {% for my_page in site.pages %}
-{% if  my_page.course == "calculus-III" and my_page.unit == "unit5" %}
+{% if  my_page.course == "calculus-III" and my_page.unit == "unit5" and my_page.layout == "lesson" %}
 <li> <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> </li>
 {% endif %}
 {% endfor %}

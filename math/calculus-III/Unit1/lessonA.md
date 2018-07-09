@@ -17,7 +17,9 @@ We now introduce the three dimensional coordinate system \\((x,y,z)\\). It now r
 
 In this three dimensional coordinate system, space is divided up into 8 different *octants*. We call the octant with all of \\(x,y,z\\) positive the *first octant*. Note how this coordinate system has been drawn. It is called a *right-handed* coordinate system. This can be contrasted with a *left-handed* coordinate system. It is convention to **always** use a right-handed coordinate system. 
 
-
+<figure class="center">
+<p><img src="LHCart.png" alt="Left Handed Three Dimensional Coordinates" style="width:300px;height:300px;"> </p>
+<figcaption class="center">Left Handed Cartesian Coordinates</figcaption> </figure>
 
 The set of points constituting our three dimensional space is known as \\(\mathbb{R}^3\\). When drawing points in three dimensional space, it is very useful to draw lines parallel to the axes, like so, to show where the point fits in space. Learning to draw clear three dimensional figures will be very useful. 
 
