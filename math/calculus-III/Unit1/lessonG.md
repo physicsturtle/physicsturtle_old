@@ -15,7 +15,7 @@ We learned before that we can draw a  vector \\(\textbf{r}_0 = (x_0,y_0,z_0)\\) 
 
 ### Equation Form of a Line
 
-I personally don't like this way of defining a line. I find it opaque and cumbersome. Nonetheless, we should know what it is and how to work with it. 
+I personally don't like this way of defining a line. I find it opaque and cumbersome. Nonetheless, we should know what it is and how to work with it. The equation form of a line is actually *two* equations. In particular, the equations of two planes. 
 
 
 <button onclick="myFunction('answer')" class="answerButton">Show Answer</button>

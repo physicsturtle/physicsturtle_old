@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Laplacian</title>
+  <title>Curl</title>
   <meta name="description" content="Welcome to Zestymath! Let's learn something together. Please use the e-mail contact to let us know if you find any mistakes, no matter how small. 
 ">
 <script type="text/javascript" async
@@ -266,7 +266,17 @@
           
         
           
+        
+          
+        
+          
+        
+          
+        
+          
           <a class="page-link" href="/math/">Math</a>
+          
+        
           
         
           
@@ -301,12 +311,20 @@
 
   <header class="post-header">
       
-    <h1 class="post-title">Laplacian</h1>
+    <h1 class="post-title">Curl</h1>
   </header>
   
   <div class="post-content">
-    <p>In single variable calculus, we had functions of the form \(y = f(x)\), with a single variable depending on a single variable. In the last unit, we had functions of the form \(\textbf{r}(t) = (x(t),y(t),z(t))\), which was multiple variables \((x,y,z\)) depending on a single variable, \(t\). Here, we will be looking at functions which depend on multiple variables, for example \(z = f(x,y)\), or \(u = f(x,y,z)\).</p>
+    <p>The curl is an operation which can only be defined in three dimensions.</p>
 
+<h4 id="frequently-asked-questions">Frequently Asked Questions</h4>
+
+<p>If we want to define curl in a different coordinate system, such as spherical, can we use the same definition? That is, if \(\textbf{F} = F_r\hat{\textbf{r}} + F_\theta\hat{\boldsymbol{\theta}}+F_\varphi\hat{\boldsymbol{\varphi}}\), can we say that</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\nabla\times\textbf{F} = \begin{vmatrix} \hat{\textbf{r}} & \hat{\boldsymbol{\theta}} & \hat{\boldsymbol{\varphi}} \\  \frac{\partial}{\partial r} & \frac{\partial}{\partial\theta} & \frac{\partial}{\partial\varphi} \\ F_r & F_\theta & F_\varphi \end{vmatrix} ? %]]></script>
+
+<p>The answer is <strong>no</strong>.</p>
 
   </div>
 

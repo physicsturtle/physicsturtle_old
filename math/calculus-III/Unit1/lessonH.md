@@ -5,5 +5,10 @@ course: calculus-III
 unit: unit1
 ---
 
-The dot product is one of the two ways of multiplying vectors. It can be defined between vectors in 1, 2, 3 or even more dimensions! 
+As with the case of lines, there are two ways to define planes.
+
+### Equation Form
+
+
+### Parametric Form
 

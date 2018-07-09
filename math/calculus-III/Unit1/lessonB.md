@@ -33,6 +33,30 @@ In order to subtract vectors geometrically, we need to introduce the *negative* 
 
 (insert figure here)
 
+#### The Cartesian Basis
+
+The three numbers \\(a,b,c\\), defined before as the *components* of the vector, allow us to write *decompose* vector in terms of a basis. For this, we write 
+
+$$\textbf{v} = (a,b,c) = a\hat{\textbf{i}} + b\hat{\textbf{j}} + c\hat{\textbf{k}}$$
+
+where we call \\(\hat{\textbf{i}},\hat{\textbf{j}},\hat{\textbf{k}}\\) the basis vectors in the \\(x,y,z\\) directions respectively. Geometrically, \\(\hat{\textbf{i}}\\) is the vector with length 1 pointing along the \\(x\\) axis, and similarly for the other two. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

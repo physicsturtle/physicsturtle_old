@@ -266,7 +266,17 @@
           
         
           
+        
+          
+        
+          
+        
+          
+        
+          
           <a class="page-link" href="/math/">Math</a>
+          
+        
           
         
           
@@ -309,7 +319,7 @@
 
 <h3 id="the-determinant">The Determinant</h3>
 
-<p>Let us first define what a determinant is. If you have taken linear algebra already, you will be very familiar with the concept of a determinant, what it means, and how to calculate it. Here we will not assume that you have seen it before. A determinant is a type of function. It takes in vectors as input, and outputs a single scalar. The number of vectors that it takes in depends on the dimension of the vectors. In 2 dimensions, the determinant takes two 2 dimensional vectors. In 3 dimensions, the determinant takes three 3 dimensional vectors, and so on.</p>
+<p>Let us first define what a determinant is. If you have taken linear algebra already, you will be very familiar with the concept of a determinant: what it means, and how to calculate it. Here is a quick review to refresh your memory. A determinant is a type of function. It takes in vectors as input, and outputs a single scalar. The number of vectors that it takes in depends on the dimension of the vectors. In 2 dimensions, the determinant takes two 2 dimensional vectors. In 3 dimensions, the determinant takes three 3 dimensional vectors, and so on.</p>
 
 <h5 id="two-dimensions">Two Dimensions</h5>
 <p>If we have a vector \(\textbf{a} = (a_1,a_2)\) and another vector \(\textbf{b} = (b_1,b_2)\), then the <em>determinant</em> of them is defined as</p>
@@ -317,7 +327,26 @@
 <script type="math/tex; mode=display">% <![CDATA[
 \begin{vmatrix} a_1 & a_2 \\ b_1 & b_2 \end{vmatrix} = a_1b_2 - a_2b_1 %]]></script>
 
+<p>Where normally, we can put these vectors into a <em>matrix</em></p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{bmatrix} a_1 & a_2 \\ b_1 & b_2 \end{bmatrix} %]]></script>
+
+<p>and then the <em>determinant</em> operation is done on the matrix. Since this is not a course on linear algebra, we do not expect fluency in the language of matrices. Now we can define the cross product of two vectors \(\textbf{a} = (a_1,a_2,a_3)\) and \(\textbf{b} = (b_1,b_2,b_3)\). It is</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\textbf{a}\times\textbf{b} = \begin{vmatrix} \hat{\textbf{x}} & \hat{\textbf{y}} & \hat{\textbf{z}} \\ a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \end{vmatrix} %]]></script>
+
+<p>The reason we defined \(2\times 2\) determinants above is because this \(3\times 3\) determinant is evaluated in terms of them:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{vmatrix} \hat{\textbf{x}} & \hat{\textbf{y}} & \hat{\textbf{z}} \\ a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \end{vmatrix} = \begin{vmatrix} a_2 & a_3 \\ b_2 & b_3 \end{vmatrix} \hat{\textbf{x}} -  \begin{vmatrix} a_1 & a_3 \\ b_1 & b_3 \end{vmatrix} \hat{\textbf{y}} +  \begin{vmatrix} a_1 & a_2 \\ b_1 & b_2 \end{vmatrix} \hat{\textbf{z}} %]]></script>
+
+<p>Note that the negative sign in front of the middle term is not a mistake; this is how the \(3\times 3\) determinant is defined.</p>
+
 <h3 id="geometric-definition">Geometric Definition</h3>
+
+<p>The determinant of two vectors can be interpreted geometrically as the area of the parallelogram formed by the them.</p>
 
 <h3 id="abstract-definition">Abstract Definition</h3>
 

@@ -14,5 +14,8 @@ The goals of the site can be summarized as follows:
 2. To be a course supplement to physics and math courses, no matter what academic instutition you attend
 3. To be an online open source textbook of mathematics and physics
 
+
+Note: *Although I strive for accuracy, I cannot guarantee the correctness of the material on this website.*
+
 As for the author, I am currently an undergraduate studying Engineering Physics. I have been interested in education for a few years now, and have been trying to get this project off the ground for almost as long. Let's see where it goes. 
 

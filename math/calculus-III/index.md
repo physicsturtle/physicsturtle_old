@@ -13,6 +13,8 @@ Sections marked with an asterisk * should be regarded as optional, and everythin
 
 Solutions to all exercises will eventually be written, even if they aren't available at the moment.
 
+This is a course on calculus, *not analysis*, and will be treated as such. The idea is for everybody to understand how to compute important quantities and objects in multivariable calculus, and to understand the concepts without proof and be able to interpret things geometrically.
+
 <a class="page-link" href="/math/calculus-III/introduction">Introduction - What is Multivariable Calculus? </a>
 
 <a class="page-link" href="/math/calculus-III/prerequisites"> Prerequisites</a>
@@ -36,7 +38,7 @@ Solutions to all exercises will eventually be written, even if they aren't avail
 {% endif %}
 {% endfor %}
 </ol>
-<li>  <a class="page-link" href="/math/calculus-III/"> Unit 3 - Partial Differentiation </a> </li>
+<li>  <a class="page-link" href="/math/calculus-III/unit3/"> Unit 3 - Partial Differentiation </a> </li>
 <ol>
 {% for my_page in site.pages %}
 {% if  my_page.course == "calculus-III" and my_page.unit == "unit3" and my_page.layout == "lesson" %}
@@ -44,7 +46,7 @@ Solutions to all exercises will eventually be written, even if they aren't avail
 {% endif %}
 {% endfor %}
 </ol>
-<li>  <a class="page-link" href="/math/calculus-III/unit1/"> Unit 4 - Multiple Integration </a> </li>
+<li>  <a class="page-link" href="/math/calculus-III/unit4/"> Unit 4 - Multiple Integration </a> </li>
 <ol>
 {% for my_page in site.pages %}
 {% if  my_page.course == "calculus-III" and my_page.unit == "unit4" and my_page.layout == "lesson" %}
@@ -52,7 +54,7 @@ Solutions to all exercises will eventually be written, even if they aren't avail
 {% endif %}
 {% endfor %}
 </ol>
-<li>  <a class="page-link" href="/math/calculus-III/unit1/"> Unit 5 - Vector Calculus </a> </li>
+<li>  <a class="page-link" href="/math/calculus-III/unit5/"> Unit 5 - Vector Calculus </a> </li>
 <ol>
 {% for my_page in site.pages %}
 {% if  my_page.course == "calculus-III" and my_page.unit == "unit5" and my_page.layout == "lesson" %}

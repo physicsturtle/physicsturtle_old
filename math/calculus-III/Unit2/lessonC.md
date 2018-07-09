@@ -1,15 +1,34 @@
 ---
 layout: lesson
-title: Arc Length
+title: Differentiation of Curves
 course: calculus-III
 unit: unit2
 ---
 
-Often in single variable calculus, we had functions of the form \\(y = f(x\\); a single variable input and single variable output. Something else could write is \\(x = f(t)\\), where, physically, this means the position \\(x\\) of a particle as a function of the time \\(t\\). 
+We now want to discuss how to differentiate vector valued functions. The definition of differentiation of vector valued functions is identical to the definition for a single variable. 
 
-(make javascript of particle moving)
+\\[ \textbf{r}'(t) = \lim_{h\to 0}\frac{\textbf{r}(t+h) - \textbf{r}(t)}{h}\\]
 
-It is often more interesting to consider a particle moving in 2 or 3 dimensions. Let's consider a function \\(\textbf{r}(t) = (x(t),y(t))\\), or \\(\textbf{r}(t) = (x(t),y(t),z(t))\\), describing the *vector valued* position of a particle in 2 or 3 dimensions. 
+It can be shown that this derivative exists if and only if all of the *components* of $$\textbf{r}$$ have derivatives at \\(x(t)\\)
+
+<button onclick="myFunction('answer')" class="answerButton">Show Proof</button>
+
+<div  id="answer" class="answer">
+The limit exists if and only if for every \(\epsilon>0\) there exists \(\delta > 0\) for which \(\|\textbf{r}\| \)
+</div>
+
+
+This is done in the obvious way; that is, if \\(\textbf{r}(t) = (x(t),y(t),z(t))\\), we define the componentwise differentiation
+
+$$ \frac{d\textbf{r}}{dt} = \left(\frac{dx}{dt},\frac{dy}{dt},\frac{dz}{dt}\right).$$
+
+Geometrically, \\(\textbf{r}'(t)\\) represents the *tangent* vector to the curve at the point \\(\textbf{r}(t)\\). We then define the *unit tangent vector* as 
+
+$$\hat{\textbf{T}} = \frac{\textbf{r}'(t)}{|\textbf{r}'(t)|}$$
+
+which encodes only the direction of the tangent vector. 
+
+Higher derivatives can be similarly calculated. We will discuss the geometric interpretations of higher derivatives in the following section.
 
 
 

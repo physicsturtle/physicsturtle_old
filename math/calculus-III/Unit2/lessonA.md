@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Parametric Equations
+title: Vector Functions
 course: calculus-III
 unit: unit2
 ---

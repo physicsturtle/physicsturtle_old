@@ -5,7 +5,10 @@ course: calculus-III
 unit: unit3
 ---
 
-Unit 2 introduces the idea of functions of a single variable with vector valued outputs. In other words, functions which take values in 2D or 3D space instead of along a line. 
+Unit 3 introduces the idea of functions which take multiple real numbers as inputs, but output a single real number as output. In symbols, this means functions like:
+
+$$ f : \mathbb{R}^n \to \mathbb{R}$$
+
 
 {% for my_page in site.pages %}
 {% if  my_page.course == "calculus-III" and my_page.unit == "unit2" %}

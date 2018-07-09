@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Frenet-Serret Equations
+title: Curvature and Torsion
 course: calculus-III
 unit: unit2
 ---
