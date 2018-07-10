@@ -18,8 +18,19 @@ We learned before that we can draw a  vector \\(\textbf{r}_0 = (x_0,y_0,z_0)\\) 
 I personally don't like this way of defining a line. I find it opaque and cumbersome. Nonetheless, we should know what it is and how to work with it. The equation form of a line is actually *two* equations. In particular, the equations of two planes. 
 
 
-<button onclick="myFunction('answer')" class="answerButton">Show Answer</button>
+### Exercises
 
-<div  id="answer" class="answer">
-\(x\)
-</div>
+<ol>
+<li> <div> Sketch all of the points such that \(y = 1\). </div>
+
+<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
+<div  id="answer2" class="answer">
+This is a plane that is parallel to the \(xz\) plane. 
+</div> </li>
+<li> <div> Sketch all of the points such that \(y = 1\). </div>
+
+<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
+<div  id="answer2" class="answer">
+This is a plane that is parallel to the \(xz\) plane. 
+</div> </li>
+</ol>

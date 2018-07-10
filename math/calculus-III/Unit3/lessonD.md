@@ -17,7 +17,22 @@ $$ \frac{\partial f}{\partial y} = \lim_{h\to 0} \frac{f(x,y+h) - f(x,y)}{h}$$
 
 so, we see that we take the limit in \\(x\\) when taking the derivative with respect to \\(x\\), and correspondingly for \\(y\\). From this, we can define higher partial derivatives!
 
+### Exercises
 
+<ol>
+<li> <div> Sketch all of the points such that \(y = 1\). </div>
+
+<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
+<div  id="answer2" class="answer">
+This is a plane that is parallel to the \(xz\) plane. 
+</div> </li>
+<li> <div> Sketch all of the points such that \(y = 1\). </div>
+
+<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
+<div  id="answer2" class="answer">
+This is a plane that is parallel to the \(xz\) plane. 
+</div> </li>
+</ol>
 
 
 

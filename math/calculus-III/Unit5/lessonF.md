@@ -15,3 +15,21 @@ If we want to define curl in a different coordinate system, such as spherical, c
 $$ \nabla\times\textbf{F} = \begin{vmatrix} \hat{\textbf{r}} & \hat{\boldsymbol{\theta}} & \hat{\boldsymbol{\varphi}} \\  \frac{\partial}{\partial r} & \frac{\partial}{\partial\theta} & \frac{\partial}{\partial\varphi} \\ F_r & F_\theta & F_\varphi \end{vmatrix} ?$$
 
 The answer is **no**. 
+
+
+### Exercises
+
+<ol>
+<li> <div> Sketch all of the points such that \(y = 1\). </div>
+
+<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
+<div  id="answer2" class="answer">
+This is a plane that is parallel to the \(xz\) plane. 
+</div> </li>
+<li> <div> Sketch all of the points such that \(y = 1\). </div>
+
+<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
+<div  id="answer2" class="answer">
+This is a plane that is parallel to the \(xz\) plane. 
+</div> </li>
+</ol>

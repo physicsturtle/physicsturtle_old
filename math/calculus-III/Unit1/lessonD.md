@@ -29,8 +29,19 @@ For the case of two dimensions, it is quite clear that the definition comes from
 
 Because the norm calculates the length of a vector, it is possible to find the distance between two points in space by using the norm. Taking the difference of two points creates as vector that points from one to the other, which we can then calculate the norm of. 
 
-<button onclick="myFunction('answer')" class="answerButton">Show Answer</button>
+### Exercises
 
-<div  id="answer" class="answer">
-hihihi
-</div>
+<ol>
+<li> <div> Sketch all of the points such that \(y = 1\). </div>
+
+<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
+<div  id="answer2" class="answer">
+This is a plane that is parallel to the \(xz\) plane. 
+</div> </li>
+<li> <div> Sketch all of the points such that \(y = 1\). </div>
+
+<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
+<div  id="answer2" class="answer">
+This is a plane that is parallel to the \(xz\) plane. 
+</div> </li>
+</ol>

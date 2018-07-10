@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Bordered Hessian*
+title: Lagrange Multipliers 2
 course: calculus-III
 unit: unit3
 ---
@@ -57,3 +57,21 @@ Example 2: Find the maximum and minimum values of the function \(f(x,y) =  \) on
 \begin{solution}
 To solve this problem, we will have to use optimization techniques learned before to find any extremal values inside the disk, and use Lagrange multipliers to find any extremal values on the edge of the disk. 
 \end{solution}
+
+
+### Exercises
+
+<ol>
+<li> <div> Sketch all of the points such that \(y = 1\). </div>
+
+<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
+<div  id="answer2" class="answer">
+This is a plane that is parallel to the \(xz\) plane. 
+</div> </li>
+<li> <div> Sketch all of the points such that \(y = 1\). </div>
+
+<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
+<div  id="answer2" class="answer">
+This is a plane that is parallel to the \(xz\) plane. 
+</div> </li>
+</ol>
