@@ -9,6 +9,8 @@ Here we will discuss how to calculate the arc length of a curve. Suppose we have
 
 $$L = \int_a^b |\textbf{r}'(t)| dt$$
 
+The main purpose of learning to compute arc length is its use in reparametrization. One can reparametrize a curve in terms of its arc length, and this leads to a few nice properties. 
+
 
 ### Exercises
 

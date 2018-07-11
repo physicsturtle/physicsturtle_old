@@ -5,7 +5,7 @@ course: calculus-III
 unit: unit5
 ---
 
-In single variable calculus, we had functions of the form \\(y = f(x)\\), with a single variable depending on a single variable. In the last unit, we had functions of the form \\(\textbf{r}(t) = (x(t),y(t),z(t))\\), which was multiple variables \\((x,y,z\\)) depending on a single variable, \\(t\\). Here, we will be looking at functions which depend on multiple variables, for example \\(z = f(x,y)\\), or \\(u = f(x,y,z)\\). 
+The divergence theorem relates the flux of a vector field through a closed surface to the volume integral of the divergence of the vector field inside the surface. This makes some sense, because if the divergence is everywhere positive inside the closed surface, then that means the vector field is spreading out everywhere inside the surface. This would then imply that there should be a lot of flux coming out of the surface. Let's now make this a bit more formal. 
 
 
 ### Exercises
