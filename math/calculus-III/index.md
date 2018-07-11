@@ -62,7 +62,7 @@ This is a course on calculus, *not analysis*, and will be treated as such. The i
 {% endif %}
 {% endfor %}
 </ol>
-<li> <a class="page-link" href="/math/supplements/"> Supplementary Material </a> </li>
+<li> <a class="page-link" href="/math/calculus-III/supplements/"> Supplementary Material </a> </li>
 <ol>
 {% for my_page in site.pages %}
 {% if  my_page.course == "calculus-III" and my_page.unit == "supplement" and my_page.layout == "lesson" %}

@@ -5,7 +5,7 @@ course: calculus-III
 unit: unit5
 ---
 
-In this section, we will have a brief discussion of Maxwell's equations of electromagnetism. By this time, you are completely equipped to work with these equations in their full vector-calculus formulation. 
+In this section, we will have a brief discussion of Maxwell's equations of electromagnetism. By this time, you are completely equipped to work with these equations in their full vector-calculus formulation. This is an essential skill for working through any course in electromagnetism, as well as other parts of physics, including classical and quantum mechanics.
 
 
 ### Exercises

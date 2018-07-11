@@ -1,14 +1,13 @@
 ---
 layout: lesson
-title: Extrema 2
+title: Extrema 1
 course: calculus-III
 unit: unit3
 ---
 
+In single variable calculus, we were interested in finding the minima and maxima of a function, and this was done by looking at where the derivative is zero. An analogous procedure will be done here.
 
-
-#### Second Derivative Test
-
+#### First Derivative Test
 
 ### Exercises
 

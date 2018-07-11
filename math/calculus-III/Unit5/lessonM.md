@@ -5,7 +5,7 @@ course: calculus-III
 unit: unit5
 ---
 
-In single variable calculus, we had functions of the form \\(y = f(x)\\), with a single variable depending on a single variable. In the last unit, we had functions of the form \\(\textbf{r}(t) = (x(t),y(t),z(t))\\), which was multiple variables \\((x,y,z\\)) depending on a single variable, \\(t\\). Here, we will be looking at functions which depend on multiple variables, for example \\(z = f(x,y)\\), or \\(u = f(x,y,z)\\). 
+Differential forms are a way of extending multivariable calculus to arbitrary coordinate systems. In more advanced courses, this even allows one to do calculus when the *domain* of the function is a curved surface! Here we will be restricting our attention to as simple as can be, in hopes that you are inspired by this to look up further information on the topic on your own.
 
 
 ### Exercises

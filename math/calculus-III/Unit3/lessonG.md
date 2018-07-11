@@ -1,13 +1,11 @@
 ---
 layout: lesson
-title: Gradient Vector
+title: The Differential
 course: calculus-III
 unit: unit3
 ---
 
-The gradient vector of a function is the analogue of the normal derivative from single variable calculus. 
-
-
+A topic that is often overlooked is how to compute the differential of a function. This is closely related to the gradient vector, as well as tangent planes.
 
 
 ### Exercises
