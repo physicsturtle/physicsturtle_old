@@ -5,7 +5,7 @@ course: calculus-III
 unit: unit5
 ---
 
-In single variable calculus, we had functions of the form \\(y = f(x)\\), with a single variable depending on a single variable. In the last unit, we had functions of the form \\(\textbf{r}(t) = (x(t),y(t),z(t))\\), which was multiple variables \\((x,y,z\\)) depending on a single variable, \\(t\\). Here, we will be looking at functions which depend on multiple variables, for example \\(z = f(x,y)\\), or \\(u = f(x,y,z)\\). 
+Line integrals, not unlike integrals in a single variable, allow us to integrate along a one dimensional path, but this path need not be straight anymore. This means that we can calculate quantities like the work required to move along this path. Line integrals for work can be calculated in both 2 or 3 dimensions, but line integrals for flux are defined only for 2 dimensions.
 
 
 ### Exercises
