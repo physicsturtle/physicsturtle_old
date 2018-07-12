@@ -20,7 +20,7 @@ Where normally, we can put these vectors into a *matrix*
 
 $$\begin{bmatrix} a_1 & a_2 \\ b_1 & b_2 \end{bmatrix}$$
 
-and then the *determinant* operation is done on the matrix. Since this is not a course on linear algebra, we do not expect fluency in the language of matrices. Now we can define the cross product of two vectors \\(\textbf{a} = (a_1,a_2,a_3)\\) and \\(\textbf{b} = (b_1,b_2,b_3)\\). It is
+and then the *determinant* operation is done on the matrix. Since this is not a course on linear algebra, we expect only the bare basics of linear algebra. Now we can define the cross product of two vectors \\(\textbf{a} = (a_1,a_2,a_3)\\) and \\(\textbf{b} = (b_1,b_2,b_3)\\). It is
 
 $$ \textbf{a}\times\textbf{b} = \begin{vmatrix} \hat{\textbf{x}} & \hat{\textbf{y}} & \hat{\textbf{z}} \\ a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \end{vmatrix}$$
 
@@ -41,6 +41,7 @@ The determinant of two vectors can be interpreted geometrically as the area of t
 
 
 ### The Cross Product
+
 
 
 ### Exercises

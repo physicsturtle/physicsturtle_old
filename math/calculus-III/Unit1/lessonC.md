@@ -7,25 +7,31 @@ unit: unit1
 
 In the last section, we discussed adding and subtracting vectors geometrically. Now we will do the same, but algebraically. This will be more abstract, but will allow us to tackle much more complex problems. 
 
+#### Addition 
 Two vectors \\(\textbf{v} = (v_1,v_2,v_3) \\) and \\(\textbf{u} = (u_1,u_2,u_3)\\) can be added *componentwise*.
 
 \\[ \textbf{v} + \textbf{u} = (v_1+u_1,v_2+u_2,v_3+u_3) \\]
 
-from which we see that \\(\textbf{u} + \textbf{v} = \textbf{v} + \textbf{u}\\). Next, we have subtraction, which is defined in the obvious way 
+from which we see that \\(\textbf{u} + \textbf{v} = \textbf{v} + \textbf{u}\\).
+
+#### Subtraction
+Next, we have subtraction, which is defined in the obvious way 
 
 \\[ \textbf{v} - \textbf{u} = (v_1-u_1,v_2-u_2,v_3-u_3) \\]
+
+#### Scalar Multiplication
 
 Vectors can also be scaled by some *scalar* \\(\lambda \in \mathbb{R}\\),
 
 \\[ \lambda\textbf{v} = (\lambda v_1, \lambda v_2, \lambda v_3) \\]
 
-It is then straightforward to define *linear combinations* of multiple vectors. A linear combination is a sum of vectors, each multiplied by their own scalar (which could be any number, including 1 or 0). For example, a linear combination of \\(\textbf{u}\\) and \\(\textbf{v}\\) could be 
+It is then straightforward to define *linear combinations* of multiple vectors. A linear combination is a sum of vectors, each multiplied by their own scalar (which could be any number, positive or negative, 1 or 0, rational or irrational). For example, a linear combination of \\(\textbf{u}\\) and \\(\textbf{v}\\) could be 
 
 \\[ a\textbf{u} + b\textbf{v} = (au_1 + bv_1,au_2 + bv_2, au_3 + bv_3) \\]
 
 Linear combinations can also be taken between more than 2 vectors. 
 
-You may now be wondering now if there are ways to multiply vectors or divide vectors. In this course, there are no ways to multiply or divide vectors in a way that is analogous to your preexisting notions of multiplication and division. However, there are two other ways of multiplying vectors which we will cover: the dot and cross products. Those will be covered in the next couple sections. 
+You may now be wondering now if there are ways to multiply vectors together or to divide vectors. In this course, there are no ways to multiply or divide vectors in a way that is analogous to your preexisting notions of multiplication and division. However, there are two other ways of multiplying vectors which we will cover: the dot and cross products. Those will be covered in the next couple sections. 
 
 
 #### Remarks

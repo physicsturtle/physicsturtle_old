@@ -9,7 +9,7 @@ Welcome to Multi-Variable and Vector Calculus. This is a really exciting subject
 
 This course is a **work in progress**. The goal is for it to be finished by the end of December 2018. 
 
-Sections marked with an asterisk * should be regarded as optional, and everything else as essential.
+Sections marked with an asterisk * should be regarded as optional, and everything else as essential. The ones chosen to be marked with an asterisk are ones which are normally left out of multivariable calculus courses, but may be included in an honours course. One of the goals is to be able to cater to as wide of an audience as possible, and for this reason those sections were written.
 
 Solutions to all exercises will eventually be written, even if they aren't available at the moment.
 
