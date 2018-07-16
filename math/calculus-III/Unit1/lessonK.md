@@ -4,7 +4,25 @@ title: Spherical Coordinates
 course: calculus-III
 unit: unit1
 ---
-Here we will define spherical coordinates. 
+
+Spherical coordinates are a set of three coordinates used when the objects we're studying have spherical symmetry. They will simplify our calculations and make the results much more transparent. The three coordinates are the distance from the origin \\(r\\), the angle measured down from the \\(z\\) axis \\(\theta\\), and the angle measured in the \\(xy\\) plane, \\(\varphi\\). This can be represented graphically by 
+
+(insert figure here)
+
+Algebraically, the transformation equations are 
+
+$$\left\{\begin{eqnarray}
+r &=& \sqrt{x^2+y^2+z^2}\\
+\theta &=& \arccos\left(\frac{z}{\sqrt{x^2+y^2+z^2}}\right)\\
+\varphi &=& \arctan\left(\frac{y}{x}\right)
+\end{eqnarray} \right.$$
+
+$$\left\{\begin{eqnarray}
+x &=& r\sin\theta\cos\varphi \\
+y &=& r\sin\theta\sin\varphi \\
+z &=& r\cos\theta \end{eqnarray} \right.$$
+
+
 
 ### Exercises
 
