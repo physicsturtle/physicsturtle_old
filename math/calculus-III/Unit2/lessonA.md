@@ -20,10 +20,10 @@ Since parametric equations are just vector valued functions, they can be added a
 ### Exercises
 
 <ol>
-<li> <div> Sketch all of the points such that \(y = 1\). </div>
+<li> <div> What are the \(x\), \(y\), and \(z\) components of the vector function \(\textbf{r}(t) = (\sin(t),\cos^2(2t),t^2e^t)\)? </div>
 
-<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
-<div  id="answer2" class="answer">
+<button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
+<div  id="answer1" class="answer">
 This is a plane that is parallel to the \(xz\) plane. 
 </div> </li>
 <li> <div> Sketch all of the points such that \(y = 1\). </div>

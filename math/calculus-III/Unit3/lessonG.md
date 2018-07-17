@@ -5,7 +5,7 @@ course: calculus-III
 unit: unit3
 ---
 
-A topic that is often overlooked is how to compute the differential of a function. This is closely related to the gradient vector, as well as tangent planes.
+A topic that is often overlooked is how to compute the differential of a function. This is closely related to the gradient vector, as well as tangent planes. 
 
 
 ### Exercises

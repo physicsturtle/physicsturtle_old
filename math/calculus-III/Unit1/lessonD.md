@@ -29,19 +29,36 @@ For the case of two dimensions, it is quite clear that the definition comes from
 
 Because the norm calculates the length of a vector, it is possible to find the distance between two points in space by using the norm. Taking the difference of two points creates as vector that points from one to the other, which we can then calculate the norm of. 
 
+### Properties
+The properties of the norm include:
+
+#### Scalar Multiplication
+$$\|\lambda\textbf{v}\| = |\lambda|\|\textbf{v}\| $$
+
 ### Exercises
 
 <ol>
-<li> <div> Sketch all of the points such that \(y = 1\). </div>
+<li> <div> Calculate the norm of each of the following vectors.
+<ol type = "a">
+<li> \((3,2,-1) + (-1,2,2)\)</li>
+</ol>
+</div>
 
-<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
-<div  id="answer2" class="answer">
-This is a plane that is parallel to the \(xz\) plane. 
+<button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
+<div  id="answer1" class="answer">
+<ol type = "a">
+<li> \((3,2,-1) + (-1,2,2)\)</li>
+</ol>
 </div> </li>
-<li> <div> Sketch all of the points such that \(y = 1\). </div>
+
+<li> <div> Find the distance between each pair of points. 
+<ol type = "a">
+<li> \((3,2,-1) + (-1,2,2)\)</li>
+</ol>
+</div>
 
 <button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
 <div  id="answer2" class="answer">
-This is a plane that is parallel to the \(xz\) plane. 
+answer here!
 </div> </li>
 </ol>

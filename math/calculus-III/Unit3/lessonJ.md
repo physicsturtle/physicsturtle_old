@@ -8,6 +8,7 @@ unit: unit3
 In single variable calculus, we were interested in finding the minima and maxima of a function, and this was done by looking at where the derivative is zero. An analogous procedure will be done here.
 
 #### First Derivative Test
+The first derivative test in single variable calculus told us where the tangent line had slope zero, and thus, where the minima and maxima were. Here, taking the gradient of a function, or, all the partial derivatives, will tell us where the *tangent plane* has zero slope in all directions.  
 
 ### Exercises
 

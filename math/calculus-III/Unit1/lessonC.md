@@ -48,24 +48,31 @@ $$ \textbf{v} = \begin{pmatrix} a \\ b \\ c \end{pmatrix} $$
 
 $$ \textbf{v} = \begin{bmatrix} a \\ b \\ c \end{bmatrix} $$
 
-When vectors are written this way, at least in this course, they will usually be referring to the *cartesian* components of the vectors. That is, each of these notations can also be written as $$\textbf{v} = a\hat{\textbf{x}} + b\hat{\textbf{y}} + c\hat{\textbf{z}}$$.  If we want to write vectors in different basis, then that will be clear in the context. 
+When vectors are written this way, at least in this course, they will usually be referring to the *cartesian* components of the vectors. That is, each of these notations can also be written as $$\textbf{v} = a\hat{\textbf{x}} + b\hat{\textbf{y}} + c\hat{\textbf{z}}$$.  If we want to write vectors in different basis, then we will denote that explicitly by writing in terms of the basis elements.
 
 
 ### Exercises
 
 
 <ol>
-<li> <div> Sketch all of the points such that \(y = 1\). </div>
+<li> <div> Calculate the following quantities.
+<ol type = "a">
+<li> \((3,2,-1) + (-1,2,2)\)</li>
+<li> \(2(1,1,5) + 3(6,-2,5)\)</li>
+<li> \(-2(4,1,8) + 0(5,1,2) +(2,2,2)\)</li>
+<li> \(\frac{1}{3}(4,7,6) - \frac{3}{2} (0,2,-1)\)</li>
+</ol>
+ </div>
 
-<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
-<div  id="answer2" class="answer">
-This is a plane that is parallel to the \(xz\) plane. 
+<button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
+<div  id="answer1" class="answer">
+<ol type = "a">
+<li> \((3,2,-1) + (-1,2,2)\)</li>
+<li> \(2(1,1,5) + 3(6,-2,5)\)</li>
+<li> \(-2(4,1,8) + 0(5,1,2) + (2,2,2) \)</li>
+<li> \(\frac{1}{3}(4,7,6) - \frac{3}{2} (0,2,-1)\)</li>
+</ol>
 </div> </li>
-<li> <div> Sketch all of the points such that \(y = 1\). </div>
 
-<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
-<div  id="answer2" class="answer">
-This is a plane that is parallel to the \(xz\) plane. 
-</div> </li>
 </ol>
 
