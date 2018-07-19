@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Differentiation of Curves
+title: Differentiation and Integration of Curves
 course: calculus-III
 unit: unit2
 ---
@@ -30,6 +30,10 @@ which encodes only the direction of the tangent vector.
 
 Higher derivatives can be similarly calculated. We will discuss the geometric interpretations of higher derivatives in the following section.
 
+### Integration
+Integration for curve is defined componentwise. This is identical to how differentiation is defined. In symbols, 
+
+$$\int_a^b \textbf{r}(t) dt = \left(\int_a^b x(t) dt, \int_a^b y(t) dt,\int_a^b z(t) dt\right)$$
 
 
 ### Exercises

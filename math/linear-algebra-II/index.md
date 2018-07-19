@@ -1,6 +1,6 @@
 ---
 layout: course
-title: Calculus I
+title: Linear Algebra II
 permalink: /math/linear-algebra-II/
 ---
 
