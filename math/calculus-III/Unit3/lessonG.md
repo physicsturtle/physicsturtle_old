@@ -5,7 +5,10 @@ course: calculus-III
 unit: unit3
 ---
 
-A topic that is often overlooked is how to compute the differential of a function. This is closely related to the gradient vector, as well as tangent planes. 
+A topic that is often overlooked is how to compute the differential of a function. This is closely related to the gradient vector, as well as tangent planes. Taking the differential is an operation that is done on functions. In single variable calculus, the differential \\(df\\) of a function \\(f\\) was defined as 
+
+$$df = f'(x) dx.$$
+
 
 
 ### Exercises

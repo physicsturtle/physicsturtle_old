@@ -41,7 +41,7 @@ The determinant of two vectors can be interpreted geometrically as the area of t
 
 
 ### The Cross Product
-
+The cross product is very closely related to the determinant. 
 
 
 ### Exercises
