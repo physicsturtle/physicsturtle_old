@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Gradient Vector
+title: GRADIENT VECTOR
 course: calculus-III
 unit: unit3
 ---

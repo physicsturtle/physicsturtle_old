@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Surface Area
+title: SURFACE AREA
 course: calculus-III
 unit: unit4
 ---

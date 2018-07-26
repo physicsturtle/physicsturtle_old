@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Equations of Lines
+title: EQUATIONS OF LINES
 course: calculus-III
 unit: unit1
 ---

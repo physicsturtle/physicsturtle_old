@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Double Integral in Polar Coordinates
+title: DOUBLE INTEGRAL IN POLAR COORDINATES
 course: calculus-III
 unit: unit4
 ---

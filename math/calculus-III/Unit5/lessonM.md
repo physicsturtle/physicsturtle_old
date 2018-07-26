@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Differential Forms*
+title: DIFFERENTIAL FORMS*
 course: calculus-III
 unit: unit5
 ---

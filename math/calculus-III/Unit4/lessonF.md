@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Triple Integrals
+title: TRIPLE INTEGRALS
 course: calculus-III
 unit: unit4
 ---

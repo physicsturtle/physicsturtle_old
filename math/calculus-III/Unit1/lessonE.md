@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Dot Product
+title: DOT PRODUCT
 course: calculus-III
 unit: unit1
 ---
@@ -88,7 +88,7 @@ which is precisely the second definition.
 <li> <div> Calculate the dot product between the vectors \(\textbf{a} = (3,1)\) and \(\textbf{b} = (-2,1)\). </div>
 
 <button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
-<div  id="answer2" class="answer1">
+<div  id="answer1" class="answer">
 This is a straightforward computation in two dimensions, which gives 
 $$\textbf{a}\cdot\textbf{b} = (3)(-2)+(1)(1) = -6 + 1 = -5$$ 
 </div> </li>
@@ -119,7 +119,7 @@ $$\cos\theta = \frac{9}{\sqrt{11}\sqrt{17}} =  0.65814$$
 
 and then plugging this into a calculator, we get
 
-$$\theta = 0.85244\,\text{rad} =   48.841\degree$$e
+$$\theta = 0.85244\,\text{rad} =   48.841^\circ$$
 </div> </li>
 
 <li> <div> Find the value(s) of \(a\) such that the two vectors are orthogonal: \(\textbf{p} = (2,1,a)\), \(\textbf{q} = (a,-3,3)\) </div>
@@ -130,7 +130,7 @@ Two vectors are orthogonal if their dot product is zero. Thus we compute the dot
 
 $$\textbf{p}\cdot\textbf{q} = (2)(a) + (1)(-3) + (a)(3) = 2a - 3 + 3a = 5a - 3$$
 
-This gives is \(a = 3/5\).
+This gives \(a = 3/5\).
 </div> </li>
 
 

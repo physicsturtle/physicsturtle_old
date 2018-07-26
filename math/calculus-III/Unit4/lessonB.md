@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Double Integral over a Rectangle
+title: DOUBLE INTEGRAL OVER A RECTANGLE
 course: calculus-III
 unit: unit4
 ---

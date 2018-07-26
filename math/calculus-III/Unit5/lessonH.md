@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Surface Integrals 
+title: SURFACE INTEGRALS 
 course: calculus-III
 unit: unit5
 ---

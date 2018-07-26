@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Directional Derivative
+title: DIRECTIONAL DERIVATIVE
 course: calculus-III
 unit: unit3
 ---

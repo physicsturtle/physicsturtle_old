@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Triple Integrals in Spherical Coordinates
+title: TRIPLE INTEGRALS IN SPHERICAL COORDINATES
 course: calculus-III
 unit: unit4
 ---

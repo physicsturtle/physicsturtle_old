@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Curvature and Torsion
+title: CURVATURE AND TORSION
 course: calculus-III
 unit: unit2
 ---

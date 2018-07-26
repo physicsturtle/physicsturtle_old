@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Frenet-Serret Equations
+title: FRENET-SERRET EQUATIONS
 course: calculus-III
 unit: unit2
 ---

@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Partial Differentiation
+title: PARTIAL DIFFERENTIATION
 course: calculus-III
 unit: unit3
 ---

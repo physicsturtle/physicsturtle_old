@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Curl
+title: CURL
 course: calculus-III
 unit: unit5
 ---

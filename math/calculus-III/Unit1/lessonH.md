@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Equations of Planes
+title: EQUATIONS OF PLANES
 course: calculus-III
 unit: unit1
 ---

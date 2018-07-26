@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Quadric Surfaces
+title: QUADRIC SURFACES
 course: calculus-III
 unit: unit1
 ---

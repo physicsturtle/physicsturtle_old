@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Projections
+title: PROJECTIONS
 course: calculus-III
 unit: unit1
 ---

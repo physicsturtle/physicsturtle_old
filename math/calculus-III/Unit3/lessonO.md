@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Taylor Series*
+title: TAYLOR SERIES*
 course: calculus-III
 unit: unit3
 ---

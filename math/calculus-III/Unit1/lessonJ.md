@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Cylindrical Coordinates
+title: CYLINDRICAL COORDINATES
 course: calculus-III
 unit: unit1
 ---

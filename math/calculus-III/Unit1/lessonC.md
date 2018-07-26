@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Algebraic Operations with Vectors
+title: ALGEBRAIC OPERATIONS WITH VECTORS
 course: calculus-III
 unit: unit1
 ---

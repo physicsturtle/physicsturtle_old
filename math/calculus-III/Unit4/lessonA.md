@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Riemann Sums
+title: RIEMANN SUMS
 course: calculus-III
 unit: unit4
 ---

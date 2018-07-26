@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Norm
+title: NORM
 course: calculus-III
 unit: unit1
 ---

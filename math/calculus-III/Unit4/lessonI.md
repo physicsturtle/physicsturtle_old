@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Change of Variables
+title: CHANGE OF VARIABLES
 course: calculus-III
 unit: unit4
 ---

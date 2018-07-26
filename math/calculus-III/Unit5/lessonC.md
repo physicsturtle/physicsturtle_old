@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Fundamental Theorem of Line Integrals
+title: FUNDAMENTAL THEOREM OF LINE INTEGRALS
 course: calculus-III
 unit: unit5
 ---

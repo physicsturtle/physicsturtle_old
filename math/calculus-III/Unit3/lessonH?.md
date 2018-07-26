@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Differentiation of Integrals
+title: DIFFERENTIATION OF INTEGRALS
 course: calculus-III
 unit: unit3
 ---

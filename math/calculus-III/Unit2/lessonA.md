@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Vector Functions
+title: VECTOR FUNCTIONS
 course: calculus-III
 unit: unit2
 ---

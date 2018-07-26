@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Lagrange Remainder*
+title: LAGRANGE REMAINDER*
 course: calculus-III
 unit: unit3
 ---

@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Extrema 2
+title: EXTREMA 2
 course: calculus-III
 unit: unit3
 ---

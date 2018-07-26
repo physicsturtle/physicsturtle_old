@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Stokes Theorem
+title: STOKES THEOREM
 course: calculus-III
 unit: unit5
 ---

@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Double Integral over General Plane Region
+title: DOUBLE INTEGRAL OVER GENERAL PLANE REGION
 course: calculus-III
 unit: unit4
 ---

@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Applications
+title: APPLICATIONS
 course: calculus-III
 unit: unit4
 ---

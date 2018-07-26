@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: The Differential
+title: THE DIFFERENTIAL
 course: calculus-III
 unit: unit3
 ---

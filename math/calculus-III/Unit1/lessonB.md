@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Vectors and their Geometry
+title: VECTORS AND THEIR GEOMETRY
 course: calculus-III
 unit: unit1
 ---

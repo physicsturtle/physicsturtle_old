@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Line Integrals
+title: LINE INTEGRALS
 course: calculus-III
 unit: unit5
 ---

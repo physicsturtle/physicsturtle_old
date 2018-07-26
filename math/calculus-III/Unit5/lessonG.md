@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Laplacian
+title: LAPLACIAN
 course: calculus-III
 unit: unit5
 ---

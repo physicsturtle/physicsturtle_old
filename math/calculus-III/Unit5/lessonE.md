@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Divergence
+title: DIVERGENCE
 course: calculus-III
 unit: unit5
 ---

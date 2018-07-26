@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Differentiation and Integration of Curves
+title: DIFFERENTIATION AND INTEGRATION OF CURVES
 course: calculus-III
 unit: unit2
 ---

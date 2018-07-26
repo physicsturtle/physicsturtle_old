@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Functions of Multiple Variables
+title: FUNCTIONS OF MULTIPLE VARIABLES
 course: calculus-III
 unit: unit3
 ---

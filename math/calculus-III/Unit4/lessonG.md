@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Triple Integrals in Cylindrical Coordinates
+title: TRIPLE INTEGRALS IN CYLINDRICAL COORDINATES
 course: calculus-III
 unit: unit4
 ---

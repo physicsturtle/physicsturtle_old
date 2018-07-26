@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: The Jacobian Derivative*
+title: THE JACOBIAN DERIVATIVE*
 course: calculus-III
 unit: unit3
 ---

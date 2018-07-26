@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Lagrange Multipliers 1
+title: LAGRANGE MULTIPLIERS 1
 course: calculus-III
 unit: unit3
 ---

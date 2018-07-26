@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Divergence Theorem
+title: DIVERGENCE THEOREM
 course: calculus-III
 unit: unit5
 ---

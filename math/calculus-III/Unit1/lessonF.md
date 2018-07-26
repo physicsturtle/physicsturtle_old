@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Determinant and Cross Product
+title: DETERMINANT AND CROSS PRODUCT
 course: calculus-III
 unit: unit1
 ---
@@ -28,7 +28,7 @@ The reason we defined \\(2\times 2\\) determinants above is because this \\(3\ti
 
 $$\begin{vmatrix} \hat{\textbf{x}} & \hat{\textbf{y}} & \hat{\textbf{z}} \\ a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \end{vmatrix} = \begin{vmatrix} a_2 & a_3 \\ b_2 & b_3 \end{vmatrix} \hat{\textbf{x}} -  \begin{vmatrix} a_1 & a_3 \\ b_1 & b_3 \end{vmatrix} \hat{\textbf{y}} +  \begin{vmatrix} a_1 & a_2 \\ b_1 & b_2 \end{vmatrix} \hat{\textbf{z}} $$
 
-Note that the negative sign in front of the middle term is not a mistake; this is how the \\(3\times 3\\) determinant is defined.
+Note that the negative sign in front of the middle term is not a mistake; this is how the \\(3\times 3\\) determinant is defined. There are many tricks for evaluating determinants of special matrices. For example, if a matrix has only elements on its diagonal, then the determinant is the product of those elements. Because this is not a course on linear algebra, we will not be discussing such methods.
 
 ### Geometric Definition
 
@@ -47,10 +47,18 @@ The determinant of two vectors can be interpreted geometrically as the area of t
 ### Exercises
 
 <ol>
-<li> <div> Sketch all of the points such that \(y = 1\). </div>
+<li> <div> Calculate the following determinants. </div>
 
-<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
-<div  id="answer2" class="answer">
+<button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
+<div  id="answer1" class="answer">
+This is a plane that is parallel to the \(xz\) plane. 
+</div> </li>
+
+
+<li> <div> Calculate the cross product between the vectors \(\textbf{a} = (2,1,2)\) and \(\textbf{b} = (-2,3,2)\). </div>
+
+<button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
+<div  id="answer1" class="answer">
 This is a plane that is parallel to the \(xz\) plane. 
 </div> </li>
 <li> <div> Sketch all of the points such that \(y = 1\). </div>

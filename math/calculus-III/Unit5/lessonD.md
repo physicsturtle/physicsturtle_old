@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Green's Theorem
+title: GREEN'S THEOREM
 course: calculus-III
 unit: unit5
 ---

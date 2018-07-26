@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Non-Independent Variables
+title: NON-INDEPENDENT VARIABLES
 course: calculus-III
 unit: unit3
 ---

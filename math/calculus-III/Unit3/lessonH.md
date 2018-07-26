@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Chain Rule
+title: CHAIN RULE
 course: calculus-III
 unit: unit3
 ---

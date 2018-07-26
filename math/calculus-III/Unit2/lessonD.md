@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Arc Length
+title: ARC LENGTH
 course: calculus-III
 unit: unit2
 ---

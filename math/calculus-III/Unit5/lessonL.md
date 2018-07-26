@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Maxwell's Equations*
+title: MAXWELL'S EQUATIONS*
 course: calculus-III
 unit: unit5
 ---

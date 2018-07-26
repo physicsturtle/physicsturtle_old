@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Tangent Planes and Linear Approximations
+title: TANGENT PLANES AND LINEAR APPROXIMATIONS
 course: calculus-III
 unit: unit3
 ---

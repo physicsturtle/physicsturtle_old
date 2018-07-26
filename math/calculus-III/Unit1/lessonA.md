@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Three Dimensional Cartesian Coordinates
+title: THREE DIMENSIONAL CARTESIAN COORDINATES
 course: calculus-III
 unit: unit1
 ---

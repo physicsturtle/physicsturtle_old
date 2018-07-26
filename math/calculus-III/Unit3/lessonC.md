@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Limits and Continuity*
+title: LIMITS AND CONTINUITY*
 course: calculus-III
 unit: unit3
 ---
