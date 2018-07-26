@@ -85,16 +85,33 @@ which is precisely the second definition.
 ### Exercises
 
 <ol>
-<li> <div> Sketch all of the points such that \(y = 1\). </div>
+<li> <div> Calculate the dot product between the vectors \(\textbf{a} = (3,1)\) and \(\textbf{b} = (-2,1)\). </div>
+
+<button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
+<div  id="answer2" class="answer1">
+This is a plane that is parallel to the \(xz\) plane. 
+</div> </li>
+
+<li> <div> Calculate the dot product between the vectors \(\textbf{x} = (3,1,-5)\) and \(\textbf{y} = (4,-2,1)\) </div>
 
 <button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
 <div  id="answer2" class="answer">
 This is a plane that is parallel to the \(xz\) plane. 
 </div> </li>
-<li> <div> Sketch all of the points such that \(y = 1\). </div>
 
-<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
-<div  id="answer2" class="answer">
+<li> <div> Calculate the angle between the two vectors \(\textbf{a} = (1,-1,3)\) and \(\textbf{b} = (2,2,3)\)</div>
+
+<button onclick="myFunction('answer3')" class="answerButton">Show Answer</button>
+<div  id="answer3" class="answer">
 This is a plane that is parallel to the \(xz\) plane. 
 </div> </li>
+
+<li> <div> Find the value(s) of \(a\) such that the two vectors are orthogonal: \(\textbf{p} = (2,1,a)\), \(\textbf{q} = (a,-3,3)\) </div>
+
+<button onclick="myFunction('answer4')" class="answerButton">Show Answer</button>
+<div  id="answer4" class="answer">
+This is a plane that is parallel to the \(xz\) plane. 
+</div> </li>
+
+
 </ol>
