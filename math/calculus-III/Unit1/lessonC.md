@@ -74,5 +74,6 @@ When vectors are written this way, at least in this course, they will usually be
 </ol>
 </div> </li>
 
+
 </ol>
 

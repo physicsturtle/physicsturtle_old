@@ -14,7 +14,13 @@ $$df = f'(x) dx.$$
 ### Exercises
 
 <ol>
-<li> <div> Sketch all of the points such that \(y = 1\). </div>
+<li> <div> Calculate the differential of each of the following functions.
+<ol type = "a">
+<li> \(f(x,y) = x^3y - y\sin(y)\) </li>
+<li> \(f(x,y) = \log(x^2 + \) </li>
+<li> \(f(x,y) = x^3y - y\sin(y)\) </li>
+</ol>
+</div>
 
 <button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
 <div  id="answer2" class="answer">

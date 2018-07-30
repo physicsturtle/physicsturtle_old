@@ -45,13 +45,23 @@ where we call \\(\hat{\textbf{i}},\hat{\textbf{j}},\hat{\textbf{k}}\\) the basis
 
 ### Exercises
 <ol>
-<li> <div> Given the following vectors (insert figure here), calculate the following quantities. </div>
+<li> <div> Given the following vectors (insert figure here), construct the following vectors: </div>
 <ol type = "a">
-<li> </li>
+<li> \(3\textbf{a}\)</li>
+<li> \(-2\textbf{c}\)</li>
+<li> \(2\textbf{a}-\textbf{b}\)</li>
+<li> \(\textbf{a}+\textbf{b}-\textbf{c}\)</li>
+<li> \(3\textbf{a}-2\textbf{b}+2\textbf{c}\)</li>
 </ol>
 <button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
 <div  id="answer1" class="answer">
-Insert picture of solution here! 
+<ol type = "a">
+<li> \(3\textbf{a}\)</li>
+<li> \(-2\textbf{c}\)</li>
+<li> \(2\textbf{a}-\textbf{b}\)</li>
+<li> \(\textbf{a}+\textbf{b}-\textbf{c}\)</li>
+<li> \(3\textbf{a}-2\textbf{b}+2\textbf{c}\)</li>
+</ol>
 </div> </li>
 
 

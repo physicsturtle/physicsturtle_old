@@ -4,4 +4,4 @@ title: Linear Algebra I
 permalink: /math/linear-algebra-I/
 ---
 
-Calculus I -- Coming soon
+Linear Algebra I -- Coming soon
