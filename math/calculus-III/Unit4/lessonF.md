@@ -5,6 +5,11 @@ course: calculus-III
 unit: unit4
 ---
 
+- Geometric interpretation of triple integration
+- Riemann sums
+- calculating volumes using triple integrals
+- calculate an integral using riemmann sums
+
 Triple integrals are integrals that need to be integrated over a 3 dimensional region! Physically, this is often used to describe how much charge or mass there is in a certain 3 dimensional region that is described by a density function. 
 
 

@@ -5,7 +5,7 @@ course: calculus-III
 unit: unit4
 ---
 
-I don't know what to put in this section....
+- charge, density and such
 
 
 ### Exercises

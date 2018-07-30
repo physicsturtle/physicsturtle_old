@@ -5,6 +5,8 @@ course: calculus-III
 unit: unit2
 ---
 
+- Componentwise integration -- initial and final points
+
 We now want to discuss how to differentiate vector valued functions. The definition of differentiation of vector valued functions is identical to the definition for a single variable. 
 
 \\[ \textbf{r}'(t) = \lim_{h\to 0}\frac{\textbf{r}(t+h) - \textbf{r}(t)}{h}\\]

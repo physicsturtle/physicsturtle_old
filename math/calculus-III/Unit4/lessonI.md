@@ -5,6 +5,11 @@ course: calculus-III
 unit: unit4
 ---
 
+- the jacobian revisited
+- Changing bounds of integration
+- Changing the function of itnegration
+- Changing the area element
+
 The process of changing variables for functions of several variables in order to calculate an integral is not quite as simple as it is for a function of a single variable. This is because we now have many different derivative combinations that we can take! How can we combine these to appropriately scale our area or volume element?
 
 

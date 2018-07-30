@@ -5,6 +5,14 @@ course: calculus-III
 unit: unit1
 ---
 
+- Equation form of line
+- Parametrized form of line
+- going between equation and parametrized form of line
+- Equation form of plane
+- Parametrized form of plane
+- Formula with normal vector
+- going between equation and parametrized form of line
+
 As with the case of lines, there are two ways to define planes.
 
 ### Equation Form

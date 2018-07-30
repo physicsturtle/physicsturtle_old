@@ -5,6 +5,9 @@ course: calculus-III
 unit: unit4
 ---
 
+- Variable bounds of integration
+- Swapping order of integration
+
 The double integral over a rectangular region had constant bounds of integration. When considering regions that are not rectangular, we need to allow these bounds to be variable. 
 
 

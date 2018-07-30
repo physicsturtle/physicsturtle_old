@@ -5,6 +5,12 @@ course: calculus-III
 unit: unit3
 ---
 
+
+- What is a contour plot
+- contour plots in the plane, contour surfaces
+- How to draw contour plots
+- Match contour plots with functions
+
 Due to the fact that drawing 3D plots is hard and sometimes hard to interpret, here we will discuss another method of visualizing functions in multiple dimensions: contour plots. 
 
 

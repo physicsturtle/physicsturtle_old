@@ -5,6 +5,13 @@ course: calculus-III
 unit: unit2
 ---
 
+- Parametric form of a curve
+- Plane and space curves
+- Graphing a curve
+- Transforming between parametric form and equation form
+
+We are all familiar with curves in the plane. For example $y = x^2$ is a curve in the 2D plane. That curve also has the property of passing the vertical line test (criteria of being a function). Today we will consider more general curves which do not need to pass the vertical line test, as well as 3 dimensional curves in space. We will discuss different ways of representing curves
+
 Often in single variable calculus, we had functions of the form \\(y = f(x\\); a single variable input and single variable output. Something else could write is \\(x = f(t)\\), where, physically, this means the position \\(x\\) of a particle as a function of the time \\(t\\). 
 
 (make javascript of particle moving)

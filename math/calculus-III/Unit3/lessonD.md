@@ -5,6 +5,10 @@ course: calculus-III
 unit: unit3
 ---
 
+- Definition of the partial derivative
+- higher partial derivatives
+- Geometric interpretation of partial derivative
+
 Here we will finally learn about how to differentiate functions of multiple variables. Recall the definition of the derivative from single variable calculus:
 
 $$f'(x) = \lim_{h\to 0} \frac{f(x+h) - f(x)}{h}$$

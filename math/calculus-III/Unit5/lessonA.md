@@ -5,6 +5,9 @@ course: calculus-III
 unit: unit5
 ---
 
+- Vector valued functions, graphing in 2D and 3D
+- concept of vectors attached to a point
+
 Vector fields are the last kind of function we are considering. Here we will introduce you to ways of visualizing vectors, and what they really are, along with some physical examples.
 ### Exercises
 

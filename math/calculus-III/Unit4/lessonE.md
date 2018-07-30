@@ -5,6 +5,8 @@ course: calculus-III
 unit: unit4
 ---
 
+- geometric derivation of surface area
+
 We have already learned to calculate the length of a curve in the plane in the section on plane curves. This section on surface area however will be analogous to how we calculated the length of a curve in single variable calculus. 
 
 

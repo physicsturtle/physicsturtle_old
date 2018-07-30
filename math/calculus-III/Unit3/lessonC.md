@@ -5,6 +5,10 @@ course: calculus-III
 unit: unit3
 ---
 
+- Definition of continuity
+- When a limit doesn't exist
+- Limits in polar coordinates
+
 In this optional section, we will discuss limits and continuity.
 
 

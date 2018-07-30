@@ -5,6 +5,8 @@ course: calculus-III
 unit: unit4
 ---
 
+- Fubini's theorem
+- 
 The simplest region that we can calculate an integral over is a rectangular region. 
 
 

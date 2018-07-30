@@ -5,6 +5,9 @@ course: calculus-III
 unit: unit2
 ---
 
+- Definitions of curvature and torsion using parametrization by arc length
+- Formulas for curvature and torsion with time (not arc length)
+
 Torsion and curvature are two quantities that describe geometric properties of a curve. Curvature can be defined for curves in either 2 or 3 dimensions, but has slightly different properties in each, and torsion can only be defined in three dimensions.
 
 

@@ -5,7 +5,11 @@ course: calculus-III
 unit: unit1
 ---
 
-The dot product is one of the two ways of multiplying vectors. It can be defined between vectors in 1, 2, 3 or even more dimensions! 
+
+- Definition of a quadric surface
+- How to graph paraboloids, ellipsoids, hyperboloids
+- Cylinders
+- Why each equation gives rise to each kind of surface
 
 ### Exercises
 

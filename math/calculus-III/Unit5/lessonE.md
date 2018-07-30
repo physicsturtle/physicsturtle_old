@@ -5,6 +5,10 @@ course: calculus-III
 unit: unit5
 ---
 
+- Definitions of divergence and curl
+- Geometric interpretations of divergennce and curl
+- Divergence and curl in 2D and 3D
+
 The divergence is a quantity that measures the, well, *divergence* of a vector field. Suppose we had a velocity field modelling fluid flow, and somewhere in this velocity field is a source that emits fluid. Fluid will then flow *away from* this source, and thus all of the velocity vectors will also point away from the source. The vector field would be *diverging* close to this source. On the contrary, suppose we had a sink that sucks up the fluid. The vectors would all be pointing towards the sink because the fluid is flowing there, and thus the vector field would have a *negative divergence*, or, convergence, there.
 
 

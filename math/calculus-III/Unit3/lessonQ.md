@@ -5,6 +5,12 @@ course: calculus-III
 unit: unit3
 ---
 
+- Concept of a derivative
+- Functions $f : \R^n \to \R^m$
+- Derivative as a matrix
+- Definition of a derivative
+- Directional derivative with the jacobian
+
 ### Exercises
 
 <ol>

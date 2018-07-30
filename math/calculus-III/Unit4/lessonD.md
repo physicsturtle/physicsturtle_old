@@ -5,6 +5,9 @@ course: calculus-III
 unit: unit4
 ---
 
+- Jacobian in polar coordiantes
+- switching order in polar coordinates (is htis a thing?)
+
 In many physical problems, there is circular symmetry. In these cases it is advantageous to evaluate integrals in a coordinate system that suits the symmetry, namely, polar coordinates.
 
 

@@ -5,6 +5,10 @@ course: calculus-III
 unit: unit5
 ---
 
+- Definitions of divergence and curl
+- Geometric interpretations of divergennce and curl
+- Divergence and curl in 2D and 3D
+
 The curl is an operation which can only be defined in three dimensions. 
 
 

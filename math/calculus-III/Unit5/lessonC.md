@@ -5,6 +5,8 @@ course: calculus-III
 unit: unit5
 ---
 
+- Proof of fundamental theorem of line itnegrals using FTC from one dimension
+
 The fundamental theorem of calculus for line integrals looks very similar to the fundamental theorem of calculus seen in single variable calculus. It will provide us with the definition for conservative forces, which you have been working with since high school physics and Newtonian gravity.
 
 

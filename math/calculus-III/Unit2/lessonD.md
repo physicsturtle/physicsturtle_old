@@ -5,6 +5,10 @@ course: calculus-III
 unit: unit2
 ---
 
+- Integration of a curve to find arc length
+- Reparametrization of a curve by arc length
+- Geometric advantages of parametrization by arc length
+
 Here we will discuss how to calculate the arc length of a curve. Suppose we have a curve \\(\textbf{r}(t)\\) defined on an interval \\(t\in (a,b)\\). Then the length of the curve over the interval is 
 
 $$L = \int_a^b |\textbf{r}'(t)| dt$$

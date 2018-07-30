@@ -5,6 +5,10 @@ course: calculus-III
 unit: unit5
 ---
 
+- Definition of laplacian
+- Meaning of laplacian
+- analyzing functions with the laplacian
+
 The Laplacian looks like fancy second derivative operator, but what parallels can we draw between it and the second derivative from single variable calculus?
 
 

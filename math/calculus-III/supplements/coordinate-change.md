@@ -5,6 +5,8 @@ course: calculus-III
 unit: supplement
 ---
 
+When I was first learning about different coordinate systems, I was never able to easily find a discussion on changing coordinates that was to my satisfaction. Here, I hope to remedy that situation for anybody who is learning about changing coordinates for their math or physics courses. This section is going to depart from the geometric arguments that we've used in the past to justify things like the volume element in spherical coordinates and such. Unfortunately, everything stems from the use of Cartesian coordinates and the definitions of gradient, divergence, and curl in terms of them. 
+
 Here we are going to discuss how to find formulas for gradient, divergence, curl, and laplacian in various coordinate systems, starting from their definitions in Cartesian. We will aim to provide intuition for this, and also will give formulas for the most common coordinate transformations, namely cylindrical and spherical. We will have other coordinate systems as exercises. 
 
 In cartesian coordinates, the definition of the gradient of a function \\(f = f(x,y,z)\\) is 

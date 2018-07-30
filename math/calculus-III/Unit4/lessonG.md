@@ -5,6 +5,10 @@ course: calculus-III
 unit: unit4
 ---
 
+- the jacobiuan for cylindrical coordinates -- geometric derivation and determinant derivation
+- Setting up integral in cylindrical coordinates
+- Changing order of integration in cylindrical coordinates
+
 When the system of interest presents cylindrical symmetry, integrals are often made simpler by switching to a different coordinate system. As in the case of polar coordinates, this requires us to change the volume element of integration.
 
 

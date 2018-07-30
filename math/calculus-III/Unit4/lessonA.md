@@ -5,6 +5,9 @@ course: calculus-III
 unit: unit4
 ---
 
+- Partitions of the plane
+- Evaluate simple integrals using riemann sums
+
 In single variable calculus, Riemann sums are used to approximate the area under a curve. This approximation becomes increasingly accurate as the step size is decreased. 
 
 

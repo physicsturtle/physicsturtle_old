@@ -5,6 +5,11 @@ course: calculus-III
 unit: unit4
 ---
 
+- the jacobian for spherical coordiantes -- geometric derivation and determinant derivation
+- Setting up itnegral in spherical coordinates
+- Changing order ofi ntegration in spherical coordiantes
+
+
 Perhaps the most important lesson if you have an interest in electromagnetism is this one on triple integrals in spherical coodinates. Spherical symmetry is extremely common in all areas of physics and understanding how to evaluate integrals in these coordinates will be useful time and time again.
 
 

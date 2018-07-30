@@ -366,6 +366,12 @@
           
         
           
+        
+          
+        
+          
+        
+          
           <a class="page-link" href="/math/">Math</a>
           
         
@@ -457,6 +463,26 @@ We see the graphic to confirm that these solutions do indeed satisfy the conditi
 <p>\begin{solution}
 To solve this problem, we will have to use optimization techniques learned before to find any extremal values inside the disk, and use Lagrange multipliers to find any extremal values on the edge of the disk. 
 \end{solution}</p>
+
+<p>\section{Tips for Solving Problems with Lagrange Multipliers}
+The equations obtained from Lagrange Multipliers are often tricky to solve, but there are a few tips and tricks that can be used to make it easier.
+\begin{itemize}
+\item If you assume the Lagrange multiplier (\lambda) is nonzero, then the two equations can be divided out to eliminate that variable. 
+\item It is very common that you need to separately consider the cases that a particular variable is zero, and that that same particular variable is nonzero.
+\item The value(s) of (\lambda) is unimportant, but it can help you solve the other equations.
+\item Don’t forget about multiple solutions obtained from taking square roots and introducing a (\pm) or using quadratic formula
+\item keeping track of which variables may be zero and therefore not dividing by them, solve for one of the variables in terms of another and then plug in to the other equations. often, one of the variables will be easier to solve for than the others.
+\end{itemize}</p>
+
+<p>\subsection{Determining if it is a Maximum or Minimum}
+When solving problems with lagrange multipliers, the second derivative test does NOT work. Here is an animation that shows why. Instead, to determine if it is a maximum or minimum, you need to compare the values that you obtain by solving the equations. In most cases, you will have an even number of solutions, and one solution will correspond to the maximum, the other to a minimum.</p>
+
+<p>\subsection{General Facts about Lagrange Multipliers}
+\begin{itemize}
+\item If you’re finding constrained minima/maxima on a region that is closed and finite, then its impossible to have only one solution to the lagrange multiplier equations. There must be at least one maxima and one minima
+\item If you’re solving the problem over an infinite region, then its possible to have only one extremal value.
+\item interpretation of a zero lagrange multiplier
+\end{itemize}</p>
 
 <h3 id="exercises">Exercises</h3>
 
