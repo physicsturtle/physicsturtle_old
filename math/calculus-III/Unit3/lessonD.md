@@ -15,13 +15,15 @@ $$f'(x) = \lim_{h\to 0} \frac{f(x+h) - f(x)}{h}$$
 This represents the slope of the graph of \\(y = f(x)\\) at the point \\(x\\). If we instead have a function \\(f(x,y)\\), it is now possible to calculate its derivative with respect to either \\(x\\) or \\(y\\). These are correspondingly called the *partial derivative with respect to \\(x\\)* and  *partial derivative with respect to \\(y\\)*, respectively. 
 
 ### Definition
-We define the *partial derivative of \\(f\\) with respect to \\(x\\)* as
+<div class="definition"> 
+We define the <i>partial derivative of \(f\) with respect to \(x\)</i> as
 
 $$ \frac{\partial f}{\partial x} = \lim_{h\to 0} \frac{f(x+h,y) - f(x,y)}{h}$$
 
-and the *partial derivative of \\(f\\) with respect to \\(y\\) as*
+and the <i>partial derivative of \(f\) with respect to \(y\) </i> as
 
 $$ \frac{\partial f}{\partial y} = \lim_{h\to 0} \frac{f(x,y+h) - f(x,y)}{h}$$
+</div>
 
 so, we see that we take the limit in \\(x\\) when taking the derivative with respect to \\(x\\), and correspondingly for \\(y\\). In practice, what this means is that we take the derivative with respect to one of the variables leaving the other constant. 
 
@@ -84,14 +86,51 @@ $$\begin{eqnarray}
 \frac{\partial^2 f}{\partial y\partial x} &=& (f_x)_y = f_{xy} = \partial_{yx} f
 \end{eqnarray}$$
 
-### Geometric Interpretation
+[comment]: <> Geometric Interpretation
 Similar to how the ordinary derivative of a function told us information about the slope of a curve at a certain point, the partial derivatives tell us information about the slope of a *surface* at a certain point. However, in the case of surfaces, it is not as clear what slope means. 
 
 
 ### Implicit Differentiation
-
+It is also possible to perform implicit differentiation in multivariable calculus. This is best illustrated by a few examples. 
 
 #### Examples of Implicit Partial Differentiation
+<ol>
+<li> <div> Calculate the first partial derivatives of \(z\) with respect to \(x\) and \(y\).  
+\[\log(z^2 + y^2) = y^4 e^x\] </div> 
+
+<div class = "boxed"> 
+First we differentiate both sides with respect to \(x\).
+$$\begin{eqnarray}
+\frac{\partial}{\partial x}\log(z^2 + y^2) &=& \frac{\partial}{\partial x} (y^4 e^x) \\
+\frac{1}{z^2+y^2}2z\frac{\partial z}{\partial x} &=& y^4 e^x
+\end{eqnarray}$$
+This gives us 
+$$\frac{\partial z}{\partial x} = y^4e^x\frac{(y^2+z^2)}{2z} $$
+
+Now we differentiate both sides with respect to \(y\).)
+$$\begin{eqnarray}
+\frac{\partial}{\partial y}\log(z^2+y^2) &=& \frac{\partial}{\partial y}(y^4 e^x)\\
+\frac{1}{z^2+y^2}\left(2z\frac{\partial z}{\partial y} + 2y\right) &=& 4y^3 e^x \\
+\end{eqnarray}$$
+Then isolating \(\partial z/\partial y\), we get 
+
+$$\frac{\partial z}{\partial y} = \frac{4y^3e^x(z^2+y^2) - 2y}{2z}$$
+</div>
+</li>
+
+<li> <div> Calculate the first partial derivatives of \(z\) with respect to \(x\) and \(y\). 
+\[z^2\sin(xz) = z\cos(y^2 + x^3y)\]</div>
+
+<div> 
+First we differentiate both sides with respect to \(x\). 
+$$\begin{eqnarray}
+\frac{\partial}{\partial x}(z^2\sin(xz) )&=& \frac{\partial}{\partial x}( z\cos(y^2 + x^3y))\\
+2z\frac{\partial z}{|partial x}&=& 
+\end{eqnarray}$$
+</div>
+</li>
+
+</ol>
 
 
 ### Clairaut's Theorem

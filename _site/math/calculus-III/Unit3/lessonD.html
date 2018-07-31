@@ -38,6 +38,20 @@
             border-width: 2px;
             padding: 10px;
         }
+      .boxed {
+          width: 100%;
+          border-style: solid;
+          border-radius: 4px;
+          border-width: 2px;
+          padding: 10px;
+      }
+      .definition {
+          width: 100%;
+          border-style: solid;
+          border-radius: 4px;
+          border-width: 2px;
+          padding: 10px;
+      }
       .answerButton{
           background-color: #59A80F; /* blue */
           border: none;
@@ -425,13 +439,15 @@
 <p>This represents the slope of the graph of \(y = f(x)\) at the point \(x\). If we instead have a function \(f(x,y)\), it is now possible to calculate its derivative with respect to either \(x\) or \(y\). These are correspondingly called the <em>partial derivative with respect to \(x\)</em> and  <em>partial derivative with respect to \(y\)</em>, respectively.</p>
 
 <h3 id="definition">Definition</h3>
-<p>We define the <em>partial derivative of \(f\) with respect to \(x\)</em> as</p>
+<div class="definition"> 
+We define the <i>partial derivative of \(f\) with respect to \(x\)</i> as
 
-<script type="math/tex; mode=display">\frac{\partial f}{\partial x} = \lim_{h\to 0} \frac{f(x+h,y) - f(x,y)}{h}</script>
+$$ \frac{\partial f}{\partial x} = \lim_{h\to 0} \frac{f(x+h,y) - f(x,y)}{h}$$
 
-<p>and the <em>partial derivative of \(f\) with respect to \(y\) as</em></p>
+and the <i>partial derivative of \(f\) with respect to \(y\) </i> as
 
-<script type="math/tex; mode=display">\frac{\partial f}{\partial y} = \lim_{h\to 0} \frac{f(x,y+h) - f(x,y)}{h}</script>
+$$ \frac{\partial f}{\partial y} = \lim_{h\to 0} \frac{f(x,y+h) - f(x,y)}{h}$$
+</div>
 
 <p>so, we see that we take the limit in \(x\) when taking the derivative with respect to \(x\), and correspondingly for \(y\). In practice, what this means is that we take the derivative with respect to one of the variables leaving the other constant.</p>
 
@@ -495,12 +511,49 @@ In order to calculate the second partial derivatives, we simply need to take the
 \frac{\partial^2 f}{\partial y\partial x} &=& (f_x)_y = f_{xy} = \partial_{yx} f
 \end{eqnarray} %]]></script>
 
-<h3 id="geometric-interpretation">Geometric Interpretation</h3>
 <p>Similar to how the ordinary derivative of a function told us information about the slope of a curve at a certain point, the partial derivatives tell us information about the slope of a <em>surface</em> at a certain point. However, in the case of surfaces, it is not as clear what slope means.</p>
 
 <h3 id="implicit-differentiation">Implicit Differentiation</h3>
+<p>It is also possible to perform implicit differentiation in multivariable calculus. This is best illustrated by a few examples.</p>
 
 <h4 id="examples-of-implicit-partial-differentiation">Examples of Implicit Partial Differentiation</h4>
+<ol>
+<li> <div> Calculate the first partial derivatives of \(z\) with respect to \(x\) and \(y\).  
+\[\log(z^2 + y^2) = y^4 e^x\] </div> 
+
+<div class="boxed"> 
+First we differentiate both sides with respect to \(x\).
+$$\begin{eqnarray}
+\frac{\partial}{\partial x}\log(z^2 + y^2) &amp;=&amp; \frac{\partial}{\partial x} (y^4 e^x) \\
+\frac{1}{z^2+y^2}2z\frac{\partial z}{\partial x} &amp;=&amp; y^4 e^x
+\end{eqnarray}$$
+This gives us 
+$$\frac{\partial z}{\partial x} = y^4e^x\frac{(y^2+z^2)}{2z} $$
+
+Now we differentiate both sides with respect to \(y\).)
+$$\begin{eqnarray}
+\frac{\partial}{\partial y}\log(z^2+y^2) &amp;=&amp; \frac{\partial}{\partial y}(y^4 e^x)\\
+\frac{1}{z^2+y^2}\left(2z\frac{\partial z}{\partial y} + 2y\right) &amp;=&amp; 4y^3 e^x \\
+\end{eqnarray}$$
+Then isolating \(\partial z/\partial y\), we get 
+
+$$\frac{\partial z}{\partial y} = \frac{4y^3e^x(z^2+y^2) - 2y}{2z}$$
+</div>
+</li>
+
+<li> <div> Calculate the first partial derivatives of \(z\) with respect to \(x\) and \(y\). 
+\[z^2\sin(xz) = z\cos(y^2 + x^3y)\]</div>
+
+<div> 
+First we differentiate both sides with respect to \(x\). 
+$$\begin{eqnarray}
+\frac{\partial}{\partial x}(z^2\sin(xz) )&amp;=&amp; \frac{\partial}{\partial x}( z\cos(y^2 + x^3y))\\
+2z\frac{\partial z}{|partial x}&amp;=&amp; 
+\end{eqnarray}$$
+</div>
+</li>
+
+</ol>
 
 <h3 id="clairauts-theorem">Clairaut’s Theorem</h3>
 <p>Clairaut’s theorem says:</p>
