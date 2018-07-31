@@ -5,17 +5,21 @@ course: calculus-III
 unit: unit3
 ---
 
-- Definition of the partial derivative
-- higher partial derivatives
 - Geometric interpretation of partial derivative
+- implicit differentiation
 
 Here we will finally learn about how to differentiate functions of multiple variables. Recall the definition of the derivative from single variable calculus:
 
 $$f'(x) = \lim_{h\to 0} \frac{f(x+h) - f(x)}{h}$$
 
-This represents the slope of the graph of \\(y = f(x)\\) at the point \\(x\\). If we instead have a function \\(f(x,y)\\), it is now possible to calculate its derivative with respect to either \\(x\\) or \\(y\\). These are correspondingly called the *partial derivative with respect to \\(x\\)* and  *partial derivative with respect to \\(y\\)*, respectively. We define 
+This represents the slope of the graph of \\(y = f(x)\\) at the point \\(x\\). If we instead have a function \\(f(x,y)\\), it is now possible to calculate its derivative with respect to either \\(x\\) or \\(y\\). These are correspondingly called the *partial derivative with respect to \\(x\\)* and  *partial derivative with respect to \\(y\\)*, respectively. 
+
+### Definition
+We define the *partial derivative of \\(f\\) with respect to \\(x\\)* as
 
 $$ \frac{\partial f}{\partial x} = \lim_{h\to 0} \frac{f(x+h,y) - f(x,y)}{h}$$
+
+and the *partial derivative of \\(f\\) with respect to \\(y\\) as*
 
 $$ \frac{\partial f}{\partial y} = \lim_{h\to 0} \frac{f(x,y+h) - f(x,y)}{h}$$
 
@@ -33,33 +37,7 @@ $$\begin{eqnarray}
 
 so there are *four* second partial derivatives for a function of two variables. 
 
-### Notation
-There are various ways to denote partial differentiation. For first derivatives, we have 
-
-$$\begin{eqnarray}
-\frac{\partial f}{\partial x} = f_x = \partial_x f = \partial_1 f\\
-\frac{\partial f}{\partial y} = f_y = \partial_y f = \partial_2 f\\
-\end{eqnarray}$$
-
-For second derivatives, 
-
-$$\begin{eqnarray} 
-\frac{\partial^2 f}{\partial x^2} &=& (f_x)_x = f_{xx} = (f_1)_1 = \partial_1(\partial_1 f) = \partial_{11}f = \partial_x(\partial_x f) = \partial_{xx} f \\
-\frac{\partial^2 f}{\partial y^2} &=& (f_y)_y = f_{yy} = (f_2)_2 = \partial_2(\partial_2 f) =  \partial_{22}f = \partial_y(\partial_y f) = \partial_{yy} f\\
-\frac{\partial^2 f}{\partial x\partial y} &=& (f_y)_x = f_{yx} =  f_{yy} = (f_2)_2 = \partial_{22}f = \partial_y(\partial_y f) = \partial_{xy} f\\
-\frac{\partial^2 f}{\partial y\partial x} &=& (f_x)_y = f_{xy} = \partial_{yx} f
-\end{eqnarray}$$
-
-### Clairaut's Theorem
-Clairaut's theorem says:
-
-<div class="theorem">
-Let \(f\) be defined on a domain \(D\) which contains the point \((a,b)\). Then if \(
-</div>
-
-
-
-#### Examples
+#### Examples of Partial Differentiation
 <ol>
 <li> <div> Calculate the first partial derivatives of the function \(f(x,y) = 3x^2 + xy - 2y^2\). </div> 
 
@@ -89,27 +67,137 @@ In order to calculate the second partial derivatives, we simply need to take the
 </ol>
 
 
+### Notation
+There are various ways to denote partial differentiation. For first derivatives, we have 
 
-### Exercises
+$$\begin{eqnarray}
+\frac{\partial f}{\partial x} = f_x = \partial_x f = \partial_1 f\\
+\frac{\partial f}{\partial y} = f_y = \partial_y f = \partial_2 f\\
+\end{eqnarray}$$
 
+For second derivatives, 
+
+$$\begin{eqnarray} 
+\frac{\partial^2 f}{\partial x^2} &=& (f_x)_x = f_{xx} = (f_1)_1 = \partial_1(\partial_1 f) = \partial_{11}f = \partial_x(\partial_x f) = \partial_{xx} f \\
+\frac{\partial^2 f}{\partial y^2} &=& (f_y)_y = f_{yy} = (f_2)_2 = \partial_2(\partial_2 f) =  \partial_{22}f = \partial_y(\partial_y f) = \partial_{yy} f\\
+\frac{\partial^2 f}{\partial x\partial y} &=& (f_y)_x = f_{yx} =  f_{yy} = (f_2)_2 = \partial_{22}f = \partial_y(\partial_y f) = \partial_{xy} f\\
+\frac{\partial^2 f}{\partial y\partial x} &=& (f_x)_y = f_{xy} = \partial_{yx} f
+\end{eqnarray}$$
+
+### Geometric Interpretation
+Similar to how the ordinary derivative of a function told us information about the slope of a curve at a certain point, the partial derivatives tell us information about the slope of a *surface* at a certain point. However, in the case of surfaces, it is not as clear what slope means. 
+
+
+### Implicit Differentiation
+
+
+#### Examples of Implicit Partial Differentiation
+
+
+### Clairaut's Theorem
+Clairaut's theorem says:
+
+<div class="theorem">
+Let \(f\) be defined on a domain \(D\) which contains the point \((a,b)\). Then if \(
+</div>
+
+
+
+## Exercises
+For this lesson, there is going to be more exercises than usual because it is important that the student be able to perform partial differentiation quickly and without errors. 
 <ol>
-<li> <div> Sketch all of the points such that \(y = 1\). </div>
+
+<li> <div> Find the partial derivatives \(f_x, f_y\) of the function \(f\). 
+\[f(x,y) = [\sin(xy)]^{\sin5}\] </div>
+
+<button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
+<div  id="answer1" class="answer">
+\begin{eqnarray*}
+f_x &=& (\sin5)[\sin(xy)]^{\sin5-1}\cdot \cos(xy)y\\
+f_y &=& (\sin5)[\sin(xy)]^{\sin5-1}\cdot \cos(xy)x
+\end{eqnarray*}
+</div> </li>
+
+<li> <div> Find all second partial derivatives of \(z\). 
+\[z = x\cos y - y \cos x\] </div>
 
 <button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
 <div  id="answer2" class="answer">
-This is a plane that is parallel to the \(xz\) plane. 
-</div> </li>
-<li> <div> Sketch all of the points such that \(y = 1\). </div>
+First find the first partial derivatives. 
+\begin{eqnarray*}
+\frac{\partial z}{\partial x} &=& \cos y + y\sin x\\
+\frac{\partial z}{\partial y} &=& -x\sin y - \cos x
+\end{eqnarray*}
 
-<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
-<div  id="answer2" class="answer">
-This is a plane that is parallel to the \(xz\) plane. 
+Second derivatives are: 
+\begin{eqnarray*}
+\frac{\partial^2 z}{\partial x^2} &=& y\cos x\\
+\frac{\partial^2 z}{\partial y \partial x} &=& -\sin y + \sin x\\
+\frac{\partial^2 z}{\partial x \partial y} &=& -\sin y + \sin x\\
+\frac{\partial^2 z}{\partial y^2} &=& -x\cos y
+\end{eqnarray*}
+Note that the mixed partials are equal to one another, so we didn't really need to compute both. 
 </div> </li>
+
+
+<li> <div> Find the first partial derivatives of the function. \[g(x,y) = \cos(x\cos y)\] </div>
+
+<button onclick="myFunction('answer3')" class="answerButton">Show Answer</button>
+<div  id="answer3" class="answer">
+$$ \begin{eqnarray}
+g_x = -\sin(x\cos y) \cdot \cos y\\
+g_y = \sin(x\cos y) \cdot x \sin y
+\end{eqnarray}$$
+</div> </li>
+
+<li> <div> Find the partial derivatives \(f_x, f_y\) of the function \(f\). 
+\[f(x,y) = x^2+y^2\sin(xy)\]</div>
+
+<button onclick="myFunction('answer4')" class="answerButton">Show Answer</button>
+<div  id="answer4" class="answer">
+$$ \begin{eqnarray}
+f_x = 2x + y^3 \cos(xy)\\
+f_y = 2y\sin(xy) + y^2x\cos(xy)
+\end{eqnarray} $$
+</div> </li>
+
+<li> <div> Find the partial derivatives \(f_x, f_y\) of the function \(f\).
+\[f(x,y) = \tan\left(\frac{x^2}{y}\right)\] </div>
+
+<button onclick="myFunction('answer5')" class="answerButton">Show Answer</button>
+<div  id="answer5" class="answer">
+
+
+$$ \begin{eqnarray}
+f_x = \frac{2x}{y}\sec^2\left(\frac{x^2}{y}\right)\\
+f_y = -\frac{x^2}{y^2}\sec^2\left(\frac{x^2}{y}\right)
+\end{eqnarray}$$
+</div> </li>
+
+<li> <div> Find all first partial derivatives of the function \[f(x,y) = y^4\log(x^3 + \sqrt{y})\] </div>
+
+<button onclick="myFunction('answer6')" class="answerButton">Show Answer</button>
+<div  id="answer6" class="answer">
+\[f_x = \frac{3x^2y^4}{x^3 + \sqrt{y}}\]
+\[f_y = 4y^3\log(x^3 + \sqrt{y}) + \frac{y^4}{2\sqrt{y}(x^3 + \sqrt {y})}\]
+</div> </li>
+
+<li> <div> Find all first partial derivatives of \(f\). \[f(x,y,z) = \sqrt{\sin(x^2y) + z^4}\] </div>
+
+<button onclick="myFunction('answer7')" class="answerButton">Show Answer</button>
+<div  id="answer7" class="answer">
+\[ f_x = \frac{xy\cos(x^2y)}{\sqrt{\sin(x^2y) + z^4}}\]
+\[f_y = \frac{x^2\cos(x^2y)}{2\sqrt{\sin(x^2y) + z^4}}\]
+\[f_z = \frac{2z^3}{\sqrt{\sin(x^2y) + z^4}}\]
+</div> </li>
+
+<li> <div> Find all first partial derivatives of \(g\). Don't forget the fundamental theorem of calculus! \[\displaystyle{g(x,y) = \log(y-x) \cdot \int^{\cos y}_{x^2} e^{t^2 - t} dt}\] </div>
+
+<button onclick="myFunction('answer8')" class="answerButton">Show Answer</button>
+<div  id="answer8" class="answer">
+\[g_x = \frac{1}{x-y}\int^{\cos y}_{x^2} e^{t^2-t} dt - 2x\log (y-x) e^{x^4-x^2}\]
+\[g_y = \frac{1}{y-x} \int^{\cos y}_{x^2} e^{t^2-t} dt - \sin y \log(y-x) e^{\cos^2y - \cos y}\]
+</div> </li>
+
 </ol>
-
-
-
-
-
-
 
