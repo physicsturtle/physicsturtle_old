@@ -1,7 +1,7 @@
 ---
 layout: course
-title: Calculus I
-permalink: /math/calculus-I/
+title: Ordinary Differential Equations I
+permalink: /math/ode-I/
 ---
 
-Calculus I -- Coming soon
+Ordinary Differential Equations I -- Coming soon

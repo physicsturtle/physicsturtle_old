@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Symmetries</title>
+  <title>The Schrödinger Equation</title>
   <meta name="description" content="Welcome to Zestymath! Let's learn something together. Please use the e-mail contact to let us know if you find any mistakes, no matter how small. 
 ">
 <script type="text/javascript" async
@@ -21,7 +21,7 @@
     </script>
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/physics/quantum-mechanics-I/Unit1/symmetries.html">
+  <link rel="canonical" href="http://localhost:4000/physics/quantum-mechanics-I/Unit1/schro%CC%88dinger-equation.html">
   <link rel="alternate" type="application/rss+xml" title="Zestymath" href="http://localhost:4000/feed.xml">
       <style>
           .center {
@@ -424,33 +424,26 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Symmetries</h1>
+      
+    <h1 class="post-title">The Schrödinger Equation</h1>
   </header>
-
+  
   <div class="post-content">
-    <p>Symmetries are very important in quantum mechanics. For this, we need to clear definitions.</p>
-
-<p><strong>Definition</strong> A symmetry of a quantum system is a unitary operator.</p>
-
-<p>Let’s look at the translation operator, defined by \((\hat{T}_a\psi)(x) = \psi(x-a)\)</p>
-
-<p>First, let’s show that this is a symmetry. To show that something is a symmetry, we need to find its adjoint and show that it is equal to its inverse. In order to do this, we can calculate
-<script type="math/tex">% <![CDATA[
-\begin{eqnarray}
-\langle \psi |\left( \hat{T}_a |\phi\rangle\right) &=& \int\psi^*(x) (T_a\phi)(x) dx \\
-&=& \int\psi^*(x)\phi(x-a) dx \\
-&=& \int\psi^*(x+a)\phi(x) dx\\
-&=& \int \psi(x+a)^*\phi(x)dx\\
-&=& \int (\hat{T}_{-a}\psi)(x)\phi(x)dx\\
-&=& \left(\langle\psi|\hat{T}_{-a}\right)|\phi\rangle
-\end{eqnarray} %]]></script></p>
-
-<p>Thus the translation operator is unitary. Now we are interested in finding its associated hermitian operator, because to every symmetry corresponds a convserved quantity, which is expressed through a hermitian operator. We can taylor expand the translation operator as follows.</p>
-
-<p>In general, we expand a unitary operator as \(\hat{T}<em>\epsilon = 1 + i\epsilon\hat{A}\). This can be matched with a taylor series in a normal variable, \((T</em>\epsilon \psi)(x) = \psi(x-\epsilon) = \psi(x) - \epsilon\psi’(x)\). Then comparing this with \(\hat{T}_\epsilon\psi)(x) = (1-i\epsilon\hat{A})(\psi)(x) = \psi(x) - i\epsilon(\hat{A}\psi)(x)\), we find that \(\hat{A}(\psi)(x) = -i\psi’(x)\). This means that \(\hat{A} = -i\frac{d}{dx}\), which is the momentum operator.</p>
-
+    <p>The Schrödinger equation can be thought of as the quantum analog of Newton’s laws. In classical mechanics, given a force \(F(x)\), as well as the initial position and velocity of a particle, it was possible to find the position of the particle at <em>all future times</em> (as well as all past times).</p>
 
   </div>
+
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Footer -->
+<ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-7447253757666293"
+    data-ad-slot="6075791093"
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 
 </article>
