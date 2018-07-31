@@ -102,7 +102,23 @@ R &=& \left(\frac{2Z}{n_1a}\right)^{l_1-3}\frac{1}{(2k)^{l_1+1}} \oint \left(\xi
 &=&  \left(\frac{2Z}{n_1a}\right)^{l_1-3} \sum_{p=0}^n\frac{(-1)^k(q+p)!}{(2k)^{l_1+1}p!(n-p)!}  \left(\frac{\Gamma(n+\alpha+1)}{\Gamma(p+\alpha+1)}\right)  \oint \left(\xi + \frac{1}{2}\right)^{-in'-l_2-1}\left(\xi - \frac{1}{2}\right)^{in'-l_2-1}  \left(\frac{ik\xi n_1 a}{Z} - \frac{1}{2}\right)^{-p-q-1} d\xi \\
 \end{eqnarray}$$
 
-Since the contour integral goes around the points 
+The only pole is where 
 
+$$\frac{ik\xi n_1 a}{Z} - \frac{1}{2} = 0$$
+
+and the other two points of interest, \\(\xi = \pm 1/2\\), are simply branch points. Considering only the contour integral, which has a pole of oder \\(p+q+1\\) at \\(\xi = -iZ/2kna\\), we get 
+
+$$\begin{eqnarray}
+I &=& \oint \left(\xi + \frac{1}{2}\right)^{-in'-l_2-1}\left(\xi - \frac{1}{2}\right)^{in'-l_2-1}  \left(\frac{ik\xi n_1 a}{Z} - \frac{1}{2}\right)^{-p-q-1} d\xi  \\
+&=& \left(\frac{Z}{ikn_1a}\right)^{p+q+1}\oint \left(\xi + \frac{1}{2}\right)^{-in'-l_2-1}\left(\xi - \frac{1}{2}\right)^{in'-l_2-1}  \left(\xi + \frac{iZ}{2kn_1a}\right)^{-p-q-1} d\xi \\
+&=& \left(\frac{Z}{ikn_1a}\right)^{p+q+1} \left. \frac{d^{p+q+1}}{d\xi^{p+q+1}}\left( \left(\xi + \frac{1}{2}\right)^{-in'-l_2-1}\left(\xi - \frac{1}{2}\right)^{in'-l_2-1}  \right) \right|_{\xi =-iZ/2kna} \\
+\end{eqnarray}$$
+
+We evaluate the residue at \\(\xi = -iZ/2kna\\), 
+
+$$\begin{eqnarray}
+I &=& \left(\frac{Z}{ikn_1a}\right)^{p+q+1} \left. \sum_{\sigma = 0}^{p+q+1} \frac{\Gamma(-in'-l_2)}{\Gamma(-in'-l_2 - \sigma)}\left(\xi + \frac{1}{2}\right)^{-in'-l_2-1-\sigma}\frac{\Gamma(in'-l_2)}{\Gamma(in'-l_2 + \sigma - (p+q+1))}\left(\xi - \frac{1}{2}\right)^{in'-l_2 - 1 - (p+q+1) + \sigma} \right|_{\xi =-iZ/2kna} \\
+&=& \left(\frac{Z}{ikn_1a}\right)^{p+q+1} \sum_{\sigma = 0}^{p+q+1} \frac{\Gamma(-in'-l_2)}{\Gamma(-in'-l_2 - \sigma)}\left(-\frac{iZ}{2kna} + \frac{1}{2}\right)^{-in'-l_2-1-\sigma}\frac{\Gamma(in'-l_2)}{\Gamma(in'-l_2 + \sigma - (p+q+1))}\left(-\frac{iZ}{2kna}- \frac{1}{2}\right)^{in'-l_2 -1 - (p+q+1) + \sigma} \\
+\end{eqnarray}$$
 
 
