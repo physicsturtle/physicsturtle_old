@@ -61,8 +61,48 @@ The integral in \\(u\\) can be evaluated to
 
 $$\int_0^\infty u^q e^{\beta u} L^\alpha_n(u) du = \sum_{k=1}^n\frac{(-1)^k}{k!(n-k)!}\frac{\Gamma(n+\alpha+1)}{\Gamma(k+\alpha+1)}\frac{(q+k)!}{\beta^{q+k+1}}$$
 
-(add proof here, optional)
+<button onclick="myFunction('answer')" class="answerButton">Show Derivation</button>
+<div  id="answer" class="answer">
+The derivation of the above formula comes from using the Leibniz product rule for \(n\) times differentiating a product. The formula for the generalized Laguerre polynomials is 
+$$L_n^\alpha(x) = \frac{e^x x^{-\alpha}}{n!}\frac{d^n}{dx^n}\left(e^{-x} x^{n+\alpha}\right)$$
+and recall the Leibniz rule for differentiating a product:
+$$\frac{d^n}{dx^n}\left(fg\right) = \sum_{k=0}^n f^{(k)}(x) g^{(n-k)}(x)\frac{n!}{k!(n-k)!}$$
+This allows us to express the Laguerre polynomials in a sum: 
+$$\begin{eqnarray}
+L^\alpha_n(x) &=&  \frac{e^x x^{-\alpha}}{n!}\sum_{k=0}^n\frac{d^k}{dx^k}\left(e^{-x}\right)\frac{d^{n-k}}{dx^{n-k}}\left(x^{n+\alpha}\right)\frac{n!}{k!(n-k)!}\\
+&=& \frac{e^x x^{-\alpha}}{n!}\sum_{k=0}^n(-1)^k e^{-x}\left(\frac{\Gamma(n+\alpha+1)}{\Gamma(k+\alpha+1)}\right)x^{\alpha+k}\frac{n!}{k!(n-k)!}\\
+&=& \sum_{k=0}^n(-1)^k \left(\frac{\Gamma(n+\alpha+1)}{\Gamma(k+\alpha+1)}\right)\frac{x^k}{k!(n-k)!}\\
+\end{eqnarray}$$
 
+Now if we want to evaluate the given integral, we can substitute the sum representation of the Laguerre polynomials. 
+
+$$\begin{eqnarray}
+\int_0^\infty x^q e^{\beta x} L^\alpha_n(x) dx &=& \int_0^\infty  x^q e^{\beta x} \sum_{k=0}^n(-1)^k \left(\frac{\Gamma(n+\alpha+1)}{\Gamma(k+\alpha+1)}\right)\frac{x^k}{k!(n-k)!}dx \\
+&=& \sum_{k=0}^n \frac{(-1)^k}{k!(n-k)!}  \left(\frac{\Gamma(n+\alpha+1)}{\Gamma(k+\alpha+1)}\right) \int_0^\infty  x^{q+k} e^{\beta x}dx \\
+&=& \sum_{k=0}^n \frac{(-1)^k}{k!(n-k)!}  \left(\frac{\Gamma(n+\alpha+1)}{\Gamma(k+\alpha+1)}\right) \int_0^\infty  x^{q+k} e^{\beta x}dx \\
+\end{eqnarray}$$
+
+Now looking at the integral itself, it is very similar the gamma function. For \(\beta\) in the left half plane, we get 
+
+$$\begin{eqnarray}
+\int_0^\infty  x^{q+k} e^{\beta x}dx &=& \frac{1}{\beta^{k+q+1}}\int_0^\infty y^{q+k} e^{\beta y} dy\\
+&=& \frac{\Gamma(q+k+1)}{\beta^{k+q+1}}
+\end{eqnarray}$$
+
+Thus we are finally left with the evaluated integral:
+
+$$\int_0^\infty x^q e^{\beta x} L^\alpha_n(x) dx =  \sum_{k=0}^n \frac{(-1)^k}{k!(n-k)!}  \left(\frac{\Gamma(n+\alpha+1)}{\Gamma(k+\alpha+1)}\right)  \frac{(q+k)!}{\beta^{k+q+1}}.$$
+
+</div>
+
+With the integral in \\(u\\) now evaluated, this leaves only the integral in \\(\xi\\). To avoid confusion with the wave-vector \\(k\\), we change the index of the sum from \\(k\\) to \\(p\\).
+
+$$\begin{eqnarray}
+R &=& \left(\frac{2Z}{n_1a}\right)^{l_1-3}\frac{1}{(2k)^{l_1+1}} \oint \left(\xi + \frac{1}{2}\right)^{-in'-l_2-1}\left(\xi - \frac{1}{2}\right)^{in'-l_2-1}  \sum_{p=0}^n \frac{(-1)^p}{p!(n-p)!}  \left(\frac{\Gamma(n+\alpha+1)}{\Gamma(p+\alpha+1)}\right)  \frac{(q+p)!}{\beta^{p+q+1}} d\xi \\
+&=&  \left(\frac{2Z}{n_1a}\right)^{l_1-3} \sum_{p=0}^n\frac{(-1)^k(q+p)!}{(2k)^{l_1+1}p!(n-p)!}  \left(\frac{\Gamma(n+\alpha+1)}{\Gamma(p+\alpha+1)}\right)  \oint \left(\xi + \frac{1}{2}\right)^{-in'-l_2-1}\left(\xi - \frac{1}{2}\right)^{in'-l_2-1}  \left(\frac{ik\xi n_1 a}{Z} - \frac{1}{2}\right)^{-p-q-1} d\xi \\
+\end{eqnarray}$$
+
+Since the contour integral goes around the points 
 
 
 

@@ -31,6 +31,7 @@ The set of points constituting our three dimensional space is known as \\(\mathb
 <div  id="answer1" class="answer">
 To plot these points, we should draw lines from each of the axes to show where the points are. Without these lines, it could be ambiguous where points are. 
 </div> </li>
+
 <li> <div> Sketch all of the points such that \(y = 1\). </div>
 
 <button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
