@@ -3,7 +3,7 @@ layout: page
 title: Coulomb Wavefunction
 course: test
 unit: unit1
-permalink: /test2/
+permalink: /test/coulomb-wavefunction/
 ---
 
 Coulomb Wavefunctions are solutions to the hydrogenic system for positive energies. That is, unbound states of the hydrogenic system. Calculating these functions requires some heavy analysis, namely tools from contour integration. The differential equation that this leads to is (in atomic units)

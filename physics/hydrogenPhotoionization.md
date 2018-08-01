@@ -3,7 +3,7 @@ layout: page
 title: Hydrogen Photoionization
 course: test
 unit: unit1
-permalink: /test/
+permalink: /test/photoionization/
 ---
 
 Photoionization is the problem where an electron in a bound state of an atom is released to an unbound state via some bath of radiation in which it sits. 
