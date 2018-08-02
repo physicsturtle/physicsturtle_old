@@ -3,6 +3,7 @@ layout: page
 title: Partial Differentiation 
 course: calculus-III
 unit: unit3
+permalink: /math/calculus-III/unit3/
 ---
 
 Unit 3 introduces the idea of functions which take multiple real numbers as inputs, but output a single real number as output. In symbols, this means functions like:

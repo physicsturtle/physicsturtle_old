@@ -3,6 +3,7 @@ layout: page
 title: Multiple Integration
 course: calculus-III
 unit: unit4
+permalink: /math/calculus-III/unit4/
 ---
 
 Unit 2 introduces the idea of functions of a single variable with vector valued outputs. In other words, functions which take values in 2D or 3D space instead of along a line. 
