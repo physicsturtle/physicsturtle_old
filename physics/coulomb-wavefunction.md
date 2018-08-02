@@ -79,4 +79,3 @@ With the radial part of the solution being (with \\(z = 2rZ/na\\), and \\(A\\) a
 $$R(z) = Ae^{-z} z^l L^{2l+1}_{n-l+1}(z)$$
 
 we can then plug in our representation for the Laguerre polynomials. 
-

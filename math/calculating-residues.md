@@ -3,7 +3,7 @@ layout: page
 title: Calculating Residues
 course: test
 unit: unit1
-permalink: /test3/
+permalink: /test/calculating-residues
 ---
 
 Calculating residues in complex analysis is very useful for a variety of applications, from purely mathematical purposes to integrals from physics. Here let's discuss a few tricks. 
