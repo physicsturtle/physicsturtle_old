@@ -28,7 +28,7 @@
     </script>
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/math/calculus-III/Unit4/lessonD.html">
+  <link rel="canonical" href="http://localhost:4000/math/calculus-III/unit4/lessonD.html">
   <link rel="alternate" type="application/rss+xml" title="Zestymath" href="http://localhost:4000/feed.xml">
       <style>
           .center {
@@ -449,7 +449,22 @@
   <li>switching order in polar coordinates (is htis a thing?)</li>
 </ul>
 
-<p>In many physical problems, there is circular symmetry. In these cases it is advantageous to evaluate integrals in a coordinate system that suits the symmetry, namely, polar coordinates.</p>
+<p>In many physical problems, there is circular symmetry. In these cases it is advantageous to evaluate integrals in a coordinate system that suits the symmetry, namely, polar coordinates. When we integrate functions in polar coordinates, we will be integrating over the variables $r$ and $\theta$ instead of $x$ and $y$. One might expect that the integral would be</p>
+
+<script type="math/tex; mode=display">\cancelto{\text{wrong}}{\iint_R f(x,y) dx dy = \iint_R f(r\cos\theta,r\sin\theta) drd\theta}</script>
+
+<p>This is <em>not</em> the case. The most obvious reason why this must be false is that $dxdy$ can be thought of as having units of squared length, while $dr d\theta$ has units only of length; angles are unitless. We need to find another factor containing length here! This can be done either analytically or geometrically. Here we will only show the geometric approach, and in an optional later section, we will discuss the analytic method. The analytic method is much more general, but is also more abstract.</p>
+
+<h3 id="geometric-derivation">Geometric Derivation</h3>
+<p>There are two ways to do this geometrically. One can be done only with pictures, and the other will be done with matrices.</p>
+
+<p>In the following figure, we draw a small area element. Consider a general arc in a circle. What is its arc length? As you can probably recall from high school mathematics, its arc length is $r\theta$. Now consider a small area element $dA$.  The length of this area element is $dr$. The arc length of the area element is $rd\theta$. For small areas, we then have <script type="math/tex">dA = rdr d\theta.</script></p>
+
+<p>Now it has the correct dimensions, because there are two $r$’s, which makes length squared.</p>
+
+<p>Geometric approach 2 (cross product approach)</p>
+
+<p>Consider the vector</p>
 
 <h3 id="exercises">Exercises</h3>
 
