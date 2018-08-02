@@ -12,10 +12,5 @@ Here are a collection of reference sheets that may be useful.
 </ul>
 
 
-<a class="page-link" href="/math/calculus-III/">Calculus III - Multivariable and Vector Calculus</a>
-<a class="page-link" href="/math/calculus-III/">Calculus III - Multivariable and Vector Calculus</a>
-<a class="page-link" href="/math/calculus-III/">Calculus III - Multivariable and Vector Calculus</a>
-
-
 
 

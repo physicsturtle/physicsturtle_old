@@ -125,7 +125,7 @@ $$\frac{\partial z}{\partial y} = \frac{4y^3e^x(z^2+y^2) - 2y}{2z}$$
 First we differentiate both sides with respect to \(x\). 
 $$\begin{eqnarray}
 \frac{\partial}{\partial x}(z^2\sin(xz) )&=& \frac{\partial}{\partial x}( z\cos(y^2 + x^3y))\\
-2z\frac{\partial z}{|partial x}&=& 
+2z\frac{\partial z}{\partial x}&=& 
 \end{eqnarray}$$
 </div>
 </li>
