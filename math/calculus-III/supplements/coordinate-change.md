@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Change of Coordinates
+title: CHANGE OF COORDINATES
 course: calculus-III
 unit: supplement
 ---

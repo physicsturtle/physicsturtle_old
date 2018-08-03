@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Curvilinear Coordinates
+title: CURVILINEAR COORDINATES
 course: calculus-III
 unit: supplement
 ---

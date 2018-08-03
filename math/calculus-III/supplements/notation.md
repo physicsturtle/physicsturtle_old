@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Notation
+title: NOTATION
 course: calculus-III
 unit: supplement
 ---

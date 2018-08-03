@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Product Rules
+title: PRODUCT RULES
 course: calculus-III
 unit: supplement
 ---
