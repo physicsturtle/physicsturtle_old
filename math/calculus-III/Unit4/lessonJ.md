@@ -6,6 +6,7 @@ unit: unit4
 ---
 
 - charge, density and such
+- average value of a function, area of a given plane region, moment of inertia 
 
 
 ### Exercises

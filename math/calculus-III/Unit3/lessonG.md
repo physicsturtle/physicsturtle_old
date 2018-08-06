@@ -9,7 +9,11 @@ A topic that is often overlooked is how to compute the differential of a functio
 
 $$df = f'(x) dx.$$
 
+For a fuction of three variables, we define
 
+<div class="result"> 
+$$df = \frac{\partial f}{\partial x} dx + \frac{\partial f}{\partial y} dy + \frac{\partial f}{\partial z} dz $$
+</div>
 
 ### Exercises
 

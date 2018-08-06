@@ -73,7 +73,25 @@
           
         
           
+        
+          
           <a class="page-link" href="/cheat-sheets/">Cheat Sheets</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
           
         
           
@@ -388,6 +406,14 @@
         
           
         
+          
+        
+          
+        
+          
+        
+          
+        
       </div>
     </nav>
 
@@ -414,11 +440,9 @@
 
 <p>\[ \nabla f = \frac{\partial f}{\partial x} \hat{x} + \frac{\partial f}{\partial y}\hat{y} + \frac{\partial f}{\partial z}\hat{z} \]</p>
 
-<p>When we express this in terms of another coordinate system, we can’t only change the derivative terms. We must also change the unit vectors, which is what makes this so difficult. Let’s do this geometrically first!</p>
+<p>When we express this in terms of another coordinate system, we can’t only change the derivative terms. We must also change the unit vectors, which is what makes this so difficult. Here we will outline a general procedure for calculating the gradient, divergence, curl, and laplacian of a function in any orthogonal curvilinear coordinate system.</p>
 
-<p>(fill this in)</p>
-
-<p>Now let’s do this completely generally. Suppose that we have two coordinate systems, \(x,y,z\), and \(u,v,z\). We also have the relationships between them,</p>
+<p>Suppose that we have two coordinate systems, \(x,y,z\), and \(u,v,w\). We also have the relationships between them,</p>
 
 <script type="math/tex; mode=display">% <![CDATA[
 \left\{\begin{eqnarray}
@@ -426,6 +450,23 @@ x &=& x(u,v,w) \\
 y &=& y(u,v,z) \\
 z &=& z(u,v,w)
 \end{eqnarray}\right. %]]></script>
+
+<h3 id="unit-vectors">Unit Vectors</h3>
+<p>Any point in 3D space can be described by the position vector $\textbf{r}$. This position vector is a geometric object and should be independent of coordinates. In cartesian coordinates, the unit vectors are</p>
+
+<script type="math/tex; mode=display">\hat{\textbf{x}} = \frac{\partial \textbf{r}}{\partial x}\left/\left|\frac{\partial \textbf{r}}{\partial x}\right|\right. ,\quad \hat{\textbf{y}} = \frac{\partial \textbf{r}}{\partial y}\left/\left|\frac{\partial \textbf{r}}{\partial y}\right|\right. ,\quad \hat{\textbf{z}} = \frac{\partial \textbf{r}}{\partial z}\left/\left|\frac{\partial \textbf{r}}{\partial z}\right|\right.</script>
+
+<p>In any other coordinate system, we then define</p>
+
+<script type="math/tex; mode=display">\hat{\textbf{u}} = \frac{\partial \textbf{r}}{\partial u}\left/\left|\frac{\partial \textbf{r}}{\partial u}\right|\right. ,\quad \hat{\textbf{v}} = \frac{\partial \textbf{r}}{\partial v}\left/\left|\frac{\partial \textbf{r}}{\partial v}\right|\right. ,\quad \hat{\textbf{w}} = \frac{\partial \textbf{r}}{\partial w}\left/\left|\frac{\partial \textbf{r}}{\partial w}\right|\right.</script>
+
+<p>which means that we can express each of the unit vectors in the new coordinate system in terms of the unit vectors of the cartesian unit vectors. We define the <em>scale factors</em></p>
+
+<script type="math/tex; mode=display">h_1 = \left|\frac{\partial r}{\partial u}\right|,\quad h_2 = \left|\frac{\partial r}{\partial v}\right|,\quad h_3 = \left|\frac{\partial r}{\partial w}\right|</script>
+
+<h3 id="gradient">Gradient</h3>
+<p>Now that we have the scale factors and unit vectors, we can express the gradient in any coordinate system.</p>
+
 
   </div>
 

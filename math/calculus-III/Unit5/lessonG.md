@@ -29,7 +29,10 @@ $$\begin{eqnarray}
 &=& \frac{1}{6h^2}(\bar{f} - f(x,y,z))
 \end{eqnarray}$$ 
 
-This quantitu $\bar{f}$ is the average of $f$ over all of its surrounding points. Thus the laplacian represents the difference between this average and the value at the centre.
+This quantity $\bar{f}$ is the average of $f$ over all of its surrounding points. Thus the laplacian represents the difference between this average and the value at the centre. Now, how does this relate to concavity? If we have found a critical point of the function $f$, say, at $(x_0,y_0,z_0)$, then what does $\nabla^2 f(x_0,y_0,z_0)$ say about the behaviour of $f$ at this point? If the average of the function about the point $\bar{f}$ is greater than the value of the function $f_0$, then this means that the function is concave 
+
+
+
 ### Exercises
 
 <ol>

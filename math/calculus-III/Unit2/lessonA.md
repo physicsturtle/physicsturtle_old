@@ -33,7 +33,11 @@ Since parametric equations are just vector valued functions, they can be added a
 <div  id="answer1" class="answer">
 This is a plane that is parallel to the \(xz\) plane. 
 </div> </li>
-<li> <div> Sketch all of the points such that \(y = 1\). </div>
+<li> <div> Consider the circle $x^2+y^2 = 1$. Find parametrizations $\gamma$ satisfying the following conditions.
+<ol "type=a">
+<li> Clockwise, with $\gamma(0) = (0,1)$.
+<li> The domain of $\gamma$ is $(-\pi,\pi)$, and 
+</ol></div>
 
 <button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
 <div  id="answer2" class="answer">
