@@ -23,6 +23,10 @@ It is often more interesting to consider a particle moving in 2 or 3 dimensions.
 Since parametric equations are just vector valued functions, they can be added and subtracted and multiplied by scalars. The dot or cross product can also be taken between two vector valued functions. Similarly with the magnitude. 
 
 
+### Examples
+<ol>
+<li> A straight line is parametrized by $\boldsymbol{\alpha}(t) = \textbf{a}t + \textbf{b}$. It goes through the point $\textbf{b}$ and in direction of $\textbf{a}$. 
+</ol>
 
 ### Exercises
 
