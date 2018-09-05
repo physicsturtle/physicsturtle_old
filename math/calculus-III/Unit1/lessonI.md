@@ -11,6 +11,16 @@ unit: unit1
 - Cylinders
 - Why each equation gives rise to each kind of surface
 
+In general, a quadric surface is represented by an equation of the form
+<div class="definition">
+Definition: A quadric surface is represented by an equation of the form 
+
+$$ax^2 + by^2 + cz^2 + dxy + eyz + fzx + gx + hy + iz + j = 0$$
+</div>
+
+This class of surfaces includes spheres, ellipsoids, paraboloids, and hyperboloids, as well as a collection of cylinder-like surfaces. 
+
+
 ### Exercises
 
 <ol>

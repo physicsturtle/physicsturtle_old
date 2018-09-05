@@ -5,7 +5,7 @@ course: calculus-III
 unit: unit1
 ---
 
-Here we discuss projections
+Here we discuss projections. 
 
 ### Exercises
 

@@ -3,7 +3,7 @@ layout: page
 title: Chain Rule
 course: test
 unit: unit1
-permalink: /test/chain-rule/
+permalink: /test/chain-rule
 ---
 
 Suppose we are interested in differentiating the function 
@@ -27,8 +27,6 @@ $$\begin{eqnarray}
 f'(x) &=& u'(v(x))v'(x)
 \end{eqnarray}$$
 </div> 
-
-
 
 
 

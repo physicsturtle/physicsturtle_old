@@ -31,16 +31,26 @@ One useful skill is switching between the equation form and the parametric form 
 ### Exercises
 
 <ol>
-<li> <div> Sketch all of the points such that \(y = 1\). </div>
+<li> <div> Find the parametric form of the line which passes through $\textbf{a} = (1,2,3)$ and $\textbf{b} = (-1,-1,3)$. </div>
+
+<button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
+<div  id="answer1" class="answer">
+This is a plane that is parallel to the \(xz\) plane. 
+</div> </li>
+
+<li> <div> Find the equation form of the line which passes through $\textbf{a} = (4,-1,1)$ in the direction $\textbf[b} = (0,2,1)$. </div>
 
 <button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
 <div  id="answer2" class="answer">
 This is a plane that is parallel to the \(xz\) plane. 
 </div> </li>
-<li> <div> Sketch all of the points such that \(y = 1\). </div>
+
+<li> <div> Find the equation form of the line which passes through $\textbf{a} = (4,-1,1)$ in the direction $\textbf[b} = (0,2,1)$. </div>
 
 <button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
 <div  id="answer2" class="answer">
 This is a plane that is parallel to the \(xz\) plane. 
 </div> </li>
+
+
 </ol>
