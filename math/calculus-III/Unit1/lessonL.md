@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: GNERAL SURFACES
+title: GENERAL SURFACES
 course: calculus-III
 unit: unit1
 ---

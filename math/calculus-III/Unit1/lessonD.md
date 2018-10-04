@@ -11,7 +11,9 @@ If we have a vector \\(\textbf{v} = (a,b)\\) in three dimensions, its magnitude,
 
 $$\|\textbf{v}\| = \sqrt{a^2+b^2}$$
 
-(insert image here)
+<figure class="center">
+<p><img src="vectorComps.svg" alt="Three Dimensional Coordinates" style="width:300px;height:300px;"> </p>
+<figcaption class="center">Magnitude of a Vector by Pythagorean Theoremr</figcaption> </figure>
 
 An alternative notation is 
 

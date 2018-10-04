@@ -15,10 +15,12 @@ In general, a quadric surface is represented by an equation of the form
 <div class="definition">
 Definition: A quadric surface is represented by an equation of the form 
 
-$$ax^2 + by^2 + cz^2 + dxy + eyz + fzx + gx + hy + iz + j = 0$$
+$$Ax^2 + By^2 + Cz^2 + Dxy + Eyz + Fzx + Gx + Hy + Iz + J = 0$$
 </div>
 
 This class of surfaces includes spheres, ellipsoids, paraboloids, and hyperboloids, as well as a collection of cylinder-like surfaces. 
+
+
 
 
 ### Exercises

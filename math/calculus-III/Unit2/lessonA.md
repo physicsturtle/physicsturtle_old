@@ -25,7 +25,7 @@ Since parametric equations are just vector valued functions, they can be added a
 
 ### Examples
 <ol>
-<li> A straight line is parametrized by $\boldsymbol{\alpha}(t) = \textbf{a}t + \textbf{b}$. It goes through the point $\textbf{b}$ and in direction of $\textbf{a}$. 
+<li> A straight line is parametrized by $\boldsymbol{\alpha}(t) = \textbf{a}t + \textbf{b}$. It goes through the point $\textbf{b}$ and in direction of $\textbf{a}$. </li>
 </ol>
 
 ### Exercises

@@ -10,7 +10,15 @@ unit: unit4
 - calculating volumes using triple integrals
 - calculate an integral using riemmann sums
 
-Triple integrals are integrals that need to be integrated over a 3 dimensional region! Physically, this is often used to describe how much charge or mass there is in a certain 3 dimensional region that is described by a density function. 
+Triple integrals are, in general, more difficult to visualize geometrically, because we would need four dimensions! There are however many physical applications that make the concept of a triple integral very transparent. Let us consider a function
+
+$$f : \mathbb{R}^3 \to \mathbb{R},$$
+
+and suppose that we are interested in integrating it over a region $\Omega \subset \mathbb{R}^3$. 
+
+
+
+
 
 
 ### Exercises

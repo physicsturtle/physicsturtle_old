@@ -37,7 +37,7 @@ Thus we have our formula for the directional derivative.
 ### Exercises
 
 <ol>
-<li> <div> Sketch all of the points such that \(y = 1\). </div>
+<li> <div> Calculate the directional derivative </div>
 
 <button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
 <div  id="answer2" class="answer">
