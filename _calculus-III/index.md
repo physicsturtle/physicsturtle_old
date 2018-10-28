@@ -18,14 +18,14 @@ This is a course on calculus, *not analysis*, and will be treated as such. The i
 
 Often, after a student takes his/her vector calculus course, the student is unable to do the computations necessary for a course in, for example, electromagnetism or quantum mechanics. We aim to have examples and exercises here that will allow the student to perform such calculations.
 
-<a class="page-link" href="/math/calculus-III/introduction">Introduction - What is Multivariable Calculus? </a>
+<a class="page-link" href="/calculus-III/introduction">Introduction - What is Multivariable Calculus? </a>
 
-<a class="page-link" href="/math/calculus-III/prerequisites"> Prerequisites</a>
+<a class="page-link" href="/calculus-III/prerequisites"> Prerequisites</a>
 
-<a class="page-link" href="/math/calculus-III/learning-outcomes"> Learning Outcomes</a>
+<a class="page-link" href="/calculus-III/learning-outcomes"> Learning Outcomes</a>
 
 <ul>
-<li>  <a class="page-link" href="/math/calculus-III/unit1/"> Unit 1 - Introduction to 3D Space and Vectors </a> </li>
+<li>  <a class="page-link" href="/calculus-III/unit1/"> Unit 1 - Introduction to 3D Space and Vectors </a> </li>
 <ol>
 {% assign temp = "three-dimensional-cartesian" %}
 {% for my_page in site.calculus-III %}
@@ -37,7 +37,7 @@ Often, after a student takes his/her vector calculus course, the student is unab
 {% endfor %}
 {% endfor %}
 </ol>
-<li>  <a class="page-link" href="/math/calculus-III/unit2/"> Unit 2 - Space Curves </a> </li>
+<li>  <a class="page-link" href="/calculus-III/unit2/"> Unit 2 - Space Curves </a> </li>
 <ol>
 {% assign temp = "vector-functions" %}
 {% for my_page in site.calculus-III %}
@@ -49,7 +49,7 @@ Often, after a student takes his/her vector calculus course, the student is unab
 {% endfor %}
 {% endfor %}
 </ol>
-<li>  <a class="page-link" href="/math/calculus-III/unit3/"> Unit 3 - Partial Differentiation </a> </li>
+<li>  <a class="page-link" href="/calculus-III/unit3/"> Unit 3 - Partial Differentiation </a> </li>
 <ol>
 {% assign temp = "functions-multiple-variables" %}
 {% for my_page in site.calculus-III %}
@@ -61,7 +61,7 @@ Often, after a student takes his/her vector calculus course, the student is unab
 {% endfor %}
 {% endfor %}
 </ol>
-<li>  <a class="page-link" href="/math/calculus-III/unit4/"> Unit 4 - Multiple Integration </a> </li>
+<li>  <a class="page-link" href="/calculus-III/unit4/"> Unit 4 - Multiple Integration </a> </li>
 <ol>
 {% assign temp = "riemann-sums" %}
 {% for my_page in site.calculus-III %}
@@ -73,7 +73,7 @@ Often, after a student takes his/her vector calculus course, the student is unab
 {% endfor %}
 {% endfor %}
 </ol>
-<li>  <a class="page-link" href="/math/calculus-III/unit5/"> Unit 5 - Vector Calculus </a> </li>
+<li>  <a class="page-link" href="/calculus-III/unit5/"> Unit 5 - Vector Calculus </a> </li>
 <ol>
 {% assign temp = "vector-fields" %}
 {% for my_page in site.calculus-III %}
@@ -85,7 +85,7 @@ Often, after a student takes his/her vector calculus course, the student is unab
 {% endfor %}
 {% endfor %}
 </ol>
-<li> <a class="page-link" href="/math/calculus-III/supplements/"> Supplementary Material </a> </li>
+<li> <a class="page-link" href="/calculus-III/supplements/"> Supplementary Material </a> </li>
 <ol>
 {% assign temp = "three-dimensional-cartesian" %}
 {% for my_page in site.calculus-III %}

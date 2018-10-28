@@ -7,7 +7,9 @@ lessonID: projections
 nextID: dot-product
 ---
 
-Here we discuss projections. 
+Suppose we have two vectors, are we are interested in finding the component of one onto the other. This is known as projecting one vector onto another. If we project $\textbf{a}$ onto $\textbf{b}$, then we write this as:
+
+$$\text{proj}_\textbf{b}\textbf{a} = \frac{\textbf{a}\cdot\textbf{b}}{\textbf{b}\cdot\textbf{b}}\textbf{b}$$
 
 ### Exercises
 

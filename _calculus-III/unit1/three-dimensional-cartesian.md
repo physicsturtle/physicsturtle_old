@@ -9,7 +9,9 @@ nextID: vectors-and-geometry
 
 In your first course on calculus, all of the functions were of a single variable, for example \\(y = f(x)\\). We had the *dependent variable* \\(y\\), depending on the *independent variable* \\(x\\). This can be represented graphically by something like (insert graph here). 
 
-
+<figure class="center">
+<p><img src="3dcoord.png" alt="Three Dimensional Coordinates" style="width:300px;height:300px;"> </p>
+<figcaption class="center">3D Coordinate System</figcaption> </figure>
 
 We now introduce the three dimensional coordinate system \\((x,y,z)\\). It now requires three numbers to specify any point in space! This looks like 
 

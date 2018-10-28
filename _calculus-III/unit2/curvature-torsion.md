@@ -10,7 +10,23 @@ nextID: frenet-serret-equations
 - Definitions of curvature and torsion using parametrization by arc length
 - Formulas for curvature and torsion with time (not arc length)
 
-Torsion and curvature are two quantities that describe geometric properties of a curve. Curvature can be defined for curves in either 2 or 3 dimensions, but has slightly different properties in each, and torsion can only be defined in three dimensions.
+### Definitions
+
+Torsion and curvature are two quantities that describe geometric properties of a curve. Curvature can be defined for curves in either 2 or 3 dimensions, but has slightly different properties in each, and torsion can only be defined in three dimensions. Let's begin with the definitions. 
+
+Definition: Let $\textbf{r}$ be a curve. Suppose $\textbf{T}$ is the unit tangent vector to $\textbf{r}$. Then, if $s$ is the arc length of $\textbf{r}$, we define the *curvature* $\kappa$ to be
+$$\kappa = \left|\frac{d\textbf{T}}{ds}\right|$$
+
+In two dimensions, we can actually define a *signed curvature*, whereas in three dimensions, curvature can only be nonnegative. We then define:
+
+Definition: Let $\textbf{r}$ be a plane curve, and suppose $\textbf{T}$ is the unit tangent vector to $\textbf{r}$, and let $\textbf{N}$ be the unit vector rotated $90\degree$ counterclockwise from $\textbf{T}$. Then, 
+$$\frac{d\textbf{T}}{ds} = \kappa\textxbf{N}$$
+where $\kappa$ is the *signed curvature*.
+
+Definition: Let $\textbf{r}$ be a space curve, and suppose $\textbf{T}$ is the un
+
+### Discussion 
+
 
 
 
