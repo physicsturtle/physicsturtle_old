@@ -31,8 +31,6 @@ Now we present an almost identical definition, the only difference being the ran
 
 <div class = "definition"> <b>Definition</b>: A <i>space curve</i> is a function $\textbf{r} : I \to \mathbb{R}^3$, where $I = (a,b)$ is some open interval in $\mathbb{R}$. It is possible also that $I = \mathbb{R}$. </div>
 
-
-
 ### Discussion
 
 ### Examples

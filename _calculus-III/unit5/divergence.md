@@ -25,7 +25,11 @@ It is vector fields like these upon which our pictures will be based. We said be
 
 
 
+### Alternative Definition
+An alternative definition of the divergence which is more intuitive is 
+$$\nabla\cdot\textbf{F} = \lim_{V\to 0} \frac{1}{V}\iint_{\partial V} \textbf{F}\cdot\hat{\textbf{n}} dS$$
 
+Let's show that these definitions are equivalent. 
 
 
 

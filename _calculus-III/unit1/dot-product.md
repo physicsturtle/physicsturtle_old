@@ -134,6 +134,4 @@ $$\textbf{p}\cdot\textbf{q} = (2)(a) + (1)(-3) + (a)(3) = 2a - 3 + 3a = 5a - 3$$
 
 This gives \(a = 3/5\).
 </div> </li>
-
-
 </ol>

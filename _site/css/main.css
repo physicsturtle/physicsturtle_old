@@ -510,5 +510,21 @@ pre {
   padding: 15px 32px;
   border-radius: 16px; }
 
+.example {
+  width: 100%;
+  background-color: #cccdfd;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 2px;
+  padding: 10px; }
+
+.exampleSolution {
+  width: 96.5%;
+  background-color: #cccdfd;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 2px;
+  padding: 10px; }
+
 li {
   margin: 5px 0; }
