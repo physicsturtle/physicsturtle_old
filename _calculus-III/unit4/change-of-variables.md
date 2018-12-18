@@ -14,6 +14,17 @@ nextID: applications
 
 The process of changing variables for functions of several variables in order to calculate an integral is not quite as simple as it is for a function of a single variable. This is because we now have many different derivative combinations that we can take! How can we combine these to appropriately scale our area or volume element?
 
+If we instead had a more general coordinate transformation $x = x(u,v)$, $y = y(u,v)$, we would write 
+\[\iint f(x,y) dx dy = \iint f(x(u,v),y(u,v)) \left|\frac{\partial(x,y)}{\partial(u,v)} \right| du dv \]
+
+where we define the \textit{Jacobian determinant} $\frac{\partial(x,y)}{\partial(u,v)}$ as
+
+\[\frac{\partial(x,y)}{\partial(u,v)} = \begin{vmatrix}
+\frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} \\ \frac{\partial y}{\partial u} & \frac{\partial y}{\partial v}
+\end{vmatrix} = \frac{\partial x}{\partial u}\frac{\partial y}{\partial v} - \frac{\partial x}{\partial v}\frac{\partial y}{\partial u}\]
+
+So that $\left|\frac{\partial(x,y)}{\partial(u,v)} \right|$ is actually the \textit{absolute value} of the determinant in the previous line. 
+
 <div class="example">
 <b> Example: </b>
 Evaluate the double integral:

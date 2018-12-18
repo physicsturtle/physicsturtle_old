@@ -27,6 +27,13 @@ Geometric approach 2 (cross product approach)
 
 Consider the vector  
 
+\subsection{Double Integrals in Polar Coordinates, Jacobian}
+Many problems require integration over a circular or elliptic region. When integrating over a circular region, say $x^2+y^2 \leq a^2$, we can write an integral of the form
+\[\int_{-a}^a \int_{-\sqrt{a^2-y^2}}^{\sqrt{a^2-y^2}} f(x,y) dx dy = \int_0^{2\pi} \int_0^a f(r\cos\theta,r\sin\theta) r dr d\theta\]
+making sure that we change the area element from $dx dy$ into $r dr d\theta$. If we have an elliptic region, say $x^2/a^2 + y^2/b^2 \leq 1$, then we can make a change of variables $x\mapsto ax'$ and $y\mapsto by'$, and thereby change 
+\[\int_{-a}^a\int_{-b\sqrt{1-x^2/a^2}}^{b\sqrt{1-x^2/a^2}} f(x,y) dx dy = \int_{-1}^1\int_{-\sqrt{1-x^{\prime2}}}^{\sqrt{1-x^{\prime2}}} f(ax',by') ab dx dy = \int_0^{2\pi} \int_0^1 ab f(ar\cos\theta,br\sin\theta) drd\theta\]
+
+
 
 ### Exercises
 
