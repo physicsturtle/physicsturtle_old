@@ -35,9 +35,6 @@ An ellipsoid which is centred at $x_0,y_0,z_0$ has equation
 $$\frac{(x-x_0)^2}{a^2} + \frac{(y-y_0)^2}{b^2} + \frac{(z-z_0)^2}{c^2} = 1$$
 
 
-
-
-
 ### Exercises
 
 <ol>
