@@ -11,15 +11,15 @@ nextID: equations-of-planes
 There are a few different ways to define a line in three dimensional space. 
 
 ### Parametric Form of a Line
-A parametric equation is not a relationship between the spatial variables, but instead is a function of a *parameter*, usually \\(t\\) for time, that, as it is increased, traces out the line. 
+A parametric equation is not a relationship between the spatial variables, but instead is a function of a *parameter*, usually $t$ for time, that, as it is increased, traces out the line. 
 
-We learned before that we can draw a  vector \\(\textbf{r}_0 = (x_0,y_0,z_0)\\) pointing from the origin to the point \\((x_0,y_0,z_0)\\). If we have the direction \\(\textbf{v}\\) of a line, then we can trace out all the points on the line by starting at the point \\(\textbf{r}_0\\), and then adding vectors of different lengths but in the same direction as \\(\textbf{v}\\). This gives us the parametric equation 
+We learned before that we can draw a  vector $\textbf{r}_0 = (x_0,y_0,z_0)$ pointing from the origin to the point $(x_0,y_0,z_0)$. If we have the direction $\textbf{v}$ of a line, then we can trace out all the points on the line by starting at the point $\textbf{r}_0$, and then adding vectors of different lengths but in the same direction as $\textbf{v}$. This gives us the parametric equation 
 
 $$\textbf{r}(t) = \textbf{r}_0 + \textbf{v}t$$
 
 This can be visualized by (insert graphic here)
 
-When we define a line like this, \\(\textbf{r}_0\\) is not unique. We could have picked *any* point on the line!
+When we define a line like this, $\textbf{r}_0$ is not unique. We could have picked *any* point on the line!
 
 ### Equation Form of a Line
 
@@ -34,20 +34,20 @@ One useful skill is switching between the equation form and the parametric form 
 
 <ol>
 <li> <div> Find the parametric form of the line which passes through $\textbf{a} = (1,2,3)$ and $\textbf{b} = (-1,-1,3)$. </div>
-
 <button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
+
 <div  id="answer1" class="answer">
-This is a plane that is parallel to the \(xz\) plane. 
+This is a plane that is parallel to the $xz$ plane. 
 </div> </li>
 
-<li> <div> Find the equation form of the line which passes through $\textbf{a} = (4,-1,1)$ in the direction $\textbf[b} = (0,2,1)$. </div>
+<li> <div> Find the equation form of the line which passes through $\textbf{a} = (4,-1,1)$ in the direction $\textbf{b} = (0,2,1)​$. </div>
 
 <button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
+
 <div  id="answer2" class="answer">
 This is a plane that is parallel to the \(xz\) plane. 
 </div> </li>
-
-<li> <div> Find the equation form of the line which passes through $\textbf{a} = (4,-1,1)$ in the direction $\textbf[b} = (0,2,1)$. </div>
+<li> <div> Find the equation form of the line which passes through $\textbf{a} = (4,-1,1)$ in the direction $\textbf{b} = (0,2,1)$. </div>
 
 <button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
 <div  id="answer2" class="answer">
