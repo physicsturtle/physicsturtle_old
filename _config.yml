@@ -19,6 +19,10 @@ collections:
         permalink: /:collection:/:title
     calculus-III:
         output: true
+    physicsCourses:
+        permalink: /:collection:/:title
+    electromagnetism-I:
+        output: true
 
 # Build settings
 markdown: kramdown

@@ -6,7 +6,7 @@ permalink: /physics/
 
 All of the physics course material will be collected here. The first course in the works is electromagnetism I. 
 
-<a class="page-link" href="/physics/intro-to-physics/">Introduction to Physics</a>
+<a class="page-link" href="/electromagnetism-I/">Electromagnetism I</a>
 
 
 

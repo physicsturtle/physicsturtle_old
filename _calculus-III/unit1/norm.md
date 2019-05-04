@@ -44,20 +44,25 @@ $$\|\lambda\textbf{v}\| = |\lambda|\|\textbf{v}\| $$
 <ol>
 <li> <div> Calculate the norm of each of the following vectors.
 <ol type = "a">
-<li> \((3,2,-1) + (-1,2,2)\)</li>
+<li> $(1,2,3)$,  </li>
+<li> $(-1,-2,1)$,  </li>
+<li> $(3,0,-6)$,  </li>
 </ol>
 </div>
 
 <button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
 <div  id="answer1" class="answer">
 <ol type = "a">
-<li> \((3,2,-1) + (-1,2,2)\)</li>
+<li> </li>
 </ol>
 </div> </li>
 
+
+
 <li> <div> Find the distance between each pair of points. 
 <ol type = "a">
-<li> \((3,2,-1) + (-1,2,2)\)</li>
+<li> $(1,1,2)$ and $(-1,2,2)$ </li>
+<li> $(3,-3,4)$ and $(0,0,1)$ </li>
 </ol>
 </div>
 
@@ -65,4 +70,29 @@ $$\|\lambda\textbf{v}\| = |\lambda|\|\textbf{v}\| $$
 <div  id="answer2" class="answer">
 answer here!
 </div> </li>
+
+
+
+<li> <div> Find the distance between each pair of points. 
+<ol type = "a">
+<li> $(1,1,2)$ and $(-1,2,2)$ </li>
+<li> $(3,-3,4)$ and $(0,0,1)$ </li>
+</ol>
+</div>
+
+<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
+<div  id="answer2" class="answer">
+answer here!
+</div> </li>
+
+``
+<li> <div> Is it possible that $|\textbf{v} + \textbf{u}| = |\textbf{v}| + |\textbf{u}|$? If so, in which situations?
+</div>
+
+<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
+<div  id="answer2" class="answer">
+answer here!
+</div> </li>
+
+
 </ol>
