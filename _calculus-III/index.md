@@ -30,7 +30,8 @@ Often, after a student takes his/her vector calculus course, the student is unab
 {% assign lessonNames = "Three-Dimensional-Cartesian-Coordinates, Vectors-and-Their-Geometry, Algebraic-Operations-with-Vectors, Norm, Projections, Dot-Product, Determinant-and-Cross-Product, Equations-of-Lines, Equations-of-Planes, Quadric-Surfaces, Cylindrical-Coordinates, Spherical-Coordinates, General-Surfaces" | split: ', ' %}
 {% for lessonName in lessonNames %}
 {% assign lessonTitle = lessonName | replace:  '-', ' ' %}
-<li> <a class = "page-link" href = "{{ lessonName | prepend: "unit1/" | prepend: current_page.permalink }}"> {{lessonTitle}} </a> </li>
+{% assign lowerName = lessonName | downcase %}
+<li> <a class = "page-link" href = "{{ lowerName | prepend: "unit1/" | prepend: current_page.permalink }}"> {{lessonTitle}} </a> </li>
 {% endfor %}
 </ol>
 <li>  <a class="page-link" href="/calculus-III/unit2/"> Unit 2 - Space Curves </a> </li>
@@ -38,7 +39,8 @@ Often, after a student takes his/her vector calculus course, the student is unab
 {% assign lessonNames = "Vector-Functions, Limits-and-Continuity, Differentiation-and-Integration-of-Curves, Arc-Length, Curvature-and-Torsion, Frenet-Serret-Equations" | split: ', ' %}
 {% for lessonName in lessonNames %}
 {% assign lessonTitle = lessonName | replace:  '-', ' ' %}
-<li> <a class = "page-link" href = "{{ lessonName | prepend: "unit2/" | prepend: current_page.permalink }}"> {{lessonTitle}} </a> </li>
+{% assign lowerName = lessonName | downcase %}
+<li> <a class = "page-link" href = "{{ lowerName | prepend: "unit2/" | prepend: current_page.permalink }}"> {{lessonTitle}} </a> </li>
 {% endfor %}
 </ol>
 <li>  <a class="page-link" href="/calculus-III/unit3/"> Unit 3 - Partial Differentiation </a> </li>
@@ -46,7 +48,8 @@ Often, after a student takes his/her vector calculus course, the student is unab
 {% assign lessonNames = "Functions-of-Multiple-Variables, Contour-Plots-and-Level-Sets, Limits-and-Continuity, Partial-Differentiation, Tangent-Planes-and-Linear-Approximations, Gradient-Vector, The-Differential, Non-Independent-Variables, Chain-Rule, Differentiation-of-Integrals, Directional-Derivative, Extrema-1, Extrema-2, Lagrange-Multipliers-1, Lagrange-Multipliers-2, Bordered-Hessian, Lagrange-Remainder, The-Jacobian-Derivative, Higher-Dimensional-Lagrange-Multipliers, Inflection-and-Saddle-Points-Lagrange-Multipliers" | split: ', ' %}
 {% for lessonName in lessonNames %}
 {% assign lessonTitle = lessonName | replace:  '-', ' ' %}
-<li> <a class = "page-link" href = "{{ lessonName | prepend: "unit3/" | prepend: current_page.permalink }}"> {{lessonTitle}} </a> </li>
+{% assign lowerName = lessonName | downcase %}
+<li> <a class = "page-link" href = "{{ lowerName | prepend: "unit3/" | prepend: current_page.permalink }}"> {{lessonTitle}} </a> </li>
 {% endfor %}
 </ol>
 <li>  <a class="page-link" href="/calculus-III/unit4/"> Unit 4 - Multiple Integration </a> </li>
@@ -54,7 +57,8 @@ Often, after a student takes his/her vector calculus course, the student is unab
 {% assign lessonNames = "Riemann-Sums, Double-Integral-Over-a-Rectangle, Double-Integral-Over-a-General-Plane-Region, Double-Integral-in-Polar-Coordinates, Surface-Area, Triple-Integrals, Triples-Integrals-In-Cylindrical-Coordinates, Triple-Integrals-in-Spherical-Coordinates, Change-of-Variables, Applications" | split: ', ' %}
 {% for lessonName in lessonNames %}
 {% assign lessonTitle = lessonName | replace:  '-', ' ' %}
-<li> <a class = "page-link" href = "{{ lessonName | prepend: "unit4/" | prepend: current_page.permalink }}"> {{lessonTitle}} </a> </li>
+{% assign lowerName = lessonName | downcase %}
+<li> <a class = "page-link" href = "{{ lowerName | prepend: "unit4/" | prepend: current_page.permalink }}"> {{lessonTitle}} </a> </li>
 {% endfor %}
 </ol>
 <li>  <a class="page-link" href="/calculus-III/unit5/"> Unit 5 - Vector Calculus </a> </li>
@@ -62,7 +66,8 @@ Often, after a student takes his/her vector calculus course, the student is unab
 {% assign lessonNames = "Vector-Fields, Line-Integrals-in-2D, Fundamental-Theorem-of-Line-Integrals, Green's-Theorem, Divergence, Curl, Laplacian, Surface-Integrals, Stokes-Theorem, Divergence-Theorem, Applications, Flow-of-A-Vector-Field, Maxwell's-Equations, Differential-Forms, Green's-Identities" | split: ', ' %}
 {% for lessonName in lessonNames %}
 {% assign lessonTitle = lessonName | replace:  '-', ' ' %}
-<li> <a class = "page-link" href = "{{ lessonName | prepend: "unit5/" | prepend: current_page.permalink }}"> {{lessonTitle}} </a> </li>
+{% assign lowerName = lessonName | downcase %}
+<li> <a class = "page-link" href = "{{ lowerName | prepend: "unit5/" | prepend: current_page.permalink }}"> {{lessonTitle}} </a> </li>
 {% endfor %}
 </ol>
 <li> <a class="page-link" href="/calculus-III/supplements/"> Supplementary Material </a> </li>
