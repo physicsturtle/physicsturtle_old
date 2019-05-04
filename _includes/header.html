@@ -17,9 +17,8 @@
           {% assign baseNames = "Physics, Math, Cheat-Sheets, About" | split: ', ' %}
           {% for baseName in baseNames %}
           {% assign baseTitle = baseName | replace:  '-', ' '%}
-          {% assign categoryUrl = baseName | prepend: "/" %}
-          {% assign lowerUrl = lessonName | downcase %}
-          <a class = "page-link" href = "{{ lowerUrl | prepend: site.url}}"> {{ baseTitle }} </a>
+          {% assign categoryUrl = baseName | prepend: "/" | downcase %}
+          <a class = "page-link" href = "{{ categoryUrl | prepend: site.url}}"> {{ baseTitle }} </a>
           {% endfor %}
       </div>
     </nav>
