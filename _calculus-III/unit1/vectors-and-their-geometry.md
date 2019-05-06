@@ -8,13 +8,13 @@ nextID: algebraic-operations-vectors
 ---
 In high school, we learned that a vector is a quantity with magnitude and direction. Here, we will present a more abstract notion of vectors, that we will be able to generalize in order to solve more complex problems. Physical examples of vectors that you have learned about before could be: *position*, *momentum*, or maybe *electric field*. These can be constrasted with scalars, which are just numbers. For example, *temperature*, *pressure*, or *altitude*. 
 
-In the previous lesson, we talked about points in three dimensional space. Now we will discuss the concept of direction in space. A *vector* in three dimensional space is an ordered triplet \\(\textbf{v} = (a,b,c)\\), where \\(a,b,c\\) are each real numbers. This is represented visually by drawing an arrow from the origin to the point \\((a,b,c)\\). The numbers \\(a,b,c\\) are known as the *components* of the vector, where \\(a\\) is the \\(x\\) component, \\(b\\) the \\(y\\) component, and \\(c\\) the \\(z\\) component. Just as important are vector in two dimensional space, written as \\((a,b)\\). 
+In the previous lesson, we talked about points in three dimensional space. Now we will discuss the concept of direction in space. A *vector* in three dimensional space is an ordered triplet $\textbf{v} = (a,b,c)$, where $a,b,c$ are each real numbers. This is represented visually by drawing an arrow from the origin to the point $(a,b,c)$. The numbers $a,b,c$ are known as the *components* of the vector, where $a$ is the $x$ component, $b$ the $y$ component, and $c$ the $z$ component. Just as important are vector in two dimensional space, written as $(a,b)$. Most of our examples, at least with pictures, will be with two-dimensional vectors because they are easier to depict graphically.
 
 It is often useful to translate the vector around in space, while keeping all of its components the same. This means that the vector's starting point and ending point will both change, but that the difference of the two stay the same. Thus the two vectors in the following figure are actually the same vector, even though they begin at different points. 
 
 insert figure
 
-In this course, vectors will always be denoted by boldface letters, for example, \\(\textbf{v} = (a,b,c)\\). If written by hand, this is most often done as \\( \vec{v} = (a,b,c)\\). In more advanced mathematics, this special notation is often dropped altogether, writing \\(v = (a,b,c)\\). We will not be writing vectors in such a way in this course. Now let's discuss operations with vectors from a geometric standpoint. 
+In this course, vectors will always be denoted by boldface letters, for example, $\textbf{v} = (a,b,c)$. If written by hand, this is most often done as $\vec{v} = (a,b,c)$. In more advanced mathematics, this special notation is often dropped altogether, writing $v = (a,b,c)$. We will not be writing vectors in such a way in this course. Now let's discuss operations with vectors from a geometric standpoint. 
 
 #### Scalar Multiplication
 Vectors can be multiplied by scalars, and this changes the vector's length but not its direction. Actually, the direction can be changed, but only to point in the opposite direction. This is done by multiplying by a negative number. Let's show graphically how multiplying vectors by scalars works: 
@@ -41,7 +41,7 @@ The three numbers \\(a,b,c\\), defined before as the *components* of the vector,
 
 $$\textbf{v} = (a,b,c) = a\hat{\textbf{i}} + b\hat{\textbf{j}} + c\hat{\textbf{k}}$$
 
-where we call \\(\hat{\textbf{i}},\hat{\textbf{j}},\hat{\textbf{k}}\\) the basis vectors in the \\(x,y,z\\) directions respectively. Geometrically, \\(\hat{\textbf{i}}\\) is the vector with length 1 pointing along the \\(x\\) axis, and similarly for the other two. 
+where we call $\hat{\textbf{i}},\hat{\textbf{j}},\hat{\textbf{k}}$ the basis vectors in the $x,y,z$ directions respectively. Geometrically, $\hat{\textbf{i}}$ is the vector with length 1 pointing along the $x$ axis, and similarly for the other two. 
 
 
 

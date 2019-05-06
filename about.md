@@ -4,9 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Zestymath is a mathematics education website that I have been wanting to build for a very long time. My vision for the website is to write course/reference material for a large variety of undergraduate topics in STEM. In particular, I would like to write about math and physics, and maybe some engineering or computer science as well. The secondary purpose of this project is to create content for me to read if I ever need to refer to topics which I have previously learned but need a refresher on. 
-
-The aim of this website is not to allow you read about math, but to allow you to *do* math on your own with confidence. One of the things that I hope will make this website stand out is that I will very explicitly calculate everything, requiring the reader to fill in minimal details in derivations and solutions. That being said, there will be various exercises that the reader than do her/himself so that he/she can produce their own mathematics. The website was created on Tuesday June 12, 2018. 
 
 The goals of the site can be summarized as follows:
 
