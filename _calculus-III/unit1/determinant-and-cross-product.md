@@ -32,14 +32,12 @@ $$\begin{vmatrix} \hat{\textbf{x}} & \hat{\textbf{y}} & \hat{\textbf{z}} \\ a_1 
 
 Note that the negative sign in front of the middle term is not a mistake; this is how the \\(3\times 3\\) determinant is defined. There are many tricks for evaluating determinants of special matrices. For example, if a matrix has only elements on its diagonal, then the determinant is the product of those elements. Because this is not a course on linear algebra, we will not be discussing such methods.
 
-### Geometric Definition
+### Geometric Intuition
 
 The determinant of two vectors can be interpreted geometrically as the area of the parallelogram formed by the them. 
 
+(insert picture here)
 
-
-
-### Abstract Definition
 
 
 ### The Cross Product

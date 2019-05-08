@@ -9,7 +9,7 @@ nextID: projections
 
 Here we continue with the possible operations that one can do with vectors. The topic of this lesson is the *norm* of a vector. This is just a fancy word for the *length* or the *magnitude* of a vector. 
 
-If we have a vector \\(\textbf{v} = (a,b)\\) in three dimensions, its magnitude, or norm, is defined as 
+If we have a vector \\(\textbf{v} = (a,b)\\) in two dimensions, its magnitude, or norm, is defined as 
 
 $$\|\textbf{v}\| = \sqrt{a^2+b^2}$$
 
@@ -36,8 +36,16 @@ Because the norm calculates the length of a vector, it is possible to find the d
 ### Properties
 The properties of the norm include:
 
+#### Positivity
+$$|\textbf{v}| \geq 0$$
+
 #### Scalar Multiplication
 $$\|\lambda\textbf{v}\| = |\lambda|\|\textbf{v}\| $$
+
+##### Triangle Inequality
+$$|\textbf{v} + \textbf{u}| \leq |\textbf{v}| + |\textbf{u}|$$
+
+
 
 ### Exercises
 

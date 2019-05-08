@@ -3,29 +3,27 @@ layout: lesson
 title: ALGEBRAIC OPERATIONS WITH VECTORS
 course: calculus-III
 unit: unit1
-lessonID: algebraic-operations-vectors
-nextID: norm
 ---
 
-In the last section, we discussed adding and subtracting vectors geometrically. Now we will do the same, but algebraically. This will be more abstract, but will allow us to tackle much more complex problems. 
+In the last section, we discussed adding and subtracting vectors geometrically. Now we will do the same, but algebraically. This is a little bit more abstract, but is much more useful when solving problems that are difficult to draw by hand.
 
 #### Addition 
-Two vectors \\(\textbf{v} = (v_1,v_2,v_3) \\) and \\(\textbf{u} = (u_1,u_2,u_3)\\) can be added *componentwise*.
+Two vectors $\textbf{v} = (v_1,v_2,v_3)$ and $\textbf{u} = (u_1,u_2,u_3)$ can be added *componentwise*.
 
-\\[ \textbf{v} + \textbf{u} = (v_1+u_1,v_2+u_2,v_3+u_3) \\]
+$$ \textbf{v} + \textbf{u} = (v_1+u_1,v_2+u_2,v_3+u_3) $$
 
-from which we see that \\(\textbf{u} + \textbf{v} = \textbf{v} + \textbf{u}\\).
+from which we see that $\textbf{u} + \textbf{v} = \textbf{v} + \textbf{u}$.
 
 #### Subtraction
 Next, we have subtraction, which is defined in the obvious way 
 
-\\[ \textbf{v} - \textbf{u} = (v_1-u_1,v_2-u_2,v_3-u_3) \\]
+$$ \textbf{v} - \textbf{u} = (v_1-u_1,v_2-u_2,v_3-u_3) $$
 
 #### Scalar Multiplication
 
-Vectors can also be scaled by some *scalar* \\(\lambda \in \mathbb{R}\\),
+Vectors can also be scaled by some *scalar* $\lambda \in \mathbb{R}$. The scalar $\lambda$ is distributed in to each component.
 
-\\[ \lambda\textbf{v} = (\lambda v_1, \lambda v_2, \lambda v_3) \\]
+$$ \lambda\textbf{v} = (\lambda v_1, \lambda v_2, \lambda v_3) $$
 
 It is then straightforward to define *linear combinations* of multiple vectors. A linear combination is a sum of vectors, each multiplied by their own scalar (which could be any number, positive or negative, 1 or 0, rational or irrational). For example, a linear combination of \\(\textbf{u}\\) and \\(\textbf{v}\\) could be 
 

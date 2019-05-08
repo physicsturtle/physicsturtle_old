@@ -3,13 +3,17 @@ layout: lesson
 title: PROJECTIONS
 course: calculus-III
 unit: unit1
-lessonID: projections
-nextID: dot-product
 ---
 
-Suppose we have two vectors, are we are interested in finding the component of one onto the other. This is known as projecting one vector onto another. If we project $\textbf{a}$ onto $\textbf{b}$, then we write this as:
+Suppose we have two vectors, are we are interested in finding the component of one onto the other. This is known as projecting one vector onto another. Geometrically, the process of projecting a vector is shown in the figure below
+
+(insert figure here)
+
+If we project $\textbf{a}$ onto $\textbf{b}$, then we write this as:
 
 $$\text{proj}_\textbf{b}\textbf{a} = \frac{\textbf{a}\cdot\textbf{b}}{\textbf{b}\cdot\textbf{b}}\textbf{b}$$
+
+A remark about this formula is that if we scale the vector onto which we're projecting, the magnitude of the projection does not change! This makes sense, because what we're really doing is projecting onto the direction defined by the vector we're projecting onto; the vector's length doesn't matter. 
 
 ### Exercises
 
