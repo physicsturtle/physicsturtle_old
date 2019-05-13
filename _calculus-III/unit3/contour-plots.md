@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: CONTOUR PLOTS AND LEVEL SETS
+title: Contour Plots and Level Sets
 course: calculus-III
 unit: unit3
-lessonID: contour-plots
-nextID: limits-continuity
 ---
 
 

@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: CHAIN RULE
+title: Chain Rule
 course: calculus-III
 unit: unit3
-lessonID: chain-rule
-nextID: differentiation-integrals
 ---
 
 The chain rule is often one of the more difficult sections for students to grasp in multivariable calculus. This is usually because of sloppy notation, both on the part of the instructor and student. Here we will try to be as explicit and clear as possible so that the student can learn good habits.

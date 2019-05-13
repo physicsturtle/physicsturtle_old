@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: GRADIENT VECTOR
+title: The Gradient Vector
 course: calculus-III
 unit: unit3
-lessonID: gradient-vector
-nextID: differential
 ---
 
 The gradient vector of a function is the analogue of the normal derivative from single variable calculus. It encodes information about which direction the function increases in. The gradient vector is defined as 

@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: NON-INDEPENDENT VARIABLES
+title: Non-Independent Variables
 course: calculus-III
 unit: unit3
-lessonID: non-independent-variables
-nextID: chain-rule
 ---
 
 What to write here....

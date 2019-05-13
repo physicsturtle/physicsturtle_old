@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: DOUBLE INTEGRAL OVER GENERAL PLANE REGION
+title: Double Integral over a General Plane Region
 course: calculus-III
 unit: unit4
-lessonID: double-integral-general
-nextID: double-integral-polar
 ---
 
 - Variable bounds of integration

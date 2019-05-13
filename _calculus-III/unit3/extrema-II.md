@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: EXTREMA 2
+title: Extrema 2
 course: calculus-III
 unit: unit3
-lessonID: extrema-II
-nextID: lagrange-multipliers-I
 ---
 
 

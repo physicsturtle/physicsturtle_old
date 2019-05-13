@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: FUNCTIONS OF MULTIPLE VARIABLES
+title: Function of Multiple Variables
 course: calculus-III
 unit: unit3
-lessonID: functions-multiple-variables
-nextID: contour-plots
 ---
 
 - Evaluate a function at a point in the plane

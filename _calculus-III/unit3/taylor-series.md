@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: TAYLOR SERIES*
+title: Taylor Series*
 course: calculus-III
 unit: unit3
-lessonID: taylor-series
-nextID: lagrange-remainder
 ---
 
 In single variable calculus, we used Taylor series to approximate differentiable functions. An identical thing can be done for functions of multiple variables, but it is a little bit more complicated. Recall that for an infinitely differentiable function in one variable, its Taylor series about a point \\(a\\) is 

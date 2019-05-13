@@ -87,14 +87,16 @@ border-radius: 4px;
 border-width: 2px;
 padding: 10px;
 }
+
 .definition {
 width: 100%;
-background-color: rgb(204,205,253);
+background-color: rgb(204,205,253); /*blue*/
 border-style: solid;
 border-radius: 4px;
 border-width: 2px;
 padding: 10px;
 }
+
 .result{
 background-color: rgb(162,203,230); /*blue*/
 border: solid;
@@ -108,7 +110,7 @@ border-radius: 16px;
 
 .example{
 width: 100%;
-background-color: rgb(204,205,253);
+background-color: rgb(254, 249, 211);
 border-style: solid;
 border-radius: 4px;
 border-width: 2px;
@@ -126,7 +128,7 @@ padding: 10px;
 
 .theorem{
 width: 100%;
-background-color: rgb(204,205,253);
+background-color: rgb(248, 199, 200);
 border-style: solid;
 border-radius: 4px;
 border-width: 2px;

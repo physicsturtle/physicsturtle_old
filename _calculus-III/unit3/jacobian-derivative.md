@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: THE JACOBIAN DERIVATIVE*
+title: The Jacobian Derivative*
 course: calculus-III
 unit: unit3
-lessonID: jacobian-derivative
-nextID: lagrange-multipliers-III
 ---
 
 - Concept of a derivative

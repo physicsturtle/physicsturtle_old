@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: DIFFERENTIATION OF INTEGRALS
+title: Differentiation of Integrals
 course: calculus-III
 unit: unit3
-lessonID: differentiation-integrals
-nextID: directional-derivative
 ---
 
 Here we will derive a useful formula for differentiating integrals. Suppose I have a function \\(g\\):

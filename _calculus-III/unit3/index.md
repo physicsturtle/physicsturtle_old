@@ -12,13 +12,10 @@ $$ f : \mathbb{R}^n \to \mathbb{R}$$
 
 
 <ol>
-{% assign temp = "functions-multiple-variables" %}
-{% for my_page in site.calculus-III %}
-{% for my_page in site.calculus-III %}
-{% if my_page.unit == "unit3" and my_page.layout == "lesson" and my_page.lessonID == temp %}
-<li> <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> </li>
-{% assign temp = my_page.nextID %}
-{% endif %}
-{% endfor %}
+{% assign lessonNames = "" | split: ', ' %}
+{% for lessonName in lessonNames %}
+{% assign lessonTitle = lessonName | replace:  '-', ' ' %}
+{% assign lowerName = lessonName | downcase %}
+<li> <a class = "page-link" href = "{{ lowerName | prepend: current_page.permalink}}"> {{lessonTitle}} </a> </li>
 {% endfor %}
 </ol>

@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: LAGRANGE MULTIPLIERS 2
+title: Lagrange Multipliers 2
 course: calculus-III
 unit: unit3
-lessonID: lagrange-multipliers-II
-nextID: bordered-hessian
 ---
 
 The method of *Lagrange Multipliers*  is  mathematical tool for optimizing functions with respect to a constraint on the independent variables. This has many physical and mathematical applications. Suppose we are studying air flow past the roof on a house, and that if the air speed at any point on the roof surpasses a certain threshold, the roof will be fail. What we need to do is examine the speed of the air at only the points in space on the surface of the roof, and find the maximum speed at the surface of the roof. 

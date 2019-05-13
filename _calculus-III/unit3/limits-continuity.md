@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: LIMITS AND CONTINUITY*
+title: Limits and Continuity*
 course: calculus-III
 unit: unit3
-lessonID: limits-continuity
-nextID: partial-differentiation
 ---
 
 - Definition of continuity

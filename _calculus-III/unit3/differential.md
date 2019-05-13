@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: THE DIFFERENTIAL
+title: The Differential
 course: calculus-III
 unit: unit3
-lessonID: differential
-nextID: non-independent-variables
 ---
 
 A topic that is often overlooked is how to compute the differential of a function. This is closely related to the gradient vector, as well as tangent planes. Taking the differential is an operation that is done on functions. In single variable calculus, the differential \\(df\\) of a function \\(f\\) was defined as 

@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: DOUBLE INTEGRAL OVER A RECTANGLE
+title: Double Integral over a Rectangle
 course: calculus-III
 unit: unit4
-lessonID: double-integral-rectangle
-nextID: double-integral-general
 ---
 
 - Fubini's theorem

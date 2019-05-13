@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: PARTIAL DIFFERENTIATION
+title: Partial Differentiation
 course: calculus-III
 unit: unit3
-lessonID: partial-differentiation
-nextID: tangent-planes
 ---
 
 - Geometric interpretation of partial derivative

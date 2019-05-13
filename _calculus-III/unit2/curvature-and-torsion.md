@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: CURVATURE AND TORSION
+title: Curvature and Torsion
 course: calculus-III
 unit: unit2
-lessonID: curvature-torsion
-nextID: frenet-serret-equations
 ---
 
 - Definitions of curvature and torsion using parametrization by arc length

@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: BORDERED HESSIAN*
+title: Bordered Hessian*
 course: calculus-III
 unit: unit3
-lessonID: bordered-hessian
-nextID: taylor-series
 ---
 
 There is in fact a way to use a more general second derivative test to determine if the points we have found are local minima, maxima, or inflection/saddle points. 

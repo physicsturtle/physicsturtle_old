@@ -1,9 +1,8 @@
 ---
 layout: lesson
-title: FRENET-SERRET EQUATIONS
+title: Frenet-Serret Equations
 course: calculus-III
 unit: unit2
-lessonID: frenet-serret-equations
 ---
 
 - Relationship between tangent, normal, binormal vectors and their derivatives

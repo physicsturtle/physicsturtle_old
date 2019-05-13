@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: DOUBLE INTEGRAL IN POLAR COORDINATES
+title: Double Integrals in Polar Coordinates
 course: calculus-III
 unit: unit4
-lessonID: double-integral-polar
-nextID: surface-area
 ---
 
 - Jacobian in polar coordiantes

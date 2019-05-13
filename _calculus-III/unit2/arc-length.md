@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: ARC LENGTH
+title: Arc Length
 course: calculus-III
 unit: unit2
-lessonID: arc-length
-nextID: curvature-torsion
 ---
 
 - Integration of a curve to find arc length

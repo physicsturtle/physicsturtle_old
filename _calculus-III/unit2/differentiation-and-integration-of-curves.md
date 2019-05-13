@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: DIFFERENTIATION AND INTEGRATION OF CURVES
+title: Differentiation and Integration of Curves
 course: calculus-III
 unit: unit2
-lessonID: differentiation-integration-curves
-nextID: arc-length
 ---
 
 - Componentwise integration -- initial and final points

@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: LAGRANGE REMAINDER*
+title: Lagrange Remainder*
 course: calculus-III
 unit: unit3
-lessonID: lagrange-remainder
-nextID: jacobian-derivative
 ---
 
 

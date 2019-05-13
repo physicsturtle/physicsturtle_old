@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: HIGHER DIMENSIONAL LAGRANGE MULTIPLIERS
+title: Higher Dimensional Lagrange Multipliers
 course: calculus-III
 unit: unit3
-lessonID: lagrange-multipliers-III
-nextID: lagrange-multipliers-IV
 ---
 
 So far we have only discussed cases in up to three independent variables, with only one constraint. The method of Lagrange multipliers works with as many independent variables as desired, and with as many constraints as desired, as long as the number of constraints is strictly less than the number of independent variables. 

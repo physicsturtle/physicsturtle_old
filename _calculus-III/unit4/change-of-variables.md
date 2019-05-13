@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: CHANGE OF VARIABLES
+title: Change of Variables
 course: calculus-III
 unit: unit4
-lessonID: change-of-variables
-nextID: applications
 ---
 
 - the jacobian revisited

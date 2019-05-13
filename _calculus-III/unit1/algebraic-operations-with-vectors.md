@@ -27,7 +27,7 @@ $$ \lambda\textbf{v} = (\lambda v_1, \lambda v_2, \lambda v_3) $$
 
 It is then straightforward to define *linear combinations* of multiple vectors. A linear combination is a sum of vectors, each multiplied by their own scalar (which could be any number, positive or negative, 1 or 0, rational or irrational). For example, a linear combination of \\(\textbf{u}\\) and \\(\textbf{v}\\) could be 
 
-\\[ a\textbf{u} + b\textbf{v} = (au_1 + bv_1,au_2 + bv_2, au_3 + bv_3) \\]
+$$ a\textbf{u} + b\textbf{v} = (au_1 + bv_1,au_2 + bv_2, au_3 + bv_3) $$
 
 Linear combinations can also be taken between more than 2 vectors. 
 
@@ -48,7 +48,7 @@ $$ \textbf{v} = \begin{pmatrix} a \\ b \\ c \end{pmatrix} $$
 
 $$ \textbf{v} = \begin{bmatrix} a \\ b \\ c \end{bmatrix} $$
 
-When vectors are written this way, at least in this course, they will usually be referring to the *cartesian* components of the vectors. That is, each of these notations can also be written as $$\textbf{v} = a\hat{\textbf{x}} + b\hat{\textbf{y}} + c\hat{\textbf{z}}$$.  If we want to write vectors in different basis, then we will denote that explicitly by writing in terms of the basis elements.
+When vectors are written this way, at least in this course, they will usually be referring to the *Cartesian* components of the vectors. That is, each of these notations can also be written as $$\textbf{v} = a\hat{\textbf{x}} + b\hat{\textbf{y}} + c\hat{\textbf{z}}$$.  If we want to write vectors in different basis, then we will denote that explicitly by writing in terms of the basis elements.
 
 
 ### Exercises

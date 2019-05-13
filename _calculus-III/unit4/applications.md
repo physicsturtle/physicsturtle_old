@@ -1,9 +1,8 @@
 ---
 layout: lesson
-title: APPLICATIONS
+title: Applications
 course: calculus-III
 unit: unit4
-lessonID: applications
 ---
 
 - charge, density and such

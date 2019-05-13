@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: LIMITS AND CONTINUITY
+title: Limits and Continuity
 course: calculus-III
 unit: unit2
-lessonID: limits-continuity
-nextID: differentiation-integration-curves
 ---
 
 When taking the limit of a vector valued function, we define this by taking the limit of each component. Thus for a vector valued function $\textbf{r}(t) = (x(t),y(t),z(t))$,

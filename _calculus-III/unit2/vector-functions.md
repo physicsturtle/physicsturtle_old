@@ -1,10 +1,8 @@
 ---
 layout: lesson
-title: VECTOR FUNCTIONS
+title: Vector Functions
 course: calculus-III
 unit: unit2
-lessonID: vector-functions
-nextID: limits-continuity
 ---
 
 - Parametric form of a curve
