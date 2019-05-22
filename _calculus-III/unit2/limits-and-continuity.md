@@ -5,15 +5,22 @@ course: calculus-III
 unit: unit2
 ---
 
-When taking the limit of a vector valued function, we define this by taking the limit of each component. Thus for a vector valued function $\textbf{r}(t) = (x(t),y(t),z(t))$,
+In first semester calculus, you learned how to take limits of functions $f : \mathbb{R}\to \mathbb{R}$. In this section, we perform a straightforward extension of this idea to functions in higher dimensions.  When taking the limit of a vector valued function, we define this by taking the limit of each component. Thus for a vector valued function $\textbf{r}(t) = (x(t),y(t),z(t))$,
 
-$$\lim_{t\to a} \textbf{r}(t) = \left(\lim_{t\to a}x(t) , \lim_{t\to a}y(t), \lim_{t\to a}z(t)\right) $$
+<div class="definition">
+<b>Definition</b> To take the limit of a function $\textbf{r}:\mathbb{R}\to\mathbb{R}^n$, compute the limit of each component.
+    $$\lim_{t\to a} \textbf{r}(t) = \left(\lim_{t\to a}x_1(t) , \lim_{t\to a}x_2(t),\dots, \lim_{t\to a}x_n(t)\right) $$
+</div>
 
-This means that the limit of $\textbf{r}$ exists if and only if the limits of all of its components exist. As in the case of a single variable, a vector valued function is continuous at a point $a$ if 
+In our course, we will only focus on the cases $n=2$ (curve in the plane) or $n = 3$ (curve in space). This means that the limit of $\textbf{r}$ exists if and only if the limits of all of its components exist. This leads us to our definition of continuity. 
+
+<div class="definition">
+A vector valued function $\textbf{r}:\mathbb{R}\to\mathbb{R}^n$ is continuous at a point $a$ if 
 
 $$ \lim_{t\to a}\textbf{r}(t) = \textbf{r}(a)$$
+</div>
 
-and similar to before, the vector function is continuous if and only if all of the component functions are continuous. 
+This means that the vector function is continuous if and only if all of its component functions are continuous. 
 
 
 
