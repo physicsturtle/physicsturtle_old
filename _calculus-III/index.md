@@ -8,11 +8,9 @@ banner: calculus-III.png
 
 Welcome to Multi-Variable and Vector Calculus. This is a really exciting subject and is the first step into allowing one to tackle real world physics and engineering problems. 
 
-This course is a **work in progress**. The goal is for it to be finished by the end of December 2019. 
+This course is a **work in progress**.
 
 Sections marked with an asterisk * should be regarded as optional, and everything else as essential. The ones chosen to be marked with an asterisk are ones which are normally left out of multivariable calculus courses, but may be included in an honours course. One of the goals is to be able to cater to as wide of an audience as possible, and for this reason those sections were written.
-
-Solutions to all exercises will eventually be written, even if they aren't available at the moment.
 
 This is a course on calculus, *not analysis*, and will be treated as such. The idea is for everybody to understand how to compute important quantities and objects in multivariable calculus, and to understand the concepts without proof and be able to interpret things geometrically.
 
@@ -27,7 +25,7 @@ Often, after a student takes his/her vector calculus course, the student is unab
 <ul>
 <li>  <a class="page-link" href="/calculus-III/unit1/"> Unit 1 - Introduction to 3D Space and Vectors </a> </li>
 <ol>
-{% assign lessonNames = "Three-Dimensional-Cartesian-Coordinates, Vectors-and-Their-Geometry" | split: ', ' %}
+{% assign lessonNames = "Three-Dimensional-Cartesian-Coordinates, Vectors-and-Their-Geometry, Algebraic-Operations-with-Vectors, Norm, Projections" | split: ', ' %}
 {% for lessonName in lessonNames %}
 {% assign lessonTitle = lessonName | replace:  '-', ' ' %}
 {% assign lowerName = lessonName | downcase %}

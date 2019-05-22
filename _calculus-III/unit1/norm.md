@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: NORM
+title: Norm
 course: calculus-III
 unit: unit1
 ---
@@ -21,9 +21,9 @@ An alternative notation for the norm is single bars instead of double bars:
 
 $$|\textbf{v}| = \sqrt{a^2+b^2},$$
 
-and we will mostly use single bars $|\textbf{v}|$. There is actually a distinction between the two notations, but it is beyond the scope of this course. Here they will be used interchangably. 
+and we will mostly use single bars $\|\textbf{v}\|$. There is actually a distinction between the two notations, but it is beyond the scope of this course. Here they will be used interchangably. 
 
-Similarly, this definition can be extended to three dimensions. For a vector in three dimensions \\(\textbf{v} = (a,b,c)\\), its norm is 
+Similarly, this definition can be extended to three dimensions. For a vector in three dimensions $\textbf{v} = (a,b,c)$, its norm is 
 
 $$|\textbf{v}| = \sqrt{a^2+b^2+c^2}.$$
 
@@ -44,7 +44,7 @@ $$|\textbf{v}| \geq 0$$
 #### Scalar Multiplication
 $$\|\lambda\textbf{v}\| = |\lambda|\|\textbf{v}\| $$
 
-##### Triangle Inequality
+#### Triangle Inequality
 $$|\textbf{v} + \textbf{u}| \leq |\textbf{v}| + |\textbf{u}|$$
 
 
@@ -68,7 +68,6 @@ $$|\textbf{v} + \textbf{u}| \leq |\textbf{v}| + |\textbf{u}|$$
 </div> </li>
 
 
-
 <li> <div> Find the distance between each pair of points. 
 <ol type = "a">
 <li> $(1,1,2)$ and $(-1,2,2)$ </li>
@@ -82,12 +81,7 @@ answer here!
 </div> </li>
 
 
-
-<li> <div> Find the distance between each pair of points. 
-<ol type = "a">
-<li> $(1,1,2)$ and $(-1,2,2)$ </li>
-<li> $(3,-3,4)$ and $(0,0,1)$ </li>
-</ol>
+<li> <div> Find the minimum distance between the set of points described by $\textbf{r}(t) = \left<1,2,3\right> + t\left<1,0,2\right>$ and $(-1,2,0)$.
 </div>
 
 <button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
@@ -95,7 +89,6 @@ answer here!
 answer here!
 </div> </li>
 
-``
 <li> <div> Is it possible that $|\textbf{v} + \textbf{u}| = |\textbf{v}| + |\textbf{u}|$? If so, in which situations?
 </div>
 

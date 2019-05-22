@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: ALGEBRAIC OPERATIONS WITH VECTORS
+title: Algebraic Operations with Vectors
 course: calculus-III
 unit: unit1
 ---
@@ -38,7 +38,7 @@ You may now be wondering now if there are ways to multiply vectors together or t
 A common question that is asked at around this point is, "What is the difference between a point and a vector?" This is a question that students often think too much about. The way that I like to think about it is that a point is a geometric object, while a vector is an algebraic object. What I mean by that is that points cannot be added together, subtracted, or multiplied by numbers. They can only be drawn. On the other hand, vectors can be added, subtracted, multiplied by scalars, and even differentiated or integrated. They, of course, can be drawn as well, as was demonstrated in the geometry of vectors section. In these notes, we will draw few distinctions between vectors and points.
 
 #### Notation
-In addition to the notation that we will be using, \\( \textbf{v} = (a,b,c)\\), it is also common for vectors to be written as follows:
+In addition to the notation that we will be using, $\textbf{v} = (a,b,c)$, it is also common for vectors to be written as follows:
 
 $$ \textbf{v} = \langle a,b,c \rangle $$
 
@@ -52,7 +52,6 @@ When vectors are written this way, at least in this course, they will usually be
 
 
 ### Exercises
-
 
 <ol>
 <li> <div> Calculate the following quantities.

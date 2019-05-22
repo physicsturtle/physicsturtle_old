@@ -55,26 +55,25 @@ where we call $\hat{\textbf{i}},\hat{\textbf{j}},\hat{\textbf{k}}$ the basis vec
 
 ### Exercises
 <ol>
-<li> <div> Given the following vectors (insert figure here), construct the following vectors: </div>
+<li> <div> Given the following vectors,
+<figure class="center">
+<p><img src="vectors-and-their-geometry-Figures/q1.svg" alt="Standard Cartesian basis vectors" style="width:100%;"> </p>
+<figcaption class="center"> Vectors $\textbf{a},\textbf{b},\textbf{c}$ for this question. </figcaption> </figure>
+construct the following vectors graphically. </div>
 <ol type = "a">
 <li> \(3\textbf{a}\)</li>
 <li> \(-2\textbf{c}\)</li>
-<li> \(2\textbf{a}-\textbf{b}\)</li>
+<li> \(\textbf{a}-2\textbf{b}\)</li>
 <li> \(\textbf{a}+\textbf{b}-\textbf{c}\)</li>
 <li> \(3\textbf{a}-2\textbf{b}+2\textbf{c}\)</li>
 </ol>
 
 <button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
 <div  id="answer1" class="answer">
-<ol type = "a">
-<li> \(3\textbf{a}\)</li>
-<li> \(-2\textbf{c}\)</li>
-<li> \(2\textbf{a}-\textbf{b}\)</li>
-<li> \(\textbf{a}+\textbf{b}-\textbf{c}\)</li>
-<li> \(3\textbf{a}-2\textbf{b}+2\textbf{c}\)</li>
-</ol>
+<figure class="center">
+<p><img src="vectors-and-their-geometry-Figures/q1Sol.svg" alt="Standard Cartesian basis vectors" style="width:100%;"> </p>
+<figcaption class="center"> Tail point independence of vectors </figcaption> </figure>
 </div> </li>
-
 
 </ol>
 

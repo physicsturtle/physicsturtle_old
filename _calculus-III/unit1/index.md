@@ -9,7 +9,7 @@ permalink: /calculus-III/unit1/
 Unit 1 lays out the foundations for understanding how to work with objects in 3 dimensional space. There won't be any calculus yet, but we'll try and understand how to draw pictures, including vectors and graphs. This will be one of the most important skills throughout the rest of the course to intuitively understand the mathematics through graphical means. 
 
 <ol>
-{% assign lessonNames = "Three-Dimensional-Cartesian-Coordinates, Vectors-and-Their-Geometry" | split: ', ' %}
+{% assign lessonNames = "Three-Dimensional-Cartesian-Coordinates, Vectors-and-Their-Geometry, Algebraic-Operations-with-Vectors, Norm, Projections" | split: ', ' %}
 {% for lessonName in lessonNames %}
 {% assign lessonTitle = lessonName | replace:  '-', ' ' %}
 {% assign lowerName = lessonName | downcase %}
