@@ -11,7 +11,7 @@ unit: unit2
 
 ### Definitions
 
-Here we will discuss how to calculate the arc length of a curve. Suppose we have a curve \\(\textbf{r}(t)\\) defined on an interval \\(t\in (a,b)\\). Then the length of the curve over the interval is 
+Here we will discuss how to calculate the arc length of a curve. Suppose we have a curve $\textbf{r}(t)$ defined on an interval $t\in (a,b)$. Then the length of the curve over the interval is 
 
 $$L = \int_a^b |\textbf{r}'(t)| dt$$
 
@@ -23,7 +23,8 @@ The main purpose of learning to compute arc length is its use in reparametrizati
 ### Exercises
 
 <ol>
-<li> <div> Sketch all of the points such that \(y = 1\). </div>
+<li> <div> Show that if you change the parameter to $s$ by means of the transformation $t = t(s)$, where $t$ is a monotonically increasing function of $s$, the arc length doesn't change. </div>
+
 
 <button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
 <div  id="answer2" class="answer">
