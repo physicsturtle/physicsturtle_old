@@ -40,6 +40,10 @@ collections:
         output: true
     electromagnetism-I:
         output: true
+    cm-I:
+        output: true
+    cm-III:
+        output: true
     td:
         output: true
 
