@@ -1,9 +1,8 @@
 ---
 layout: lesson
-title: GENERAL SURFACES
+title: General Surfaces
 course: calculus-III
 unit: unit1
-lessonID: general-surfaces
 ---
 
 

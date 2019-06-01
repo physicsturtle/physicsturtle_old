@@ -3,6 +3,9 @@ layout: lesson
 title: Differentiation and Integration of Curves
 course: calculus-III
 unit: unit2
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 2
 ---
 
 In this section we introduce differentiation of curves and integration of curves. This is directly applicable to 2D and 3D kinematics of point particles, as well as the study of geometric properties of curves. It also lays the groundwork for topics later in the course where we will be integrating vector fields over curves.

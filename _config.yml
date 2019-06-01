@@ -16,13 +16,31 @@ github_username: zestymath
 collections:
     mathCourses:
         permalink: /:collection:/:title
+    calculus-I:
+        output: true
     calculus-III:
+        output: true
+    linear-algebra-I:
+        output: true
+    ode-I:
         output: true
     nonlin-dyn-I:
         output: true
+    complex-analysis:
+        output: true
+    pde-I:
+        output: true
+    pde-II:
+        output: true
     physicsCourses:
         permalink: /:collection:/:title
+    physics-I:
+        output: true
+    physics-II:
+        output: true
     electromagnetism-I:
+        output: true
+    td:
         output: true
 
 # Build settings

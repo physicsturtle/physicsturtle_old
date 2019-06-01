@@ -14,5 +14,5 @@ The goals of the site can be summarized as follows:
 
 Note: *Although I strive for accuracy, I do not guarantee the correctness of any information on this website.*
 
-As for the author, I am currently an undergraduate studying Engineering Physics. I have been interested in education for a few years now, and have been trying to get this project off the ground for almost as long. Let's see where it goes. 
+As for the author, I am currently a graduate student studying theoretical physics. I have been interested in education for several years now, and have been trying to get this project off the ground for almost as long.
 

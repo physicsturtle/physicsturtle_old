@@ -17,8 +17,5 @@ Unit 10 is the theory of special relativity, initially developed by Albert Einst
 </ol>
 
 <!---
-Three-dimensional cartesian coordinaes
-vectors and geometry
-algebraic operations with vectors
-norm
+
 --->

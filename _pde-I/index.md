@@ -1,7 +1,7 @@
 ---
 layout: course
 title: Partial Differential Equations I
-permalink: /math/pde-1/
+permalink: /pde-I/
 ---
 
-PDE 1 -- Coming soon
+PDE I -- Coming soon

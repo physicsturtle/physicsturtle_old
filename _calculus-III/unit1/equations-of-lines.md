@@ -3,8 +3,6 @@ layout: lesson
 title: EQUATIONS OF LINES
 course: calculus-III
 unit: unit1
-lessonID: equations-of-lines
-nextID: equations-of-planes
 ---
 
 

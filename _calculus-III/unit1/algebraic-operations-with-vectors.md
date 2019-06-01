@@ -1,8 +1,12 @@
 ---
 layout: lesson
+dept: math
 title: Algebraic Operations with Vectors
 course: calculus-III
 unit: unit1
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 2
 ---
 
 In the last section, we discussed adding and subtracting vectors geometrically. Now we will do the same, but algebraically. This is a little bit more abstract, but is much more useful when solving problems that are difficult to draw by hand.

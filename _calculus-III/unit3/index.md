@@ -1,5 +1,6 @@
 ---
 layout: page
+dept: math
 title: Partial Differentiation 
 course: calculus-III
 unit: unit3
