@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: DOT PRODUCT
+title: Dot Product
 course: calculus-III
 unit: unit1
 ---

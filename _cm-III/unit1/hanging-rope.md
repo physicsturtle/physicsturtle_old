@@ -1,8 +1,12 @@
 ---
-layout: page
+layout: lesson
+dept: physics
 title: The Hanging Rope
 course: cm-III
 unit: unit1
+deptDisplay: Physics
+courseDisplay: Classical Mechanics III
+unitDisplay: Unit 1
 ---
 
 Today, we will analyze the famous problem of what shape a rope of uniform mass density takes if it is hung between two points. The problem is illustrated below
@@ -29,8 +33,9 @@ If we simplify the terms and cancel, then we get
 
 $$\frac{yy''}{1+(y')^2} = 1$$
 
-There are many ways to solve this differential equation. Here, I will show only one. If, in general, we have a (linear or nonlinear) differential equation where there is no appearance of the independent variable, then we can make a substitution $y' = v(y)$. This means that 
-$$\frac{dy'}{dx} = \frac{dv}{dy}{dy}{dx} = v' y$$
+There are many ways to solve this differential equation. Here, I will show only one. If, in general, we have a (linear or nonlinear) differential equation where there is no appearance of the independent variable $x$, then we can make a substitution $y' = v(y)$. This means that 
+
+$$y'' = \frac{dy'}{dx} = \frac{dv}{dy}\frac{dy}{dx} = v' y' = v'v$$
 
 so we have defined a function $v$ whose independent variable is $y$. Thus the differential equation becomes 
 
