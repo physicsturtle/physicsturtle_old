@@ -3,7 +3,7 @@ name: nonlin-dyn-I/
 layout: course
 title: Nonlinear Dynamics and Chaos I
 permalink: /nonlin-dyn-I/
-banner: banner.png
+banner: nonlin-dyn-I.svg
 ---
 
 Welcome to EmptyCourse
