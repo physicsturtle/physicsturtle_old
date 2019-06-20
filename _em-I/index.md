@@ -8,15 +8,11 @@ banner: electromagnetism-I.svg
 
 Welcome to Multi-Variable and Vector Calculus. This is a really exciting subject and is the first step into allowing one to tackle real world physics and engineering problems. 
 
-This course is a **work in progress**. The goal is for it to be finished by the end of December 2019. Sections with ALL CAPITALS are in progress, those in normal text are complete.
+This course is a **work in progress**.
 
 Sections marked with an asterisk * should be regarded as optional, and everything else as essential. The ones chosen to be marked with an asterisk are ones which are normally left out of multivariable calculus courses, but may be included in an honours course. One of the goals is to be able to cater to as wide of an audience as possible, and for this reason those sections were written.
 
-Solutions to all exercises will eventually be written, even if they aren't available at the moment.
-
-This is a course on calculus, *not analysis*, and will be treated as such. The idea is for everybody to understand how to compute important quantities and objects in multivariable calculus, and to understand the concepts without proof and be able to interpret things geometrically.
-
-Often, after a student takes his/her vector calculus course, the student is unable to do the computations necessary for a course in, for example, electromagnetism or quantum mechanics. We aim to have examples and exercises here that will allow the student to perform such calculations.
+This is a course on calculus, *not analysis*. The goal is for students to understand how to compute important quantities and objects in multivariable calculus, and to understand the concepts without proof and be able to interpret concepts geometrically.
 
 <a class="page-link" href="/calculus-III/introduction">Introduction - What is Multivariable Calculus? </a>
 
@@ -24,81 +20,42 @@ Often, after a student takes his/her vector calculus course, the student is unab
 
 <a class="page-link" href="/calculus-III/learning-outcomes"> Learning Outcomes</a>
 
-<ul>
-<li>  <a class="page-link" href="/calculus-III/unit1/"> Unit 1 - Introduction to 3D Space and Vectors </a> </li>
-<ol>
-{% assign temp = "three-dimensional-cartesian" %}
-{% for my_page in site.calculus-III %}
-{% for my_page in site.calculus-III %}
-{% if my_page.unit == "unit1" and my_page.layout == "lesson" and my_page.lessonID == temp %}
-<li> <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> </li>
-{% assign temp = my_page.nextID %}
-{% endif %}
-{% endfor %}
-{% endfor %}
-</ol>
-<li>  <a class="page-link" href="/calculus-III/unit2/"> Unit 2 - Space Curves </a> </li>
-<ol>
-{% assign temp = "vector-functions" %}
-{% for my_page in site.calculus-III %}
-{% for my_page in site.calculus-III %}
-{% if my_page.unit == "unit2" and my_page.layout == "lesson" and my_page.lessonID == temp %}
-<li> <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> </li>
-{% assign temp = my_page.nextID %}
-{% endif %}
-{% endfor %}
-{% endfor %}
-</ol>
-<li>  <a class="page-link" href="/calculus-III/unit3/"> Unit 3 - Partial Differentiation </a> </li>
-<ol>
-{% assign temp = "functions-multiple-variables" %}
-{% for my_page in site.calculus-III %}
-{% for my_page in site.calculus-III %}
-{% if my_page.unit == "unit3" and my_page.layout == "lesson" and my_page.lessonID == temp %}
-<li> <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> </li>
-{% assign temp = my_page.nextID %}
-{% endif %}
-{% endfor %}
-{% endfor %}
-</ol>
-<li>  <a class="page-link" href="/calculus-III/unit4/"> Unit 4 - Multiple Integration </a> </li>
-<ol>
-{% assign temp = "riemann-sums" %}
-{% for my_page in site.calculus-III %}
-{% for my_page in site.calculus-III %}
-{% if my_page.unit == "unit4" and my_page.layout == "lesson" and my_page.lessonID == temp %}
-<li> <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> </li>
-{% assign temp = my_page.nextID %}
-{% endif %}
-{% endfor %}
-{% endfor %}
-</ol>
-<li>  <a class="page-link" href="/calculus-III/unit5/"> Unit 5 - Vector Calculus </a> </li>
-<ol>
-{% assign temp = "vector-fields" %}
-{% for my_page in site.calculus-III %}
-{% for my_page in site.calculus-III %}
-{% if my_page.unit == "unit5" and my_page.layout == "lesson" and my_page.lessonID == temp %}
-<li> <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> </li>
-{% assign temp = my_page.nextID %}
-{% endif %}
-{% endfor %}
-{% endfor %}
-</ol>
-<li> <a class="page-link" href="/calculus-III/supplements/"> Supplementary Material </a> </li>
-<ol>
-{% assign temp = "three-dimensional-cartesian" %}
-{% for my_page in site.calculus-III %}
-{% for my_page in site.calculus-III %}
-{% if my_page.unit == "supplements" and my_page.layout == "lesson" and my_page.lessonID == temp %}
-<li> <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> </li>
-{% assign temp = my_page.nextID %}
-{% endif %}
-{% endfor %}
-{% endfor %}
-</ol>
-</ul>
+{% assign unitNames = "Unit 1 - Introduction to 3D Space and Vectors, Unit 2 - Space Curves, Unit 3 - Partial Differentiation, Unit 4 - Multiple Integration, Unit 5 - Vector Calculus, Supplementary Material" | split: ', ' %}
 
+{% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, supplements/" | split: ', ' %}
+
+{% assign lessonNames1 = "Three-Dimensional-Cartesian-Coordinates, Vectors-and-Their-Geometry, Algebraic-Operations-with-Vectors, Norm, Projections" | split: ', ' %}
+
+{% assign lessonNames2 = "Three-Dimensional-Cartesian-Coordinates, Vectors-and-Their-Geometry, Algebraic-Operations-with-Vectors, Norm, Projections" | split: ', ' %}
+
+{% assign lessonNames3 = "" | split: ', ' %}
+
+{% assign lessonNames4 = "" | split: ', ' %}
+
+{% assign lessonNames5 = "Maxwell's-Equations" | split: ', ' %}
+
+{% assign lessonNames6 = "Chain-Rules, Coordinate-Change-Tensor, Coordinate-Change, Curvilinear-Coordinates, Notation, Product-Rules" | split: ', ' %}
+
+<ul>
+{% for unitName in unitNames %}
+{% assign unitLink = page.permalink | append: units[forloop.index0] %}
+<li>  <a class="page-link" href="{{unitLink}}"> "{{unitName}}" </a> </li>
+<ol>
+{% if forloop.index == 1 %} {% assign lessonNames = lessonNames1 %}
+{% elsif forloop.index == 2 %}  {% assign lessonNames = lessonNames2 %}
+{% elsif forloop.index == 3 %}  {% assign lessonNames = lessonNames3 %}
+{% elsif forloop.index == 4 %}  {% assign lessonNames = lessonNames4 %}
+{% elsif forloop.index == 5 %}  {% assign lessonNames = lessonNames5 %}
+{% elsif forloop.index == 6 %}  {% assign lessonNames = lessonNames6 %}
+{% endif %}
+{% for lessonName in lessonNames %}
+{% assign lessonTitle = lessonName | replace:  '-', ' ' %}
+{% assign lowerName = lessonName | downcase %}
+<li> <a class = "page-link" href = "{{ lowerName | prepend: units[forloop.index0] | prepend: current_page.permalink }}"> {{lessonTitle}} </a> </li>
+{% endfor %}
+</ol>
+{% endfor %}
+</ul>
 
 **Sources**
 

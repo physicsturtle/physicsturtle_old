@@ -1,10 +1,31 @@
 ---
+name: ode-II/
 layout: course
-title: Classical Mechanics III
-permalink: /cm-III/
+title: Ordinary Differential Equations II
+permalink: /ode-II/
+banner: ode-III.svg
 ---
 
-Hey everyone! Welcome to Classical Mechanics III. This course is on the topic of *Lagrangian and Hamiltonian Mechanics*, also known as *analytical mechanics*. The first half of the course is on Lagrangian Mechanics, and the second on Hamiltonian Mechanics. The first half of the course will contain many real-world examples 
+Ordinary Differential Equations II -- In progress
+
+In this course, we continue with more methods for solving ordinary differential equations. As in the first course on ordinary differential equations, we will not go heavy on the theory here, but focus on illustrating the theory with examples and applications. 
+
+The prerequisites for this course are 
+1. A working knowledge of Ordinary Differential Equations I
+2. A working knowledge of Calculus III - Multivariable and Vector Calculus
+3. The units on the Fourier transform and Laplace transform require a working knowledge of the calculus of complex variables, in particular contour integration. 
+
+### Power Series Solutions
+
+### Fourier Series
+
+### Fourier Transform
+
+### Sturm Liouville Boundary Value Problems
+
+### Operators
+
+### Laplace Transform
 
 
 Welcome to Multi-Variable and Vector Calculus. This is a really exciting subject and is the first step into allowing one to tackle real world physics and engineering problems. 

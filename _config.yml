@@ -24,6 +24,8 @@ collections:
         output: true
     ode-I:
         output: true
+    ode-II:
+        output: true
     nonlin-dyn-I:
         output: true
     complex-analysis:

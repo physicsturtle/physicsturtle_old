@@ -20,13 +20,25 @@ Coming soon
 <a class="page-link" href="/linear-algebra-I/"> Linear Algebra I </a> - In progress
 
 
-### Ordinary Differential Equations
+### Differential Equations
 <a class="page-link" href="/ode-I/"> Ordinary Differential Equations I  </a> - In progress
 
 <a class="page-link" href="/nonlin-dyn-I/"> Nonlinear Dynamics and Chaos I </a> - In progress
 
-Ordinary Differential Equations II
-<!--- <a class="page-link" href="/ode-II/"> Ordinary Differential Equations II  </a> - In progress --->
+<a class="page-link" href="/ode-II/"> Ordinary Differential Equations II  </a> - In progress
+
+<a class="page-link" href="/pde-I/"> Partial Differential Equations I  </a> - In progress
+
+<a class="page-link" href="/pde-II/"> Partial Differential Equations II  </a> - In progress
+
+Theory of Ordinary Differential Equations - ODE with Real Domain 
+<!--- <a class="page-link" href="/odet-real/"> Theory of Ordinary Differential Equations - ODE with Real Domain </a> - In progress ---> 
+
+Theory of Ordinary Differential Equations - ODE with Complex Domain 
+<!--- <a class="page-link" href="/odet-complex/"> Theory of Ordinary Differential Equations - ODE with Complex Domain </a> - In progress ---> 
+
+Theory of Ordinary Differential Equations - ODE with Manifold Domain 
+<!--- <a class="page-link" href="/odet-manifold/"> Theory of Ordinary Differential Equations - ODE with Manifold Domain </a> - In progress ---> 
 
 ### Mathematical Communication
 Mathematical Proof
@@ -35,13 +47,16 @@ Mathematical Proof
 ### Complex Analysis
 <a class="page-link" href="/complex-analysis/"> Complex Analysis </a> - In progress
 
-### Partial Differential Equations
-<a class="page-link" href="/pde-I/"> Partial Differential Equations I  </a> - In progress
-
-<a class="page-link" href="/pde-II/"> Partial Differential Equations II  </a> - In progress
+### Topics in Applied Mathematics
 
 Green's Functions - Coming soon
 <!--- <a class="page-link" href="/greens-functions/"> Green's Functions </a> - In progress --->
+
+Asymptotic Analysis - I - Coming soon
+<!--- <a class="page-link" href="/asymptotic-analysis-I/"> Asymptotic Analysis I </a> - In progress --->
+
+Asymptotic Analysis - II - Coming soon
+<!--- <a class="page-link" href="/asymptotic-analysis-II/"> Asymptotic Analysis II  </a> - In progress --->
 
 Calculus of Variations - Coming soon
 <!--- <a class="page-link" href="/variational-calculus/"> Calculus of Variations </a> - In progress --->
@@ -60,15 +75,6 @@ Group Theory - Coming soon
 
 Rings and Modules - Coming soon
 <!--- <a class="page-link" href="/rings-and-modules/"> Rings and Modules </a> - In progress --->
-
-
-### Asymptotic Analysis
-Asymptotic Analysis - I - Coming soon
-<!--- <a class="page-link" href="/asymptotic-analysis-I/"> Asymptotic Analysis I </a> - In progress --->
-
-Asymptotic Analysis - II - Coming soon
-<!--- <a class="page-link" href="/asymptotic-analysis-II/"> Asymptotic Analysis II  </a> - In progress --->
-
 
 ### Differential Geometry
 Classical Differential Geometry - Coming soon

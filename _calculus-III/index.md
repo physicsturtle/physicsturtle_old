@@ -20,62 +20,42 @@ This is a course on calculus, *not analysis*. The goal is for students to unders
 
 <a class="page-link" href="/calculus-III/learning-outcomes"> Learning Outcomes</a>
 
-<ul>
-<li>  <a class="page-link" href="/calculus-III/unit1/"> Unit 1 - Introduction to 3D Space and Vectors </a> </li>
-<ol>
-{% assign lessonNames = "Three-Dimensional-Cartesian-Coordinates, Vectors-and-Their-Geometry, Algebraic-Operations-with-Vectors, Norm, Projections" | split: ', ' %}
-{% for lessonName in lessonNames %}
-{% assign lessonTitle = lessonName | replace:  '-', ' ' %}
-{% assign lowerName = lessonName | downcase %}
-<li> <a class = "page-link" href = "{{ lowerName | prepend: "unit1/" | prepend: current_page.permalink }}"> {{lessonTitle}} </a> </li>
-{% endfor %}
-</ol>
-<li>  <a class="page-link" href="/calculus-III/unit2/"> Unit 2 - Space Curves </a> </li>
-<ol>
-{% assign lessonNames = "" | split: ', ' %}
-{% for lessonName in lessonNames %}
-{% assign lessonTitle = lessonName | replace:  '-', ' ' %}
-{% assign lowerName = lessonName | downcase %}
-<li> <a class = "page-link" href = "{{ lowerName | prepend: "unit2/" | prepend: current_page.permalink }}"> {{lessonTitle}} </a> </li>
-{% endfor %}
-</ol>
-<li>  <a class="page-link" href="/calculus-III/unit3/"> Unit 3 - Partial Differentiation </a> </li>
-<ol>
-{% assign lessonNames = "" | split: ', ' %}
-{% for lessonName in lessonNames %}
-{% assign lessonTitle = lessonName | replace:  '-', ' ' %}
-{% assign lowerName = lessonName | downcase %}
-<li> <a class = "page-link" href = "{{ lowerName | prepend: "unit3/" | prepend: current_page.permalink }}"> {{lessonTitle}} </a> </li>
-{% endfor %}
-</ol>
-<li>  <a class="page-link" href="/calculus-III/unit4/"> Unit 4 - Multiple Integration </a> </li>
-<ol>
-{% assign lessonNames = "" | split: ', ' %}
-{% for lessonName in lessonNames %}
-{% assign lessonTitle = lessonName | replace:  '-', ' ' %}
-{% assign lowerName = lessonName | downcase %}
-<li> <a class = "page-link" href = "{{ lowerName | prepend: "unit4/" | prepend: current_page.permalink }}"> {{lessonTitle}} </a> </li>
-{% endfor %}
-</ol>
-<li>  <a class="page-link" href="/calculus-III/unit5/"> Unit 5 - Vector Calculus </a> </li>
-<ol>
-{% assign lessonNames = "Maxwell's-Equations" | split: ', ' %}
-{% for lessonName in lessonNames %}
-{% assign lessonTitle = lessonName | replace:  '-', ' ' %}
-{% assign lowerName = lessonName | downcase %}
-<li> <a class = "page-link" href = "{{ lowerName | prepend: "unit5/" | prepend: current_page.permalink }}"> {{lessonTitle}} </a> </li>
-{% endfor %}
-</ol>
-<li> <a class="page-link" href="/calculus-III/supplement/"> Supplementary Material </a> </li>
-<ol>
-{% assign lessonNames = "Chain-Rules, Coordinate-Change-Tensor, Coordinate-Change, Curvilinear-Coordinates, Notation, Product-Rules" | split: ', ' %}
-{% for lessonName in lessonNames %}
-{% assign lessonTitle = lessonName | replace:  '-', ' ' %}
-<li> <a class = "page-link" href = "{{ lessonName | prepend: "supplement/" | prepend: current_page.permalink }}"> {{lessonTitle}} </a> </li>
-{% endfor %}
-</ol>
-</ul>
+{% assign unitNames = "Unit 1 - Introduction to 3D Space and Vectors, Unit 2 - Space Curves, Unit 3 - Partial Differentiation, Unit 4 - Multiple Integration, Unit 5 - Vector Calculus, Supplementary Material" | split: ', ' %}
 
+{% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, supplements/" | split: ', ' %}
+
+{% assign lessonNames1 = "Three-Dimensional-Cartesian-Coordinates, Vectors-and-Their-Geometry, Algebraic-Operations-with-Vectors, Norm, Projections" | split: ', ' %}
+
+{% assign lessonNames2 = "Three-Dimensional-Cartesian-Coordinates, Vectors-and-Their-Geometry, Algebraic-Operations-with-Vectors, Norm, Projections" | split: ', ' %}
+
+{% assign lessonNames3 = "" | split: ', ' %}
+
+{% assign lessonNames4 = "" | split: ', ' %}
+
+{% assign lessonNames5 = "Maxwell's-Equations" | split: ', ' %}
+
+{% assign lessonNames6 = "Chain-Rules, Coordinate-Change-Tensor, Coordinate-Change, Curvilinear-Coordinates, Notation, Product-Rules" | split: ', ' %}
+
+<ul>
+{% for unitName in unitNames %}
+{% assign unitLink = page.permalink | append: units[forloop.index0] %}
+<li>  <a class="page-link" href="{{unitLink}}"> "{{unitName}}" </a> </li>
+<ol>
+{% if forloop.index == 1 %} {% assign lessonNames = lessonNames1 %}
+{% elsif forloop.index == 2 %}  {% assign lessonNames = lessonNames2 %}
+{% elsif forloop.index == 3 %}  {% assign lessonNames = lessonNames3 %}
+{% elsif forloop.index == 4 %}  {% assign lessonNames = lessonNames4 %}
+{% elsif forloop.index == 5 %}  {% assign lessonNames = lessonNames5 %}
+{% elsif forloop.index == 6 %}  {% assign lessonNames = lessonNames6 %}
+{% endif %}
+{% for lessonName in lessonNames %}
+{% assign lessonTitle = lessonName | replace:  '-', ' ' %}
+{% assign lowerName = lessonName | downcase %}
+<li> <a class = "page-link" href = "{{ lowerName | prepend: units[forloop.index0] | prepend: current_page.permalink }}"> {{lessonTitle}} </a> </li>
+{% endfor %}
+</ol>
+{% endfor %}
+</ul>
 
 **Sources**
 
