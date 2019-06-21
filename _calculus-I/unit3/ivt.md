@@ -1,8 +1,12 @@
 ---
 layout: lesson
 title: Limits
+dept: math
 course: calculus-I
-unit: unit2
+unit: unit3
+deptDisplay: Math
+courseDisplay: Calculus I
+unitDisplay: Unit 3
 ---
 
 ### Introduction

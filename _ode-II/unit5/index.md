@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Vector Calculus
-course: calculus-III
+title: Fourier Transform
+course: ode-II
 unit: unit5
-permalink: /calculus-III/unit5/
+permalink: /ode-II/unit5/
 ---
 
 Unit 5 studies the last kind of function between sets of real numbers. That is, functions which take a vector input and give a vector output. In symbols, this is functions like 

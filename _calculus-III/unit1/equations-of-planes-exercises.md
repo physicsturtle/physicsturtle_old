@@ -1,12 +1,10 @@
 ---
 layout: lesson
 title: EQUATIONS OF PLANES
-dept: math
 course: calculus-III
 unit: unit1
-deptDisplay: Math
-courseDisplay: Calculus III
-unitDisplay: Unit 1
+lessonID: equations-of-planes
+nextID: quadric-surfaces
 ---
 
 - Equation form of line

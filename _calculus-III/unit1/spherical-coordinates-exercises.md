@@ -1,12 +1,10 @@
 ---
 layout: lesson
 title: SPHERICAL COORDINATES
-dept: math
 course: calculus-III
 unit: unit1
-deptDisplay: Math
-courseDisplay: Calculus III
-unitDisplay: Unit 1
+lessonID: spherical-coordinates
+nextID: general-surfaces
 ---
 
 Spherical coordinates are a set of three coordinates used when the objects we're studying have spherical symmetry. They will simplify our calculations and make the results much more transparent. The three coordinates are the distance from the origin \\(r\\), the angle measured down from the \\(z\\) axis \\(\theta\\), and the angle measured in the \\(xy\\) plane, \\(\varphi\\). This can be represented graphically by 

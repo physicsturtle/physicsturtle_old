@@ -18,6 +18,8 @@ collections:
         permalink: /:collection:/:title
     calculus-I:
         output: true
+    calculus-II:
+        output: true
     calculus-III:
         output: true
     linear-algebra-I:
@@ -28,7 +30,7 @@ collections:
         output: true
     nonlin-dyn-I:
         output: true
-    complex-analysis:
+    complex-variables:
         output: true
     pde-I:
         output: true

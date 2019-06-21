@@ -1,12 +1,8 @@
 ---
 layout: lesson
 title: Projections
-dept: math
 course: calculus-III
 unit: unit1
-deptDisplay: Math
-courseDisplay: Calculus III
-unitDisplay: Unit 1
 ---
 
 ### Introduction

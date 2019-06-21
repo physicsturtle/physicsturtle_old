@@ -1,12 +1,10 @@
 ---
 layout: lesson
-title: Cylindrical Coordinates
-dept: math
+title: CYLINDRICAL COORDINATES
 course: calculus-III
 unit: unit1
-deptDisplay: Math
-courseDisplay: Calculus III
-unitDisplay: Unit 1
+lessonID: cylindrical-coordinates
+nextID: spherical-coordinates
 ---
 
 Here we will define cylindrical coordinates. If you have learned about polar coordinates in single variable calculus, then this discussion will be a direct extension of polar coordinates to three dimensions. In cylindrical coordinates, the three variables are

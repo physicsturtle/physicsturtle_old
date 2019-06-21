@@ -1,12 +1,8 @@
 ---
 layout: lesson
 title: EQUATIONS OF LINES
-dept: math
 course: calculus-III
 unit: unit1
-deptDisplay: Math
-courseDisplay: Calculus III
-unitDisplay: Unit 1
 ---
 
 

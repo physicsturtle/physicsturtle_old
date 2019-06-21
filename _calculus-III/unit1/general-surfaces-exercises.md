@@ -1,14 +1,12 @@
 ---
 layout: lesson
-title: STOKES THEOREM
+title: General Surfaces
 course: calculus-III
-unit: unit5
-lessonID: stokes-theorem
-nextID: divergence-theorem
+unit: unit1
 ---
 
-Stoke's theorem relates the amount of rotation of a vector field 
 
+- How to match general surfaces with their equations
 
 ### Exercises
 

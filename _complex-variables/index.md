@@ -1,18 +1,22 @@
 ---
 layout: course
-title: Partial Differential Equations II
-permalink: /pde-II/
+title: Complex Variables
+permalink: /complex-variables/
+banner: complex-variables.svg
 ---
 
-Welcome to Partial Differential Equations II.
-
-<a class="page-link" href="/calculus-III/introduction">Introduction - What is a Partial Differential Equation? </a>
+Welcome to Complex Variables! This course is often called complex analysis, but the level of rigour at which I will present this course does not warrant it being called analysis. 
 
 
 
-{% assign unitNames = "Unit 1 - Method of Characteristics, Unit 2 - Separation of Variables in Higher Dimensions, Unit 3 - Fourier Transform, Unit 4 - Laplace Transform, Unit 5 - Similarity Solution, Supplementary Material" | split: ', ' %}
+<a class="page-link" href="/calculus-III/introduction">Introduction - What is Multivariable Calculus? </a>
 
-{% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, supplements/" | split: ', ' %}
+The prerequisites for this course are
+1. 
+
+{% assign unitNames = "Unit 1 - Complex Numbers and Algebra, Unit 2 - Mappings and Differentiation, Unit 3 - Integration, Unit 4 - Applications, Unit 5 - Laurent Series and the Calculus of Residues" | split: ', ' %}
+
+{% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/" | split: ', ' %}
 
 {% assign lessonNames1 = "" | split: ', ' %}
 
@@ -23,8 +27,6 @@ Welcome to Partial Differential Equations II.
 {% assign lessonNames4 = "" | split: ', ' %}
 
 {% assign lessonNames5 = "" | split: ', ' %}
-
-{% assign lessonNames6 = "" | split: ', ' %}
 
 <ul>
 {% for unitName in unitNames %}
@@ -48,4 +50,4 @@ Welcome to Partial Differential Equations II.
 
 **Sources**
 
-1. 
+1. Complex Variables and Applications, Churchill and Brown

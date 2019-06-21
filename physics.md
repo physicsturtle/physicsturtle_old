@@ -3,8 +3,11 @@ layout: page
 title: Physics
 permalink: /physics/
 ---
+Physics, the oldest and most fundamental of the sciences. It lies at the base of all other scientific study and engineering, and also has a rich history spanning thousands of years. It is also a field of study full of rich mathematics. These characteristics of physics make physics interesting to me and are what led me to become a physicist. This website aims to bring you on a journey from secondary school physics up to the level necessary to understand current research. A massive undertaking, this site is something which I hope to have in some sort of completed form by 2030. 
 
 ## Secondary School Physics
+Secondary school physics covers the basics of classical mechanics, heat, optics, relativity, electromagnetism, acoustics, and fluid mechanics. Each of these topics is covered in more detail in the undergraduate years. I will not make an attempt to cover a curriculum such as the IB Physics HL at the secondary school level, at least for now.
+
 Physics I - Coming soon
 <!--- <a class="page-link" href="/hs-physics-I/">Physics I </a> - In progress --->
 
@@ -12,6 +15,7 @@ Physics II - Coming soon
 <!--- <a class="page-link" href="/hs-physics-II/">Physics II </a> - In progress --->
 
 ## Undergraduate Physics
+The undergraduate physics education aims to explose the student to a wide variety of 
 
 ### General Physics/Surveys of Physics
 <a class="page-link" href="/physics-I/">Physics I - Thermodynamics, Elasticity, Fluids, Acoustics </a> - In progress
@@ -120,34 +124,41 @@ Mathematical Theory of Quantum Mechanics II
 
 
 ### Statistical Mechanics
-Statistical Mechanics II
+Statistical Mechanics II - Coming soon
 <a class="page-link" href="/statistical-mechanics-II/"> Statistical Mechanics II </a>
 
-Statistical Mechanics III
+Statistical Mechanics III - Coming soon
 <a class="page-link" href="/statistical-mechanics-III/"> Statistical Mechanics III </a>
 
-Physical Kinetics
+Physical Kinetics - Coming soon
 <a class="page-link" href="/physical-kinetics/"> Physical Kinetics </a>
 
 ### Quantum Field Theory
-Quantum Field Theory I
+Quantum Field Theory I - Coming soon
 <a class="page-link" href="/quantum-field-theory-I/"> Quantum Field Theory I </a>
 
-Statistical Mechanics II
+Statistical Mechanics II - Coming soon
 <a class="page-link" href="/quantum-field-theory-II/"> Quantum Field Theory II </a>
 
-Conformal Field Theory
+Conformal Field Theory - Coming soon
 <a class="page-link" href="/conformal-field-theory/"> Conformal Field Theory </a>
 
-Effective Field Theory
+Effective Field Theory - Coming soon
 <a class="page-link" href="/effective-field-theory/"> Effective Field Theory </a>
 
 ### Quantum Optics
+Quantum Optics I - Coming soon
+<a class="page-link" href="/quantum-optics-I/"> Quantum Optics I </a>
 
-
+Quantum Optics II - Coming soon
+<a class="page-link" href="/quantum-optics-II/"> Quantum Optics II </a>
 
 ### Condensed Matter Physics
+Condensed Matter Theory I - Coming soon
+<a class="page-link" href="/cmt-I/"> Condensed Matter Theory I </a>
 
+Condensed Matter Theory II - Coming soon
+<a class="page-link" href="/cmt-II/"> Condensed Matter Theory II </a>
 
 ### General Relativity
 
