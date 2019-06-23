@@ -27,8 +27,10 @@ $$\mathcal{F}(f)(k) = \frac{1}{\sqrt{2\pi}}\int_{-\infty}^\infty e^{-ikx} f(x) d
   $$\mathcal{F}(f+g) = \mathcal{F}(f) + \mathcal{F}(g)$$</li>  
 <li>Scalar Multiplication 
   $$\mathcal{F}(\lambda f) = \lambda\mathcal{F}(f).$$ </li>
-<li>Shifting of Argument
+<li>Shifting of Argument in $x$ space
   $$\mathcal{F}(f(x-a)) = e^{iak}\mathcal{F}(f) </li>
+<li>Shifting of Argument in $k$ space
+$$\mathcal{F}(e^{iax}f(x)) = \mathcal{F}(f)(x-a) </li>
 <li>Fourier Transform of Derivatives:
   $$\mathcal{F}(f^{(n)}) = (-ik)^n\mathcal{F}(f)$$ </li>
 <li>Fourier Transform of Powers of $x^n$ times $f$:
@@ -37,5 +39,9 @@ $$\mathcal{F}(f)(k) = \frac{1}{\sqrt{2\pi}}\int_{-\infty}^\infty e^{-ikx} f(x) d
 
 </div>
 
-These properties can be shown by direct computation. 
+These properties can be shown by direct computation. Before we proceed, let's do a few examples. 
+
+<div class="example">
+<p><b>Example:</b> Calculate the Fourier transform of </p> 
+</div>
 

@@ -1,13 +1,13 @@
 ---
 layout: course
-title: Calculus I
+title: Calculus I - In Progress
 permalink: /calculus-I/
 banner: calculus-I.svg
 ---
 
-Welcome to Calculus I, single variable differential calculus! This is generally a student's first exposure to post-secondary mathematics, and success in this course is crucial to further studies in mathematics or science. 
+Welcome to Calculus I, single variable differential calculus! This is generally a student's first exposure to post-secondary mathematics, and success in this course is crucial to further studies in mathematics or science. Calculus is the language of physics and engineering, but is also a beautiful subject to study on its own. 
 
-<a class="page-link" href="/calculus-III/introduction">Introduction - What is Multivariable Calculus? </a>
+<a class="page-link" href="/calculus-I/introduction"> Introduction - What is Calculus? </a>
 
 The prerequisites are as follows
 1. A strong background in high school mathematics, including trigonometry, solving algebraic equations, working with exponentials and logarithms, and graphing.
@@ -17,13 +17,13 @@ The prerequisites are as follows
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/" | split: ', ' %}
 
-{% assign lessonNames1 = "" | split: ', ' %}
+{% assign lessonNames1 = "Sets, Functions, Inverse-Functions" | split: ', ' %}
 
-{% assign lessonNames2 = "Intermediate-Value-Theorem" | split: ', ' %}
+{% assign lessonNames2 = "Limits, Limit-Laws, Limit-Details, Squeeze-Theorem, Continuity, Intermediate-Value-Theorem, Limits-at-Infinity, Tangent-Problem" | split: ', ' %}
 
-{% assign lessonNames3 = "" | split: ', ' %}
+{% assign lessonNames3 = "Derivatives-and-Rate-of-Change, Definition-of-the-Derivative, Derivatives-of-Polynomials, Product-Rule, Quotient-Rule, Derivatives-of-Trigonometric-Functions, Derivatives-of-Exponential-Functions, Derivatives-of-Hyperbolic-Functions*, Chain-Rule, Implicit-Differentiation, Derivatives-of-Logarithmic-Functions, Derivatives-of-Inverse-Trigonometric-Functions, Derivatives-of-Inverse-Hyperbolic-Functions*, Logarithmic-Differentiation, Linear-Approximations-and-Differentials, Taylor-Polynomials, Lagrange-Remainder-Theorem" | split: ', ' %}
 
-{% assign lessonNames4 = "" | split: ', ' %}
+{% assign lessonNames4 = "Kinematics-Problems, Newton's-Law-of-Cooling, Exponential-Growth-and-Decay, Related-Rates, Extrema-1, Extrema-2, The-Mean-Value-Theorem, Curve-Sketching-1, Curve-Sketching-2, Optimization-Problems, L'Hopital's-Rule, Newton's-Method, Antiderivatives" | split: ', ' %}
 
 <ul>
 {% for unitName in unitNames %}

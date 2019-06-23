@@ -15,7 +15,7 @@ The prerequisites for this course are
 2. A working knowledge of Calculus III - Multivariable and Vector Calculus
 3. The units on the Fourier transform and Laplace transform require a working knowledge of the calculus of complex variables, in particular contour integration. 
 
-<a class="page-link" href="/calculus-III/introduction">Introduction </a>
+<a class="page-link" href="/calculus-III/introduction"> Introduction </a>
 
 {% assign unitNames = "Unit 1 - Power Series Solutions, Unit 2 - Fourier Series, Unit 3 - Sturm Liouville Boundary Value Problems, Unit 4 - Operators, Unit 5 - Fourier Transform, Unit 6 - Laplace Transform" | split: ', ' %}
 
@@ -29,7 +29,7 @@ The prerequisites for this course are
 
 {% assign lessonNames4 = "" | split: ', ' %}
 
-{% assign lessonNames5 = "Introduction, Properties" | split: ', ' %}
+{% assign lessonNames5 = "Introduction, Properties, Solving-ODEs" | split: ', ' %}
 
 {% assign lessonNames6 = "" | split: ', ' %}
 

@@ -11,8 +11,7 @@ The goals of the site can be summarized as follows:
 2. To be a course supplement to physics and math courses, no matter what academic instutition you attend
 3. To be an online open source textbook of mathematics and physics
 
-
 Note: *Although I strive for accuracy, I do not guarantee the correctness of any information on this website.*
 
-As for the author, I am currently a graduate student studying theoretical physics. I have been interested in education for several years now, and have been trying to get this project off the ground for almost as long.
+As for the author, I am currently a graduate student studying theoretical physics, in particular condensed matter. I have been interested in education for several years now, and have been trying to get this project off the ground for almost as long. The website was created on June 3, 2018. The website was last updated on {{ "now" | date: "%Y-%m-%d %H:%M" }}.
 

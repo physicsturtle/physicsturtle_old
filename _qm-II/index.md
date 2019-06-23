@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Quantum Mechanics I
-permalink: /physics/qm-I/
-banner: qm-I.svg
+title: Quantum Mechanics II
+permalink: /physics/qm-II/
+banner: qm-II.svg
 ---
 
 Welcome to Quantum Mechanics I
@@ -10,7 +10,7 @@ Welcome to Quantum Mechanics I
 <a class="page-link" href="/calculus-III/introduction">Introduction - What is a Partial Differential Equation? </a>
 
 
-{% assign unitNames = "Unit 1 - Basic Formulation, Unit 2 - Elementary Problems, Unit 3 - Formalism, Unit 4 - Spin Systems, Unit 5 - Formalism 2, Unit 6 - (chapter 5 in griffiths?)" | split: ', ' %}
+{% assign unitNames = "Unit 1 - Time Independent Perturbation Theory, Unit 2 - The Variational Principle, Unit 3 - WKB Approximation, Unit 4 - Time Dependent Perturbation Theory, Unit 5 - Adiabatic Approximation, Unit 6 - Scattering Theory" | split: ', ' %}
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, supplements/" | split: ', ' %}
 

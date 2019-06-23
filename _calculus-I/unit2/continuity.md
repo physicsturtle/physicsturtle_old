@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Limits
+title: Continuity
 dept: math
 course: calculus-I
 unit: unit2
@@ -11,23 +11,34 @@ unitDisplay: Unit 2
 
 ### Introduction
 
-In the last section, we introduced the idea of the tangent line to a curve, and how that can be calculated by using a limit. In this section, we will compute limits of functions and learn rules for simplifying limit calculations. There is a rigorous approach to limits, but we will not explore it in detail here; there will be an alternate limits lesson that you can read if you're interested.
+Continuity is an idea that comes up again and again as you go through mathematics, and having a good intuitive understand of continuity is essential for further studies in calculus and related subjects. The intuitive idea you may have heard before is "a function is continuous if you can draw it without lifting your pencil off of the page". This is true, but it also isn't mathematics. We will formulate more precisely what it means to be continuous at a point.
+
+### Definitions
+The definition for continuity that we will use in this course is the following.
+
+<div class="definition">
+<b>Definition:</b> A function $f$ is continuous at a point $a$ if
+$$\lim_{x\to a}f(x) = f(a)$$
+</div>
+
+This definition has two pieces of information in it; we need that the left and right hand limits both to equal $f(a)$. We say that a function is continuous on an *interval* if it is continuous at every point within that interval. Let's proceed with a few examples. 
+
+<div class="example">
+<b>Example:</b> Let $f(x) = x^2$. Determine if $f(x)$ is continuous at $x = 2$. 
+</div>
+
+We now discuss different kinds of discontinuities. 
+
+<div class="definition">
+<b>Definition:</b> Let $f$ be a function. Suppose $\lim_{x\to a}f(x)$ exists, but $\lim_{x\to a}f(x)\not= f(x)$. Then $x = a$ is said to be a removable discontinuity. 
+
+Check definition of jump discontinuity! Do we need that $f(a)$ be equal to one of the limits on the side? Or can it be anything?
+
+Is there such thing as an essential discontinuity? Check!
 
 
 
-### Idea of a Limit
-
-Suppose we have a function $f(x) = x^2$. As $x$ approaches 2, it is clear that $f(x)$ approaches 4. 
 
 
 
-<ol>
-<li> <div> Calculate the dot product between the vectors \(\textbf{a} = (3,1)\) and \(\textbf{b} = (-2,1)\). </div>
 
-<button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
-<div  id="answer1" class="answer">
-This is a straightforward computation in two dimensions, which gives 
-$$\textbf{a}\cdot\textbf{b} = (3)(-2)+(1)(1) = -6 + 1 = -5$$ 
-</div> </li>
-
-</ol>
