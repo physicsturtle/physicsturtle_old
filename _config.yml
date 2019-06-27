@@ -14,7 +14,7 @@ url: "http://zestymath.github.io" # the base hostname & protocol for your site
 twitter_username:
 github_username: zestymath
 collections:
-    mathCourses:
+    math:
         permalink: /:collection:/:title
     calculus-I:
         output: true
@@ -36,7 +36,9 @@ collections:
         output: true
     pde-II:
         output: true
-    physicsCourses:
+    asymptotics:
+        output: true
+    physics:
         permalink: /:collection:/:title
     physics-I:
         output: true
@@ -49,6 +51,8 @@ collections:
     cm-III:
         output: true
     td:
+        output: true
+    qm-I:
         output: true
 
 # Build settings

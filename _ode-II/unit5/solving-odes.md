@@ -16,6 +16,23 @@ $$\mathcal{F}(x^n y^{(m)})(k) = \frac{1}{(-i)^n}\frac{d^n}{dk^n}\left((-ik)^m\ma
 This formula allows us to calculate the Fourier transforms of many types of differential equations. It does of course require that we look for solutions which decay sufficiently rapidly at infinity. 
 
 <div class="example">
+<p><b>Example:</b> Fourier transform the Bessel differential equation $x^2y'' + xy' + (x^2-n^2)y = 0$.  </p>
+<p><b>Solution:</b> We take the Fourier transform of both sides of the equation. This means that we need to take the Fourier transform of each term. The easiest term is 
+$$\mathcal{F}(-n^2y) = -n^2\hat{y}.$$
+Next, we do 
+$$\mathcal{F}(x^2y) = \frac{1}{(-i)^2}\frac{d^2}{3k^2}\hat{y} = -\hat{y}''$$
+The last two are slightly more complicated.
+$$\mathcal{F}(xy') = \frac{1}{(-i)}\frac{d}{dk}\left((-ik)\hat{y}\right) = \hat{y} + k\hat{y}',$$
+$$\mathcal{F}(x^2y'') = \frac{1}{(-i)^2}\frac{d^2}{dk^2}\left((-ik)^2\hat{y}\right) = 2\hat{y} + 4k\hat{y}' + k^2\hat{y}''.$$
+If we add these all together, we get 
+
+$$(k^2 - 1)\hat{y}'' + 5k\hat{y}' + (2-n^2)\hat{y} = 0.$$
+Unfortunately, this equation is just as difficult as before! Next, we will do an example that actually simplifies the differential equation and allows us to find an integral representation for a solution.
+</p>
+</div>
+
+
+<div class="example">
 <p><b>Example:</b> Solve the Airy differential equation $y''  = xy$ by using the Fourier transform. </p>
 This example will illustrate the method nicely. Taking the Fourier transform of both sides yields
 $$-k^2\hat{y} = \frac{1}{-i}\hat{y}'.$$

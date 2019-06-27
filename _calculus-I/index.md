@@ -21,7 +21,7 @@ The prerequisites are as follows
 
 {% assign lessonNames2 = "Limits, Limit-Laws, Limit-Details, Squeeze-Theorem, Continuity, Intermediate-Value-Theorem, Limits-at-Infinity, Tangent-Problem" | split: ', ' %}
 
-{% assign lessonNames3 = "Derivatives-and-Rate-of-Change, Definition-of-the-Derivative, Derivatives-of-Polynomials, Product-Rule, Quotient-Rule, Derivatives-of-Trigonometric-Functions, Derivatives-of-Exponential-Functions, Derivatives-of-Hyperbolic-Functions*, Chain-Rule, Implicit-Differentiation, Derivatives-of-Logarithmic-Functions, Derivatives-of-Inverse-Trigonometric-Functions, Derivatives-of-Inverse-Hyperbolic-Functions*, Logarithmic-Differentiation, Linear-Approximations-and-Differentials, Taylor-Polynomials, Lagrange-Remainder-Theorem" | split: ', ' %}
+{% assign lessonNames3 = "Derivatives-and-Rate-of-Change, Definition-of-the-Derivative, Derivatives-of-Polynomials, Product-Rule, Quotient-Rule, Derivatives-of-Trigonometric-Functions, Derivatives-of-Exponentials, Derivatives-of-Hyperbolic-Functions*, Chain-Rule, Implicit-Differentiation, Derivatives-of-Logarithmic-Functions, Derivatives-of-Inverse-Trigonometric-Functions, Derivatives-of-Inverse-Hyperbolic-Functions*, Logarithmic-Differentiation, Linear-Approximations-and-Differentials, Taylor-Polynomials, Lagrange-Remainder-Theorem" | split: ', ' %}
 
 {% assign lessonNames4 = "Kinematics-Problems, Newton's-Law-of-Cooling, Exponential-Growth-and-Decay, Related-Rates, Extrema-1, Extrema-2, The-Mean-Value-Theorem, Curve-Sketching-1, Curve-Sketching-2, Optimization-Problems, L'Hopital's-Rule, Newton's-Method, Antiderivatives" | split: ', ' %}
 

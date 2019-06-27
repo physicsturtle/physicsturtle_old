@@ -1,7 +1,7 @@
 ---
 layout: lesson
-dept: physics
 title: The Euler-Lagrange Equation
+dept: physics
 course: cm-III
 unit: unit1
 deptDisplay: Physics

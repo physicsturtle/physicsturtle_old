@@ -15,7 +15,7 @@ Physics II - Coming soon
 <!--- <a class="page-link" href="/hs-physics-II/">Physics II </a> - In progress --->
 
 ## Undergraduate Physics
-The undergraduate physics education aims to explose the student to a wide variety of physics topics so that they will be able to determine an area of interest should they decide to pursue research in the future. I consider all courses in the "General Physics", "Classical Mechanics", "Electromagnetism", "Thermal Physics", and "Quantum Mechanics" essential for every physics student. Additionally, no matter your area of current research, in addition to the relevant course/s in that area, I also consider taking around 4 of the special topics courses essential for breadth of a student's education.
+The undergraduate physics education aims to explose the student to a wide variety of physics topics so that they will be able to determine an area of interest should they decide to pursue research in the future. I consider all courses in the "General Physics", "Classical Mechanics", "Electromagnetism", "Thermal Physics", and "Quantum Mechanics" essential for every physics student. Additionally, no matter your area of current research, in addition to the relevant course/s in that area, I also consider taking around 2 or 3 of the special topics courses essential for breadth of a student's education.
 
 ### General Physics/Surveys of Physics
 <a class="page-link" href="/physics-I/">Physics I - Elasticity, Fluids, Thermodynamics, Oscillations, Acoustics </a> - In progress
@@ -62,12 +62,20 @@ Quantum Mechanics I - Coming soon
 Quantum Mechanics II - Coming soon
 <!--- <a class="page-link" href="/qm-II/"> Quantum Mechanics II </a> - In progress --->
 
-### Special Topics
+### Miscellaneous
+There are topics which every physics undergraduate should cover but which don't fall under any of the categories I have listed so far. 
+
 Classical Optics - Coming soon
 <!--- <a class="page-link" href="/classical-optics/"> Classical Optics </a> - In progress --->
 
+Classical Field Theory - Coming soon
+<!--- <a class="page-link" href="/classical-field-theory/"> Classical Field Theory </a> - In progress --->
+
 Computational Physics - Coming soon
 <!--- <a class="page-link" href="/computational-physics/"> Computational Physics </a> - In progress --->
+
+### Special Topics
+These topics are introductions to topics currently researched in physics. These are meant to provide exposure to the student so that they might have an idea of what interests them for graduate school
 
 General Relativity - Coming soon
 <!--- <a class="page-link" href="/general-relativity-I/"> General Relativity </a> - In progress --->
@@ -87,14 +95,17 @@ Plasma Physics - Coming soon
 Nuclear Physics - Coming soon
 <!--- <a class="page-link" href="/nuclear-physics/"> Nuclear Physics </a> - In progress --->
 
-Classical Field Theory - Coming soon
-<!--- <a class="page-link" href="/classical-field-theory/"> Classical Field Theory </a> - In progress --->
-
 Quantum Information Theory - Coming soon
 <!--- <a class="page-link" href="/quantum-information-theory/"> Quantum Information Theory </a> - In progress --->
 
 ## Graduate Physics
 Coming soon
+
+<!--- ### Mathematical Methods 
+In this section, we will have pure and applied mathematics courses but both will be written in the applied mathematics style. There will be fewer proofs and the focus is on being able to calculate physically relevant quantities. 
+
+Differential Geometry
+--->
 
 <!--- ### Classical Mechanics
 Classical Mechanics IV
@@ -166,6 +177,12 @@ Condensed Matter Theory I - Coming soon
 
 Condensed Matter Theory II - Coming soon
 <a class="page-link" href="/cmt-II/"> Condensed Matter Theory II </a>
+
+Superconductivity - Coming soon
+<a class="page-link" href="/superconductivity/"> Superconductivity </a>
+
+Topological Insulators - Coming soon
+<a class="page-link" href="/topological-insulators/"> Topological Insulators </a>
 
 ### General Relativity
 

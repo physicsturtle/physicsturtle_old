@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Born Approximation
+title: Introduction
 course: test
 unit: unit1
 permalink: /test/born-approximation/
