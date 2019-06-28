@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Derivatives of Polynomials
+title: Logarithmic Differentiation
 dept: math
 course: calculus-I
 unit: unit3

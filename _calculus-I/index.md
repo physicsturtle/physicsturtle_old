@@ -17,13 +17,13 @@ The prerequisites are as follows
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/" | split: ', ' %}
 
-{% assign lessonNames1 = "Sets, Functions, Inverse-Functions" | split: ', ' %}
+{% assign lessonNames1 = "Sets, Functions, Inverse_Functions" | split: ', ' %}
 
-{% assign lessonNames2 = "Limits, Limit-Laws, Limit-Details, Squeeze-Theorem, Continuity, Intermediate-Value-Theorem, Limits-at-Infinity, Tangent-Problem" | split: ', ' %}
+{% assign lessonNames2 = "Limits, Limit_Laws, Limit_Details, Squeeze_Theorem, Continuity, Intermediate-Value-Theorem, Limits_at_Infinity, Tangent_Problem" | split: ', ' %}
 
-{% assign lessonNames3 = "Derivatives-and-Rate-of-Change, Definition-of-the-Derivative, Derivatives-of-Polynomials, Product-Rule, Quotient-Rule, Derivatives-of-Trigonometric-Functions, Derivatives-of-Exponentials, Derivatives-of-Hyperbolic-Functions*, Chain-Rule, Implicit-Differentiation, Derivatives-of-Logarithmic-Functions, Derivatives-of-Inverse-Trigonometric-Functions, Derivatives-of-Inverse-Hyperbolic-Functions*, Logarithmic-Differentiation, Linear-Approximations-and-Differentials, Taylor-Polynomials, Lagrange-Remainder-Theorem" | split: ', ' %}
+{% assign lessonNames3 = "Derivatives_and_Rate_of_Change, Definition_of_the_Derivative, Derivatives_of_Polynomials, Product_Rule, Quotient_Rule, Derivatives_of_Trigonometric_Functions, Derivatives_of_Exponentials, Derivatives_of_Hyperbolic_Functions*, Chain_Rule, Implicit_Differentiation, Derivatives_of_Logarithms, Derivatives_of_Inverse_Trigonometric_Functions, Derivatives_of_Inverse_Hyperbolic_Functions*, Logarithmic_Differentiation, Linear_Approximations_and_Differentials, Taylor_Polynomials, Lagrange_Remainder_Theorem" | split: ', ' %}
 
-{% assign lessonNames4 = "Kinematics-Problems, Newton's-Law-of-Cooling, Exponential-Growth-and-Decay, Related-Rates, Extrema-1, Extrema-2, The-Mean-Value-Theorem, Curve-Sketching-1, Curve-Sketching-2, Optimization-Problems, L'Hopital's-Rule, Newton's-Method, Antiderivatives" | split: ', ' %}
+{% assign lessonNames4 = "Kinematics_Problems, Newton's_Law_of_Cooling, Exponential_Growth_and_Decay, Related_Rates, Extrema_1, Extrema_2, The_Mean_Value_Theorem, Curve_Sketching_1, Curve-Sketching_2, Optimization_Problems, L'Hopital's_Rule, Newton's_Method, Antiderivatives" | split: ', ' %}
 
 <ul>
 {% for unitName in unitNames %}
@@ -36,7 +36,7 @@ The prerequisites are as follows
 {% elsif unitIndex == 3 %}  {% assign lessonNames = lessonNames4 %}
 {% endif %}
 {% for lessonName in lessonNames %}
-{% assign lessonTitle = lessonName | replace:  '-', ' ' %}
+{% assign lessonTitle = lessonName | replace:  '_', ' ' %}
 {% assign lowerName = lessonName | downcase %}
 <li> <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink }}"> {{lessonTitle}} </a> - <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink | append: "-exercises" }}"> Exercises </a> </li>
 {% endfor %}

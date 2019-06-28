@@ -1,8 +1,8 @@
 ---
 layout: course
 title: Asymptotic Analysis I
-permalink: /calculus-I/
-banner: calculus-I.svg
+permalink: /asymp/
+banner: asymp.svg
 ---
 
 Welcome to Calculus I, single variable differential calculus! This is generally a student's first exposure to post-secondary mathematics, and success in this course is crucial to further studies in mathematics or science. Calculus is the language of physics and engineering, but is also a beautiful subject to study on its own. 

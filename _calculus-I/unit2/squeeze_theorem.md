@@ -1,11 +1,11 @@
 ---
 layout: lesson
-title: Definition of the Derivative
+title: Squeeze Theorem
 dept: math
 course: calculus-I
-unit: unit3
+unit: unit2
 deptDisplay: Math
 courseDisplay: Calculus I
-unitDisplay: Unit 3
+unitDisplay: Unit 2
 ---
 
