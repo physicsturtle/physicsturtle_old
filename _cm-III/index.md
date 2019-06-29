@@ -9,6 +9,8 @@ Hey everyone! Welcome to Classical Mechanics III. This course is on the topic of
 
 <a class="page-link" href="/cm-III/introduction">Introduction - What is analytical mechanics? </a>
 
+<a class="page-link" href="/cm-III/notation">Notation and Conventions </a>
+
 The prerequisites are as follows
 1. A strong background in Newtonian mechanics
 2. A working knowledge of multivariable and vector calculus
@@ -19,7 +21,7 @@ The prerequisites are as follows
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/" | split: ', ' %}
 
-{% assign lessonNames1 = "" | split: ', ' %}
+{% assign lessonNames1 = "Introduction, Euler_Lagrange_Equation, Hanging_Rope " | split: ', ' %}
 
 {% assign lessonNames2 = "" | split: ', ' %}
 
@@ -38,7 +40,7 @@ The prerequisites are as follows
 {% elsif unitIndex == 3 %}  {% assign lessonNames = lessonNames4 %}
 {% endif %}
 {% for lessonName in lessonNames %}
-{% assign lessonTitle = lessonName | replace:  '-', ' ' %}
+{% assign lessonTitle = lessonName | replace:  '_', ' ' %}
 {% assign lowerName = lessonName | downcase %}
 <li> <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink }}"> {{lessonTitle}} </a> - <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink | append: "-exercises" }}"> Exercises </a> </li>
 {% endfor %}

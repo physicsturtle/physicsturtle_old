@@ -54,6 +54,12 @@ collections:
         output: true
     qm-I:
         output: true
+    qm-I:
+        output: true
+    ssp:
+        output: true
+    classical-ft:
+        output: true
 
 # Build settings
 markdown: kramdown

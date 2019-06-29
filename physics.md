@@ -140,6 +140,7 @@ Mathematical Theory of Quantum Mechanics I
 Mathematical Theory of Quantum Mechanics II
 <a class="page-link" href="/mathematical-theory-of-quantum-mechanics-II/"> Mathematical Theory of Quantum Mechanics II </a>
 
+Special Topics in Quantum Mechanics - Theory of Spin 1/2 Particles
 
 ### Statistical Mechanics
 Statistical Mechanics II - Coming soon
