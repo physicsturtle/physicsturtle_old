@@ -12,9 +12,9 @@ unitDisplay: Unit I
 ### Introduction
 If we want to say that $x$ is a real number, the easiest way to do that is in the language of sets. If we define some structure that contains all real numbers, and say that $x$ is in that structure, then that is the same as saying $x$ is a real number. This is where set theory comes into play. We therefore define a *set* as a collection of objects. If this definition seems unsatisfying, then you are not alone; so called *axiomatic set theory* is an entire field of study. However, we do not concern ourselves with such fundamental mathematics in this course, and this will be our working definition.
 
-In general, we will denote sets by capital letters, $A$, $B$, $C$ etc. If we want to say that $x$ is in the set $A$, we write it as $x\in A$, and read it was "$x$ is an element of $A$". There are a few special sets that we will use continually throughout the course. These are important sets of numbers. 
+In general, we will denote sets by capital letters, $A$, $B$, $C$ etc. If we want to say that $x$ is in the set $A$, we write it as $x\in A$, and read it was "$x$ is an element of $A$". There is a special set $\emptyset$, the *empty set* which contains no elements; the statement $x\in\emptyset$ is always false, no matter what $x$ is. Now I will define a few special sets that we will use continually throughout the course.
 
-### Numbers
+### Important Sets of Numbers
 We have learned about numbers for many years, and you have slowly been introduced to more and more kinds of numbers. It started with the natural numbers, then you were introduced to the integers, then rational numbers, then finally the real numbers. There are of course more kinds of numbers, but none of them will be explored in this course. 
 
 * We denote the set of all *natural numbers* by  $\N = \\{1,2,3,4,\dots\\}$, and the set of all *nonnegative integers* by $\N_0 = \\{0,1,2,3,4,\dots\\}$. 

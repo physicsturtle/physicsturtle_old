@@ -30,3 +30,8 @@ $$f(x) = \frac{3x^3 + 2}{2x^3 + 2x - 1}$$
 $$f(x) = \frac{e^x +1}{e^x + 2}$$
 
 $$f(x) = \frac{e^x + 2x}{3e^x + x - 1}$$
+
+
+
+as $x\to-\infty$. 
+$$f(x) = \frac{\sqrt{x^2+4}}{2x-1}$$

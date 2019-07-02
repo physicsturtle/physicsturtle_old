@@ -9,10 +9,14 @@ courseDisplay: Calculus I
 unitDisplay: Unit 3
 ---
 
-\question[$**$] Suppose $f(x)$ is differentiable at $x = a$. Find the value of the limit in terms of $f'(a)$:
+<ol>
+<li> Suppose $f(x)$ is differentiable at $x = a$. Find the value of the limit in terms of $f'(a)$:
 \[\lim_{x\to a}\frac{f(x) - f(a)}{\sqrt{x} - \sqrt{a}}\]
 
-\begin{solution}[60 mm]
+<button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
+
+<div  id="answer1" class="answer">
+
 First, notice that the limit is very similar to the definition of the derivative.\\ Multiply both numerator and denominator by $\sqrt{x}+\sqrt{a}$ to obtain the form of the definition of the derivative.\\
 \begin{eqnarray*}
 \lim_{x\to a}\frac{f(x) - f(a)}{\sqrt{x} - \sqrt{a}} \cdot \frac{\sqrt{x}+\sqrt{a}}{\sqrt{x}+\sqrt{a}} &=& \lim_{x\to a}\frac{f(x) - f(a)}{x - a} \cdot (\sqrt{x}+\sqrt{a})\\
@@ -23,11 +27,14 @@ Next, use the property of the limits to separate the limit into two.
 &=& f'(a) \cdot \lim_{x\to a}(\sqrt{x}+\sqrt{a})\\
 &=& f'(a) \cdot 2\sqrt{a}\\
 \end{eqnarray*}
-\end{solution}
+</div> </li> 
 
 
-\question[$**$] Compute the derivative of $\displaystyle{y = \sqrt{5x + 1}}$ using the definition of the derivative. 
-\begin{solution}[140 mm]
+<li>  Compute the derivative of $\displaystyle{y = \sqrt{5x + 1}}$ using the definition of the derivative. 
+
+<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
+
+<div  id="answer2" class="answer">
 \begin{eqnarray*}
 y' &=& \lim_{h \to 0} \frac{\sqrt{5(x+h) + 1} - \sqrt{5x + 1}}{h}\\
 &=& \lim_{h \to 0} \frac{(\sqrt{5(x+h) + 1} - \sqrt{5x + 1})(\sqrt{5(x+h) + 1} + \sqrt{5x + 1})}{h(\sqrt{5(x+h) + 1} + \sqrt{5x + 1})}\\
@@ -36,10 +43,13 @@ y' &=& \lim_{h \to 0} \frac{\sqrt{5(x+h) + 1} - \sqrt{5x + 1}}{h}\\
 &=& \lim _{h \to 0} \frac{5}{\sqrt{5(x+h) + 1} + \sqrt{5x + 1}}\\
 &=& \frac{5}{2 \sqrt{5x+1}}
 \end{eqnarray*}
-\end{solution}
+</div> </li>
 
-\question[$***$] Compute $f'(x)$ using the definition of the derivative if $\displaystyle{f(x)=\frac{\sqrt{x+1}}{x}}$. 
-\begin{solution}[150 mm]
+<li> Compute $f'(x)$ using the definition of the derivative if 
+$$f(x)=\frac{\sqrt{x+1}}{x}.$$
+<button onclick="myFunction('answer3')" class="answerButton">Show Answer</button>
+
+<div  id="answer3" class="answer">
 \begin{eqnarray*}
 f'(x) &=& \lim_{h \to 0} \frac{f(x+h)-f(x)}{h}\\
 &=&\lim_{h \to 0} \frac{\frac{\sqrt{x+h+1}}{x+h} - \frac{\sqrt{x+1}}{x}}{h}\\
@@ -54,18 +64,19 @@ f'(x) &=& \lim_{h \to 0} \frac{f(x+h)-f(x)}{h}\\
 &=& \frac{-x-2}{x(x\sqrt{x+1} + x\sqrt{x+1})}\\
 f'(x) &=& \frac{-x-2}{2x^2\sqrt{x+1}}\\
 \end{eqnarray*}
+</div> </li>
 
-\end{solution}
 
-
-\question[$**$] For the given function $f(x)$, determine if 
-\begin{enumerate}[(a)]
-\item $f(x)$ is continuous at $x = 2$, and 
-\item if $f(x)$ is differentiable at $x = 2$. 
-\end{enumerate}
+<li> For the given function $f(x)$, determine if 
+<ol type = "a">
+<li>  $f(x)$ is continuous at $x = 2$, and </li>
+<li> if $f(x)$ is differentiable at $x = 2$. </li>
+</ol>
 \[f(x) = \frac{|x-2|-7}{x+4}\]
 
-\begin{solution}[190 mm]
+<button onclick="myFunction('answer4')" class="answerButton">Show Answer</button>
+
+<div  id="answer4" class="answer">
 A function is continuous if \[f(a)=\lim_{x\to a}f(x)\]
 We can rewrite $f(x)$ in piecewise notation as
 \begin{displaymath}
@@ -114,4 +125,6 @@ A function is differentiable if $\displaystyle{\lim_{x\to a}\frac{f(x)-f(a)}{x-a
 \end{enumerate}
 Since \[\frac{13}{36} \not=\frac{1}{36} \] the slopes are unequal and the function is not differentiable at $x = 2$.
 
-\end{solution}
+</div></li>
+
+</ol>

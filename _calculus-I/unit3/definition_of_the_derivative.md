@@ -14,7 +14,7 @@ In this section we finally discuss the definition of the derivative, the central
 
 $$m = \frac{f(x+h) - f(x)}{x+h - x} = \frac{f(x+h) - f(x)}{h}.$$
 
-As $h$ gets closer and closer to 0, the points $(x,f(x))$ and $(x+h,f(x+h))$ gets closer and closer to one another, and $m$ gets closer and closer to being the slope of the tangent line at the point $(x,f(x))$. In fact, if we take the *limit* as $h$ goes to zero of the difference quotient $m$, then we will in fact get the slope at the point $(x,f(x))$. 
+As $h$ gets closer and closer to 0, the points $(x,f(x))$ and $(x+h,f(x+h))$ gets closer and closer to one another, and $m$ gets closer and closer to being the slope of the tangent line at the point $(x,f(x))$. In fact, if we take the *limit* of $m$ as $h$ goes to zero of the difference quotient $m$, then we will in fact get the slope at the point $(x,f(x))$. 
 
 
 

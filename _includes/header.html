@@ -18,7 +18,7 @@
           {% for baseName in baseNames %}
           {% assign baseTitle = baseName | replace:  '-', ' '%}
           {% assign categoryUrl = baseName | prepend: "/" | downcase %}
-          <a class = "page-link" href = "{{ categoryUrl | prepend: site.url}}"> {{ baseTitle }} </a>
+          <a class = "page-link" href = "{{ categoryUrl | prepend: site.url}}">{{ baseTitle}}</a>
           {% endfor %}
       </div>
     </nav>

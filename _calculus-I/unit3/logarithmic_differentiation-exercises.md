@@ -10,9 +10,12 @@ unitDisplay: Unit 3
 ---
 
 ### Exercises
-\question[$**$] Differentiate the following function. $\displaystyle{y = (\tan x)^{1-x^2}}$
+<ol>
+<li> Differentiate the following function. $\displaystyle{y = (\tan x)^{1-x^2}}$
 
-\begin{solution}[105mm]
+<button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
+
+<div  id="answer1" class="answer">
 First take the logarithm of both sides:
 \[\log(y) = \log(\tan(x))\cdot(1-x^2) \]
 Differentiating both sides:
@@ -25,22 +28,25 @@ Isolating $y'$:
 y' &=& y\left(\frac{(1-x^2)\sec^2(x)}{\tan(x)} - 2x\log(\tan(x)) \right) \\
 y' &=& (\tan(x))^{1-x^2} \left(\frac{(1-x^2)\sec^2(x)}{\tan(x)} - 2x\log(\tan(x)) \right)
 \end{eqnarray*}
+</div> </li>
 
-\end{solution}
+<li> Differentiate the following function. $\displaystyle{y = (\arcsin 3x)^{\sqrt{e^{3x}+1}}}$
 
-\question[$**$] Differentiate the following function. $\displaystyle{y = (\arcsin 3x)^{\sqrt{e^{3x}+1}}}$
+<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
 
-\begin{solution}[100mm]
+<div  id="answer2" class="answer">
 Taking the logarithm of both sides, and then differentiating:
 \[\frac{y'}{y} = \frac{3\sqrt{e^{3x}+1}}{\arcsin(3x)\sqrt{1-9x^2}} + \log(\arcsin(3x))\frac{e^{3x}}{2\sqrt{e^{3x}+1}}\]
 Isolating $y'$:
 \[\frac{dy}{dx} = (\arcsin 3x)^{\sqrt{e^{3x}+1}}\cdot\left(\frac{3\sqrt{e^{3x}+1}}{\arcsin(3x)\sqrt{1-9x^2}} + \log(\arcsin(3x))\frac{3e^{3x}}{2\sqrt{e^{3x}+1}}\right)\]
-\\
-\end{solution}
 
-\question[$**$] Compute a linear approximation to $f(x)$ at the point $x = \pi$.  \[f(x) = x^{x^{\sin x}}\]
+</div> </li>
 
-\begin{solution}[95mm]
+<li> Compute a linear approximation to $f(x)$ at the point $x = \pi$.  \[f(x) = x^{x^{\sin x}}\]
+
+<button onclick="myFunction('answer3')" class="answerButton">Show Answer</button>
+
+<div  id="answer3" class="answer">
 Take the logarithm of both sides twice:
 \[\log \log f = \sin x \log x + \log \log x.\]
 Differentiating both sides: 
@@ -54,5 +60,8 @@ Plugging that value into the linear approximation formula
 L(x) &=& f(\pi) + f'(\pi)(x-\pi) \\
 &=& \pi + ( 1-\pi(\log \pi)^2)(x-\pi)
 \end{eqnarray*}
-\end{solution}
+
+</div> </li>
+
+</ol>
 

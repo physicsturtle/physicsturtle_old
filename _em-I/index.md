@@ -1,24 +1,12 @@
 ---
-name: electromagnetism-I/
+name: em-I/
 layout: course
-title: Physics II - Introduction to Electricity and Magnetism
-permalink: /electromagnetism-I/
-banner: electromagnetism-I.svg
+title: Electromagnetism I
+permalink: /em-I/
+banner: em-I.svg
 ---
 
-Welcome to Multi-Variable and Vector Calculus. This is a really exciting subject and is the first step into allowing one to tackle real world physics and engineering problems. 
 
-This course is a **work in progress**.
-
-Sections marked with an asterisk * should be regarded as optional, and everything else as essential. The ones chosen to be marked with an asterisk are ones which are normally left out of multivariable calculus courses, but may be included in an honours course. One of the goals is to be able to cater to as wide of an audience as possible, and for this reason those sections were written.
-
-This is a course on calculus, *not analysis*. The goal is for students to understand how to compute important quantities and objects in multivariable calculus, and to understand the concepts without proof and be able to interpret concepts geometrically.
-
-<a class="page-link" href="/calculus-III/introduction">Introduction - What is Multivariable Calculus? </a>
-
-<a class="page-link" href="/calculus-III/prerequisites"> Prerequisites</a>
-
-<a class="page-link" href="/calculus-III/learning-outcomes"> Learning Outcomes</a>
 
 {% assign unitNames = "Unit 1 - Introduction to 3D Space and Vectors, Unit 2 - Space Curves, Unit 3 - Partial Differentiation, Unit 4 - Multiple Integration, Unit 5 - Vector Calculus, Supplementary Material" | split: ', ' %}
 

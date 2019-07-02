@@ -21,11 +21,11 @@ The prerequisites are as follows
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/" | split: ', ' %}
 
-{% assign lessonNames1 = "Introduction, Euler_Lagrange_Equation, Hanging_Rope " | split: ', ' %}
+{% assign lessonNames1 = "Introduction, Euler_Lagrange_Equation, Hanging_Rope, Generalizations" | split: ', ' %}
 
-{% assign lessonNames2 = "" | split: ', ' %}
+{% assign lessonNames2 = "Introduction, Lagrangian_and_Principle_of_Least_Action, Equivalence_Between_Newtonian_and_Lagrangian_Formalisms*" | split: ', ' %}
 
-{% assign lessonNames3 = "" | split: ', ' %}
+{% assign lessonNames3 = "Introduction" | split: ', ' %}
 
 {% assign lessonNames4 = "Relative-Coordinates" | split: ', ' %}
 
