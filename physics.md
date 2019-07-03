@@ -32,8 +32,7 @@ Classical Mechanics I - Coming soon
 Classical Mechanics II - Coming soon
 <!--- <a class="page-link" href="/cm-II/"> Classical Mechanics II </a> - In progress --->
 
-Classical Mechanics III - Coming soon
-<!--- <a class="page-link" href="/cm-III/"> Classical Mechanics III </a> - In progress --->
+<a class="page-link" href="/cm-III/"> Classical Mechanics III </a> - In progress
 
 Fluid Mechanics - Coming soon
 <!--- <a class="page-link" href="/fluid-mechanics-II/">Fluid Mechanics I </a> - In progress --->
