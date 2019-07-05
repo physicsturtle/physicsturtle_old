@@ -10,14 +10,15 @@ unitDisplay: Unit 3
 ---
 
 <ol>
-<li> Suppose $f(x)$ is differentiable at $x = a$. Find the value of the limit in terms of $f'(a)$:
+<li> <div class="exercise"> Suppose $f(x)$ is differentiable at $x = a$. Find the value of the limit in terms of $f'(a)$:
 \[\lim_{x\to a}\frac{f(x) - f(a)}{\sqrt{x} - \sqrt{a}}\]
 
+<div class="answerBox">
 <button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
+<div  id="answer1" class="answer" >
 
-<div  id="answer1" class="answer">
+First, notice that the limit is very similar to the definition of the derivative. Multiply both numerator and denominator by $\sqrt{x}+\sqrt{a}$ to obtain the form of the definition of the derivative.
 
-First, notice that the limit is very similar to the definition of the derivative.\\ Multiply both numerator and denominator by $\sqrt{x}+\sqrt{a}$ to obtain the form of the definition of the derivative.\\
 \begin{eqnarray*}
 \lim_{x\to a}\frac{f(x) - f(a)}{\sqrt{x} - \sqrt{a}} \cdot \frac{\sqrt{x}+\sqrt{a}}{\sqrt{x}+\sqrt{a}} &=& \lim_{x\to a}\frac{f(x) - f(a)}{x - a} \cdot (\sqrt{x}+\sqrt{a})\\
 \end{eqnarray*}
@@ -27,7 +28,11 @@ Next, use the property of the limits to separate the limit into two.
 &=& f'(a) \cdot \lim_{x\to a}(\sqrt{x}+\sqrt{a})\\
 &=& f'(a) \cdot 2\sqrt{a}\\
 \end{eqnarray*}
-</div> </li> 
+</div> 
+</div>
+
+</div>
+</li> 
 
 
 <li>  Compute the derivative of $\displaystyle{y = \sqrt{5x + 1}}$ using the definition of the derivative. 
@@ -77,33 +82,41 @@ f'(x) &=& \frac{-x-2}{2x^2\sqrt{x+1}}\\
 <button onclick="myFunction('answer4')" class="answerButton">Show Answer</button>
 
 <div  id="answer4" class="answer">
-A function is continuous if \[f(a)=\lim_{x\to a}f(x)\]
+A function is continuous if 
+
+$$f(a)=\lim_{x\to a}f(x)$$
+
 We can rewrite $f(x)$ in piecewise notation as
-\begin{displaymath}
-f(x) = \left \{
-\begin{array}{lr}
+$$f(x) = \begin{cases}
 \frac{x-9}{x+4}& , x \geq 2 \\
 \frac{-5-x}{x+4} &, x < 2
-\end{array}
-\right.
-\end{displaymath}
-\begin{enumerate}[(i)]
-\item Right hand side limit:
+\end{cases}$$
+
+<ol>
+<li> Right hand side limit:
 \begin{eqnarray*}
 \lim_{x\to2^+}f(x)&=&\lim_{x\to2^+}\frac{x-9}{x+4}\\
 &=&\frac{-7}{6}
 \end{eqnarray*}
-\item Left hand side limit:
-\begin{eqnarray*}
+</li>
+<li>  Left hand side limit:
+$$\begin{eqnarray*}
 \lim_{x\to2^-}f(x)&=&\lim_{x\to2^-}\frac{-5-x}{x+4}\\
 &=&\frac{-7}{6}
-\end{eqnarray*}
-\end{enumerate}
-The lateral limits are equal to each other and to $f(2)$, therefore $f(x)$ is continuous at $x = 2$
+\end{eqnarray*}$$
+</li>
+</ol>
 
-A function is differentiable if $\displaystyle{\lim_{x\to a}\frac{f(x)-f(a)}{x-a}}$ exists and $f$ is continuous at $a$. We already know that $f$ is continuous at $x = a$. Here, $a=2$ and $\displaystyle{f(2)=\frac{-7}{6}}$
-\begin{enumerate}[(i)]
-\item Differentiability from the right:
+The lateral limits are equal to each other and to $f(2)$, therefore $f(x)$ is continuous at $x = 2$.
+
+A function is differentiable if the limit
+
+$$\lim_{x\to a}\frac{f(x)-f(a)}{x-a}$$
+
+exists and $f$ is continuous at $a$. We already know that $f$ is continuous at $x = a$. Here, $a=2$ and $f(2)=\frac{-7}{6}$.
+
+<ol>
+<li> Differentiability from the right:
 \begin{eqnarray*}
 \lim_{x\to2^+}\frac{\frac{x-9}{x+4}-(-\frac{7}{6})}{x-2^+}&=& \lim_{x\to2^+}\frac{\frac{6}{6}\cdot\frac{x-9}{x+4}+\frac{x+4}{x+4}\cdot\frac{7}{6}}{x-2}\\
 &=&\lim_{x\to2^+}\frac{\frac{6x-54}{6x+24}+\frac{7x+28}{6x+24}}{x-2}\\
@@ -113,7 +126,8 @@ A function is differentiable if $\displaystyle{\lim_{x\to a}\frac{f(x)-f(a)}{x-a
 &=&\lim_{x\to2^+}\frac{13}{6x+24}\\
 &=&\frac{13}{36}
 \end{eqnarray*}
-\item Differentiability from the left:
+</li>
+<li> Differentiability from the left:
 \begin{eqnarray*}
 \lim_{x\to2^-}\frac{\frac{-5-x}{x+4}-(-\frac{7}{6})}{x-2}
 &=& \lim_{x\to2^-}\frac{\frac{6}{6}\cdot\frac{-5-x}{x+4}+\frac{x+4}{x+4}\cdot\frac{7}{6}}{x-2}\\
@@ -122,8 +136,10 @@ A function is differentiable if $\displaystyle{\lim_{x\to a}\frac{f(x)-f(a)}{x-a
 &=&\lim_{x\to2^-}\frac{1}{6x+24}\\
 &=&\frac{1}{36}
 \end{eqnarray*}
-\end{enumerate}
-Since \[\frac{13}{36} \not=\frac{1}{36} \] the slopes are unequal and the function is not differentiable at $x = 2$.
+</li>
+</ol>
+
+Since $\frac{13}{36} \not=\frac{1}{36}$ the slopes are unequal and the function is not differentiable at $x = 2$.
 
 </div></li>
 
