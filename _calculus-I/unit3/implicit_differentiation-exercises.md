@@ -9,15 +9,18 @@ courseDisplay: Calculus I
 unitDisplay: Unit 3
 ---
 
-\question[$**$] Given $x^2y - xy^2+x^2+y^2=0$,
-\begin{enumerate}[(a)]
-\item Regarding $y$ as a function of $x$, compute $\displaystyle{\frac{dy}{dx}}$. \\
-\item Compute a linear approximation to this graph at the point $(1,-1).$ 
-\end{enumerate}
+<ol>
+<li> <div class="exercise"> Given $x^2y - xy^2+x^2+y^2=0$,
+<ol type="a">
+<li> Regarding $y$ as a function of $x$, compute $\frac{dy}{dx}$. </li>
+<li> Compute a linear approximation to this graph at the point $(1,-1).$ </li>
+</ol>
 
-\begin{solution}[190mm]
-\begin{enumerate}[(a)]
-\item
+<div class="answerBox">
+<button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
+<div  id="answer1" class="answer" >
+<ol type="a">
+<li>
 Use implicit differentiation:
 Let's find the derivative of each term separately, then add them all together. First the derivative of the first summand:
 \[[x^2y]' = (2x)(y)+(x^2)(y') = 2xy+y'x^2\]
@@ -32,16 +35,30 @@ Adding all of the summands together:
 Solving for $y'$:
 \[-x^2y'+2xyy'-2yy'=2xy-y^2+2x\]
 \[y'=\frac{2xy-y^2+2x}{-x^2+2xy-2y}\]
-\item
+</li>
+<li> 
 We must evaluate $y'$ at the point $(1,-1)$. It is $y'(1,-1) = 1$
 Then the linear approximation is \[L(x) = -1 + 1(x-1) = x-2\]
-\end{enumerate}
-\end{solution}
+</li>
+</ol>
+</div>
+</div>
+</div>
+</li>
 
-\question[$***$] Considering $y$ as a function of $x$, compute $\displaystyle{\frac{dy}{dx}}$ and $\displaystyle{\frac{d^2y}{dx^2}}$.  \[x^2 - xy + y^2 = 3\]
+<li> <div class="exercise"> Considering $y$ as a function of $x$ in the relation 
+\[x^2 - xy + y^2 = 3,\]
+<ol type ="a"> 
+<li> compute $\frac{dy}{dx}$ </li>
+<li> compute $\frac{d^2y}{dx^2}$ </li>
+</ol>
 
-\begin{solution}[200mm]
+<div class="answerBox">
+<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
+<div  id="answer2" class="answer" >
 Use implicit differentiation to find both the first and second derivative.
+<ol type="a">
+<li> We differentiate both sides of the equation with respect to $x$:
 
 $$\frac{d}{dx}[x^2-xy+y^2]=\frac{d}{dx}[3]$$
 
@@ -51,8 +68,8 @@ $$\frac{d}{dx}[x^2-xy+y^2]=\frac{d}{dx}[3]$$
 2x-y&=&xy'=2yy'\\
 y'&=&\frac{2x-y}{x-2y}\\
 \end{eqnarray*}
-
-Now for the second derivative: Note that will have to plug the first derivative into the formula for the second derivative.
+</li>
+<li> Now for the second derivative: Note that will have to plug the first derivative into the formula for the second derivative.
 \begin{eqnarray*}
 y'' &=& \frac{d}{dx}[y']\\
 &=& \left[\frac{2x-y}{x-2y}\right]\\
@@ -65,53 +82,68 @@ y'' &=& \frac{d}{dx}[y']\\
 &=& \frac{3\left(\frac{x(2x-y)}{x-2y} - \frac{y(x-2y)}{x-2y}\right)}{(x-2y)^2} \\
 y'' &=&\frac{6(x^2+y^2-xy)}{(x-2y)^3}
 \end{eqnarray*}
+</li>
+</ol>
+</div>
+</div>
+</div>
+</li>
 
-\end{solution}
+<li> <div class="exercise"> Show that the two curves intersect at right angles at the origin. Recall that if two curves are perpendicular at a point, the product of their slopes is $-1$.  
+<ul>
+<li> $5y - 2x + y^3 - x^2y = 0$ </li>
+<li> $2y + 5x + x^4 - x^3y^2 = 0$ </li>
+</ul>
 
-\question[$**$] Prove that the two curves intersect at right angles at the origin. 
-\begin{enumerate}[(i)]
-\item $5y - 2x + y^3 - x^2y = 0$ 
-\item $2y + 5x + x^4 - x^3y^2 = 0$
-\end{enumerate}
+<div class="answerBox">
+<button onclick="myFunction('answer3')" class="answerButton">Show Answer</button>
+<div  id="answer3" class="answer" >
+We quickly verify that the point $(0,0)$ lies on each curve by plugging the point in and checking the equality holds. It does, so we know that both curves indeed pass through the origin.
 
-\begin{solution}[200mm]
-Since plugging $(0,0)$ into both (i) and (ii) satisfies the equation, we know that both curves pass through the origin. 
-
-\begin{enumerate}[(i)]
-\item
-\begin{eqnarray*}
+We start with the curve $5y - 2x + y^3 - x^2y = 0$, 
+<ul>
+<li> Differentiating both sides, we get \begin{eqnarray*}
 \frac{d}{dx}[5y-2x+y^3-x^2y] &=& \frac{d}{dx}[0]\\
 5y'-2+3y^2y'-(2xy+x^2y') &=& 0\\
 5y'+3y^2y'-x^2y'-2-2xy &=& 0 \\
 y'(5+3y^2-x^2)&=&2+2xy \\
-y' &=& \frac{2+2xy}{5+3y^2-x^2} \\
+y' &=& \frac{2+2xy}{5+3y^2-x^2}
 \end{eqnarray*}
-Evaluating at $x = 0$, we have 
+Taking the resulting derivative and evaluating at $x = 0$, we have 
 \[y'(0) =\frac{2+2\cdot 0 \cdot 0}{5+3\cdot 0 -0}=\frac{2}{5}\]
-\item
+</li>
+<li> Next we differentiate both sides of the equation of the second curve $2y + 5x + x^4 - x^3y^2 = 0$.
 \begin{eqnarray*}
 \frac{d}{dx}[2y+5x+x^4-x^3y^2] &=& \frac{d}{dx}[0]\\
 2y'+5+4x^3-(3x^2y^2+x^3\cdot 2yy') &=& 0\\
 2y'-2x^3yy'+5+4x^3-3x^2y^2 &=& 0\\
 y'(2-2x^3y) &=& 3x^2y^2-5-4x^3 \\
-y' &=& \frac{3x^2y^2-5-4x^3}{2-2x^3y} \\
+y' &=& \frac{3x^2y^2-5-4x^3}{2-2x^3y}
 \end{eqnarray*}
-Evaluating at $x = 0$ we have \[y'(0) =\frac{-5}{2}\]
-\end{enumerate}
+Taking the resulting derivative and evaluating at $x = 0$, we have 
+\[y'(0) =\frac{-5}{2}\]
+</li>
+</ul>
+Both equations pass through the origin and each equation's slope at the origin is the negative reciprocal of the other, therefore they are perpendicular.
 
-Both equations pass through the origin and each equation's slope at the origin is the negative reciprocal of the other, therefore they are perpendicular.\\
-\\
-\end{solution}
+</div>
+</div>
+</div>
+</li>
 
-\question[$**$] If $\sin y + \cos x = 1$, compute $y''$ by using implicit differentiation. 
+<li> <div class="exercise"> If $\sin y + \cos x = 1$, compute $y''$ by using implicit differentiation. 
 
-\begin{solution}[100mm]
+<div class="answerBox">
+<button onclick="myFunction('answer4')" class="answerButton">Show Answer</button>
+<div  id="answer4" class="answer" >
+First, we differentiate both sides with respect to $x$ and apply the chain rule.
 \begin{eqnarray*}
 \frac{d}{dx}[1] &=& \frac{d}{dx}[\sin y] + \frac{d}{dx}[\cos x] \\
 0 &=& \cos(y)\cdot y'-\sin(x) \\
 y' &=& \frac{\sin(x)}{\cos(y)}
 \end{eqnarray*}
-\begin{center}\textrm{Now use the quotient rule to get the second derivative}\end{center}
+
+Now that we have the first derivative, we can use the quotient rule to get the second derivative. This will end up being in terms of the first derivative, which we can just plug in from before.
 \begin{eqnarray*}
 y'' &=& \frac{(\sin(x))'(\cos(y))-(\sin(x))(\cos(y))'}{\cos^2(y)}\\
 y'' &=& \frac{\cos(x) \cdot \cos(y) - \sin(x) \cdot (-\sin(y)\cdot y')}{\cos^2(y)}\\
@@ -119,12 +151,17 @@ y'' &=& \frac{\cos(x) \cdot \cos(y) + \sin(x)\sin(y)\cdot \frac{\sin(x)}{\cos(y)
 y'' &=& \frac{\cos(x)}{\cos(y)} + \frac{\sin^2(x)\sin(y)}{\cos^3(y)}\\
 y'' &=& \frac{\cos(x)}{\cos(y)} + \frac{\sin^2(x)\tan(y)}{\cos^2(y)}
 \end{eqnarray*}
-\end{solution}
+</div>
+</div>
+</div>
+</li>
 
-\question[$***$] Regarding $y$ as a function of $x$, compute $y'$:
+<li> <div class="exercise"> Regarding $y$ as a function of $x$, compute $y'$:
 \[x\cos y =\sin(x+y)\]
 
-\begin{solution}[95mm]
+<div class="answerBox">
+<button onclick="myFunction('answer5')" class="answerButton">Show Answer</button>
+<div  id="answer5" class="answer" >
 First, use the identity $\sin(u\pm v) = \sin(u)\cos(v) \pm \cos(u)\sin(v)$ , then use the product rule for each of the three terms.
 \[x \cos(y) = \sin(x) \cos(y) + \cos(x) \sin(y)\]
 Now differentiating each term. First we differentiate the left hand side:
@@ -149,4 +186,9 @@ Rearranging all of the $y'$ terms on one side:
 Finally solving for $y'$:
 \[y' = \frac{\cos(y)-\cos(x)\cos(y) + \sin(x)\sin(y)}{\cos(x)\cos(y) - \sin(x)\sin(y) +x\sin(y)}\] 
 
-\end{solution}
+</div>
+</div>
+</div>
+</li>
+
+</ol>

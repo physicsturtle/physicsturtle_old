@@ -1,13 +1,13 @@
 ---
 layout: course
-title: Classical Mechanics III
-permalink: /cm-III/
+title: Classical Mechanics IV
+permalink: /cm-IV/
 ---
 
-Hey everyone! Welcome to Classical Mechanics III. This course is on the topic of *Lagrangian and Hamiltonian Mechanics*, also known as *analytical mechanics*. The first half of the course is on Lagrangian Mechanics, and the second on Hamiltonian Mechanics. The first half of the course will contain many real-world examples 
+Hey everyone! Welcome to Classical Mechanics IV. This course extends the ideas of the previous course to further formulations of classical mechanics, for example Hamiltonian mechanics. The course will also introduce the reader to further topics such as the canonical formulation of classical mechanics, continuum mechanics, chaos theory, and perturbation theory. 
 
 
-<a class="page-link" href="/cm-III/introduction">Introduction - What is analytical mechanics? </a>
+<a class="page-link" href="/cm-IV/introduction">Introduction - What is analytical mechanics? </a>
 
 The prerequisites are as follows
 1. A strong background in Newtonian mechanics
@@ -15,7 +15,7 @@ The prerequisites are as follows
 3. A working knowledge of ordinary differential equations
 4. A working knowledge of basic electromagnetism
 
-{% assign unitNames = "Unit 1 - The Calculus of Variations, Unit 2 - Lagrange's Equations, Unit 3 - Coupled Oscillators and Normal Modes, Unit 4 - Two Body Central Force Problems, Unit 5 - Noninertial Reference Frames, Unit 6 - Rotational Motion of Rigid Bodies, Unit 7 - Collision Theory, Unit 8 - Hamiltonian Mechanics" | split: ', ' %}
+{% assign unitNames = "Unit 1 - Hamilton's Equations, Unit 2 - Canonical Transformations, Unit 3 - Hamilton-Jacobi Theory, Unit 4 - Classical Chaos Theory, Unit 5 - Perturbation Theory, Unit 6 - Relativistic Mechanics, Unit 7 - Continuum Mechanics and Fields" | split: ', ' %}
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/" | split: ', ' %}
 
@@ -48,5 +48,7 @@ The prerequisites are as follows
 
 **Sources**
 
-1. Calculus, 7 ed. - Stewart, James (2012)
+1. Classical Mechanics - Goldstein
+2. Mechanics - Landau and Lifshitz
+3. Classical Mechanics - Taylor
 

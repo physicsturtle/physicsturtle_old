@@ -10,11 +10,11 @@ Coming soon
 
 ## Undergraduate Mathematics
 ### Calculus
-<a class="page-link" href="/calculus-I/"> Calculus I - Differential Calculus </a> - In progress
+<a class="page-link" href="/calculus-I/">Calculus I - Differential Calculus</a> - In progress
 
-<a class="page-link" href="/calculus-II/"> Calculus II - Integral Calculus </a> - In progress
+<a class="page-link" href="/calculus-II/">Calculus II - Integral Calculus</a> - In progress
 
-<a class="page-link" href="/calculus-III/"> Calculus III - Multivariable and Vector Calculus </a> - In progress
+<a class="page-link" href="/calculus-III/">Calculus III - Multivariable and Vector Calculus</a> - In progress
 
 ### Linear Algebra
 Linear Algebra I - Coming soon

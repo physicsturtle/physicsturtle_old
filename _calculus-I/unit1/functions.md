@@ -86,10 +86,4 @@ as the <i>preimage of $V$ under $f$</i>.
 <li> </li>
 <li> </li>
 </ol>
-</div> <br>
-
-<div class="example">
-<p><b>Example:</b> Consider the mapping $f(x) = \pm\sqrt{x}$, where, for every $x$, we get two values, namely, $\sqrt{x}$ and $-\sqrt{x}$. Explain why $f$ cannot be a function. </p>
-<b>Solution:</b>
-
 </div>

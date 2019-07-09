@@ -1,18 +1,12 @@
 ---
 layout: lesson
-title: Exponential Growth and Decay
+title: Derivatives of Exponentials - Exercises
 dept: math
 course: calculus-I
-unit: unit4
+unit: unit3
 deptDisplay: Math
 courseDisplay: Calculus I
-unitDisplay: Unit 4
+unitDisplay: Unit 3
 ---
 
-
-
-
-
-
-
-
+Coming soon

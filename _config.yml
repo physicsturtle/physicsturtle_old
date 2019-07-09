@@ -50,6 +50,8 @@ collections:
         output: true
     cm-III:
         output: true
+    cm-IV:
+        output: true
     td:
         output: true
     qm-I:

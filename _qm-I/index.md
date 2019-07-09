@@ -16,7 +16,7 @@ Welcome to Quantum Mechanics I
 
 {% assign lessonNames1 = "" | split: ', ' %}
 
-{% assign lessonNames2 = "Infinite@Square@Well, Probability@Current, Non-Normalizable@Wave@Functions, Spherically@Symmetric@Problems" | split: ', ' %}
+{% assign lessonNames2 = "Infinite_Square_Well, Probability_Current, Non-Normalizable_Wave_Functions, Spherically_Symmetric_Problems" | split: ', ' %}
 
 {% assign lessonNames3 = "" | split: ', ' %}
 
@@ -38,7 +38,7 @@ Welcome to Quantum Mechanics I
 {% elsif unitIndex == 4 %}  {% assign lessonNames = lessonNames5 %}
 {% endif %}
 {% for lessonName in lessonNames %}
-{% assign lessonTitle = lessonName | replace:  '@', ' ' %}
+{% assign lessonTitle = lessonName | replace:  '_', ' ' %}
 {% assign lowerName = lessonName | downcase %}
 <li> <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink }}"> {{lessonTitle}} </a> - <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink | append: "-exercises" }}"> Exercises </a> </li>
 {% endfor %}
