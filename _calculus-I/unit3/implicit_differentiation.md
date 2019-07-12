@@ -29,8 +29,22 @@ If we plug in $(0,0)$, we find that $y' = 4$.
 Now we work some more examples. 
 
 <div class="example">
-<p><b>Example:</b> Find the slope of the curve </p>
+<p><b>Example:</b>  If $\sin y + \cos x = 1$, compute $y''$ by using implicit differentiation. </p>
+<b>Solution:</b> First, we differentiate both sides with respect to $x$ and apply the chain rule.
+\begin{eqnarray*}
+\frac{d}{dx}[1] &=& \frac{d}{dx}[\sin y] + \frac{d}{dx}[\cos x] \\
+0 &=& \cos(y)\cdot y'-\sin(x) \\
+y' &=& \frac{\sin(x)}{\cos(y)}
+\end{eqnarray*}
 
+Now that we have the first derivative, we can use the quotient rule to get the second derivative. This will end up being in terms of the first derivative, which we can just plug in from before.
+\begin{eqnarray*}
+y'' &=& \frac{(\sin(x))'(\cos(y))-(\sin(x))(\cos(y))'}{\cos^2(y)}\\
+y'' &=& \frac{\cos(x) \cdot \cos(y) - \sin(x) \cdot (-\sin(y)\cdot y')}{\cos^2(y)}\\
+y'' &=& \frac{\cos(x) \cdot \cos(y) + \sin(x)\sin(y)\cdot \frac{\sin(x)}{\cos(y)})}{\cos^2(y)}\\
+y'' &=& \frac{\cos(x)}{\cos(y)} + \frac{\sin^2(x)\sin(y)}{\cos^3(y)}\\
+y'' &=& \frac{\cos(x)}{\cos(y)} + \frac{\sin^2(x)\tan(y)}{\cos^2(y)}
+\end{eqnarray*}
 </div>
 
 

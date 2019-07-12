@@ -21,7 +21,7 @@ Welcome to Calculus II, single variable integral calculus!
 
 {% assign lessonNames4 = "" | split: ', ' %}
 
-{% assign lessonNames5 = "" | split: ', ' %}
+{% assign lessonNames5 = "Taylor_Series" | split: ', ' %}
 
 {% assign lessonNames6 = "" | split: ', ' %}
 
@@ -38,7 +38,7 @@ Welcome to Calculus II, single variable integral calculus!
 {% elsif unitIndex == 5 %}  {% assign lessonNames = lessonNames6 %}
 {% endif %}
 {% for lessonName in lessonNames %}
-{% assign lessonTitle = lessonName | replace:  '-', ' ' %}
+{% assign lessonTitle = lessonName | replace:  '_', ' ' %}
 {% assign lowerName = lessonName | downcase %}
 <li> <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink }}"> {{lessonTitle}} </a> - <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink | append: "-exercises" }}"> Exercises </a> </li>
 {% endfor %}

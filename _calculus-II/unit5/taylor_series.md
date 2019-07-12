@@ -1,9 +1,12 @@
 ---
 layout: page
 title: Taylor Series
-course: test
+dept: math
+course: calculus-II
 unit: unit1
-permalink: /test/taylor-series/
+deptDisplay: Math
+courseDisplay: Calculus II
+unitDisplay: Unit 1
 ---
 
 Suppose we are interested in approximating a function $f(x)$ about a certain point $x = a$. Well, a very crude approximation might be $f(x) \approx f(a)$. This is a constant, and it only really works when $x = a$. This isn't a very good approximation if it only works for a single value of $x$. 

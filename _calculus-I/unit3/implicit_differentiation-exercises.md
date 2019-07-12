@@ -131,37 +131,12 @@ Both equations pass through the origin and each equation's slope at the origin i
 </div>
 </li>
 
-<li> <div class="exercise"> If $\sin y + \cos x = 1$, compute $y''$ by using implicit differentiation. 
-
-<div class="answerBox">
-<button onclick="myFunction('answer4')" class="answerButton">Show Answer</button>
-<div  id="answer4" class="answer" >
-First, we differentiate both sides with respect to $x$ and apply the chain rule.
-\begin{eqnarray*}
-\frac{d}{dx}[1] &=& \frac{d}{dx}[\sin y] + \frac{d}{dx}[\cos x] \\
-0 &=& \cos(y)\cdot y'-\sin(x) \\
-y' &=& \frac{\sin(x)}{\cos(y)}
-\end{eqnarray*}
-
-Now that we have the first derivative, we can use the quotient rule to get the second derivative. This will end up being in terms of the first derivative, which we can just plug in from before.
-\begin{eqnarray*}
-y'' &=& \frac{(\sin(x))'(\cos(y))-(\sin(x))(\cos(y))'}{\cos^2(y)}\\
-y'' &=& \frac{\cos(x) \cdot \cos(y) - \sin(x) \cdot (-\sin(y)\cdot y')}{\cos^2(y)}\\
-y'' &=& \frac{\cos(x) \cdot \cos(y) + \sin(x)\sin(y)\cdot \frac{\sin(x)}{\cos(y)})}{\cos^2(y)}\\
-y'' &=& \frac{\cos(x)}{\cos(y)} + \frac{\sin^2(x)\sin(y)}{\cos^3(y)}\\
-y'' &=& \frac{\cos(x)}{\cos(y)} + \frac{\sin^2(x)\tan(y)}{\cos^2(y)}
-\end{eqnarray*}
-</div>
-</div>
-</div>
-</li>
-
 <li> <div class="exercise"> Regarding $y$ as a function of $x$, compute $y'$:
 \[x\cos y =\sin(x+y)\]
 
 <div class="answerBox">
-<button onclick="myFunction('answer5')" class="answerButton">Show Answer</button>
-<div  id="answer5" class="answer" >
+<button onclick="myFunction('answer4')" class="answerButton">Show Answer</button>
+<div  id="answer4" class="answer" >
 First, use the identity $\sin(u\pm v) = \sin(u)\cos(v) \pm \cos(u)\sin(v)$ , then use the product rule for each of the three terms.
 \[x \cos(y) = \sin(x) \cos(y) + \cos(x) \sin(y)\]
 Now differentiating each term. First we differentiate the left hand side:
