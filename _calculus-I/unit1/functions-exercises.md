@@ -38,13 +38,71 @@ Consider $f:[2,4] \to \R$, where $f(x) = x^3$.
 <ol type="a">
 <li> The domain of $f$ is $[2,4]$ </li>
 <li> The codomain of $f$ is $\R$ </li>
-<li> The range of $f$ is $[2^3,4^4] = [8,64]$. </li>
+<li> The range of $f$ is $[2^3,4^3] = [8,64]$. </li>
 </ol>
 </div>
 </div>
 </div>
 </li>
 
+
+<li> <div class="exercise">
+Consider the functoin $f(x) = x^2$. Find the following sets:
+<ol>
+<li> $f([-1,1])$ </li>
+<li> $f([0,1])$ </li>
+<li> $f((0,\infty))$ </li>
+<li> $f^{-1}([0,1])$ </li>
+<li> $f^{-1}([0,1])$ </li>
+<li> $f^{-1}([-2,-1])$ </li>
+<li> $f^{-1}([-1,1])$ </li>
+</ol>
+
+<div class="answerBox">
+<button onclick="myFunction('answer3')" class="answerButton">Show Answer</button>
+<div  id="answer3" class="answer" >
+<ol>
+<li> $f([-1,1]) = $ </li>
+<li> $f([0,1])$ </li>
+<li> $f((0,\infty))$ </li>
+<li> $f^{-1}([0,1])$ </li>
+<li> $f^{-1}([0,1])$ </li>
+<li> $f^{-1}([-2,-1])$ </li>
+<li> $f^{-1}([-1,1])$ </li>
+</ol>
+</div>
+</div>
+</div>
+</li>
+
+
+
+<li> <div class="exercise"> Let $f:\R\to\R$ be defined by $f(x) = \sin x$. What are the following sets?
+<ol type = "a">
+<li> The domain of $f$ </li>
+<li> The codomain of $f$ </li>
+<li> The range of $f$ </li>
+<li> $f([0,\pi])$ </li>
+<li> $f^{-1}(\{0\})$ </li>
+<li> $f^{-1}(\{1\})$ </li>
+</ol>
+
+
+<div class="answerBox">
+<button onclick="myFunction('answer4')" class="answerButton">Show Answer</button>
+<div  id="answer4" class="answer" >
+<ol type="a">
+<li> The domain of $f$ is $\R$. </li>
+<li> The codomain of $f$ is $\R$. </li>
+<li> The range of $f$ is $[-1,1]$. </li>
+<li> $f([0,\pi]) = [0,1]$ </li>
+<li> $f^{-1}(\{0\}) = \{\dots,-3\pi, -2\pi, -\pi, 0, \pi, 2\pi, 3\pi,\dots\}$. </li>
+<li> $f^{-1}(\{1\}) = \{\dots, -7\pi/2, -3\pi/2, \pi/2, 5\pi/2, 9\pi/2,\dots\}$. </li>
+</ol>
+</div>
+</div>
+</div>
+</li>
 
 </ol>
 

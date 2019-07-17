@@ -35,8 +35,9 @@ Next, use the property of the limits to separate the limit into two.
 </li> 
 
 
-<li>  Compute the derivative of $\displaystyle{y = \sqrt{5x + 1}}$ using the definition of the derivative. 
+<li>  <div class="exercise"> Compute the derivative of $\displaystyle{y = \sqrt{5x + 1}}$ using the definition of the derivative. 
 
+<div class="answerBox">
 <button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
 
 <div  id="answer2" class="answer">
@@ -48,12 +49,16 @@ y' &=& \lim_{h \to 0} \frac{\sqrt{5(x+h) + 1} - \sqrt{5x + 1}}{h}\\
 &=& \lim _{h \to 0} \frac{5}{\sqrt{5(x+h) + 1} + \sqrt{5x + 1}}\\
 &=& \frac{5}{2 \sqrt{5x+1}}
 \end{eqnarray*}
-</div> </li>
+</div> 
+</div>
+</div>
+</li>
 
-<li> Compute $f'(x)$ using the definition of the derivative if 
+<li> <div class="exercise"> Compute $f'(x)$ using the definition of the derivative if 
 $$f(x)=\frac{\sqrt{x+1}}{x}.$$
-<button onclick="myFunction('answer3')" class="answerButton">Show Answer</button>
 
+<div class="answerBox">
+<button onclick="myFunction('answer3')" class="answerButton">Show Answer</button>
 <div  id="answer3" class="answer">
 \begin{eqnarray*}
 f'(x) &=& \lim_{h \to 0} \frac{f(x+h)-f(x)}{h}\\
@@ -69,18 +74,21 @@ f'(x) &=& \lim_{h \to 0} \frac{f(x+h)-f(x)}{h}\\
 &=& \frac{-x-2}{x(x\sqrt{x+1} + x\sqrt{x+1})}\\
 f'(x) &=& \frac{-x-2}{2x^2\sqrt{x+1}}\\
 \end{eqnarray*}
-</div> </li>
+</div> 
+</div>
+</div>
+</li>
 
 
-<li> For the given function $f(x)$, determine if 
+<li> <div class="exercise"> For the given function $f(x)$, determine if 
 <ol type = "a">
 <li>  $f(x)$ is continuous at $x = 2$, and </li>
 <li> if $f(x)$ is differentiable at $x = 2$. </li>
 </ol>
 \[f(x) = \frac{|x-2|-7}{x+4}\]
 
+<div class="answerBox">
 <button onclick="myFunction('answer4')" class="answerButton">Show Answer</button>
-
 <div  id="answer4" class="answer">
 A function is continuous if 
 
@@ -141,6 +149,9 @@ exists and $f$ is continuous at $a$. We already know that $f$ is continuous at $
 
 Since $\frac{13}{36} \not=\frac{1}{36}$ the slopes are unequal and the function is not differentiable at $x = 2$.
 
-</div></li>
+</div>
+</div>
+</div>
+</li>
 
 </ol>

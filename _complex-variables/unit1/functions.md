@@ -11,7 +11,7 @@ unitDisplay: Unit I
 
 ### Introduction
 
-In high school, we learn what functions are, but many people forget the formal definition by the time they reach university. In this lesson, we will review this definition, as well as the definitions of domain, range, and function notation. Additionally, we will introduce some definitions which are likely new to you, such as the codomain, image, and preimage. These terms will not be used too frequently in this course, but are useful to know especially if you study linear algebra in the future.
+In high school, we learn what functions are, but many people forget the formal definition by the time they reach university. In this lesson, we will review this definition, as well as the definitions of domain, range, and function notation. Additionally, we will introduce some definitions which are likely new to you, such as the codomain, image, and preimage. These terms will not be used too frequently in this course, but are useful to know especially if you study linear algebra in the future. 
 
 ### Definitions
 
@@ -59,9 +59,9 @@ as the <i>preimage of $V$ under $f$</i>.
 </ol> </p>
 <b>Solution:</b> 
 <ol type = "a">
-<li> The domain of $f$ is $[2,4]$. </li>
-<li> The codomain of $f$ is $\R$. </li>
-<li> The range of $f$ is $[2^2,4^2] = [4,16]$. </li>
+<li> </li>
+<li> </li>
+<li> </li>
 </ol>
 </div> <br>
 
@@ -78,12 +78,12 @@ as the <i>preimage of $V$ under $f$</i>.
 </ol> </p>
 <b>Solution:</b> 
 <ol type = "a">
-<li> $f([-1,1]) = [0,1]$ </li>
-<li> $f([0,1]) = [0,1]$ </li>
-<li> $f((0,\infty)) = (0,\infty)$ </li>
-<li> $f^{-1}([0,1]) = [-1,1]$ </li>
-<li> $f^{-1}((0,1]) = [-1,0) \cup (0,1]$ </li>
-<li> $f^{-1}([-2,-1]) = \emptyset$ </li>
-<li> $f^{-1}([-1,1]) = [0,1]$ </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
 </ol>
 </div>
