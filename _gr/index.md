@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Quantum Mechanics I
-permalink: /qm-I/
-banner: qm-I.svg
+title: General Relativity
+permalink: /gr/
+banner: gr.svg
 ---
 
-Welcome to Quantum Mechanics I
+Welcome to General Relativity!
 
-<a class="page-link" href="/qm-I/introduction">Quantum Mechanics I </a>
+<a class="page-link" href="/gr/introduction"> What is General Relativity? </a>
 
 
 {% assign unitNames = "Unit 1 - Basic Formulation, Unit 2 - Time-Independent Schrödinger Equation, Unit 3 - Formalism, Unit 4 - Spin and Composite Systems, Unit 5 - Identical Particles, Unit 6 - Symmetries" | split: ', ' %}

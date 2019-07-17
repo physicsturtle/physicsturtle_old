@@ -6,13 +6,9 @@ permalink: /pde-II/
 
 Welcome to Partial Differential Equations II.
 
-<a class="page-link" href="/calculus-III/introduction">Introduction - What is a Partial Differential Equation? </a>
-
-
-
 {% assign unitNames = "Unit 1 - Method of Characteristics, Unit 2 - Separation of Variables in Higher Dimensions, Unit 3 - Fourier Transform, Unit 4 - Laplace Transform, Unit 5 - Similarity Solution, Supplementary Material" | split: ', ' %}
 
-{% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, supplements/" | split: ', ' %}
+{% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/" | split: ', ' %}
 
 {% assign lessonNames1 = "" | split: ', ' %}
 
@@ -48,4 +44,6 @@ Welcome to Partial Differential Equations II.
 
 **Sources**
 
-1. 
+1. Partial Differential Equations - Walter Strauss
+2. Elementary Partial Differential Equations - Richard Haberman
+3. Partial Differential Equations of Applied Mathematics - Erich Zauderer

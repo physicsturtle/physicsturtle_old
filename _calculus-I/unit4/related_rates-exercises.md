@@ -9,14 +9,17 @@ courseDisplay: Calculus I
 unitDisplay: Unit 4
 ---
 
-\question[$***$] Two sides of a triangle are 15 and 20 m long, respectively. 
-\begin{enumerate}[(a)]
-\item How fast is the third side increasing if the angle between the given sides is $\pi/3$ and is increasing at a rate of $\pi/45$ radians per second?
-\item How fast is the area increasing? 
-\end{enumerate}
+<ol>
+<li> <div class="exercise"> Two sides of a triangle are 15 and 20 m long, respectively. 
+<ol type="a">
+<li> How fast is the third side increasing if the angle between the given sides is $\pi/3$ and is increasing at a rate of $\pi/45$ radians per second? </li>
+<li> How fast is the area increasing? </li>
+</ol>
 
-\begin{solution}
-
+<div class="answerBox">
+<button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
+<div  id="answer1" class="answer" >
+<!--- 
 \begin{tikzpicture}[thick]
 \coordinate (O) at (0,0);
 \coordinate (A) at (4,0.25);
@@ -31,10 +34,9 @@ unitDisplay: Unit 4
 opacity=.4](B,A,O)
 \tkzLabelAngle[pos = -1.5](B,A,O){$\theta = \pi/3$}
 
-\end{tikzpicture}
-\begin{enumerate}[(a)]
-\item
-We know from the given information that $\displaystyle{\frac{d\theta}{dt}=\frac{\pi}{45}}$. Using the cosine law, we relate the lengths of the sides and the angle $\theta$, then differentiate with respect to time, $t$.
+\end{tikzpicture} --->
+<ol type="a">
+<li> We know from the given information that $\displaystyle{\frac{d\theta}{dt}=\frac{\pi}{45}}$. Using the cosine law, we relate the lengths of the sides and the angle $\theta$, then differentiate with respect to time, $t$.
 \begin{eqnarray*}
 l^2 &=& 15^2 +20^2 - 2(15)(20)\cos(\theta)\\
 l^2 &=& 625-600\cos(\theta)\\
@@ -50,7 +52,8 @@ Plugging the values in,
 \[2(5\sqrt{13})l'=600\sin\left(\frac{\pi}{3}\right) \cdot \frac{\pi}{45}\]
 Now solving for $l'$:
 \[l' = \frac{2\pi}{\sqrt{39}}\,\si{m/s}\]
-\item The area of a triangle is given by $A=\frac{1}{2}ab\sin(C)$. We differentiate the formula for the area of a triangle with respect to time $t$, and then evaluate at $\theta = \pi/3$.
+</li>
+<li> The area of a triangle is given by $A=\frac{1}{2}ab\sin(C)$. We differentiate the formula for the area of a triangle with respect to time $t$, and then evaluate at $\theta = \pi/3$.
 
 \begin{eqnarray*}
 \frac{d}{dt}[A]&=&\frac{d}{dt}[150\sin(\theta)]\\
@@ -58,15 +61,20 @@ A'&=& 150\cos(\theta)\cdot\theta'\\
 A'&=& 150\cos\left(\frac{\pi}{3}\right)\cdot\frac{\pi}{45}=\frac{75\pi}{45} 
 \end{eqnarray*}
 \[A'(\pi/3) = \frac{5\pi}{3}\,\si{m^2/s}\]
-\end{enumerate}
-\end{solution}
+</li>
+</ol>
+</div>
+</div>
+</div>
+</li>
 
-\newpage
 
-\question[$***$] Two ships sail from the origin at the same time. One sails south at 15 km/hr; the other sails east at 25 km/hr for 1 hour and then turns north. Find the rate of rotation in rad/s of the line joining them after 3 hours. 
+<li> <div class="exercise"> Two ships sail from the origin at the same time. One sails south at 15 km/hr; the other sails east at 25 km/hr for 1 hour and then turns north. Find the rate of rotation in rad/s of the line joining them after 3 hours. 
 
-\begin{solution}
-
+<div class="answerBox">
+<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
+<div  id="answer2" class="answer" >
+<!--- 
 \begin{tikzpicture}[thick]
 \draw (-1,0) -- (4,0);
 \draw (0,-2) -- (0,4);
@@ -93,6 +101,7 @@ opacity=.4](A,O,B)
 \tkzLabelSegment[left=2pt](O,S){$\frac{dy}{dt}=-15$\:km/h}
 
 \end{tikzpicture}
+--->
 
 The question can be simplified by setting $t=0$ at one hour where the east bound ship is 25km east, then turns north, and the south bound ship is 15km south, then find the rad/s after 2 hours instead of 3. Based on the diagram above, which is simplified to show some time after 1 hour displays the following: \textit{displacement}, \textit{x-component}, and \textit{y-component} of the displacement. It also shows the vectors along which the ships are travelling in red, and their rate of travel.
 
@@ -109,13 +118,17 @@ Second, relate $\theta$ and \textit{y} using tan, then differentiate with respec
 
 So the angle is changing at 0.1036 rad/h
 
-\end{solution}
+</div>
+</div>
+</div>
+</li>
 
-\newpage
 
-\question[$**$] Gas is escaping from a spherical balloon at the rate of 2 cubic feet per minute. How fast is the surface area shrinking when the radius is 12 ft?
+<li> <div class="exercise"> Gas is escaping from a spherical balloon at the rate of 2 cubic feet per minute. How fast is the surface area shrinking when the radius is 12 ft?
 
-\begin{solution}
+<div class="answerBox">
+<button onclick="myFunction('answer3')" class="answerButton">Show Answer</button>
+<div  id="answer3" class="answer" >
 For a sphere, the formula for the volume is 
 \[V = \frac{4}{3}\pi r^3\]
 and the formula for the surface area is 
@@ -128,13 +141,17 @@ When $r = 12$, $A = 4\pi\cdot144$, so then we can evaluate the derivative:
 \[-2 = \frac{12}{2}\frac{dA}{dt}\]
 Solving for $dA/dt$:
 \[\frac{dA}{dt} = -\frac{1}{3} \,\si{ft^2/s}\]
-\end{solution}
 
-\newpage
+</div>
+</div>
+</div>
+</li>
 
-\question[$***$] Water, at the rate of $10\,\si{ft^3/min}$, is pouring into a leaky cistern whose shape is a cone 16 feet deep and 8 inches diameter at the top. At the time the water is 12 feet deep, the water level is observed to be rising 4 inches/min. How fast is the water leaking away?
+<li> <div class="exercise"> Water, at the rate of $10\,\si{ft^3/min}$, is pouring into a leaky cistern whose shape is a cone 16 feet deep and 8 inches diameter at the top. At the time the water is 12 feet deep, the water level is observed to be rising 4 inches/min. How fast is the water leaking away?
 
-\begin{solution}
+<div class="answerBox">
+<button onclick="myFunction('answer4')" class="answerButton">Show Answer</button>
+<div  id="answer4" class="answer" >
 The volume of a cone is given by 
 \[V = \frac{1}{3}\pi r^2h\]
 From similar triangles, we have 
@@ -148,4 +165,11 @@ Now evaluating this at $h = 12\,\si{ft}$, and $h' = 1/3\,\si{ft/min}$, we get th
 Let the net water flow in be $\displaystyle{\frac{dV}{dt} = 10 - \frac{dV_\text{out}}{dt}}$\\
 Then, $\displaystyle{10 - \frac{dV_\text{out}}{dt} = \frac{\pi}{48}}$, so the rate of water flow out of the cone is 
 \[\frac{dV_\text{out}}{dt} = \left(10 - \frac{\pi}{48}\right)\,\si{ft^3/min}\]
-\end{solution}
+
+</div>
+</div>
+</div>
+</li>
+
+
+</ol>

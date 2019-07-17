@@ -2,16 +2,18 @@
 layout: course
 title: Classical Field Theory
 permalink: /classical-ft/
-banner: calculus-I.svg
+banner: classical-ft.svg
 ---
 
 Welcome to Classical Field Theory, a subject which is severely undertaught in undergraduate and graduate physics programs. 
 
-<a class="page-link" href="/calculus-I/introduction"> Introduction - What is Calculus? </a>
+<a class="page-link" href="/classical-ft/introduction"> Introduction - What is Classical Field Theory? </a>
 
 The prerequisites are as follows
-1. A strong background in high school mathematics, including trigonometry, solving algebraic equations, working with exponentials and logarithms, and graphing.
-2. An exposure to physics is useful; many examples will be drawn from physics. 
+1. An excellent background in electromagnetic theory
+2. A working knowledge of continuum mechanics (fluid mechanics and elasticity)
+3. A working knowledge of multivariable and vector calculus
+4. A working knowledge of complex analysis
 
 {% assign unitNames = "Unit 1 - Sets and Functions, Unit 2 - Limits and Continuity, Unit 3 - Differentiation, Unit 4 - Applications of Differentiation" | split: ', ' %}
 
@@ -46,4 +48,6 @@ The prerequisites are as follows
 
 **Sources**
 
-1. Calculus, 7 ed. - Stewart, James (2012)
+1. Classical Theory of Fields - Landau and Liftshitz
+2. Electrodynamics and Classical Theory of Fields and Particles - Barut
+3. 

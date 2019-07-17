@@ -10,7 +10,10 @@ unitDisplay: Unit 4
 ---
 
 \question[$*$] A culture of bacteria in a petri dish grows exponentially from an initial population of 5000 cells. Let $b(t)$ be the the number of bacteria after $t$ hours. Then $b(0) = 5000$. At $t = 10$ hours, scientists remove 4000 cells from the dish. At $t = 20$ hours, there are exactly 12000 cells in the dish. How many cells will be present in the dish at $t = 30$ hours?
-\begin{solution}
+
+<div class="answerBox">
+<button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
+<div  id="answer1" class="answer" >
 Since we are told that it is exponential growth, we can construct the following model, value for $t < 10$:
 \[b(t) = 5000e^{kt}\]
 for some growth constant $k$. Then, we note that at $t = 10$, 4000 cells are taken away. This means that the number of bacteria \textit{just before} $t = 10$ is 

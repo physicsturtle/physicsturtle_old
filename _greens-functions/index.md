@@ -10,22 +10,25 @@ Welcome to Green's Functions!
 <a class="page-link" href="/calculus-I/introduction"> Introduction - What is a Green's Function? </a>
 
 The prerequisites are as follows
-1. A strong background in high school mathematics, including trigonometry, solving algebraic equations, working with exponentials and logarithms, and graphing.
-2. An exposure to physics is useful; many examples will be drawn from physics. 
+1. A strong background in multivariable and vector calculus.
+2. A strong background in undergraduate ordinary and partial differential equations
+3. A working knowledge of asymptotic analysis may be useful
 
 {% assign unitNames = "Unit 1 - Green's Functions for ODEs, Unit 2 - Elliptic Equations, Unit 3 - Parabolic Equations, Unit 4 - Hyperbolic Equations, Unit 5 - Eigenvalue Problems, Unit 6 - Variational Calculus" | split: ', ' %}
 
-{% assign units = "unit1/, unit2/, unit3/, unit4/" | split: ', ' %}
+{% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, unit6/" | split: ', ' %}
 
-{% assign lessonNames1 = "" | split: ', ' %}
+{% assign lessonNames1 = "Green's_Functions_for_1D_BVP" | split: ', ' %}
 
-{% assign lessonNames2 = "" | split: ', ' %}
+{% assign lessonNames2 = "Free_Space_Green's_Function, Method_of_Images" | split: ', ' %}
 
-{% assign lessonNames3 = "" | split: ', ' %}
+{% assign lessonNames3 = "Heat_Kernel" | split: ', ' %}
 
-{% assign lessonNames4 = "" | split: ', ' %}
+{% assign lessonNames4 = "Wave_Equation" | split: ', ' %}
 
-{% assign lessonNames5 = "generalizations" | split: ', ' %}
+{% assign lessonNames5 = "" | split: ', ' %}
+
+{% assign lessonNames6 = "" | split: ', ' %}
 
 <ul>
 {% for unitName in unitNames %}

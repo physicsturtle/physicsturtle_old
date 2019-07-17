@@ -6,7 +6,6 @@ course: calculus-I
 deptDisplay: Math
 courseDisplay: Calculus I
 unit: unit2
-permalink: /calculus-I/unit2/
 ---
 
 {% assign lessonNames = "Introduction, Limits, Limit_Laws, Limit_Details, Squeeze_Theorem, Continuity, Intermediate-Value-Theorem, Limits_at_Infinity" | split: ', ' %}

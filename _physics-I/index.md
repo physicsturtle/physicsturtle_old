@@ -13,7 +13,7 @@ Welcome to your first course on Physics! The first year undergraduate physics cu
 
 {% assign lessonNames1 = "Heat_Capacity, Thermal_Expansion, Latent_Heat_of_Transformation" | split: ', ' %}
 
-{% assign lessonNames2 = "Stress_and_Strain" | split: ', ' %}
+{% assign lessonNames2 = "Newton's_Law, " | split: ', ' %}
 
 {% assign lessonNames3 = "Temperature and Thermal Equilibrium 552
 17.2 Thermometers and Temperature Scales 553
@@ -44,7 +44,7 @@ Summary 643 Questions/Exercises/Problems 644
 20.7 Entropy 669
 20.8 Microscopic Interpretation of Entropy" | split: ', ' %}
 
-{% assign lessonNames4 = "" | split: ', ' %}
+{% assign lessonNames4 = "Stress_and_Strain" | split: ', ' %}
 
 {% assign lessonNames5 = "" | split: ', ' %}
 

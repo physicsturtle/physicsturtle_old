@@ -1,11 +1,10 @@
 ---
 layout: course
-title: Calculus I - In Progress
-permalink: /calculus-I/
+title: Calculus I
 banner: calculus-I.svg
 ---
 
-Welcome to Calculus I, single variable differential calculus! This is generally a student's first exposure to post-secondary mathematics, and success in this course is crucial to further studies in mathematics or science. Calculus is the language of physics and engineering, but is also a beautiful subject to study on its own. 
+Welcome to Calculus I, single variable differential calculus! This is generally a student's first exposure to post-secondary mathematics, and success in this course is crucial to further studies in mathematics or science. Calculus is the language of physics and engineering, but is also a beautiful subject to study on its own. **In Progress**
 
 The prerequisites are as follows:
 1. A strong background in high school mathematics, including trigonometry, solving algebraic equations, working with exponentials and logarithms, and graphing.
@@ -17,11 +16,11 @@ The prerequisites are as follows:
 
 {% assign lessonNames1 = "Sets, Functions, Inverse_Functions" | split: ', ' %}
 
-{% assign lessonNames2 = "Introduction, Limits, Limit_Laws, Limit_Details, Squeeze_Theorem, Continuity, Intermediate-Value-Theorem, Limits_at_Infinity" | split: ', ' %}
+{% assign lessonNames2 = "Introduction, Limits, Limit_Laws, Limit_Details, Squeeze_Theorem, Continuity, Intermediate_Value_Theorem, Limits_at_Infinity" | split: ', ' %}
 
-{% assign lessonNames3 = "Derivatives_and_Rate_of_Change, Definition_of_the_Derivative, Derivatives_of_Polynomials, Product_Rule, Quotient_Rule, Derivatives_of_Trigonometric_Functions, Derivatives_of_Exponentials, Derivatives_of_Hyperbolic_Functions*, Chain_Rule, Implicit_Differentiation, Derivatives_of_Logarithms, Derivatives_of_Inverse_Trigonometric_Functions, Derivatives_of_Inverse_Hyperbolic_Functions*, Logarithmic_Differentiation, Linear_Approximations_and_Differentials, Taylor_Polynomials, Lagrange_Remainder_Theorem" | split: ', ' %}
+{% assign lessonNames3 = "Definition_of_the_Derivative, Derivatives_of_Polynomials, Product_Rule, Quotient_Rule, Derivatives_of_Trigonometric_Functions, Derivatives_of_Exponentials, Derivatives_of_Hyperbolic_Functions*, Chain_Rule, Implicit_Differentiation, Derivatives_of_Logarithms, Derivatives_of_Inverse_Trigonometric_Functions, Derivatives_of_Inverse_Hyperbolic_Functions*, Logarithmic_Differentiation, Linear_Approximations_and_Differentials, Taylor_Polynomials, Lagrange_Remainder_Theorem" | split: ', ' %}
 
-{% assign lessonNames4 = "Kinematics_Problems, Exponential_Growth_and_Decay, Newton's_Law_of_Cooling, Related_Rates, Extrema_1, Extrema_2, Mean_Value_Theorem, Curve_Sketching_1, Curve-Sketching_2, Optimization_Problems, L'Hopital's_Rule, Newton's_Method" | split: ', ' %}
+{% assign lessonNames4 = "Kinematics_Problems, Exponential_Growth_and_Decay, Newton's_Law_of_Cooling, Related_Rates, Extrema, Mean_Value_Theorem, Curve_Sketching, Optimization_Problems, L'Hopital's_Rule, Newton's_Method" | split: ', ' %}
 
 <ul>
 {% for unitName in unitNames %}

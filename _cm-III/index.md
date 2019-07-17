@@ -50,5 +50,6 @@ The prerequisites are as follows
 
 **Sources**
 
-1. Calculus, 7 ed. - Stewart, James (2012)
+1. Classical Mechanics - John Taylor
+2. 
 

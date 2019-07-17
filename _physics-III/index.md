@@ -1,15 +1,15 @@
 ---
 layout: course
 title: Physics III - Modern Physics
-permalink: /physics-I/
-banner: physics-I.svg
+permalink: /physics-III/
+banner: physics-III.svg
 ---
 
-Welcome to Modern Physics! I find this course to be generally very disappointing
+Welcome to Modern Physics! 
 
 {% assign unitNames = "Unit 1 - Relativity, Unit 2 - Quanta" | split: ', ' %}
 
-{% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, supplements/" | split: ', ' %}
+{% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/" | split: ', ' %}
 
 {% assign lessonNames1 = "" | split: ', ' %}
 

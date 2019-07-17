@@ -1,29 +1,26 @@
 ---
 layout: course
 title: Calculus II
-permalink: /calculus-II/
 banner: calculus-II.svg
 ---
 
 Welcome to Calculus II, single variable integral calculus!
 
-<a class="page-link" href="/calculus-III/introduction">Introduction - What is Integral Calculus? </a>
+<a class="page-link" href="/calculus-II/introduction">Introduction - What is Integral Calculus? </a>
 
-{% assign unitNames = "Unit 1 - The Integral, Unit 2 - Methods of Integration, Unit 3 - Applications of Integration, Unit 4 - Sequences and Series, Unit 5 - Power Series, Supplementary Material" | split: ', ' %}
+{% assign unitNames = "Unit 1 - The Integral, Unit 2 - Methods of Integration, Unit 3 - Applications of Integration, Unit 4 - Polar Coordinates, Unit 5 - Sequences and Series" | split: ', ' %}
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, supplements/" | split: ', ' %}
 
-{% assign lessonNames1 = "" | split: ', ' %}
+{% assign lessonNames1 = "Riemann_Sums, The_Definite_Integral, Fundamental_Theorem_of_Calculus" | split: ', ' %}
 
-{% assign lessonNames2 = "" | split: ', ' %}
+{% assign lessonNames2 = "Introduction, Substitution_Rule, Integration_by_Parts, Trigonometric_Integrals, Trigonometric_Substitution, Method_of_Partial_Fractions, Improper_Integrals, Numerical_Integration, Miscellaneous_Tricks" | split: ', ' %}
 
-{% assign lessonNames3 = "" | split: ', ' %}
+{% assign lessonNames3 = "Area_Between_Curves, Volume_of_Revolution, Work, Average_Value_of_a_Function, Arc_Length, Surface_of_Revolution, Center_of_Mass, Probability, Differential_Equations" | split: ', ' %}
 
-{% assign lessonNames4 = "" | split: ', ' %}
+{% assign lessonNames4 = "Polar_Coordinate_System, Arc_Length_and_Area, Conic_Sections" | split: ', ' %}
 
-{% assign lessonNames5 = "Taylor_Series" | split: ', ' %}
-
-{% assign lessonNames6 = "" | split: ', ' %}
+{% assign lessonNames5 = "Sequences, Series_and_Divergence_Test, Comparison_Test, Integral_Test, Alternating_Series, Absolute_Convergence, Ratio_and_Root_Tests, Power_Series, Functions_as_Power_Series, Taylor_and_Maclaurin_Series" | split: ', ' %}
 
 <ul>
 {% for unitName in unitNames %}
@@ -35,7 +32,6 @@ Welcome to Calculus II, single variable integral calculus!
 {% elsif unitIndex == 2 %}  {% assign lessonNames = lessonNames3 %}
 {% elsif unitIndex == 3 %}  {% assign lessonNames = lessonNames4 %}
 {% elsif unitIndex == 4 %}  {% assign lessonNames = lessonNames5 %}
-{% elsif unitIndex == 5 %}  {% assign lessonNames = lessonNames6 %}
 {% endif %}
 {% for lessonName in lessonNames %}
 {% assign lessonTitle = lessonName | replace:  '_', ' ' %}

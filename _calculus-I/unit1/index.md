@@ -6,7 +6,6 @@ course: calculus-I
 deptDisplay: Math
 courseDisplay: Calculus I
 unit: unit1
-permalink: /calculus-I/unit1/
 ---
 
 {% assign lessonNames = "Sets, Functions, Inverse_Functions" | split: ', ' %}

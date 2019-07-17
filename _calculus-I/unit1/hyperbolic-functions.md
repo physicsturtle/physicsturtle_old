@@ -3,10 +3,10 @@ layout: lesson
 title: Hyperbolic Functions
 dept: math
 course: calculus-I
-unit: unit2
+unit: unit1
 deptDisplay: Math
 courseDisplay: Calculus I
-unitDisplay: Unit 2
+unitDisplay: Unit 1
 ---
 
 ### Introduction

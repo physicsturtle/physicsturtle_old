@@ -11,17 +11,17 @@ Welcome to your second course on Physics! This course will spend a little bit of
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, supplements/" | split: ', ' %}
 
-{% assign lessonNames1 = "" | split: ', ' %}
+{% assign lessonNames1 = "Coulomb's_Law, Coulomb's_Law_Line_Distributions, Gauss's_Law, Superposition" | split: ', ' %}
 
-{% assign lessonNames2 = "" | split: ', ' %}
+{% assign lessonNames2 = "Electrostatic_Potential_Energy, Electric_Potential_Function, Capacitance" | split: ', ' %}
 
-{% assign lessonNames3 = "" | split: ', ' %}
+{% assign lessonNames3 = "Lorentz_Force_Law, Biot-Savart_Law, Ampere's Law, Superposition" | split: ', ' %}
 
-{% assign lessonNames4 = "" | split: ', ' %}
+{% assign lessonNames4 = "Faraday's_Law, Inductance" | split: ', ' %}
 
-{% assign lessonNames5 = "" | split: ', ' %}
+{% assign lessonNames5 = "Ohm's_Law, RC_Circuits, LR_Circuits, LC_Circuits, RLC_Circuits" | split: ', ' %}
 
-{% assign lessonNames6 = "" | split: ', ' %}
+{% assign lessonNames6 = "Superposition, Double_Slit_Experiment, Thin_Films" | split: ', ' %}
 
 <ul>
 {% for unitName in unitNames %}

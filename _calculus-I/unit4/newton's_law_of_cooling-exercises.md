@@ -10,7 +10,9 @@ unitDisplay: Unit 4
 ---
 \question[$**$] A glass of water is left out for a long time at room temperature of $20 \degree$C. Someone puts it in the freezer which is held at a constant temperature of $-5 \degree$C. At 2pm, it is $10 \degree$ C, and at 3pm its just about to begin freezing. When was it put into the freezer?
 
-\begin{solution}
+<div class="answerBox">
+<button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
+<div  id="answer1" class="answer" >
 We apply Newton's Law of Cooling: 
 \[\frac{dT}{dt} = k(T_0-T)\]
 To solve the differential equation, let 

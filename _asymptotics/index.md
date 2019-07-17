@@ -1,21 +1,22 @@
 ---
 layout: course
 title: Asymptotic Analysis I
-permalink: /asymp/
-banner: asymp.svg
+permalink: /asymptotics/
+banner: asymptotics.svg
 ---
 
-Welcome to Calculus I, single variable differential calculus! This is generally a student's first exposure to post-secondary mathematics, and success in this course is crucial to further studies in mathematics or science. Calculus is the language of physics and engineering, but is also a beautiful subject to study on its own. 
+Welcome to Asymptotic Analysis I! This fits into the world of PDE somewhere between real analysis and analytic methods. On the other side of analytic methods is numerical methods. 
 
-<a class="page-link" href="/calculus-I/introduction"> Introduction - What is Calculus? </a>
+<a class="page-link" href="/asympI/introduction"> Introduction - What is Asymptotic Analysis? </a>
 
 The prerequisites are as follows
-1. A strong background in high school mathematics, including trigonometry, solving algebraic equations, working with exponentials and logarithms, and graphing.
-2. An exposure to physics is useful; many examples will be drawn from physics. 
+1. A strong background in solution methods of ODE and PDE
+2. A working knowledge of complex analysis
+3. An exposure to physics is useful; many examples will be drawn from physics.
 
-{% assign unitNames = "Unit 1 - Sets and Functions, Unit 2 - Limits and Continuity, Unit 3 - Differentiation, Unit 4 - Applications of Differentiation" | split: ', ' %}
+{% assign unitNames = "Unit 1 - Algebraic Perturbations, Unit 2 - Basic Perturbations of Self-Adjoint Differential Equations, Unit 3 - Integrals, Unit 4 - Boundary Layers, Unit 5 - Multiple Scales Analysis" | split: ', ' %}
 
-{% assign units = "unit1/, unit2/, unit3/, unit4/" | split: ', ' %}
+{% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/" | split: ', ' %}
 
 {% assign lessonNames1 = "" | split: ', ' %}
 
