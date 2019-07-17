@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Exponential Growth and Decay
 dept: math
 course: calculus-I

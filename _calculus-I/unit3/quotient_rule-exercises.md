@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Quotient Rule - Exercises
 dept: math
 course: calculus-I

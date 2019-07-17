@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Newton's Law of Cooling - Exercises
 dept: math
 course: calculus-I

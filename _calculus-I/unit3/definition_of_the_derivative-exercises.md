@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Definition of the Derivative
 dept: math
 course: calculus-I

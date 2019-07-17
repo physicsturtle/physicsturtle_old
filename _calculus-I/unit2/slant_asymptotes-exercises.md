@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Slant Aymptote Examples
 dept: math
 course: calculus-I

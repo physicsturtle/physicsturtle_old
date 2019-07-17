@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Hyperbolic Functions
 dept: math
 course: calculus-I

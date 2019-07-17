@@ -24,7 +24,7 @@ $$\lim_{x\to a} g(x) = L,\qquad \lim_{x\to a} h(x) = L,$$
 then 
 $$\lim_{x\to a} f(x) = L$$
 also. This result is commonly referred to as the <i>squeeze theorem</i> or the <i>sandwich theorem</i>.
-<\div>
+</div>
 
 This result has an intuitive geometric interpretation
 
@@ -35,6 +35,22 @@ This result has an intuitive geometric interpretation
 <div class="example">
 <p><b>Example:</b> Evaluate the limit
 $$\lim_{x\to 0} x\sin\left(\frac{1}{x}\right).$$
+</p>
+
+</div>
+
+
+<div class="example">
+<p><b>Example:</b> Evaluate the limit
+$$\lim_{x\to 0} (e^{-x}-1)\cos^2\left(e^{1/x^2}\right).$$
+</p>
+
+</div>
+
+
+<div class="example">
+<p><b>Example:</b> Evaluate the limit
+$$\lim_{x\to 0} \sqrt{x+x^3}\cos\left(\frac{1}{x^3}\right).$$
 </p>
 
 </div>

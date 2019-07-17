@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Limit Laws - Exercises
 dept: math
 course: calculus-I

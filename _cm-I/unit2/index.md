@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Unit 1
-course: electromagnetism-I
+course: cm-I
 unit: unit1
 ---
 

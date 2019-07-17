@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Product Rule - Exercises
 dept: math
 course: calculus-I

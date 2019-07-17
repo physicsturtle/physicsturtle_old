@@ -1,37 +1,20 @@
 ---
-layout: page
-title: Differentiation
+layout: unit
+title: Unit 3
+dept: math
 course: calculus-I
+deptDisplay: Math
+courseDisplay: Calculus I
 unit: unit3
-permalink: /calculus-III/unit3/
+permalink: /calculus-I/unit3/
 ---
 
-Unit 1 lays out the foundations for understanding how to work with objects in 3 dimensional space. There won't be any calculus yet, but we'll try and understand how to draw pictures, including vectors and graphs. This will be one of the most important skills throughout the rest of the course to intuitively understand the mathematics through graphical means. 
+{% assign lessonNames = "Derivatives_and_Rate_of_Change, Definition_of_the_Derivative, Derivatives_of_Polynomials, Product_Rule, Quotient_Rule, Derivatives_of_Trigonometric_Functions, Derivatives_of_Exponentials, Derivatives_of_Hyperbolic_Functions*, Chain_Rule, Implicit_Differentiation, Derivatives_of_Logarithms, Derivatives_of_Inverse_Trigonometric_Functions, Derivatives_of_Inverse_Hyperbolic_Functions*, Logarithmic_Differentiation, Linear_Approximations_and_Differentials, Taylor_Polynomials, Lagrange_Remainder_Theorem" | split: ', ' %}
 
 <ol>
-{% assign lessonNames = "Three-Dimensional-Cartesian-Coordinates, Vectors-and-Their-Geometry, Algebraic-Operations-with-Vectors, Norm, Projections" | split: ', ' %}
 {% for lessonName in lessonNames %}
-{% assign lessonTitle = lessonName | replace:  '-', ' ' %}
+{% assign lessonTitle = lessonName | replace:  '_', ' ' %}
 {% assign lowerName = lessonName | downcase %}
-<li> <a class = "page-link" href = "{{ lowerName | prepend: current_page.permalink}}"> {{lessonTitle}} </a> </li>
+<li> <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink }}"> {{lessonTitle}} </a> - <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink | append: "-exercises" }}"> Exercises </a> </li>
 {% endfor %}
 </ol>
-
-<!---
-- Derivatives and Rates of Change
--  Derivatives of Polynomials 
-- Derivatives of Exponential functions
-- Derivatives of Trigonometric Functions
-- Derivatives of Hyperbolic Functions* 
-- The product rule
-- The quotient Rule
-- The chain rule
-- Implicit Differentiation
-- Derivatives of logarithmic functions
-- Derivatives of Inverse Trigonometric functions
-- Derivatives of Inverse Hyperbolic Functions*
-- Logarithmic differentiation
-- Linear Approximations and Differentials
-- Taylor Polynomials
-- Lagrange Remainder Theorem
---->

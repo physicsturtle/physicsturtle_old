@@ -23,29 +23,29 @@ Now let's proceed with some examples.
 
 <div class="example">
 $$f(x) = \frac{1}{x+4}$$
-<\div>
+</div>
 
 
 <div class="example">
 $$f(x) = \frac{x-2}{2x+3}$$
-<\div>
+</div>
 
 
 <div class="example">
 $$f(x) = \frac{x^2+3}{x}$$
-<\div>
+</div>
 
 
 <div class="example">
 $$f(x) = \frac{\sin x}{x}$$
-<\div>
+</div>
 
 
 <div class="example">
 $$f(x) = 3e^{2x}$$
-<\div>
+</div>
 
 
 <div class="example">
 $$f(x) = \frac{3x^2+1}{x^2-2x+1}$$
-<\div>
+</div>

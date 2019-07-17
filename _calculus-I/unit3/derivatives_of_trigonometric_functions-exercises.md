@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Derivatives of Trigonometric Functions - Exercises
 dept: math
 course: calculus-I

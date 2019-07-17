@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Chain Rule
 dept: math
 course: calculus-I

@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Taylor Polynomials - Exercises
 dept: math
 course: calculus-I

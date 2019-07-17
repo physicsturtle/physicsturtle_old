@@ -1,6 +1,6 @@
 ---
-layout: lesson
-title: Derivatives of Logarithms
+layout: exercises
+title: Derivatives of Logarithms - Exercises
 dept: math
 course: calculus-I
 unit: unit3

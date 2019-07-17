@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Implicit Differentiation - Exercises
 dept: math
 course: calculus-I

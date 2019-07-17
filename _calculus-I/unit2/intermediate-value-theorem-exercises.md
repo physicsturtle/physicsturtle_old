@@ -1,5 +1,5 @@
 ---
-layout: exercise
+layout: exercises
 title: Exercises for Intermediate Value Theorem
 dept: math
 course: calculus-I

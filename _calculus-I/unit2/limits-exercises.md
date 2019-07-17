@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Limits
 dept: math
 course: calculus-I

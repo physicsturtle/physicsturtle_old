@@ -1,5 +1,5 @@
 ---
-layout: exercise
+layout: exercises
 title: Continuity - Exercises
 dept: math
 course: calculus-I

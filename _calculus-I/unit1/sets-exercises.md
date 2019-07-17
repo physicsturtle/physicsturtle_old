@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Sets - Exercises
 dept: math
 course: calculus-I

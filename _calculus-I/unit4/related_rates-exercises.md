@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Related Rates - Exercises
 dept: math
 course: calculus-I

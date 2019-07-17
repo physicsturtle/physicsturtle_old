@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Mean Value Theorem - Exercises
 dept: math
 course: calculus-I

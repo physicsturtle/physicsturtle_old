@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Inverse Functions - Exercises
 dept: math
 course: calculus-I

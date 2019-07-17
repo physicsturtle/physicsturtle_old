@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Precise Definition of a Limit - Exercises
 dept: math
 course: calculus-I

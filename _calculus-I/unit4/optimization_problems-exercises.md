@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Relative Coordinates
 dept: physics
 course: cm-III

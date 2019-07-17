@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Linear Approximations and Differentials
 dept: math
 course: calculus-I

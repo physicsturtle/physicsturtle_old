@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Derivatives of Exponentials - Exercises
 dept: math
 course: calculus-I

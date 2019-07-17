@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Limits at Infinity
 dept: math
 course: calculus-I

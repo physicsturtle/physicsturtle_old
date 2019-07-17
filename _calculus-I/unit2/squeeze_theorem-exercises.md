@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Squeeze Theorem - Exercises
 dept: math
 course: calculus-I

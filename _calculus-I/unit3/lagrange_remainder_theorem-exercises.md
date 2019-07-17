@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: exercises
 title: Lagrange Remainder Theorem - Exercises
 dept: math
 course: calculus-I
