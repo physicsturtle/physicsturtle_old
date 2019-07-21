@@ -4,6 +4,8 @@ title: Math
 permalink: /math/
 ---
 
+Here are a collection of math courses which I hope to cover sometime in some reasonable form of completion by 2030. I aim to provide the student with the background necessary to work in theoretical physics. I am starting with the first three calculus courses.
+
 ## Secondary School Mathematics
 
 Coming soon

@@ -67,5 +67,24 @@ and then plug the resulting combined Lagrangian $\L(t,x,\dot{x}) + \lambda \math
 
 $$x = x_* + \epsilon_1 \eta_1 + \epsilon_2 \eta_2$$
 
-so that the values of $\epsilon_1$ and $\epsilon_2$ can work together to keep $C$ constant. We consider the 
+so that the values of $\epsilon_1$ and $\epsilon_2$ can work together to keep $C$ constant. We consider plugging $x$ into combined functional 
+
+$$J(\epsilon_1,\epsilon_2) = S[x_* + \epsilon_1 \eta_1 + \epsilon_2 \eta_2] + \lambda C[x_* + \epsilon_1 \eta_1 + \epsilon_2 \eta_2],$$ 
+
+and then impose the conditions 
+
+$$\frac{\partial J}{\partial\epsilon_1}\bigg|_{\epsilon_1 = \epsilon_2 = 0} ,\qquad \frac{\partial J}{\partial\epsilon_2}\bigg|_{\epsilon_1 = \epsilon_2 = 0}.$$
+
+Now, we differentiate both sides with respect to $\epsilon_i$, where $i = 1,2$. Note that differentiating with respect to either $\epsilon_1$ or $\epsilon_2$ will give us analogous expressions.
+
+$$\frac{\partial J}{\partial\epsilon_i} = \int_{t_1}^{t_2} $$
+
+
+
+
+
+
+
+
+
 

@@ -1,8 +1,6 @@
 ---
-name: calculus-III/
 layout: course
 title: Calculus III - Multivariable and Vector Calculus
-permalink: /calculus-III/
 banner: calculus-III.svg
 ---
 

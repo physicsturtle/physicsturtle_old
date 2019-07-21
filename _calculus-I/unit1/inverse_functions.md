@@ -35,4 +35,30 @@ The development so far can be used to define inverses for the trigonometric func
 1. To solve $\sin x = y$ for $x$, we can find the preimage of $\sin$ and obtain a set of values for $x$. This is not constructing an inverse function but rather only looking at preimages. 
 2. To solve $\sin x = y$ for $x$, we can restrict the domain of $\sin$ and obtain only a single value for $x$. This is the same as constructing an inverse function. 
 
-Here, we will construct the inverse functions for the $\sin,\cos,$ and $\tan$ according to the convention; there are other ways to 
+Note that in high school you may have written $\sin^{-1}$ for inverse sine, but here we will use $\arcsin$ for inverse sine, $\arccos$ for inverse cosine, and $\arctan$ for inverse tangent, etc.
+
+Here, we will construct the inverse functions for the $\sin,\cos,$ and $\tan$ according to the convention; there are other ways to construct these inverses but we won't consider those. First, let's construct the inverse of the sine function. Looking at the graph of the sine function, we see that it is invertible if we restrict the domain to the interval $\left[-\frac{\pi}{2},\frac{\pi}{2}\right]$; the sine doesn't take the same value twice on that interval. Thus, we construct the arcsine function as having domain $\left[-\frac{\pi}{2},\frac{\pi}{2}\right]$, so $f : [-1,1] \to \left[-\frac{\pi}{2},\frac{\pi}{2}\right]$, and write $f(x) = \arcsin x$. 
+
+(insert sine and arcsine graph here)
+
+Next, we do the same for the cosine function. The domain that we pick for the cosine function is $[0,\pi]$. Thus, it becomes invertible, and define $f : [-1,1] \to \left[0,\pi\right]$, and write $f(x) = \arccos x$. Again, we graph cosine:
+
+(insert cosine and arccosine graph here)
+
+ Lastly, we do the arctangent function. We restrict the domain of tangent to $\left[-\frac{\pi}{2},\frac{\pi}{2}\right]$, and define $f : [-\infty,\infty]\to \left[-frac{\pi/2},\frac{\pi}{2}\right]$, and write $f(x) = \arctan x$. The arctangent function is graphed in the following plot:
+
+(insert tangent and arctangent graph here)
+
+We now summarize our results. I include here the results for the other inverse trigonometric functions $\arcsec$, $\arccsc$ and $\arccot$.
+
+<div class="result">
+<b>Inverse Trigonometric Functions:</b>
+</div>
+
+### Examples
+
+<div class="example">
+<p><b>Example:</b> Evaluate the following expression:
+$$\arcsin(\sin(11\pi/6))$$ </p>
+
+</div>

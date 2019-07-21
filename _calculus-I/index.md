@@ -10,13 +10,17 @@ The prerequisites are as follows:
 1. A strong background in high school mathematics, including trigonometry, solving algebraic equations, working with exponentials and logarithms, and graphing.
 2. An exposure to physics is useful; many examples will be drawn from physics. 
 
+Notation and conventions used in this course are here
+
+<a class = "page-link" href = "/calculus-I/notation"> Notation and Conventions </a>
+
 {% assign unitNames = "Unit 1 - Sets and Functions, Unit 2 - Limits and Continuity, Unit 3 - Differentiation, Unit 4 - Applications of Differentiation" | split: ', ' %}
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/" | split: ', ' %}
 
 {% assign lessonNames1 = "Sets, Functions, Inverse_Functions" | split: ', ' %}
 
-{% assign lessonNames2 = "Introduction, Limits, Limit_Laws, Limit_Details, Squeeze_Theorem, Continuity, Intermediate_Value_Theorem, Limits_at_Infinity" | split: ', ' %}
+{% assign lessonNames2 = "Limits, Limit_Laws, Limit_Details, Squeeze_Theorem, Continuity, Intermediate_Value_Theorem, Limits_at_Infinity" | split: ', ' %}
 
 {% assign lessonNames3 = "Definition_of_the_Derivative, Derivatives_of_Polynomials, Product_Rule, Quotient_Rule, Derivatives_of_Trigonometric_Functions, Derivatives_of_Exponentials, Derivatives_of_Hyperbolic_Functions*, Chain_Rule, Implicit_Differentiation, Derivatives_of_Logarithms, Derivatives_of_Inverse_Trigonometric_Functions, Derivatives_of_Inverse_Hyperbolic_Functions*, Logarithmic_Differentiation, Linear_Approximations_and_Differentials, Taylor_Polynomials, Lagrange_Remainder_Theorem" | split: ', ' %}
 
@@ -45,5 +49,5 @@ The prerequisites are as follows:
 
 1. Calculus, 7 ed. - Stewart, James (2012)
 2. Schaums Outline of Calculus, 4 ed. - Ayres Jr., Frank (2002)
-3. Calculus - Spivak, Michael
-4. Calculus, Vol. 1 - Apostol, Tom
+3. Calculus - Spivak, Michael 
+4. Calculus, Vol. 1 - Apostol, Tom 

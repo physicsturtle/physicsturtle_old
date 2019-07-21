@@ -8,7 +8,7 @@ courseDisplay: Calculus I
 unit: unit2
 ---
 
-{% assign lessonNames = "Introduction, Limits, Limit_Laws, Limit_Details, Squeeze_Theorem, Continuity, Intermediate-Value-Theorem, Limits_at_Infinity" | split: ', ' %}
+{% assign lessonNames = "Limits, Limit_Laws, Limit_Details, Squeeze_Theorem, Continuity, Intermediate_Value_Theorem, Limits_at_Infinity" | split: ', ' %}
 
 <ol>
 {% for lessonName in lessonNames %}

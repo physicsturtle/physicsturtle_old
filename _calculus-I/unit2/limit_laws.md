@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Limits
+title: Limit Laws
 dept: math
 course: calculus-I
 unit: unit2
