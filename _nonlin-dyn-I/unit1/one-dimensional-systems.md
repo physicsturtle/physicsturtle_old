@@ -1,8 +1,12 @@
 ---
 layout: lesson
 title: One Dimensional Systems
-course: calculus-III
+dept: math
+course: nonlin-dyn-I
 unit: unit1
+deptDisplay: Math
+courseDisplay: Nonlinear Dynamics and Chaos I
+unitDisplay: Unit 1
 ---
 
 ### Introduction

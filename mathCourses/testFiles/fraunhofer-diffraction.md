@@ -28,6 +28,16 @@ E &=& \frac{E_0}{4\pi r}\int_{-\infty}^\infty \int_{-\infty}^\infty e^{ik\left(R
 
 
 
+<div class="example">
+For a Gaussian mask (rectangular), 
 
+\begin{eqnarray*}
+E &=& \frac{E_0 e^{ikR}}{4\pi R}\int_{-\infty}^\infty e^{-x^{\prime 2}/2\sigma^2}e^{-ikx'} dx'\\
+&=& \frac{E_0 e^{ikR}{4\pi R}\sqrt{\frac{\pi\sigma^2}{2}} e^{-\pi^2 k_x^2 \sigma^2/2}}\\
+&=& \frac{E_0 \sigma e^{ikR}{4\pi R}\sqrt{\frac{\pi}{2}} e^{-\pi^2 k_x^2 \sigma^2/2}}\\
+\end{eqnarray*}
+where $k_x = kx/R = k\theta$. 
+
+</div>
 
 

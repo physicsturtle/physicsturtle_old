@@ -6,8 +6,6 @@ banner: calculus-II.svg
 
 Welcome to Calculus II, single variable integral calculus!
 
-<a class="page-link" href="/calculus-II/introduction">Introduction - What is Integral Calculus? </a>
-
 {% assign unitNames = "Unit 1 - The Integral, Unit 2 - Methods of Integration, Unit 3 - Applications of Integration, Unit 4 - Polar Coordinates, Unit 5 - Sequences and Series" | split: ', ' %}
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, supplements/" | split: ', ' %}

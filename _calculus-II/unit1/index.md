@@ -1,6 +1,6 @@
 ---
-layout: course
-title: Calculus II
+layout: page
+title: Unit 1
 permalink: /calculus-II/unit1/
 ---
 
