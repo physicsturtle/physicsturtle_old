@@ -90,5 +90,36 @@ The following curriculum is based on a maximum of 6 courses per semester for 4 y
 
 <!--- 
 #### Graduate Curriculum
-There are certain courses that every graduate student should take, regardless of their intended specialization. 
+There are certain courses that every graduate student should take, regardless of their intended specialization. These are listed in the first year. All other courses are shown in the further years. 
+
+
+<table style="width:100%">
+<tr style="border-bottom:1px solid black">
+<th>Semester</th>
+<th>Physics</th>
+<th>Math</th>
+</tr>
+<tr> <!--- Semester 1 --->
+<td>1</td>
+<td><a class = "page-link" href = "/qm-III/"> Quantum Mechanics III </a> <br> <a class = "page-link" href = "/em-III/"> Electromagnetism III </a> <br> <a class = "page-link" href = "/qft-I/"> Quantum Field Theory I </a></td>
+<td><a class = "page-link" href = "/real-analysis-III/"> Real Analysis III </a></td>
+</tr>
+<tr> <!--- Semester 2 --->
+<td>2</td>
+<td><a class = "page-link" href = "/qm-IV/"> Quantum Mechanics IV </a> <br> <a class = "page-link" href = "/sm-II/"> Statistical Mechanics II </a> <br> <a class = "page-link" href = "/qft-II/"> Quantum Field Theory II </a></td>
+<td><a class = "page-link" href = "/func-analysis/"> Functional Analysis </a></td>
+</tr>
+<tr> <!--- Semester 3 --->
+<td>3</td>
+<td>Pick some! <a class = "page-link" href = "/cmp-I/">Condensed Matter Physics I </a> <br> <a class = "page-link" href = "/qo-I/">Quantum Optics I</a> <br> <a class = "page-link" href = "/hep-I/">High Energy Physics I</a></td>
+<td>Pick some! <a class = "page-link" href = "/riemann-geom/"> Riemannian Geometry </a> <br> <a class = "page-link" href = "/lie-theory/"> Lie Theory </a> <br> <a class = "page-link" href = "/lin-alg-III/"> Linear Algebra III </a></td>
+</tr>
+<tr> <!--- Semester 4 --->
+<td>4</td>
+<td>Pick some! <a class = "page-link" href = "/cmp-II/"> Condensed Matter Physics II </a> <br> <a class = "page-link" href = "/qo-II/"> Quantum Optics II </a> <br> <a class = "page-link" href = "/hep-II/"> High Energy Physics II </a></td>
+<td>Pick some! <a class = "page-link" href = "/pde-I/"> Partial Differential Equations I </a> <br> <a class = "page-link" href = "/complex-variables/"> Complex Variables </a> <br> <a class = "page-link" href = "/nonlin-dyn-I/"> Dynamical Systems I </a></td>
+</tr>
+</table>
+
+
 --->

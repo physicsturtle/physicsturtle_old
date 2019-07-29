@@ -42,16 +42,24 @@ Evaluating at $x = 29$, we have
 </div>
 </li>
 
+<li> <div class="exercise"> A spherical balloon has radius $10$ cm. If it loses a little bit of air, such that its radius decreases by 0.05 cm. By approximately how much will the volume decrease? 
+
+<div class="answerBox">
+<button onclick="myFunction('answer3')" class="answerButton">Show Answer</button>
+<div id="answer3" class="answer">
+$$V=\frac{4}{3}\pi\cdot r^3$$
+\begin{eqnarray*}
+dV&=&4\pi\cdot r^2dr\\
+&=&4\pi\cdot (10)^2(0.05)\\
+&=&20\pi\\
+\end{eqnarray*}
+Volume decreases by $20\pi \,\text{cm^3}$
+</div>
+</div>
+</div>
+</li>
+
 </ol>
-
-
-
-
-
-
-
-
-
 
 
 

@@ -19,7 +19,7 @@ The prerequisites are as follows
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/" | split: ', ' %}
 
-{% assign lessonNames1 = "" | split: ', ' %}
+{% assign lessonNames1 = "file" | split: ', ' %}
 
 {% assign lessonNames2 = "" | split: ', ' %}
 

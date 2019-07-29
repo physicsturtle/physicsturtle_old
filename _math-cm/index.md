@@ -1,23 +1,25 @@
 ---
-layout: page
-title: Quantum Mechanics II
-permalink: /physics/qm-II/
-banner: qm-II.svg
+layout: course
+title: Classical Mechanics I
+permalink: /cm-I/
 ---
 
-Welcome to Quantum Mechanics II. 
+Welcome to Classical Mechanics I. This is a calculus based course that will introduce you to the mechanics of particles and rigid bodies. 
 
-<a class = "page-link" href = "/qm-II/notation"> Notation and Conventions </a>
+The prerequisites are as follows:
+1. A working knowledge of single variable calculs
+2. A working knowledge of vector algebra
+3. A strong background in high school physics
 
-{% assign unitNames = " Unit 1 - Fundamentals, Unit 1 - Time Independent Perturbation Theory, Unit 2 - The Variational Principle, Unit 3 - WKB Approximation, Unit 4 - Time Dependent Perturbation Theory, Unit 5 - Adiabatic Approximation, Unit 6 - Scattering Theory" | split: ', ' %}
+{% assign unitNames = "Unit 1 - Vectors#Unit 2 - Kinematics on the Line#Unit 3 - Dynamics on the Line#Unit 4 - Momentum#Unit 5 - Circular Motion#Supplementary Material" | split: '#' %}
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, supplements/" | split: ', ' %}
 
-{% assign lessonNames1 = "The_Schrödinger_Equation" | split: ', ' %}
+{% assign lessonNames1 = "" | split: ', ' %}
 
-{% assign lessonNames2 = "First_Order_Perturbation_Theory, Second_Order_Perturbation_Theory, Degenerate_Perturbation_Theory, Fine_Structure, Hyperfine_Structure, Zeeman_Effect, " | split: ', ' %}
+{% assign lessonNames2 = "Displacement,_Time,_and_Velocity#Instantaneous Velocity#Average and Instantaneous Acceleration#Motion with Constant Acceleration#Freely Falling Bodies#Velocity and Position by Integration" | split: '#' %}
 
-{% assign lessonNames3 = "Theory, Helium_Atom, Hydrogen_Molecule" | split: ', ' %}
+{% assign lessonNames3 = "" | split: ', ' %}
 
 {% assign lessonNames4 = "" | split: ', ' %}
 
@@ -34,10 +36,9 @@ Welcome to Quantum Mechanics II.
 {% elsif unitIndex== 1 %}  {% assign lessonNames = lessonNames2 %}
 {% elsif unitIndex == 2 %}  {% assign lessonNames = lessonNames3 %}
 {% elsif unitIndex == 3 %}  {% assign lessonNames = lessonNames4 %}
-{% elsif unitIndex == 4 %}  {% assign lessonNames = lessonNames5 %}
 {% endif %}
 {% for lessonName in lessonNames %}
-{% assign lessonTitle = lessonName | replace:  '-', ' ' %}
+{% assign lessonTitle = lessonName | replace:  '_', ' ' %}
 {% assign lowerName = lessonName | downcase %}
 <li> <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink }}"> {{lessonTitle}} </a> - <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink | append: "-exercises" }}"> Exercises </a> </li>
 {% endfor %}
@@ -47,4 +48,7 @@ Welcome to Quantum Mechanics II.
 
 **Sources**
 
-1. 
+1. Calculus, 7 ed. - Stewart, James (2012)
+2. Vector Analysis - Spiegel, Murray R. (1959)
+3. Differential Geometry of Curves and Surfaces - 2 ed. do Carmo, Manfredo (2016)
+4. Calculus on Manifolds - Spivak, Michael (1965)

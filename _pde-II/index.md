@@ -6,7 +6,7 @@ permalink: /pde-II/
 
 Welcome to Partial Differential Equations II.
 
-{% assign unitNames = "Unit 1 - Method of Characteristics, Unit 2 - Separation of Variables in Higher Dimensions, Unit 3 - Fourier Transform, Unit 4 - Laplace Transform, Unit 5 - Similarity Solution, Supplementary Material" | split: ', ' %}
+{% assign unitNames = "Unit 1 - First Order Equations, Unit 2 - Separation of Variables in Higher Dimensions, Unit 3 - Fourier Transform, Unit 4 - Laplace Transform, Unit 5 - Similarity Solution, Supplementary Material" | split: ', ' %}
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/" | split: ', ' %}
 

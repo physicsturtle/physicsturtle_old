@@ -4,10 +4,10 @@ title: Calculus I
 banner: calculus-I.svg
 ---
 
-Welcome to Calculus I, single variable differential calculus! This is generally a student's first exposure to post-secondary mathematics, and success in this course is crucial to further studies in mathematics or science. Calculus is the language of physics and engineering, but is also a beautiful subject to study on its own. **In Progress**
+Welcome to Calculus I, single variable differential calculus! 
 
 The prerequisites are as follows:
-1. A strong background in high school mathematics, including trigonometry, solving algebraic equations, working with exponentials and logarithms, and graphing.
+1. High school mathematics, including trigonometry, solving algebraic equations, working with exponentials and logarithms, and graphing.
 2. An exposure to physics is useful; many examples will be drawn from physics. 
 
 Notation and conventions used in this course are here

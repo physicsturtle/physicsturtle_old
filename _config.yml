@@ -36,7 +36,9 @@ collections:
         output: true
     pde-II:
         output: true
-    asymptotics:
+    perturb-I:
+        output: true
+    perturb-II:
         output: true
     physics:
         permalink: /:collection:/:title
@@ -44,9 +46,13 @@ collections:
         output: true
     physics-II:
         output: true
-    electromagnetism-I:
+    em-I:
+        output: true
+    em-II:
         output: true
     cm-I:
+        output: true
+    cm-II:
         output: true
     cm-III:
         output: true
@@ -56,7 +62,7 @@ collections:
         output: true
     qm-I:
         output: true
-    qm-I:
+    qm-II:
         output: true
     ssp:
         output: true
