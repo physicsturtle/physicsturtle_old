@@ -4,8 +4,6 @@ title: Math
 permalink: /math/
 ---
 
-Here are a collection of math courses which I hope to cover sometime in some reasonable form of completion by 2030. I aim to provide the student with the background necessary to work in theoretical physics. I am starting with the first three calculus courses.
-
 ## Secondary School Mathematics
 
 Coming soon
@@ -91,6 +89,9 @@ Applied Analysis - Coming soon
 Special Functions - Coming soon
 <!--- <a class="page-link" href="/special-functions/"> Special Functions </a> - In progress --->
 
+Tensor Calculus - Coming soon
+<!--- <a class="page-link" href="/tensor-calculus/"> Tensor Calculus </a> - In progress --->
+
 Perturbation Theory of ODE - Coming soon
 <!--- <a class="page-link" href="/asymptotic-analysis-I/"> Asymptotic Analysis I </a> - In progress --->
 
@@ -114,10 +115,10 @@ Real Analysis II - Riemann Integration - Coming soon
 <!--- <a class="page-link" href="/real-analysis-II/"> Real Analysis II </a> - In progress --->
 
 Real Analysis III - Lebesgue Integration and Measure Theory - Coming soon
-<!--- <a class="page-link" href="/real-analysis-II/"> Real Analysis III </a> - In progress --->
+<!--- <a class="page-link" href="/real-analysis-III/"> Real Analysis IIII </a> - In progress --->
 
-Real Analysis IV - Functional Analysis - Coming soon
-<!--- <a class="page-link" href="/real-analysis-II/"> Real Analysis III </a> - In progress --->
+Functional Analysis - Coming soon
+<!--- <a class="page-link" href="/functional-analysis/"> Functional Analysis </a> - In progress --->
 
 ### Abstract Algebra
 Abstract Algebra I - Group Theory - Coming soon

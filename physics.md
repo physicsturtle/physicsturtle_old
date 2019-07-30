@@ -3,7 +3,6 @@ layout: page
 title: Physics
 permalink: /physics/
 ---
-Physics, the oldest and most fundamental of the sciences. It lies at the base of all other scientific study and engineering, and also has a rich history spanning thousands of years. It is also a field of study full of rich mathematics. These characteristics of physics make physics interesting to me and are what led me to become a physicist. This website aims to bring you on a journey from secondary school physics up to the level necessary to understand current research. A massive undertaking, this site is something which I hope to have in some sort of completed form by 2030. 
 
 ## Secondary School Physics
 Secondary school physics covers the basics of classical mechanics, heat, optics, relativity, electromagnetism, acoustics, and fluid mechanics. Each of these topics is covered in more detail in the undergraduate years. I will not make an attempt to cover a curriculum such as the IB Physics HL at the secondary school level, at least for now.
@@ -15,7 +14,7 @@ Physics II - Coming soon
 <!--- <a class="page-link" href="/hs-physics-II/">Physics II </a> - In progress --->
 
 ## Undergraduate Physics
-The undergraduate physics education aims to explose the student to a wide variety of physics topics so that they will be able to determine an area of interest should they decide to pursue research in the future. I consider all courses in the "General Physics", "Classical Mechanics", "Electromagnetism", "Thermal Physics", and "Quantum Mechanics" essential for every physics student. Additionally, no matter your area of current research, in addition to the relevant course/s in that area, I also consider taking around 2 or 3 of the special topics courses essential for breadth of a student's education.
+The undergraduate physics education aims to explose the student to a wide variety of physics topics so that they will be able to determine an area of interest should they decide to pursue research in the future. I consider all courses in the "General Physics", "Classical Mechanics", "Electromagnetism", "Thermal Physics", and "Quantum Mechanics" essential for every physics student. Additionally, no matter your area of current research, in addition to the relevant course/s in that area, I also consider taking around 2 or 3 of the special topics courses a good idea for breadth.
 
 ### General Physics/Surveys of Physics
 <a class="page-link" href="/physics-I/">Physics I - Elasticity, Fluids, Thermodynamics, Oscillations, Acoustics </a> - In progress

@@ -1,8 +1,6 @@
 ---
 layout: page
 title: Table of Derivatives
-permalink: /cheat-sheets/derivatives/
-
 ---
 
 

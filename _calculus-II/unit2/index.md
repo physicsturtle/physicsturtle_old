@@ -1,13 +1,19 @@
 ---
-layout: course
-title: Calculus II
-permalink: /calculus-II/unit2/
+layout: unit
+title: Unit 2
+dept: math
+course: calculus-II
+deptDisplay: Math
+courseDisplay: Calculus II
+unit: unit2
 ---
 
-Unit 2: Integration Techniques
-1. Integration by parts
-2. Trigonometric Integrals
-3. Integration by trigonometric substitution
-4. Partial Fractions
-5. Numerical Integration
-6. Miscellaneous Substitutions
+{% assign lessonNames = "Basic_Formulas, Substitution_Rule, Integration_by_Parts, Trigonometric_Integrals, Trigonometric_Substitution, Hyperbolic_Substition*, Method_of_Partial_Fractions, Improper_Integrals, Numerical_Integration, Miscellaneous_Tricks" | split: ', ' %}
+
+<ol>
+{% for lessonName in lessonNames %}
+{% assign lessonTitle = lessonName | replace:  '_', ' ' %}
+{% assign lowerName = lessonName | downcase %}
+<li> <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink }}"> {{lessonTitle}} </a> - <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink | append: "-exercises" }}"> Exercises </a> </li>
+{% endfor %}
+</ol>

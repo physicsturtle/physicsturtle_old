@@ -1,13 +1,19 @@
 ---
-layout: page
+layout: unit
 title: Unit 1
-permalink: /calculus-II/unit1/
+dept: math
+course: calculus-II
+deptDisplay: Math
+courseDisplay: Calculus II
+unit: unit1
 ---
 
-Unit 1: 
-1. Introduction to the Integral
-2. Properties of the Integral
-3. Fundamental Theorem of Calculus
-4. Integration by $u$-substitution
-5. Areas 
-6. Volumes
+{% assign lessonNames = "Riemann_Sums, The_Definite_Integral, Fundamental_Theorem_of_Calculus" | split: ', ' %}
+
+<ol>
+{% for lessonName in lessonNames %}
+{% assign lessonTitle = lessonName | replace:  '_', ' ' %}
+{% assign lowerName = lessonName | downcase %}
+<li> <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink }}"> {{lessonTitle}} </a> - <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink | append: "-exercises" }}"> Exercises </a> </li>
+{% endfor %}
+</ol>

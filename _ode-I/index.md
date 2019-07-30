@@ -1,30 +1,39 @@
 ---
 layout: course
 title: Ordinary Differential Equations I
-banner: calculus-I.svg
+banner: ode-I.svg
 ---
 
-Welcome to Calculus I, 
+Welcome to Ordinary Differential Equations I. 
 
 The prerequisites are as follows:
-1. A strong background in high school mathematics, including trigonometry, solving algebraic equations, working with exponentials and logarithms, and graphing.
-2. An exposure to physics is useful; many examples will be drawn from physics. 
+1. Single variable differential and integral calculus.
+2. A first course in linear algbera
+3. An exposure to physics is useful; many examples will be drawn from physics. 
+4. A concurrent course in multivariable calculus will be useful
 
 Notation and conventions used in this course are here
 
 <a class = "page-link" href = "/ode-I/notation"> Notation and Conventions </a>
 
-{% assign unitNames = "Unit 1 - Introduction, Unit 2 - Limits and Continuity, Unit 3 - Differentiation, Unit 4 - Applications of Differentiation" | split: ', ' %}
+{% assign unitNames = "Unit 1 - What are Differential Equations?, Unit 2 - First Order Differential Equations, Unit 3 - Second Order Differential Equations, Unit 4 - Higher Order Differential Equations, Unit 5 - Laplace Transform, Unit 6 - Linear Systems of Differential Equations, Unit 7 - Nonlinear Systems of Differential Equations" | split: ', ' %}
 
-{% assign units = "unit1/, unit2/, unit3/, unit4/" | split: ', ' %}
+{% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, unit6/, unit7/" | split: ', ' %}
 
-{% assign lessonNames1 = "Sets, Functions, Inverse_Functions" | split: ', ' %}
+{% assign lessonNames1 = "Introduction, Classification, Slope_Fields" | split: ', ' %}
 
-{% assign lessonNames2 = "Limits, Limit_Laws, Limit_Details, Squeeze_Theorem, Continuity, Intermediate_Value_Theorem, Limits_at_Infinity" | split: ', ' %}
+{% assign lessonNames2 = "Separable_Equations, First_Order_Inhomogeneous_Equations, Exact_Equations, First_Order_Nonlinear_Equations, Autonomous_Equations, Existence_and_Uniqueness" | split: ', ' %}
 
-{% assign lessonNames3 = "Definition_of_the_Derivative, Derivatives_of_Polynomials, Product_Rule, Quotient_Rule, Derivatives_of_Trigonometric_Functions, Derivatives_of_Exponentials, Derivatives_of_Hyperbolic_Functions*, Chain_Rule, Implicit_Differentiation, Derivatives_of_Logarithms, Derivatives_of_Inverse_Trigonometric_Functions, Derivatives_of_Inverse_Hyperbolic_Functions*, Logarithmic_Differentiation, Linear_Approximations_and_Differentials, Taylor_Polynomials, Lagrange_Remainder_Theorem" | split: ', ' %}
+{% assign lessonNames3 = "Constant_Coefficients, Wronskian, Undetermined_Coefficients, Reduction_of_Order, Variation_of_Parameters" | split: ', ' %}
 
-{% assign lessonNames4 = "Kinematics_Problems, Exponential_Growth_and_Decay, Newton's_Law_of_Cooling, Related_Rates, Extrema, Mean_Value_Theorem, Curve_Sketching, Optimization_Problems, L'Hopital's_Rule, Newton's_Method" | split: ', ' %}
+{% assign lessonNames4 = "Constant_Coefficients, Undetermined_Coefficients, Variation_of_Parameters" | split: ', ' %}
+
+{% assign lessonNames5 = "Definitions, Inverse_Transform, Derivatives, Heaviside_Function, Dirac_Delta_Function, Convolution" | split: ', ' %}
+
+{% assign lessonNames6 = "Linear_Systems, Fundamental_Matrix, Inhomogeneous_Systems" | split: ', ' %}
+
+{% assign lessonNames7 = "Stability" | split: ', ' %}
+
 
 <ul>
 {% for unitName in unitNames %}
@@ -35,6 +44,9 @@ Notation and conventions used in this course are here
 {% elsif unitIndex== 1 %}  {% assign lessonNames = lessonNames2 %}
 {% elsif unitIndex == 2 %}  {% assign lessonNames = lessonNames3 %}
 {% elsif unitIndex == 3 %}  {% assign lessonNames = lessonNames4 %}
+{% elsif unitIndex == 4 %}  {% assign lessonNames = lessonNames5 %}
+{% elsif unitIndex == 5 %}  {% assign lessonNames = lessonNames6 %}
+{% elsif unitIndex == 6 %}  {% assign lessonNames = lessonNames7 %}
 {% endif %}
 {% for lessonName in lessonNames %}
 {% assign lessonTitle = lessonName | replace:  '_', ' ' %}

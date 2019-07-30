@@ -17,8 +17,6 @@ As for the author, I am currently a graduate student studying theoretical physic
 Note: *Although I strive for accuracy, I do not guarantee the correctness of any information on this website.*
 
 
-
-
 <style>
 table {
 font-family: arial, sans-serif;
@@ -86,11 +84,11 @@ The following curriculum is based on a maximum of 6 courses per semester for 4 y
 <td>Pick any three! <br> <a class = "page-link" href = "/ssp/"> Solid State Physics </a> <br> <a class = "page-link" href = "/atom/"> Atomic Physics </a> <br> <a class = "page-link" href = "/gr/">General Relativity </a> <br> <a class = "page-link" href = "/hep/">Particle Physics </a> <br> <a class = "page-link" href = "/nuc/">Nuclear Physics </a> <br> <a class = "page-link" href = "/qit/">Quantum Information Theory </a> <br> <a class = "page-link" href = "/plasma/">Plasma Physics</a></td>
 <td><a class = "page-link" href = "/asymp-II/"> Perturbation Theory II </a> <br> <a class = "page-link" href = "/vari-calc/"> Calculus of Variations </a> <br> <a class = "page-link" href = "/ie/"> Integral Equations </a></td>
 </tr>
-</table>
+</table> <br>
 
-<!--- 
+
 #### Graduate Curriculum
-There are certain courses that every graduate student should take, regardless of their intended specialization. These are listed in the first year. All other courses are shown in the further years. 
+There are certain courses that every graduate student should take, regardless of their intended specialization. These are listed in the first year. All other courses are shown in the further years.
 
 
 <table style="width:100%">
@@ -101,7 +99,7 @@ There are certain courses that every graduate student should take, regardless of
 </tr>
 <tr> <!--- Semester 1 --->
 <td>1</td>
-<td><a class = "page-link" href = "/qm-III/"> Quantum Mechanics III </a> <br> <a class = "page-link" href = "/em-III/"> Electromagnetism III </a> <br> <a class = "page-link" href = "/qft-I/"> Quantum Field Theory I </a></td>
+<td> Quantum Mechanics III <!---<a class = "page-link" href = "/qm-III/"> Quantum Mechanics III </a>---> <br> Electromagnetism III<!---<a class = "page-link" href = "/em-III/"> Electromagnetism III </a>---> <br> Quantum FIeld Theory I<!---<a class = "page-link" href = "/qft-I/"> Quantum Field Theory I </a>---></td>
 <td><a class = "page-link" href = "/real-analysis-III/"> Real Analysis III </a></td>
 </tr>
 <tr> <!--- Semester 2 --->
@@ -111,15 +109,13 @@ There are certain courses that every graduate student should take, regardless of
 </tr>
 <tr> <!--- Semester 3 --->
 <td>3</td>
-<td>Pick some! <a class = "page-link" href = "/cmp-I/">Condensed Matter Physics I </a> <br> <a class = "page-link" href = "/qo-I/">Quantum Optics I</a> <br> <a class = "page-link" href = "/hep-I/">High Energy Physics I</a></td>
-<td>Pick some! <a class = "page-link" href = "/riemann-geom/"> Riemannian Geometry </a> <br> <a class = "page-link" href = "/lie-theory/"> Lie Theory </a> <br> <a class = "page-link" href = "/lin-alg-III/"> Linear Algebra III </a></td>
+<td>Pick some! <br> <a class = "page-link" href = "/cmp-I/">Condensed Matter Physics I </a> <br> <a class = "page-link" href = "/qo-I/">Quantum Optics I</a> <br> <a class = "page-link" href = "/hep-I/">High Energy Physics I</a></td>
+<td>Pick some! <br> <a class = "page-link" href = "/riemann-geom/"> Riemannian Geometry </a> <br> <a class = "page-link" href = "/lie-theory/"> Lie Theory </a> <br> <a class = "page-link" href = "/lin-alg-III/"> Linear Algebra III </a></td>
 </tr>
 <tr> <!--- Semester 4 --->
 <td>4</td>
-<td>Pick some! <a class = "page-link" href = "/cmp-II/"> Condensed Matter Physics II </a> <br> <a class = "page-link" href = "/qo-II/"> Quantum Optics II </a> <br> <a class = "page-link" href = "/hep-II/"> High Energy Physics II </a></td>
-<td>Pick some! <a class = "page-link" href = "/pde-I/"> Partial Differential Equations I </a> <br> <a class = "page-link" href = "/complex-variables/"> Complex Variables </a> <br> <a class = "page-link" href = "/nonlin-dyn-I/"> Dynamical Systems I </a></td>
+<td>Pick some! <br> Condensed Matter Physics II<!---<a class = "page-link" href = "/cmp-II/"> Condensed Matter Physics II </a>---> <br> <a class = "page-link" href = "/qo-II/"> Quantum Optics II </a> <br> <a class = "page-link" href = "/hep-II/"> High Energy Physics II </a></td>
+<td>Pick some! <br> Dynamical Systems II <!---<a class = "page-link" href = "/pde-I/"> Dynamical Systems II </a>---> <br> Topology <!---<a class = "page-link" href = "/complex-variables/"> Complex Variables </a>---> <br> Algebraic Geometry<!---<a class = "page-link" href = "/nonlin-dyn-I/"> Dynamical Systems I </a>---> </td>
 </tr>
 </table>
 
-
---->

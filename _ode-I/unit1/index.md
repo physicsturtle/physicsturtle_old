@@ -1,14 +1,14 @@
 ---
 layout: unit
-title: Unit 1
+title: Unit 2
 dept: math
 course: calculus-I
 deptDisplay: Math
 courseDisplay: Calculus I
-unit: unit1
+unit: unit2
 ---
 
-{% assign lessonNames = "Sets, Functions, Inverse_Functions" | split: ', ' %}
+{% assign lessonNames = "Limits, Limit_Laws, Limit_Details, Squeeze_Theorem, Continuity, Intermediate_Value_Theorem, Limits_at_Infinity" | split: ', ' %}
 
 <ol>
 {% for lessonName in lessonNames %}
