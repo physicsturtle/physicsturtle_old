@@ -11,20 +11,29 @@ courseDisplay: Calculus II
 
 In this section, recall the basic formulas (which should be memorized):
 
-1. 
+$$\begin{eqnarray*}
+\int x^n dx &=& \frac{x^{n+1}}{n+1} ,\qquad (n\not=-1)\\
+\int \sin x dx &=& -\cos x \\
+\int \cos x dx &=& \sin x \\
+\int \frac{dx}{1+x^2} &=& \arctan x \\
+\int e^x dx &=& e^x \\
+\int \frac{dx}{x} &=& \log|x| 
+\end{eqnarray*}$$
+
+Armed with these formulas, you should be equipped to solve the following exercises. Also make sure that you keep your trigonometric identities in mind. Some of these integrals may seem quite complicated at first, but by using a trigonometric identity they are substantially simplified.
 
 <ol>
 <li><div class="exercise">
 Compute the value of the integral. 
-\[\int^8_4 \frac{x}{\sqrt{x^2-15}}dx\]
+$$\int^8_4 \frac{x}{\sqrt{x^2-15}}dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
 <div  id="answer1" class="answer" >
 For the integral
-\[\int_4^8 \frac{x}{\sqrt{x^2 - 15}}dx\]
+$$\int_4^8 \frac{x}{\sqrt{x^2 - 15}}dx$$
 We first need to find the antiderivative 
-\[\int \frac{x}{\sqrt {x^2 - 15}}dx\]
+$$\int \frac{x}{\sqrt {x^2 - 15}}dx$$
 Make the substitution $u = x^2 - 15$, and  $du = 2xdx$ to obtain
 \begin{eqnarray*}
 \int \frac{x}{\sqrt {x^2 - 15}}dx &=& \frac{1}{2}\int u^{-1/2}du  \\
@@ -38,7 +47,7 @@ Now evaluating the antiderivative at both end points:
 &=& 6\\
 \end{eqnarray*}
 The final answer becomes
-\[\int_4^8 \frac{x}{\sqrt {x^2 - 15}}dx = 6\]
+$$\int_4^8 \frac{x}{\sqrt {x^2 - 15}}dx = 6$$
 </div>
 </div>
 </div>
@@ -46,12 +55,12 @@ The final answer becomes
 
 
 <li><div class="exercise">If $x = 6\cos \theta$, $y = 2\sin \theta$, compute the value of the integral. 
-\[\int^6_3 xy dx\]
+$$\int^6_3 xy dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
 <div  id="answer2" class="answer" >
-For the integral \[\int_3^6 xy dx\]
+For the integral $$\int_3^6 xy dx$$
 since $x = 6\cos \theta$ and $y = 2\sin \theta$, we can compute $dx =  - 6\sin \theta d\theta$. Since the bounds are from $x = 3$ to $x = 6$, the equivalent $\theta$ that accomplish this are $\theta = \pi/3$ to $\theta = 0$.
 \begin{eqnarray*}
 \int_{\pi /3}^0 (6\cos \theta )(2\sin \theta )(-6\sin \theta )d\theta &=&  - 72\int_{\pi /3}^0 \sin^2\theta \cos \theta d\theta \\
@@ -59,7 +68,7 @@ since $x = 6\cos \theta$ and $y = 2\sin \theta$, we can compute $dx =  - 6\sin \
 &=& 24\left(\frac{\sqrt{3}}{2}\right)^3 \\
 &=& 9\sqrt{3}
 \end{eqnarray*}
-\[\int_3^6 xydx  = 9\sqrt{3}\]
+$$\int_3^6 xydx  = 9\sqrt{3}$$
 </div>
 </div>
 </div>
@@ -68,13 +77,13 @@ since $x = 6\cos \theta$ and $y = 2\sin \theta$, we can compute $dx =  - 6\sin \
 
 
 <li><div class="exercise">Evaluate the integral. 
-\[\int\frac{e^{2x}}{1+e^{4x}}dx\]
+$$\int\frac{e^{2x}}{1+e^{4x}}dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer3')" class="answerButton">Show Answer</button>
 <div  id="answer3" class="answer" >
 For the integral
-\[\int \frac{e^{2x}}{1 + e^{4x}}dx \]
+$$\int \frac{e^{2x}}{1 + e^{4x}}dx $$
 We make the substitution $u = e^{2x}$, and $du = 2e^{2x}dx$. The integral then becomes
 \begin{eqnarray*}
 \int \frac{e^{2x}}{1 + e^{4x}}dx  &=& \frac{1}{2}\int \frac{1}{1 + u^2} du \\
@@ -82,7 +91,7 @@ We make the substitution $u = e^{2x}$, and $du = 2e^{2x}dx$. The integral then b
 &=& \frac{1}{2}\arctan (e^{2x}) + C
 \end{eqnarray*}
 The final answer is then
-\[ \int \frac{e^{2x}}{1 + e^{4x}}dx  = \frac{1}{2}\arctan (e^{2x}) + C\]
+$$ \int \frac{e^{2x}}{1 + e^{4x}}dx  = \frac{1}{2}\arctan (e^{2x}) + C$$
 </div>
 </div>
 </div>
@@ -92,7 +101,7 @@ The final answer is then
 
 
 <li><div class="exercise"> Evaluate the integral. 
-\[\int \frac{2x-7}{x^2+1} dx\]
+$$\int \frac{2x-7}{x^2+1} dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer4')" class="answerButton">Show Answer</button>
@@ -103,7 +112,7 @@ We split the integral up into the sum of two fractions, both of which are easy t
 &=& \log (x^2 + 1) - 7\arctan x + C
 \end{eqnarray*}
 The final answer is then
-\[\int \frac{2x - 7}{x^2 + 1}dx = \log (x^2 + 1) - 7\arctan x + C \]
+$$\int \frac{2x - 7}{x^2 + 1}dx = \log (x^2 + 1) - 7\arctan x + C $$
 </div>
 </div>
 </div>
@@ -113,12 +122,12 @@ The final answer is then
 
 
 <li><div class="exercise"> Compute the value of the integral. 
-\[\int^9_4 \frac{1-\sqrt{x}}{1+\sqrt{x}}  dx\]
+$$\int^9_4 \frac{1-\sqrt{x}}{1+\sqrt{x}}  dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer5')" class="answerButton">Show Answer</button>
 <div  id="answer5" class="answer" >
-\[\int_4^9 \frac{1 - \sqrt{x}}{1 + \sqrt{x}}dx \]
+$$\int_4^9 \frac{1 - \sqrt{x}}{1 + \sqrt{x}}dx $$
 We first find an antiderivative.
 \begin{eqnarray*}
 \int \frac{1 - \sqrt{x}}{1 + \sqrt{x}}dx &=& \int \frac{1 + \sqrt{x} - 2\sqrt{x}}{1 + \sqrt{x}}dx \\
@@ -126,7 +135,7 @@ We first find an antiderivative.
 \end{eqnarray*}
 \begin{equation} \label{int3.1} \int \frac{1 - \sqrt {x} }{1 + \sqrt {x} }dx  = x - 2\int \frac{\sqrt {x}}{1 + \sqrt {x}} dx \end{equation}
 Consider the remaining integral
-\[\int \frac{\sqrt{x}}{1 + \sqrt{x} }dx. \]
+$$\int \frac{\sqrt{x}}{1 + \sqrt{x} }dx. $$
 Make the substitution $u = 1 + \sqrt{x}$, which gives $ du = \frac{{dx}}{2\sqrt{x}}$, or, rearranging, $dx = 2(u - 1)du$. We then have the integral
 \begin{eqnarray*}
 \int \frac{\sqrt{x}}{1 + \sqrt{x}}dx &=& \int \frac{2(u - 1)^2}{u}du \\
@@ -153,7 +162,7 @@ Now that we have the antiderivative, we can evaluate it at the two endpoints:
 
 
 <li><div class="exercise"> Evaluate the integral. 
-\[\int\frac{e^x - 1}{e^x + 1} dx\]
+$$\int\frac{e^x - 1}{e^x + 1} dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer6')" class="answerButton">Show Answer</button>
@@ -167,7 +176,7 @@ Now that we have the antiderivative, we can evaluate it at the two endpoints:
 &=& 2\log (e^x + 1) - x + C\\
 \end{eqnarray*}
 Thus
-\[\int \frac{e^x - 1}{e^x + 1} dx = 2\log (e^x + 1) - x + C\]
+$$\int \frac{e^x - 1}{e^x + 1} dx = 2\log (e^x + 1) - x + C$$
 </div>
 </div>
 </div>
@@ -177,7 +186,7 @@ Thus
 
 
 <li><div class="exercise"> Evaluate the integral. 
-\[\int\frac{1}{1-\sin(x/2)}dx\]
+$$\int\frac{1}{1-\sin(x/2)}dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer7')" class="answerButton">Show Answer</button>
@@ -190,7 +199,7 @@ We will need to multiply by the conjugate to solve this problem:
 &=& 2\left(\tan\left(\frac{x}{2}\right)  + \sec\left(\frac{x}{2}\right)\right) + C
 \end{eqnarray*}
 The final answer is then
-\[\int \frac{1}{1 - \sin (x/2)}dx = 2\left(\tan\left(\frac{x}{2}\right) + \sec\left(\frac{x}{2}\right)\right) + C\]
+$$\int \frac{1}{1 - \sin (x/2)}dx = 2\left(\tan\left(\frac{x}{2}\right) + \sec\left(\frac{x}{2}\right)\right) + C$$
 </div>
 </div>
 </div>
@@ -200,13 +209,13 @@ The final answer is then
 
 
 <li><div class="exercise">Evaluate the integral. 
-\[\int\frac{\cos 2x}{\sin^2(2x) + 8}dx\]
+$$\int\frac{\cos 2x}{\sin^2(2x) + 8}dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer8')" class="answerButton">Show Answer</button>
 <div  id="answer8" class="answer" >
 For the integral
-\[ \int \frac{\cos 2x}{\sin^2(2x) + 8} dx \]
+$$ \int \frac{\cos 2x}{\sin^2(2x) + 8} dx $$
 We make the substitution $u = \sin 2x$, so the differential is $du = 2\cos2x\,dx$. 
 \begin{eqnarray*}
 \int \frac{\cos 2x}{\sin^2 2x + 8} dx &=& \frac{1}{2}\int \frac{1}{u^2+ 8}du  \\
@@ -227,14 +236,14 @@ Now with this integral, make the substitution $w = \frac{u}{2\sqrt{2}}$, and $du
 
 
 <li><div class="exercise">Compute the value of the integral. 
-\[\int^{\pi}_0 \frac{\sin x}{\cos^2x - 6\cos x + 13}dx\]
+$$\int^{\pi}_0 \frac{\sin x}{\cos^2x - 6\cos x + 13}dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer9')" class="answerButton">Show Answer</button>
 <div  id="answer9" class="answer" >
-\[\int_0^\pi \frac{\sin x}{\cos^2x - 6\cos x + 13} dx\]
+$$\int_0^\pi \frac{\sin x}{\cos^2x - 6\cos x + 13} dx$$
 First we find an antiderivative by making a $u$ substitution. For the integral
-\[ \int \frac{\sin x}{\cos^2x - 6\cos x + 13}dx \]
+$$ \int \frac{\sin x}{\cos^2x - 6\cos x + 13}dx $$
 Make the substitution $u = \cos x$, and $du =  - \sin xdx$. This yields the integral
 \begin{eqnarray*}
 \int \frac{\sin x}{\cos^2x - 6\cos x + 13}dx &=&  - \int \frac{1}{u^2 - 6u + 13}du\\
@@ -247,11 +256,11 @@ Now with this integral, we make the substitution $\frac{u - 3}{2}  = w$ and $2dw
 &=&  - \frac{1}{2}\arctan w 
 \end{eqnarray*}
 Now substitution in the original variables:
-\[- \frac{1}{2}\arctan \left( \frac{\cos x - 3}{2} \right) \]
+$$- \frac{1}{2}\arctan \left( \frac{\cos x - 3}{2} \right) $$
 Now we evaluate at the endpoints:
-\[\left. \left(- \frac{1}{2}\arctan \left(\frac{\cos x - 3}{2} \right) \right) \right|_0^\pi  \]
+$$\left. \left(- \frac{1}{2}\arctan \left(\frac{\cos x - 3}{2} \right) \right) \right|_0^\pi  $$
 This yields the final answer:
-\[\frac{1}{2}\left(\arctan 2 - \frac{\pi}{4} \right)\]
+$$\frac{1}{2}\left(\arctan 2 - \frac{\pi}{4} \right)$$
 </div>
 </div>
 </div>
@@ -260,22 +269,15 @@ This yields the final answer:
 
 
 <li><div class="exercise">Evaluate the integral
-\[\int \frac{\cos\left(\log x\right)}{x} dx\]
+$$\int \frac{\cos\left(\log x\right)}{x} dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer10')" class="answerButton">Show Answer</button>
 <div  id="answer10" class="answer" >
-First, let $\log x = u$. Then $du = dx/x = e^{-u} dx$. Thus $dx = e^u du$. We can then transform the integral as
-\[\int \cos\left(\log x\right) dx = \int \cos u e^u du\]
-We then integrate by parts twice, both times integrating the exponential, and differentiating the trigonometric function. Note that we would get the same result had we instead differentiated the exponential, and integrated the trigonometric function. 
-\[\int e^u \cos u du = e^u\cos u + e^u \sin u - \int e^u\cos u du\]
-Rearranging, we have
-\[2\int e^u \cos u du = e^u(\cos u + \sin u)\]
-Then solving for the integral, we have
-\[\int e^u\cos u du = \frac{e^u}{2}(\cos u + \sin u)\]
-Now plugging back in the original variables, we have
-\[\int \cos\left(\log x\right) dx = \frac{x}{2}(\cos\log x + \sin\log x) + C\]
-
+Make the substitution $u = \log x$ so that we get 
+$$\int \frac{\cos\left(\log x\right)}{x} dx = \int \cos u du = \sin u + C$$
+Substituting back in our original expression, we find that 
+$$\int \frac{\cos\left(\log x\right)}{x} dx = \sin \log x + C$$
 </div>
 </div>
 </div>
@@ -283,20 +285,15 @@ Now plugging back in the original variables, we have
 
 
 
-<li><div class="exercise">Evaluate the integral. \[\int 2e^x \sin (e^x) dx\]
+<li><div class="exercise">Evaluate the integral. $$\int 2e^x \sin (e^x) dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer11')" class="answerButton">Show Answer</button>
 <div  id="answer11" class="answer" >
-We will have to integrate this by parts twice:
-\begin{eqnarray*}
-\int (\sin x)(\sin 3x)dx &=&  - \cos x\sin 3x + 3\int \cos x\cos 3xdx \\
-&=&  - \cos x\sin 3x + 3\left( \sin x\cos 3x + 3\int \sin x\sin 3xdx \right)\\
-&=&  - \cos x\sin 3x + 3\sin x\cos 3x + 9\int {\sin x\sin 3xdx} \\
-\end{eqnarray*}
-Rearranging:
-\[ - 8\int \sin x\sin 3xdx =  - \cos x\sin 3x + 3\sin x\cos 3x\]
-\[\int {\sin x\sin 3xdx}  = \frac{1}{8}\cos x\sin 3x - \frac{3}{8}\sin x\cos 3x + C\]
+Make the substitution $u = e^x$ to find
+$$\int 2\sin u du = -2\cos u +C$$
+Substituting back in terms of $x$, we find 
+$$\int 2e^x \sin (e^x) dx = -2\cos(e^x)$$
 </div>
 </div>
 </div>
@@ -304,7 +301,7 @@ Rearranging:
 
 
 
-<li><div class="exercise"> Evaluate the integral. \[\int \sqrt{1-\cos x} dx\]
+<li><div class="exercise"> Evaluate the integral. $$\int \sqrt{1-\cos x} dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer12')" class="answerButton">Show Answer</button>
@@ -325,17 +322,17 @@ $$\int \sqrt{1 - \cos x} dx  =  - 2\sqrt2 \cos \left( \frac{x}{2} \right) + C$$
 
 
 <li><div class="exercise"> Evaluate the integral
-\[\int\frac{\sqrt{1+\sqrt{x}}}{\sqrt{x}}dx\]
+$$\int\frac{\sqrt{1+\sqrt{x}}}{\sqrt{x}}dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer13')" class="answerButton">Show Answer</button>
 <div  id="answer13" class="answer" >
 Let $u = 1+ \sqrt{x}$, and $2du = \frac{1}{\sqrt{x}} dx$. Then the integral becomes
-\[\int\frac{\sqrt{1+\sqrt{x}}}{\sqrt{x}}dx = 2\int\sqrt{u} du\]
+$$\int\frac{\sqrt{1+\sqrt{x}}}{\sqrt{x}}dx = 2\int\sqrt{u} du$$
 This integral is easily evaluated
-\[ 2\int\sqrt{u} du = \frac{4}{3}u^{3/2} + C \]
+$$ 2\int\sqrt{u} du = \frac{4}{3}u^{3/2} + C $$
 Now changing to the original variables, 
-\[\int\frac{\sqrt{1+\sqrt{x}}}{\sqrt{x}}dx = \frac{4}{3}(1+\sqrt{x})^{3/2} + C\]
+$$\int\frac{\sqrt{1+\sqrt{x}}}{\sqrt{x}}dx = \frac{4}{3}(1+\sqrt{x})^{3/2} + C$$
 </div>
 </div>
 </div>
@@ -344,7 +341,7 @@ Now changing to the original variables,
 
 
 
-<li><div class="exercise"> Evaluate the integral. \[\int \csc(2x) dx\]
+<li><div class="exercise"> Evaluate the integral. $$\int \csc(2x) dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer14')" class="answerButton">Show Answer</button>
@@ -357,7 +354,7 @@ Now changing to the original variables,
 &=&\frac{1}{2}\log \left| \tan x \right| + C\\
 \end{eqnarray*}
 The final answer is then
-\[\int \csc (2x)dx  = \frac{1}{2}\log \left| \tan x \right| + C\]
+$$\int \csc (2x)dx  = \frac{1}{2}\log \left| \tan x \right| + C$$
 </div>
 </div>
 </div>
@@ -366,7 +363,7 @@ The final answer is then
 
 
 
-<li><div class="exercise"> Evaluate the integral. \[\int \frac{1}{x+x^{1/3}} dx\]
+<li><div class="exercise"> Evaluate the integral. $$\int \frac{1}{x+x^{1/3}} dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer15')" class="answerButton">Show Answer</button>
@@ -378,7 +375,7 @@ Let $x = z^3$, and $dx = 3z^2dz$. Making these substitutions yields
 &=& \frac{3}{2}\log (x^{2/3} + 1) + C\\
 \end{eqnarray*}
 Thus the final answer is
-\[ \int \frac{1}{x + x^{1/3}}dx  = \frac{3}{2}\log (x^{2/3} + 1) + C\]
+$$ \int \frac{1}{x + x^{1/3}}dx  = \frac{3}{2}\log (x^{2/3} + 1) + C$$
 </div>
 </div>
 </div>
@@ -387,7 +384,7 @@ Thus the final answer is
 
 
 
-<li><div class="exercise"> Evaluate the integral. \[\int x^3 \sqrt{a^2-x^2} dx\]
+<li><div class="exercise"> Evaluate the integral. $$\int x^3 \sqrt{a^2-x^2} dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer16')" class="answerButton">Show Answer</button>
@@ -408,7 +405,7 @@ Let $u = a^2 - x^2$ and $du =  - 2xdx$.
 
 
 
-<li><div class="exercise"> Evaluate the integral \[\int \frac{2x+3}{9x^2-12x + 8} dx\]
+<li><div class="exercise"> Evaluate the integral $$\int \frac{2x+3}{9x^2-12x + 8} dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer17')" class="answerButton">Show Answer</button>
