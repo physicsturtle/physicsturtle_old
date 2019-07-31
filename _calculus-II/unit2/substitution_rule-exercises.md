@@ -2,10 +2,10 @@
 layout: exercises
 title: Substitution Rule - Exercises
 dept: math
-unit: unit1
+unit: unit2
 course: calculus-II
 deptDisplay: Math
-unitDisplay: Unit 1
+unitDisplay: Unit 2
 courseDisplay: Calculus II
 ---
 
@@ -260,7 +260,7 @@ This yields the final answer:
 
 
 <li><div class="exercise">Evaluate the integral
-\[\int \cos\left(\log x\right) dx\]
+\[\int \frac{\cos\left(\log x\right)}{x} dx\]
 
 <div class="answerBox">
 <button onclick="myFunction('answer10')" class="answerButton">Show Answer</button>
@@ -283,7 +283,7 @@ Now plugging back in the original variables, we have
 
 
 
-<li><div class="exercise">Evaluate the integral. \[\int (\sin x)(\sin 3x) dx\]
+<li><div class="exercise">Evaluate the integral. \[\int 2e^x \sin (e^x) dx\]
 
 <div class="answerBox">
 <button onclick="myFunction('answer11')" class="answerButton">Show Answer</button>

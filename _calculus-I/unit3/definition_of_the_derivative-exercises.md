@@ -1,6 +1,6 @@
 ---
 layout: exercises
-title: Definition of the Derivative
+title: Definition of the Derivative - Exercises
 dept: math
 course: calculus-I
 unit: unit3
