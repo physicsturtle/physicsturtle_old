@@ -11,26 +11,27 @@ courseDisplay: Calculus II
 
 
 <ol>
-<li><div class="exercise"> Evaluate the integral. \[\int \sin^3x\cos^2x dx\]
+<li><div class="exercise"> Evaluate the integral. $$\int \sin^3x\cos^2x dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
 <div  id="answer1" class="answer" >
-Let $\cos x = u$, $du =  - \sin xdx$\\
+Let $\cos x = u$, $du =  - \sin xdx$.
+
 \begin{eqnarray*}
 \int \sin^3x\cos^2xdx &=&  - \int (1 - u^2)u^2du \\
 &=& \int u^4 - u^2du \\
 &=& \frac{u^5}{5} - \frac{u^3}{3} + C \\
 &=& \frac{\cos^5x}{5} - \frac{\cos^3x}{3} + C\\
 \end{eqnarray*}
-\[\int \sin^3x\cos^2xdx = \frac{\cos^5x}{5} - \frac{\cos^3x}{3} + C\]
+$$\int \sin^3x\cos^2xdx = \frac{\cos^5x}{5} - \frac{\cos^3x}{3} + C$$
 </div>
 </div>
 </div>
 </li>
 
 
-<li><div class="exercise"> Evaluate the integral. \[\int \tan^4 x \sec^4 x dx\]
+<li><div class="exercise"> Evaluate the integral. $$\int \tan^4 x \sec^4 x dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
@@ -41,7 +42,7 @@ Let $u = \tan x$, $du = \sec ^2xdx$
 &=& \frac{u^7}{7} + \frac{u^5}{5} + C \\
 &=& \frac{\tan^7x}{7} + \frac{\tan^5x}{5} + C\\
 \end{eqnarray*}
-\[\int \tan^4x\sec^4xdx  = \frac{\tan^7x}{7} + \frac{\tan^5x}{5} + C\]
+$$\int \tan^4x\sec^4xdx  = \frac{\tan^7x}{7} + \frac{\tan^5x}{5} + C$$
 </div>
 </div>
 </div>
@@ -50,7 +51,7 @@ Let $u = \tan x$, $du = \sec ^2xdx$
 
 
 
-<li><div class="exercise"> Evaluate the integral. \[\int \sin^4 x dx\]
+<li><div class="exercise"> Evaluate the integral. $$\int \sin^4 x dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer3')" class="answerButton">Show Answer</button>
@@ -64,7 +65,7 @@ Let $u = \tan x$, $du = \sec ^2xdx$
 &=& \frac{1}{2}x - \frac{\sin 2x}{4} - \frac{1}{8}x + \frac{\sin 4x}{32} + C\\
 &=& \frac{3x}{8} - \frac{\sin 2x}{4} + \frac{\sin 4x}{32} + C\\
 \end{eqnarray*}
-\[\int \sin^4xdx  = \frac{3x}{8} - \frac{\sin 2x}{4} + \frac{\sin 4x}{32} + C\]
+$$\int \sin^4xdx  = \frac{3x}{8} - \frac{\sin 2x}{4} + \frac{\sin 4x}{32} + C$$
 </div>
 </div>
 </div>
@@ -73,7 +74,7 @@ Let $u = \tan x$, $du = \sec ^2xdx$
 
 
 
-<li><div class="exercise"> Evaluate the integral. \[\int x(\cos^3(x^2) - \sin^3(x^2)) dx\]
+<li><div class="exercise"> Evaluate the integral. $$\int x(\cos^3(x^2) - \sin^3(x^2)) dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer4')" class="answerButton">Show Answer</button>
@@ -91,7 +92,7 @@ Let  $x^2 = u$, $du = 2xdx$. Then
 &=& \frac{1}{12}(\sin (x^2) + \cos (x^2))(4 + \sin (2x^2)) + C\\
 \end{eqnarray*}
 Thus the final answer is
-\[\int x(\cos^3(x^2) - \sin^3(x^2))dx  = \frac{1}{12}(\sin (x^2) + \cos (x^2))(4 + \sin (2x^2)) + C\]
+$$\int x(\cos^3(x^2) - \sin^3(x^2))dx  = \frac{1}{12}(\sin (x^2) + \cos (x^2))(4 + \sin (2x^2)) + C$$
 </div>
 </div>
 </div>
@@ -99,7 +100,7 @@ Thus the final answer is
 
 
 
-<li><div class="exercise"> Evaluate the integral. \[\int \sin^3(3x) \cos^5(3x) dx\]
+<li><div class="exercise"> Evaluate the integral. $$\int \sin^3(3x) \cos^5(3x) dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer5')" class="answerButton">Show Answer</button>
@@ -117,7 +118,7 @@ Let $ \cos u = z$, and $dz = -\sin u du$.
 &=& \frac{1}{3}\left( \frac{\cos^8(3x)}{8} - \frac{\cos^6(3x)}{6} \right) + C
 \end{eqnarray*}
 Thus the final answer is 
-\[\int \sin^3(3x) \cos^5(3x) dx = \frac{1}{3}\left( \frac{\cos^8(3x)}{8} - \frac{\cos^6(3x)}{6} \right) + C\]
+$$\int \sin^3(3x) \cos^5(3x) dx = \frac{1}{3}\left( \frac{\cos^8(3x)}{8} - \frac{\cos^6(3x)}{6} \right) + C$$
 </div>
 </div>
 </div>
@@ -126,7 +127,7 @@ Thus the final answer is
 
 
 
-<li><div class="exercise"> Evaluate the integral. \[\int\tan^5 x dx\]
+<li><div class="exercise"> Evaluate the integral. $$\int\tan^5 x dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer6')" class="answerButton">Show Answer</button>
@@ -146,11 +147,12 @@ Thus the final answer is
 
 
 
-<li><div class="exercise"> Evaluate the integral. \[\int \tan^3(2x)\sec^3(2x) dx\]
+<li><div class="exercise"> Evaluate the integral. $$\int \tan^3(2x)\sec^3(2x) dx$$
 
 <div class="answerBox">
 <button onclick="myFunction('answer7')" class="answerButton">Show Answer</button>
-<div  id="answer7" class="answer" >First, let $2x = u$ and $2dx = du$. 
+<div  id="answer7" class="answer" >
+First, let $2x = u$ and $2dx = du$. 
 \begin{eqnarray*}
 \int \tan^3(2x)\sec^3(2x)dx  &=& \frac{1}{2}\int \tan^3u\sec^3udu   \\
 &=& \frac{1}{2}\int (\sec^2u - 1)\sec^3u\tan udu\\
@@ -167,5 +169,25 @@ Now let $ \sec u = z$ and $dz = \sec u\tan udu$.
 </div>
 </li>
 
+<li>
+<div class="exercise">Evaluate the integral. $$\int \cot^4(3x) dx$$
+
+<div class="answerBox">
+<button onclick="myFunction('answer8')" class="answerButton">Show Answer</button>
+<div  id="answer8" class="answer" >
+First, let $3x = u$, and $3dx = du$. Thus we have 
+$$\int \cot^4(3x) dx = \frac{1}{3}\int \cot^4(u)du$$
+Then doing some rearranging, 
+\begin{eqnarray*}
+\frac{1}{3}\int \cot^4(u)du &=& \frac{1}{3}\int (\csc^2u - 1)\cot^2(u)du \\
+&=& \frac{1}{3}\int \csc^2u\cot^2u - \cot^2udu \\
+&=& \frac{-\cot^3u}{9} - \frac{1}{3}\int \csc^2u - 1du \\
+&=& \frac{-\cot^3u}{9} + \frac{\cot u}{3} + u + C\\
+&=& \frac{-\cot^3(3x)}{9} + \frac{\cot (3x)}{3} + 3x + C
+\end{eqnarray*}
+</div>
+</div>
+</div>
+</li>
 
 </ol>

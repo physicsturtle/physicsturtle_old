@@ -20,16 +20,16 @@ courseDisplay: Calculus II
 
 \begin{solution}
 \begin{eqnarray*}
-\int {{e^{2x}}\sin 3xdx}  &=& \im  \left( {\int {{e^{2x}}{e^{i3x}}} dx} \right) \\
-&=& \im \left( {\int {{e^{(2 + 3i)x}}dx} } \right)\\
-&=&\im\left( \frac{1}{{2 + 3i}}{e^{(2 + 3i)x}} \right)\\
-&=&\im \left[ {e^{2x}}\frac{1}{{2 + 3i}}\left( {\cos 3x + i\sin 3x} \right)\right]\\
-&=&\im \left[ {e^{2x}}\frac{1}{{13}}\left( {\cos 3x + i\sin 3x} \right)(2 - 3i)\right]\\
-&=& \im \left[{e^{2x}}\frac{1}{{13}}\left( {2\cos 3x + 3\sin 3x + i(2\sin 3x - 3\cos 3x)} \right)\right]\\
-&=& \frac{{{e^{2x}}}}{{13}}(2\sin 3x - 3\cos 3x)
+\int e^{2x}\sin 3xdx &=& \im  \left( \int e^{2x}e^{i3x} dx \right) \\
+&=& \im \left( \int e^{(2 + 3i)x}dx \right)\\
+&=&\im\left( \frac{1}{2 + 3i}e^{(2 + 3i)x} \right)\\
+&=&\im \left[ e^{2x}\frac{1}{2 + 3i}\left( \cos 3x + i\sin 3x \right)\right]\\
+&=&\im \left[ e^{2x}\frac{1}{13}\left( \cos 3x + i\sin 3x \right)(2 - 3i)\right]\\
+&=& \im \left[e^{2x}\frac{1}{13}\left( 2\cos 3x + 3\sin 3x + i(2\sin 3x - 3\cos 3x) \right)\right]\\
+&=& \frac{e^{2x}}{13}(2\sin 3x - 3\cos 3x)
 \end{eqnarray*}\\
 Thus 
-\[\int {{e^{2x}}\sin 3xdx}   =  \frac{{{e^{2x}}}}{{13}}(2\sin 3x - 3\cos 3x) + C\]
+\[\int e^{2x}\sin 3xdx   =  \frac{e^{2x}}{13}(2\sin 3x - 3\cos 3x) + C\]
 \end{solution}
 
 \question[$***$] Connection with Math 101. Compute the integral  by using the complex exponential. \[\int\sin(\log(x))dx\]

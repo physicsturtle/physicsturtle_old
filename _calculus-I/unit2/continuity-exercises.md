@@ -94,4 +94,5 @@ Solving for $a$:
 \[a=1\]
 </div> </li>
 
+<li> <div class="exercise"> Suppose $f(x) + g(x)$ is a continuous function. Must $f(x)$ and/or $g(x)$ be continuous?
 </ol>

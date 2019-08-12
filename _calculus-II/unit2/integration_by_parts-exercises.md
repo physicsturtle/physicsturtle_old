@@ -9,7 +9,16 @@ unitDisplay: Unit 2
 courseDisplay: Calculus II
 ---
 
+In doing this exercises, note that there are many instances where a $u$-substitution will be necessary in addition to integration by parts. Also, recall the basic formulas (which should be memorized)
 
+$$\begin{eqnarray*}
+\int x^n dx &=& \frac{x^{n+1}}{n+1} ,\qquad (n\not=-1)\\
+\int \sin x dx &=& -\cos x \\
+\int \cos x dx &=& \sin x \\
+\int \frac{dx}{1+x^2} &=& \arctan x \\
+\int e^x dx &=& e^x \\
+\int \frac{dx}{x} &=& \log|x| 
+\end{eqnarray*}$$
 
 <ol> 
 <li><div class="exercise">Evaluate the integral
@@ -242,16 +251,17 @@ $$\int e^{-3x}\sin 2x dx = -\frac{1}{13}e^{-3x}(3\sin 2x + 2\cos 2x) + C$$
 </li>
 
 
-<li><div class="exercise"> Evaluate the integral. $$\int e^{3x}x^2\sin x dx$$
+<li><div class="exercise"> Evaluate the integral. 
+$$\int e^{3x}x^2\sin x dx$$
 
 <div class="answerBox">
-<button onclick="myFunction('answer12')" class="answerButton">Show Answer</button>
-<div  id="answer12" class="answer" > 
+<button onclick="myFunction('answer13')" class="answerButton">Show Answer</button>
+<div  id="answer13" class="answer" > 
 Let $e^{3x}\sin x = u'(x)$. We will have to use integration by parts multiple times, first to get rid of the $x^2$ term, then to integrate the remaining exponential and sine.
 
 Let $U'(x)  =  u(x).$
 \begin{eqnarray*}
-\int x^2u'dx &=& x^2u - 2\int xu dx  \\
+\int x^2 u' dx &=& x^2 u - 2\int xu dx  \\
 &=& x^2u - 2\left( xU - \int U dx \right)\\
 \end{eqnarray*}
 First, we need to find $u(x)$, with $u'(x)$ defined as above. 
@@ -262,7 +272,7 @@ u(x) &=& \int u'(x)dx \\
 &=& \frac{e^{3x}}{3}\sin x - \frac{1}{3}\left( \frac{e^{3x}}{3} + \frac{1}{3}\int e^{3x}\sin xdx \right)\\
 \end{eqnarray*}
 Rearranging, 
-$$\frac{10}{9}\int e^{3x}\sin xdx = \frac{e^{3x}}{9}\left( 3\sin x - \cos x\right) \Rightarrow \int {{e^{3x}}\sin xdx}  = \frac{e^{3x}}{10}\left( 3\sin x - \cos x \right)\\$$
+$$\frac{10}{9}\int e^{3x}\sin xdx = \frac{e^{3x}}{9}\left( 3\sin x - \cos x\right) \Rightarrow \int e^{3x}\sin xdx  = \frac{e^{3x}}{10}\left( 3\sin x - \cos x \right)\\$$
 In order to find $U(x)$, having already found $u(x)$, we need to perform the same procedure as in the previous integration. This is left to the reader, as it has already been shown once. 
 \begin{eqnarray*}
 U(x) &=& \int u(x)dx \\

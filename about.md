@@ -4,11 +4,9 @@ title: About
 permalink: /about/
 ---
 
+When I was an undergrad, there were always courses which didn't go into as much detail as I wanted, or that I never had time to take at all! There were also courses which were too abstract, too applied, or just about right. I aim here to produce the degree that I would have wanted to take if I were to start over as an undergrad. 
 
-The goals of the site can be summarized as follows:
-
-1. To provide a comprehensive physics and mathematics reference, including explicit calculations, worked examples, and exercises
-2. To be a course supplement to physics and math courses, no matter what academic instutition you attend
+The goal is to provide a physics and mathematics reference for self study or as a supplement to your coursework.
 
 I have organized the material here according to what my understanding of the conventional curriculum is for Canadian/American academic institutions. If you're from elsewhere, I hope it isn't too difficult for you to find what you need.
 
@@ -52,37 +50,37 @@ The following curriculum is based on a maximum of 6 courses per semester for 4 y
 <tr> <!--- Semester 2 --->
 <td>2</td>
 <td><a class = "page-link" href = "/physics-II/"> Physics II </a></td>
-<td><a class = "page-link" href = "/calculus-II/"> Calculus II </a> <br> <a class = "page-link" href = "/la-I/"> Linear Algebra I </a> <br> <a class = "page-link" href = "/"> Mathematical Proof </a></td>
+<td><a class = "page-link" href = "/calculus-II/"> Calculus II </a> <br> Linear Algebra I <br>  Mathematical Proof</td>
 </tr>
 <tr> <!--- Semester 3 --->
 <td>3</td>
-<td><a class = "page-link" href = "/cm-II/">Classical Mechanics II</a> <br> <a class = "page-link" href = "/physics-III/">Physics III</a> <br> <a class = "page-link" href = "/">Computational Methods</a></td>
-<td><a class = "page-link" href = "/calculus-III/"> Calculus III </a> <br> <a class = "page-link" href = "/ode-I/"> Ordinary Differential Equations I </a> <br> <a class = "page-link" href = "/applied-la/"> Applied Linear Algebra </a></td>
+<td> Classical Mechanics II <br> Physics III <br> Computational Methods </td>
+<td><a class = "page-link" href = "/calculus-III/"> Calculus III </a> <br> <a class = "page-link" href = "/ode-I/"> Ordinary Differential Equations I </a> <br> Applied Linear Algebra </td>
 </tr>
 <tr> <!--- Semester 4 --->
 <td>4</td>
-<td><a class = "page-link" href = "/cm-III/"> Classical Mechanics III </a> <br> <a class = "page-link" href = "/em-I/"> Electromagnetism I </a> <br> <a class = "page-link" href = "/td/"> Thermodynamics </a></td>
-<td><a class = "page-link" href = "/pde-I/"> Partial Differential Equations I </a> <br> <a class = "page-link" href = "/complex-variables/"> Complex Variables </a> <br> <a class = "page-link" href = "/nonlin-dyn-I/"> Dynamical Systems I </a></td>
+<td><a class = "page-link" href = "/cm-III/"> Classical Mechanics III </a> <br> Electromagnetism I <br> Thermodynamics </td>
+<td> Partial Differential Equations I <br> Complex Variables <br> Dynamical Systems I </td>
 </tr>
 <tr> <!--- Semester 5 --->
 <td>5</td>
-<td><a class = "page-link" href = "/cm-IV/"> Classical Mechanics IV </a> <br> <a class = "page-link" href = "/qm-I/"> Quantum Mechanics I </a> <br> <a class = "page-link" href = "/fm/"> Fluid Mechanics </a></td>
-<td><a class = "page-link" href = "/ode-II/"> Ordinary Differential Equations II </a> <br> <a class = "page-link" href = "/pde-II/"> Partial Differential Equations II </a> <br> <a class = "page-link" href = "/real-analysis-I/"> Real Analysis I </a></td>
+<td> Classical Mechanics IV <br> Quantum Mechanics I <br> Fluid Mechanics </td>
+<td> Ordinary Differential Equations II <br> Partial Differential Equations II <br> Real Analysis I </td>
 </tr>
 <tr> <!--- Semester 6 --->
 <td>6</td>
-<td><a class = "page-link" href = "/em-II/"> Electromagnetism II </a> <br> <a class = "page-link" href = "/sm/"> Statistical Mechanics </a> <br> <a class = "page-link" href = "/optics/"> Optics </a></td>
-<td><a class = "page-link" href = "/real-analysis-II/"> Real Analysis II </a> <br> <a class = "page-link" href = "/abstract-algebra-I/"> Abstract Algebra </a> <br> <a class = "page-link" href = "/greens-functions/"> Green's Functions</a></td>
+<td> Electromagnetism II<br> Statistical Mechanics <br> Optics </td>
+<td> Real Analysis II <br> Abstract Algebra <br> Green's Functions </td>
 </tr>
 <tr> <!--- Semester 7 --->
 <td>7</td>
-<td><a class = "page-link" href = "/qm-II/">Quantum Mechanics II </a> <br> <a class = "page-link" href = "/classical-ft/"> Classical Field Theory </a> <br> <a class = "page-link" href = "/elasticity/"> Elasticity </a></td>
-<td><a class = "page-link" href = "/pde-I/"> Differential Geometry </a> <br> <a class = "page-link" href = "/lin-alg-II/"> Linear Algebra II </a> <br> <a class = "page-link" href = "/asymp-I/"> Perturbation Theory I </a></td>
+<td> Quantum Mechanics II <br> Classical Field Theory <br> Elasticity </td>
+<td> Differential Geometry <br> Linear Algebra II <br> Perturbation Theory I </td>
 </tr>
 <tr> <!--- Semester 8 --->
 <td>8</td>
-<td>Pick any three! <br> <a class = "page-link" href = "/ssp/"> Solid State Physics </a> <br> <a class = "page-link" href = "/atom/"> Atomic Physics </a> <br> <a class = "page-link" href = "/gr/">General Relativity </a> <br> <a class = "page-link" href = "/hep/">Particle Physics </a> <br> <a class = "page-link" href = "/nuc/">Nuclear Physics </a> <br> <a class = "page-link" href = "/qit/">Quantum Information Theory </a> <br> <a class = "page-link" href = "/plasma/">Plasma Physics</a></td>
-<td><a class = "page-link" href = "/asymp-II/"> Perturbation Theory II </a> <br> <a class = "page-link" href = "/vari-calc/"> Calculus of Variations </a> <br> <a class = "page-link" href = "/ie/"> Integral Equations </a></td>
+<td>Pick any three! <br> Solid State Physics <br> Atomic Physics <br> General Relativity <br> Particle Physics <br> Nuclear Physics <br> Quantum Information Theory <br> Plasma Physics </td>
+<td> Numerical Analysis I <br> Calculus of Variations <br> Integral Equations </td>
 </tr>
 </table> <br>
 
@@ -99,23 +97,23 @@ There are certain courses that every graduate student should take, regardless of
 </tr>
 <tr> <!--- Semester 1 --->
 <td>1</td>
-<td> Quantum Mechanics III <!---<a class = "page-link" href = "/qm-III/"> Quantum Mechanics III </a>---> <br> Electromagnetism III<!---<a class = "page-link" href = "/em-III/"> Electromagnetism III </a>---> <br> Quantum FIeld Theory I<!---<a class = "page-link" href = "/qft-I/"> Quantum Field Theory I </a>---></td>
-<td><a class = "page-link" href = "/real-analysis-III/"> Real Analysis III </a></td>
+<td> Quantum Mechanics III <br> Electromagnetism III <br> Quantum FIeld Theory I </td>
+<td> Real Analysis III </td>
 </tr>
 <tr> <!--- Semester 2 --->
 <td>2</td>
-<td><a class = "page-link" href = "/qm-IV/"> Quantum Mechanics IV </a> <br> <a class = "page-link" href = "/sm-II/"> Statistical Mechanics II </a> <br> <a class = "page-link" href = "/qft-II/"> Quantum Field Theory II </a></td>
-<td><a class = "page-link" href = "/func-analysis/"> Functional Analysis </a></td>
+<td> Quantum Mechanics IV <br> Statistical Mechanics II <br> Quantum Field Theory II </td>
+<td> Functional Analysis </td>
 </tr>
 <tr> <!--- Semester 3 --->
 <td>3</td>
-<td>Pick some! <br> <a class = "page-link" href = "/cmp-I/">Condensed Matter Physics I </a> <br> <a class = "page-link" href = "/qo-I/">Quantum Optics I</a> <br> <a class = "page-link" href = "/hep-I/">High Energy Physics I</a></td>
-<td>Pick some! <br> <a class = "page-link" href = "/riemann-geom/"> Riemannian Geometry </a> <br> <a class = "page-link" href = "/lie-theory/"> Lie Theory </a> <br> <a class = "page-link" href = "/lin-alg-III/"> Linear Algebra III </a></td>
+<td>Pick some! <br> Condensed Matter Physics I <br> Quantum Optics I <br> High Energy Physics I </td>
+<td>Pick some! <br> Riemannian Geometry <br> Lie Theory <br> Linear Algebra III </td>
 </tr>
 <tr> <!--- Semester 4 --->
 <td>4</td>
-<td>Pick some! <br> Condensed Matter Physics II<!---<a class = "page-link" href = "/cmp-II/"> Condensed Matter Physics II </a>---> <br> <a class = "page-link" href = "/qo-II/"> Quantum Optics II </a> <br> <a class = "page-link" href = "/hep-II/"> High Energy Physics II </a></td>
-<td>Pick some! <br> Dynamical Systems II <!---<a class = "page-link" href = "/pde-I/"> Dynamical Systems II </a>---> <br> Topology <!---<a class = "page-link" href = "/complex-variables/"> Complex Variables </a>---> <br> Algebraic Geometry<!---<a class = "page-link" href = "/nonlin-dyn-I/"> Dynamical Systems I </a>---> </td>
+<td>Pick some! <br> Condensed Matter Physics II <br>  Quantum Optics II <br> High Energy Physics II </td>
+<td>Pick some! <br> Dynamical Systems II <br> Topology <br> Algebraic Geometry </td>
 </tr>
 </table>
 

@@ -1,14 +1,13 @@
 ---
 layout: course
-title: Calculus I
-banner: calculus-I.svg
+title: Electromagnetism I
+banner: em-I.svg
 ---
 
-Welcome to Calculus I, single variable differential calculus! This is generally a student's first exposure to post-secondary mathematics, and success in this course is crucial to further studies in mathematics or science. Calculus is the language of physics and engineering, but is also a beautiful subject to study on its own. **In Progress**
-
-The prerequisites are as follows:
-1. A strong background in high school mathematics, including trigonometry, solving algebraic equations, working with exponentials and logarithms, and graphing.
-2. An exposure to physics is useful; many examples will be drawn from physics. 
+|  Prequisites  |  Corequisites  |
+|---|---|
+|  Multivariable Calculus  |  Physics II  |
+|  Ordinary Differential Equations  |  Partial Differential Equations  |
 
 Notation and conventions used in this course are here
 
@@ -45,9 +44,3 @@ Notation and conventions used in this course are here
 {% endfor %}
 </ul>
 
-**Sources**
-
-1. Calculus, 7 ed. - Stewart, James (2012)
-2. Schaums Outline of Calculus, 4 ed. - Ayres Jr., Frank (2002)
-3. Calculus - Spivak, Michael
-4. Calculus, Vol. 1 - Apostol, Tom

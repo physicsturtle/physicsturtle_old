@@ -81,7 +81,7 @@ $$\int x^3\sqrt{x^2+9}dx$$
 </p>
 <b>Solution:</b> In this example, it is not obvious at all what we need to do! We can make use of a clever trick. Let $u = x^2 + 9$ and $du = 2x dx$. Then, we get that 
 $$\int x^3\sqrt{x^2+9}dx = \frac{1}{2}\int x^2\sqrt{u} du$$
-but we haven't gotten rid of all of the $u$ terms! The way to solve this is substitute in $x^2 = u-9$. Thus, 
+but we haven't gotten rid of all of the $x$ terms! The way to solve this is substitute in $x^2 = u-9$. Thus, 
 $$\int x^3\sqrt{x^2+9}dx = \frac{1}{2}\int(u-9)\sqrt{u} du = \frac{1}{2} \int (u^{3/2} - 9 u^{1/2}) du$$
 This is now simple integrate by using the power rule, so 
 $$\frac{1}{2} \int (u^{3/2} - 9 u^{1/2}) du = \frac{1}{5}u^{5/2} - 3u^{3/2} + C.$$
