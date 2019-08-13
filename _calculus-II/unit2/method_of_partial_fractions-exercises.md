@@ -174,4 +174,25 @@ Thus our final answer is
 </li>
 
 
+
+
+<li><div class="exercise"> Evaluate the integral. The attached table may be useful.
+\[\int^{\pi/2}_0 \frac{\cos\theta}{\sqrt{1+\sin^2\theta}} d\theta\]
+
+<div class="answerBox">
+<button onclick="myFunction('answer8')" class="answerButton">Show Answer</button>
+<div  id="answer8" class="answer" >
+Let $\sin\theta = u$, and $du = \cos\theta d\theta$. Then we have the integral
+\[\int^{\pi/2}_0 \frac{\cos\theta}{\sqrt{1+\sin^2\theta}} d\theta = \int_0^1 \frac{du}{\sqrt{1+u^2}}\]
+Let $u = \tan\varphi$, $du = \sec^2\varphi d\varphi$. Then the integral is now
+\[\int_0^1 \frac{du}{\sqrt{1+u^2}} = \int_0^{\pi/4} \sec \varphi d\varphi\]
+By the secant example, we have
+\[\int_0^{\pi/4} \sec \varphi d\varphi = \left.\left(\log|\sec\varphi + \tan\varphi|\right)\right|^{\pi/4}_0\]
+</div>
+</div>
+</div>
+</li>
+
+
+
 </ol>

@@ -12,7 +12,7 @@ Welcome to Calculus II, single variable integral calculus!
 
 {% assign lessonNames1 = "Riemann_Sums, The_Definite_Integral, Fundamental_Theorem_of_Calculus" | split: ', ' %}
 
-{% assign lessonNames2 = "Basic_Formulas, Substitution_Rule, Integration_by_Parts, Trigonometric_Integrals, Trigonometric_Substitution, Hyperbolic_Substitution*, Method_of_Partial_Fractions, Improper_Integrals, Numerical_Integration, Miscellaneous_Tricks" | split: ', ' %}
+{% assign lessonNames2 = "Basic_Formulas, Substitution_Rule, Integration_by_Parts, Trigonometric_Integrals, Method_of_Partial_Fractions, Trigonometric_Substitution, Hyperbolic_Substitution*, Improper_Integrals, Numerical_Integration, Miscellaneous_Tricks" | split: ', ' %}
 
 {% assign lessonNames3 = "Area_Between_Curves, Volume_of_Revolution, Work, Average_Value_of_a_Function, Arc_Length, Surface_of_Revolution, Center_of_Mass, Probability, Differential_Equations" | split: ', ' %}
 

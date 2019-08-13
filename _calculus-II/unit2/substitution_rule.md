@@ -55,6 +55,20 @@ Lastly, undoing the substitution by putting $u = 2\sin x + 7$, we find that
 $$\int \frac{\cos x}{2\sin x + 7} dx = \frac{1}{2}\log|2\sin x + 7| + C.$$
 </div> <br>
 
+<div class="example">
+<p><b>Example:</b> Calculate the following integral
+$$\int\tan x dx $$ </p>
+<b>Solution:</b> We first rewrite the integral like
+$$\int\tan x dx  = \int \frac{\sin x}{\cos x} dx$$
+Then, we make the substitution $u = \cos x$, and $du = -\sin x dx$. This gives us
+$$ \int \frac{\sin x}{\cos x} dx = -\int \frac{1}{u} du$$
+This is easy to integrate, and gives us 
+$$-\int \frac{1}{u} du = -\log|u|$$
+Substituting back in in terms of $x$, 
+$$\int\tan x dx = -\log|\cos x| + C.$$
+Note that this can also be written (by using the laws of logarithms) as 
+$$\int\tan x dx = \log|\sec x| + C.$$
+</div> <br>
 
 <div class="example">
 <p><b>Example:</b> Calculate the following integral

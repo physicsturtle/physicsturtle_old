@@ -23,6 +23,28 @@ $$\begin{eqnarray*}
 Armed with these formulas, you should be equipped to solve the following exercises. Also make sure that you keep your trigonometric identities in mind. Some of these integrals may seem quite complicated at first, but by using a trigonometric identity they are substantially simplified.
 
 <ol>
+
+<li><div class="exercise">
+Evaluate the integral
+$$\int \cot\theta d\theta$$
+
+<div class="answerBox">
+<button onclick="myFunction('answer0')" class="answerButton">Show Answer</button>
+<div  id="answer0" class="answer" >
+We rewrite the integral as 
+$$\int \cot\theta d\theta = \int \frac{\cos\theta}{\sin\theta} d\theta$$
+Making the substitution $u = \sin\theta$, and $du = \cos\theta d\theta$, we have that 
+$$\int \frac{\cos\theta}{\sin\theta} d\theta = \int \frac{1}{u}{du}$$
+This can be easily integrated to get 
+$$\int \frac{1}{u}{du} = \log |u|.$$
+Substituting back in, we find
+$$\int \cot\theta d\theta = \log|\sin\theta| + C.$$
+</div>
+</div>
+</div>
+</li>
+
+
 <li><div class="exercise">
 Compute the value of the integral. 
 $$\int^8_4 \frac{x}{\sqrt{x^2-15}}dx$$

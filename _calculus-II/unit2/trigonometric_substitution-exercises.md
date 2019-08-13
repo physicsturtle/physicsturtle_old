@@ -98,7 +98,7 @@ Let $\sin\theta = u$, and $du = \cos\theta d\theta$. Then we have the integral
 \[\int^{\pi/2}_0 \frac{\cos\theta}{\sqrt{1+\sin^2\theta}} d\theta = \int_0^1 \frac{du}{\sqrt{1+u^2}}\]
 Let $u = \tan\varphi$, $du = \sec^2\varphi d\varphi$. Then the integral is now
 \[\int_0^1 \frac{du}{\sqrt{1+u^2}} = \int_0^{\pi/4} \sec \varphi d\varphi\]
-By problem \ref{secant}, we have
+By the secant example, we have
 \[\int_0^{\pi/4} \sec \varphi d\varphi = \left.\left(\log|\sec\varphi + \tan\varphi|\right)\right|^{\pi/4}_0\]
 </div>
 </div>

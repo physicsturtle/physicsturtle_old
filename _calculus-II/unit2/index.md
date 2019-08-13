@@ -8,7 +8,7 @@ courseDisplay: Calculus II
 unit: unit2
 ---
 
-{% assign lessonNames = "Basic_Formulas, Substitution_Rule, Integration_by_Parts, Trigonometric_Integrals, Trigonometric_Substitution, Hyperbolic_Substition*, Method_of_Partial_Fractions, Improper_Integrals, Numerical_Integration, Miscellaneous_Tricks" | split: ', ' %}
+{% assign lessonNames = "Basic_Formulas, Substitution_Rule, Integration_by_Parts, Trigonometric_Integrals, Method_of_Partial_Fractions, Trigonometric_Substitution, Hyperbolic_Substitution*, Improper_Integrals, Numerical_Integration, Miscellaneous_Tricks" | split: ', ' %}
 
 <ol>
 {% for lessonName in lessonNames %}
