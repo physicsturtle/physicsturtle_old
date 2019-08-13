@@ -6,7 +6,7 @@ banner: calculus-I.svg
 
 Welcome to Calculus I, single variable differential calculus! 
 
-The prerequisites are as follows:
+<b>Prerequisites</b>
 1. High school mathematics, including trigonometry, solving algebraic equations, working with exponentials and logarithms, and graphing.
 2. An exposure to physics is useful; many examples will be drawn from physics. 
 

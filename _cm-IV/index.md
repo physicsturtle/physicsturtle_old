@@ -13,7 +13,7 @@ Hey everyone! Welcome to Classical Mechanics IV. This course extends the ideas o
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, unit6/, unit7/" | split: ', ' %}
 
-{% assign lessonNames1 = "Phase_Space" | split: ', ' %}
+{% assign lessonNames1 = "The_Hamiltonian, Phase_Space" | split: ', ' %}
 
 {% assign lessonNames2 = "" | split: ', ' %}
 

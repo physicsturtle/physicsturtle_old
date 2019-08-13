@@ -15,4 +15,7 @@ Hamiltonian is distinguished from Lagrangian mechanics in two ways:
 
 The two approaches are equivalent to one another and to Newtonian mechanics, but this recasting in terms of the Hamiltonian makes certain results more intuitive, and it also more naturally leads to quantum mechanics and Hamilton-Jacobi theory. 
 
+<div class="definition">
+<b>Definition:</b> Consider a mechanical system with 
 
+</div>
