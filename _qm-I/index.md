@@ -16,7 +16,7 @@ Welcome to Quantum Mechanics I
 
 {% assign lessonNames1 = "" | split: ', ' %}
 
-{% assign lessonNames2 = "Infinite_Square_Well, Probability_Current, Non-Normalizable_Wave_Functions, Spherically_Symmetric_Problems" | split: ', ' %}
+{% assign lessonNames2 = "Infinite_Square_Well, Probability_Current, Non-Normalizable_Wave_Functions, Spherically_Symmetric_Problems, Hydrogen_Atom_and_Rigid_Rotor" | split: ', ' %}
 
 {% assign lessonNames3 = "" | split: ', ' %}
 

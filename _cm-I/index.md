@@ -6,12 +6,12 @@ permalink: /cm-I/
 
 Welcome to Classical Mechanics I. This is a calculus based course that will introduce you to the mechanics of particles and rigid bodies. 
 
-The prerequisites are as follows:
+<b>Prerequisites</b>
 1. A working knowledge of single variable calculs
 2. A working knowledge of vector algebra
 3. A strong background in high school physics
 
-{% assign unitNames = "Unit 1 - Vectors#Unit 2 - Kinematics on the Line#Unit 3 - Dynamics on the Line#Unit 4 - Momentum#Unit 5 - Circular Motion#Supplementary Material" | split: '#' %}
+{% assign unitNames = "Unit 1 - Vectors # Unit 2 - Statics and Equilibrium # Unit 3 - Kinematics and Dynamics # Unit 4 - Work and Energy # Unit 5 - Circular Motion # Supplementary Material" | split: ' # ' %}
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, supplements/" | split: ', ' %}
 
@@ -48,7 +48,3 @@ The prerequisites are as follows:
 
 **Sources**
 
-1. Calculus, 7 ed. - Stewart, James (2012)
-2. Vector Analysis - Spiegel, Murray R. (1959)
-3. Differential Geometry of Curves and Surfaces - 2 ed. do Carmo, Manfredo (2016)
-4. Calculus on Manifolds - Spivak, Michael (1965)

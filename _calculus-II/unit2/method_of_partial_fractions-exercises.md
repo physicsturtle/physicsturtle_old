@@ -92,7 +92,7 @@ Finally we have
 
 
 
-<li><div class="exercise">\label{secant} Evaluate the integral without referring to the attached table. \[\int \sec x dx\]
+<li><div class="exercise"> Evaluate the integral. \[\int \sec x dx\]
 
 <div class="answerBox">
 <button onclick="myFunction('answer5')" class="answerButton">Show Answer</button>
@@ -123,7 +123,7 @@ Thus
 
 
 
-<li><div class="exercise">Evaluate the integral. The attached table may be useful. \[\int\frac{dx}{x\sqrt{9+4x^2}}\]
+<li><div class="exercise">Evaluate the integral. \[\int\frac{dx}{x\sqrt{9+4x^2}}\]
 
 <div class="answerBox">
 <button onclick="myFunction('answer6')" class="answerButton">Show Answer</button>
@@ -176,7 +176,7 @@ Thus our final answer is
 
 
 
-<li><div class="exercise"> Evaluate the integral. The attached table may be useful.
+<li><div class="exercise"> Evaluate the integral.
 \[\int^{\pi/2}_0 \frac{\cos\theta}{\sqrt{1+\sin^2\theta}} d\theta\]
 
 <div class="answerBox">

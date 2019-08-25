@@ -1,7 +1,7 @@
 ---
 layout: course
-title: Classical Mechanics I
-permalink: /cm-I/
+title: Mathematical Classical Mechanics
+permalink: /math-cm/
 ---
 
 Welcome to Classical Mechanics I. This is a calculus based course that will introduce you to the mechanics of particles and rigid bodies. 

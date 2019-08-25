@@ -4,12 +4,11 @@ title: Classical Mechanics II
 permalink: /cm-II/
 ---
 
-Welcome to Classical Mechanics I. This is a calculus based course that will introduce you to the mechanics of particles and rigid bodies. 
+Welcome to Classical Mechanics II. This course will expand on the ideas of Classical Mechanics I by talking about mechanics of many particle systems.
 
 The prerequisites are as follows:
-1. A working knowledge of single variable calculs
-2. A working knowledge of vector algebra
-3. A strong background in high school physics
+1. A working knowledge of classical mechanics I
+2. A working knowledge of ordinary differential equations
 
 {% assign unitNames = "Unit 1 - Vectors#Unit 2 - Kinematics on the Line#Unit 3 - Dynamics on the Line#Unit 4 - Momentum#Unit 5 - Circular Motion#Supplementary Material" | split: '#' %}
 
