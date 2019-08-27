@@ -123,36 +123,7 @@ Thus
 
 
 
-<li><div class="exercise">Evaluate the integral. \[\int\frac{dx}{x\sqrt{9+4x^2}}\]
 
-<div class="answerBox">
-<button onclick="myFunction('answer6')" class="answerButton">Show Answer</button>
-<div  id="answer6" class="answer" >
-To evaluate this integral we recognize it as the form of a trigonometric substitution. Let $x = \frac{3}{2}\tan z$, and $dx = \frac{3}{2}\sec^2z dz$. Note that we will have to evaluate the integral of $\csc$ along the way for this problem. You may use the attached table, but we will show the steps to evaluate the $\csc$ integral regardless.
-\begin{eqnarray*}
-\int \frac{\sec^2z}{\tan z\sqrt{9 + 9\tan^2z}}dz  &=& \frac{1}{3}\int\frac{\sec z}{\tan z}dz \\
-&=& \frac{1}{3}\int \frac{1}{\sin z}dz \\
-&=& \frac{1}{3}\int \frac{\sin z}{\sin^2z}dz  = \frac{1}{3}\int \frac{\sin z}{1 - \cos^2z}dz 
-\end{eqnarray*}
-Now we have to set this up for a partial fraction decomposition:
-Let $\cos z = u$, and $du =  - \sin zdz$
-\begin{eqnarray*}
-- \frac{1}{3}\int \frac{1}{1 - u^2} du &=&  - \frac{1}{6}\int \frac{1}{1+u} + \frac{1}{1-u}du \\
-&=& \frac{-1}{6}\log \left| \frac{1 + u}{1 - u} \right| \\
-&=& \frac{1}{6}\log \left| \frac{1 - u}{1 + u} \right| \\
-&=& \frac{1}{6}\log \left| \frac{1 - \cos z}{1 + \cos z} \right| \\
-&=& \frac{1}{6}\log \left| \frac{1 - \cos z}{1 + \cos z}\left( \frac{1 - \cos z}{1 - \cos z} \right) \right|\\
-&=& \frac{1}{6}\log \left| \frac{(1 - \cos z)^2}{\sin^2z} \right|\\
-&=& \frac{1}{3}\log \left| \frac{1 - \cos z}{\sin z} \right|\\
-&=& \frac{1}{3}\log \left| \csc z - \cot z \right| + C \\
-&=& \frac{1}{3}\log \left| \frac{\sqrt{9 + 4x^2}  - 3}{x} \right| + C\\
-\end{eqnarray*}
-Thus our final answer is
-\[\int \frac{dx}{x\sqrt{9 + 4x^2}}  = \frac{1}{3}\log \left| \frac{\sqrt{9 + 4x^2}  - 3}{x} \right| + C\]
-</div>
-</div>
-</div>
-</li>
 
 
 

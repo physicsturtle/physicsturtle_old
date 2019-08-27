@@ -30,8 +30,8 @@ Linear Algebra III - Coming soon
 <!--- <a class="page-link" href="/linear-algebra-III/"> Linear Algebra III </a> - In progress --->
 
 ### Ordinary Differential Equations
-Ordinary Differential Equations I - Coming soon
-<!--- <a class="page-link" href="/ode-I/"> Ordinary Differential Equations I  </a> - In progress --->
+
+<a class="page-link" href="/ode-I/"> Ordinary Differential Equations I  </a> - In progress
 
 Ordinary Differential Equations II - Coming soon
 <!--- <a class="page-link" href="/ode-II/"> Ordinary Differential Equations II  </a> - In progress --->
