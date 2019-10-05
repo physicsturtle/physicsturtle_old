@@ -6,9 +6,7 @@ permalink: /pde-I/
 
 Welcome to Partial Differential Equations I.
 
-<a class="page-link" href="/calculus-III/introduction">Introduction - What is a Partial Differential Equation? </a>
-
-
+<a class="page-link" href="/pde-I/introduction">Introduction - What is a Partial Differential Equation? </a>
 
 {% assign unitNames = "Unit 1 - Fourier Series, Unit 2 - Heat Equation, Unit 3 - Wave Equation, Unit 4 - Laplace Equation, Unit 5 - Sturm-Liouville Theory, Supplementary Material" | split: ', ' %}
 

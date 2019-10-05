@@ -5,15 +5,13 @@ permalink: /qm-IV/
 banner: qm-IV.svg
 ---
 
-Welcome to Quantum Mechanics I
-
-<a class="page-link" href="/qm-I/introduction">Quantum Mechanics I </a>
+Welcome to Quantum Mechanics IV
 
 Scattering Theory:
 -time-dependent versus time-independent view
 -the Born approximation
 -Spherically symmetric potentials and phase shifts
--Feschbach Resonances in atomic scattering
+-Feshbach Resonances in atomic scattering
 Phonons and Second Quantization
 Photons and Second Quantization:
 -stimulated and spontaneous emission

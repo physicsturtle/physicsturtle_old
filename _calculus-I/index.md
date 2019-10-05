@@ -18,7 +18,9 @@ Notation and conventions used in this course are here
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/" | split: ', ' %}
 
-{% assign lessonNames1 = "Sets, Functions, Inverse_Functions" | split: ', ' %}
+{% assign lessonNames1 = "Sets, Functions" | split: ', ' %}
+
+<!--- , Inverse_Functions --->
 
 {% assign lessonNames2 = "Limits, Limit_Laws, Limit_Details, Squeeze_Theorem, Continuity, Intermediate_Value_Theorem, Limits_at_Infinity" | split: ', ' %}
 

@@ -47,9 +47,9 @@ Consider $f:[2,4] \to \R$, where $f(x) = x^3$.
 
 
 <li> <div class="exercise">
-Consider the functoin $f(x) = x^2$. Find the following sets:
+I know that this exercise was in the examples, but I think it is worthwhile to do again. Consider the functino $f(x) = x^2$. Find the following sets:
 <ol>
-<li> $f([-1,1])$ </li>
+<li> $f([-1,1]) = $ </li>
 <li> $f([0,1])$ </li>
 <li> $f((0,\infty))$ </li>
 <li> $f^{-1}([0,1])$ </li>
@@ -62,13 +62,13 @@ Consider the functoin $f(x) = x^2$. Find the following sets:
 <button onclick="myFunction('answer3')" class="answerButton">Show Answer</button>
 <div  id="answer3" class="answer" >
 <ol>
-<li> $f([-1,1]) = $ </li>
-<li> $f([0,1])$ </li>
-<li> $f((0,\infty))$ </li>
-<li> $f^{-1}([0,1])$ </li>
-<li> $f^{-1}([0,1])$ </li>
-<li> $f^{-1}([-2,-1])$ </li>
-<li> $f^{-1}([-1,1])$ </li>
+<li> $f([-1,1]) = [0,1]$ </li>
+<li> $f([0,1]) = [0,1]$ </li>
+<li> $f((0,\infty)) = (0,\infty)$ </li>
+<li> $f^{-1}([0,1]) = ([-1,1])$ </li>
+<li> $f^{-1}((0,1]) = [-1,0)\cup (0,1]$ </li>
+<li> $f^{-1}([-2,-1]) = \emptyset$ </li>
+<li> $f^{-1}([-1,1]) = [0,1]$ </li>
 </ol>
 </div>
 </div>

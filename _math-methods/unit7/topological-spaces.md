@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Riemann Sums
+title: Topological Spaces
 dept: math
 unit: unit1
 course: calculus-II
@@ -9,5 +9,8 @@ unitDisplay: Unit 1
 courseDisplay: Calculus II
 ---
 
-### Introduction
-Consider the problem of finding the area under the curve of $y = x^2$. 
+<div class="definition">
+
+
+
+</div>

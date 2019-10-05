@@ -16,39 +16,15 @@ github_username: zestymath
 collections:
     math:
         permalink: /:collection:/:title
+    physics:
+        permalink: /:collection:/:title
     calculus-I:
         output: true
     calculus-II:
         output: true
     calculus-III:
         output: true
-    linear-algebra-I:
-        output: true
-    ode-I:
-        output: true
-    ode-II:
-        output: true
-    nonlin-dyn-I:
-        output: true
-    complex-variables:
-        output: true
-    pde-I:
-        output: true
-    pde-II:
-        output: true
-    perturb-I:
-        output: true
-    perturb-II:
-        output: true
-    physics:
-        permalink: /:collection:/:title
-    physics-I:
-        output: true
-    physics-II:
-        output: true
-    em-I:
-        output: true
-    em-II:
+    classical-ft:
         output: true
     cm-I:
         output: true
@@ -58,16 +34,69 @@ collections:
         output: true
     cm-IV:
         output: true
-    td:
+    complex-variables:
+        output: true
+    em-I:
+        output: true
+    em-II:
+        output: true
+    em-III:
+        output: true
+    em-IV:
+        output: true
+    fm-I:
+        output: true
+    gr:
+        output: true
+    greens-functions:
+        output: true
+    hs-physics-I:
+        output: true
+    hs-physics-II:
+        output: true
+    kt:
+        output: true
+    linear-algebra-I:
+        output: true
+    linear-algebra-II:
+        output: true
+    math-methods:
+        output: true
+    math-cm:
+        output: true
+    nonlin-dyn-I:
+        output: true
+    ode-I:
+        output: true
+    ode-II:
+        output: true
+    pde-I:
+        output: true
+    pde-II:
+        output: true
+    perturb-I:
+        output: true
+    perturb-II:
+        output: true
+    physics-I:
+        output: true
+    physics-II:
+        output: true
+    qft-I:
         output: true
     qm-I:
         output: true
     qm-II:
         output: true
+    qm-III:
+        output: true
+    qm-IV:
+        output: true
     ssp:
         output: true
-    classical-ft:
+    td:
         output: true
+
 
 # Build settings
 markdown: kramdown

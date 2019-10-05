@@ -47,4 +47,7 @@ Welcome to Quantum Mechanics II.
 
 **Sources**
 
-1. 
+1. Introduction to Quantum Mechanics, Griffiths
+2. Modern Quantum Mechanics, Sakurai
+3. Principles of Quantum Mechanics, Shankar
+4. Quantum Mechanics of One and Two Electron Atoms, Salpeter and Bethe

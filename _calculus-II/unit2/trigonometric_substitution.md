@@ -9,7 +9,7 @@ unitDisplay: Unit 2
 courseDisplay: Calculus II
 ---
 
-In this section, we will work to reduce complicated integrals to trigonometric integrals, which we explored in the last section. For this section, recall the Pythagorean trigonometric identities:
+In this section, we will work to reduce complicated integrals to trigonometric integrals, which we explored in a previous section. For this section, recall the Pythagorean trigonometric identities:
 
 $$\sin^2 \theta + \cos^2\theta = 1,\qquad 1 + \tan^2\theta = \sec^2\theta.$$
 
@@ -51,7 +51,13 @@ Summarizing,
 $$\int \frac{\sqrt{9-x^2}}{x^2} dx = -\frac{\sqrt{9-x^2}}{x} - \arcsin\left(\frac{x}{3}\right) + C$$
 </div>
 
+<div class="example">
+<p><b>Example:</b> Evaluate the integral
+$$\int \frac{x^2}{x^2+4}dx.$$ </p>
+<p> 
 
+</p>
+</div>
 
 
 

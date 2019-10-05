@@ -12,7 +12,7 @@ Welcome to Partial Differential Equations II.
 
 {% assign lessonNames1 = "" | split: ', ' %}
 
-{% assign lessonNames2 = "" | split: ', ' %}
+{% assign lessonNames2 = "Laplacian" | split: ', ' %}
 
 {% assign lessonNames3 = "" | split: ', ' %}
 

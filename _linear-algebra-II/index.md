@@ -1,11 +1,9 @@
 ---
 layout: course
-title: Linear Algebra I
-permalink: /linear-algebra-I/
-banner: linear-algebra-I.svg
+title: Linear Algebra II
+permalink: /linear-algebra-II/
+banner: linear-algebra-II.svg
 ---
-
-<a class="page-link" href="/calculus-III/introduction">Introduction - What is Linear Algebra? </a>
 
 {% assign unitNames = "Unit 1 - Vectors and Linear Equations, Unit 2 - Vector Spaces and Matrices, Unit 3 - Linear Transformations, Unit 4 - Inverse Matrices, Unit 5 - Eigenvalues and Eigenvectors" | split: ', ' %}
 

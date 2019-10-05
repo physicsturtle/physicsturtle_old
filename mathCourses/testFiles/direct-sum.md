@@ -21,13 +21,17 @@ $$\lambda(a,b) = (\lambda a, \lambda b).$$
 
 Right now, we have not proven that this is a vector space, but rather just a set with some operations on it. The proof that it is a vector space is left to the exercises. 
 
+### Operators
+
 Now that we have a vector space, we can construct operators on the space. 
 <div class="definition">
 <b>Definition:</b> Let $A : V\to V$ and $B : W\to W$ be linear maps on on their respective vector spaces. Define the map
 $$A\oplus B : V\oplus W\to V\oplus W$$
 by 
-$$(A\oplus B)(v,w) = (Av,Bw).$$
+$$(A\oplus B)(v,w) := (Av,Bw).$$
 </div>
 
 
+### Basis
+How can we inherit a basis from the consitituent vector spaces to the direct sum space? Let $e_i$ be a basis for $V$, and $f_j$ be a basis for $W$. 
 
