@@ -1,0 +1,5 @@
+I"v<p>Here we will show how to compute the Christoffel symbols in a different chart. The Christoffel symbols tell us how the covariant basis changes in space. Their definition for a particular coordinate system $x$ is</p>
+
+<script type="math/tex; mode=display">\Gamma^{i}_{(x)jk} = dx^i\left(\nabla_{\frac{\partial}{\partial x^k}}\frac{\partial}{\partial x^j}\right)</script>
+
+:ET

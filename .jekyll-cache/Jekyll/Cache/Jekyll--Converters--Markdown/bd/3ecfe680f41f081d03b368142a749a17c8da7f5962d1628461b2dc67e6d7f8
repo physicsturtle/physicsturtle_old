@@ -1,0 +1,26 @@
+I"�<h3 id="introduction">Introduction</h3>
+
+<p>In this section, we will introduce some problems which can be reduced to a form to which WKB can be applied.</p>
+
+<p>What happens if we have the equation</p>
+
+<script type="math/tex; mode=display">y'' + p(x)y' + q(x)y = 0</script>
+
+<p>We want to get rid of the $py’$ term. To do this, we let $y = Au$. Plugging this expression into the main differential equation gives us</p>
+
+<script type="math/tex; mode=display">A'' u + 2A'u' + Au'' + pA'u + pAu' + qAu = 0</script>
+
+<p>If we set the coefficient of $u’$ to be zero, we get</p>
+
+<script type="math/tex; mode=display">2A' + pA = 0</script>
+
+<p>This gives us that</p>
+
+<script type="math/tex; mode=display">A = \exp\left(-\int\frac{p}{2} dx\right),</script>
+
+<p>and we have the equation</p>
+
+<script type="math/tex; mode=display">u'' + \left(q + \frac{A''}{A} + p\frac{A'}{A}\right)u = 0</script>
+
+<p>We can apply WKB to this equation.</p>
+:ET

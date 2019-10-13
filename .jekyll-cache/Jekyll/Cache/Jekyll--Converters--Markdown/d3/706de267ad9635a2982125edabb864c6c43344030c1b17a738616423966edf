@@ -1,0 +1,7 @@
+I"<p>Consider systems of the form
+<script type="math/tex">x'' = F(x)</script>
+If we multiply both sides by $x’$, then
+<script type="math/tex">x'' x' = x' F(x)</script>
+If we define 
+<script type="math/tex">V(x) = -\int_{\eta_0}^x F(\eta) d\eta,</script></p>
+:ET

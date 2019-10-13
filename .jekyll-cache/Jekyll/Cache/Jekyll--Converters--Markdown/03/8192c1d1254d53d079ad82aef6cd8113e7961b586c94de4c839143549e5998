@@ -1,0 +1,6 @@
+I"!<p>In this section, we will discuss another approximation for scattering problems, known as the Born approximation. Consider the time independent Schrödinger equation
+<script type="math/tex">-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi</script>
+Rearranging this, we get 
+<script type="math/tex">\nabla^2\psi(\textbf{x}) + k^2\psi(\textbf{x}) = f(\textbf{x}),</script>
+where $k^2 = 2mE/\hbar^2$ and $f(\textbf{x}) = 2mV\psi/\hbar^2$. We know that the Green’s function $G = -\frac{e^{-ikr}}{4\pi r}$ for the Helmholtz equation satisfies</p>
+:ET

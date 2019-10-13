@@ -1,0 +1,21 @@
+I"'<h3 id="introduction">Introduction</h3>
+<p>An isothermal process is a process whereby the temperature stays constant throughout. Isothermal processes are a little bit more complicated to analyse than the ones we have analysed so far.</p>
+
+<h3 id="work">Work</h3>
+<p>The formula for work says</p>
+
+<script type="math/tex; mode=display">dW = PdV</script>
+
+<p>and we need to integrate both sides to find the work. However, $P$ is not constant, but is expressible in terms of $V$ through the ideal gas law. Thus</p>
+
+<script type="math/tex; mode=display">dW = \frac{nRT}{V}dV</script>
+
+<p>Now integrating both sides gives us</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{eqnarray}
+W &=& \int_{V_i}^{V_f} \frac{nRT}{V}dV \\
+W &=& nRT\ln\left(\frac{V_f}{V_i}\right) 
+\end{eqnarray} %]]></script>
+
+:ET

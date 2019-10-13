@@ -1,0 +1,25 @@
+I"­<h3 id="introduction">Introduction</h3>
+
+<script type="math/tex; mode=display">f(x) = \frac{2x^2}{4x^2+3}</script>
+
+<script type="math/tex; mode=display">f(x) = \frac{3}{xe^x}</script>
+
+<script type="math/tex; mode=display">f(x) = \frac{2e^x + 1}{2e^x - 1}</script>
+
+<script type="math/tex; mode=display">f(x) = \frac{3x^3 + 2x + 1}{5x^2}</script>
+
+<script type="math/tex; mode=display">f(x) = x\sin\left(\frac{1}{x}\right)</script>
+
+<script type="math/tex; mode=display">f(x) = \frac{2|x|x + 1}{x^2-3}</script>
+
+<script type="math/tex; mode=display">f(x) = \frac{\cos \left(e^x\right)}{x}</script>
+
+<script type="math/tex; mode=display">f(x) = \frac{3x^3 + 2}{2x^3 + 2x - 1}</script>
+
+<script type="math/tex; mode=display">f(x) = \frac{e^x +1}{e^x + 2}</script>
+
+<script type="math/tex; mode=display">f(x) = \frac{e^x + 2x}{3e^x + x - 1}</script>
+
+<p>as $x\to-\infty$. 
+<script type="math/tex">f(x) = \frac{\sqrt{x^2+4}}{2x-1}</script></p>
+:ET

@@ -1,0 +1,8 @@
+I"£<p>The Maxwell Boltzmann distribution gives the distribution of velocities in $x$, $y$ and $z$.</p>
+
+<script type="math/tex; mode=display">f(v)=\left({\frac {m}{2\pi kT}}\right)^{3/2}\,e^{-{\frac {m|v|^{2}}{2kT}}}</script>
+
+<p>If we integrate this distribution over $v_y$ and $v_z$, we get</p>
+
+<script type="math/tex; mode=display">f(v_x)=\left({\frac {m}{2\pi kT}}\right)^{1/2}\,e^{-{\frac {mv_x^{2}}{2kT}}}</script>
+:ET

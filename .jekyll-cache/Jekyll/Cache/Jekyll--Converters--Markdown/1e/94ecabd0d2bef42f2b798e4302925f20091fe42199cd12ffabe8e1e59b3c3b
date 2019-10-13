@@ -1,0 +1,22 @@
+I"�<h3 id="introduction">Introduction</h3>
+<p>First, I will state the first law of thermodynamics with the convention as we will use it, and explain its relevance. Then, we will clear up the differences between the main two conventions that are used. We will write the first law of thermodynamics as</p>
+
+<script type="math/tex; mode=display">dU = dQ - dW.</script>
+
+<p>The first law of thermodynamics applies to a <em>closed system</em>, and $U$ is the internal energy of this system, $Q$ is the heat added to the system, and $W$ is the work by the system.</p>
+
+<h3 id="conventions">Conventions</h3>
+<p>The first law of thermodynamics can be formulated in two different ways, depending on your convention. Physicists normally write it as</p>
+
+<script type="math/tex; mode=display">dU = dQ - dW</script>
+
+<p>while chemists normally write it as</p>
+
+<script type="math/tex; mode=display">dU = dQ + dW.</script>
+
+<p>The difference conceptually is that physicists will often say that the work done <em>on</em> a system is negative work, while the work done <em>by</em> the system is positive work. Chemists say the opposite. Thus, in a physicist’s view, we can write $dW = P dV$, and for a chemist, $dW = -P dV$. The first law of thermodynamics is thus defined convention-free if we write it as</p>
+
+<script type="math/tex; mode=display">dU = dQ + P dV.</script>
+
+<p>We will be working entirely with the first law of thermodynamics in the physicist’s view. Note that not all physics textbooks use the convention that I have claimed is characteristic of physicists. For example the popular book <em>Thermal Physics</em> by Daniel Schroeder uses the latter convention.</p>
+:ET

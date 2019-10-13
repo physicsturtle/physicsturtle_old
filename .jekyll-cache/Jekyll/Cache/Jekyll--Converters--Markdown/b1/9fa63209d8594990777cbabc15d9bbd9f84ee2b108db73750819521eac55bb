@@ -1,0 +1,21 @@
+I"8<p>In this section, we will discuss another approximation for scattering problems, known as the Born approximation. Consider the time independent Schrödinger equation
+<script type="math/tex">-\frac{\hbar^2}{2m}\nabla^2\psi + V\psi = E\psi</script>
+Rearranging this, we get 
+<script type="math/tex">\nabla^2\psi(\textbf{x}) + k^2\psi(\textbf{x}) = f(\textbf{x}),</script>
+where $k^2 = 2mE/\hbar^2$ and $f(\textbf{x}) = 2mV\psi/\hbar^2$. We know that the Green’s function $G = -\frac{e^{-ikr}}{4\pi r}$ for the Helmholtz equation satisfies</p>
+
+<script type="math/tex; mode=display">(\nabla^{\prime 2} + k^2)G(\textbf{x}',\textbf{x}) = \delta(\textbf{x} - \textbf{x}').</script>
+
+<p>If we multiply the above equation with $\psi$ and then integrate over all space, we get</p>
+
+<script type="math/tex; mode=display">\int_{\mathbb{R}^3}\psi(\textbf{x}')(\nabla^{\prime 2} + k^2)G(\textbf{x}',\textbf{x}) d^3\textbf{x} = \int_{\mathbb{R}^3} \psi(\textbf{x}')\delta(\textbf{x}'-\textbf{x})</script>
+
+<p>If we apply Green’s second identity of the left hand side and simplify the right hand side, we get</p>
+
+<script type="math/tex; mode=display">\int_{\mathbb{R}^3} G(\textbf{x}',\textbf{x})(\nabla^{\prime 2} + k^2)\psi(\textbf{x}')d^3\textbf{x} = \psi(\textbf{x})</script>
+
+<p>If we plug in the Green’s function as well as the function $f(\textbf{x})$, then we get</p>
+
+<script type="math/tex; mode=display">\psi(\textbf{x}) = -\int_{\mathbb{R}^3} \frac{e^{-ik|\textbf{x}'-\textbf{x}|}}{4\pi|\textbf{x}'-\textbf{x}|}\frac{2mV(\textbf{x}')\psi(\textbf{x}')}{\hbar^2} d^3\textbf{x}'</script>
+
+:ET

@@ -1,0 +1,38 @@
+I"y<h3 id="exercises">Exercises</h3>
+
+<p>\question[$*$] Differentiate the following function. $y = 2x^{1/2} + 6x^{1/3} - 2x^{3/2}$\</p>
+
+<p>\begin{solution}[30 mm]
+Applying the power rule, [y’ = \frac{1}{\sqrt{ x}} + \frac{2}{x^{2/3}} - 3 \sqrt{x}]
+\end{solution}</p>
+
+<p>\question[$*$] Differentiate the following function. $ \displaystyle{k(x) = \pi^2x + e^{x + e} - \frac{1}{\pi}}$\</p>
+
+<p>\begin{solution}[30 mm]
+[y’ = \pi^2 + e^ee^x]
+\end{solution}</p>
+
+<p>\question[$*$] Differentiate the following function. $\displaystyle{f(x) = \frac{x^3 - 5x^2 + 2x - 9}{x^2}}$\</p>
+
+<p>\begin{solution}[40 mm]
+Simplifying, $\displaystyle{f(x) = x - 5 + \frac{2}{x} - \frac{9}{x^2}}$<br />
+Applying the power rule yields, [y’ = 1 - \frac{2}{x^2} + \frac{18}{x^3}]
+\end{solution}</p>
+
+<p>\question[$**$] Show that on the graph of any quadratic polynomial the chord joining the points for which $x = a$ and $x = b$ is parallel to the tangent line at the midpoint $x = (a+b)/2$.</p>
+
+<p>\begin{solution}[100mm]
+To show that this is true for any quadratic function, first we create a general quadratic\ polynomial function $f(x)=Ax^2+Bx+C$. <br />
+And then we take note that the “chord joining the points for which $x=a$ and $x=b$” has the slope equal to $\frac{\Delta y}{\Delta x} = \frac{f(b)-f(a)}{b-a}$.<br />
+Next, we know that the slope of a function at $x = \frac{a+b}{2}$ is simply $f’(\frac{a+b}{2})$ and $f’(x) = 2Ax+B$.<br />
+Equating the two:
+\begin{eqnarray<em>}
+\frac{\Delta y}{\Delta x} = \frac{f(b)-f(a)}{b-a} &amp;=&amp; f’(\frac{a+b}{2})<br />
+\frac{(Ab^2+Bb+C)-(Aa^2+Ba+C)}{b-a} &amp;=&amp; 2A(\frac{a+b}{2})+B<br />
+\frac{A(b^2-a^2)+B(b-a)}{b-a} &amp;=&amp; A(a+b)+B<br />
+\frac{A(b+a)(b-a)+B(b-a)}{b-a} &amp;=&amp; A(a+b)+B<br />
+A(a+b)+B &amp;=&amp; A(a+b)+B<br />
+\end{eqnarray</em>}
+Thus, we can see that this is true for any general quadratic when $a \neq b$.<br />
+\end{solution}</p>
+:ET

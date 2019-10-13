@@ -1,0 +1,18 @@
+I"<h3 id="introduction">Introduction</h3>
+<p>We are all familiar with the sine, cosine, tangent, etc. functions. One term used to describe them all is the <em>circular functions</em>. This term is used because they relate to</p>
+
+<h3 id="idea-of-a-limit">Idea of a Limit</h3>
+
+<p>Suppose we have a function $f(x) = x^2$. As $x$ approaches 2, it is clear that $f(x)$ approaches 4.</p>
+
+<ol>
+<li> <div> Calculate the dot product between the vectors \(\textbf{a} = (3,1)\) and \(\textbf{b} = (-2,1)\). </div>
+
+<button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
+<div id="answer1" class="answer">
+This is a straightforward computation in two dimensions, which gives 
+$$\textbf{a}\cdot\textbf{b} = (3)(-2)+(1)(1) = -6 + 1 = -5$$ 
+</div> </li>
+
+</ol>
+:ET

@@ -1,0 +1,38 @@
+I"ž	<p>We recall from math class that if we had a (real valued) function $f(x)$ of period $2L$ we could expand it in the form</p>
+
+<script type="math/tex; mode=display">f(x) = \frac{a_0}{2} + \sum_{n=1}^\infty a_n\cos\left(\frac{n\pi x}{L}\right) + b_n \sin\left(\frac{n\pi x}{L}\right)</script>
+
+<p>and the coefficients $a_n$ and $b_n$ could be found by orthogonality. The formulas were</p>
+
+<script type="math/tex; mode=display">a_n = \frac{1}{L} \int_{-L}^L f(x) \cos\left(\frac{n\pi x}{L}\right) dx ,\qquad b_n = \frac{1}{L} \int_{-L}^L f(x) \sin\left(\frac{n\pi x}{L}\right) dx.</script>
+
+<p>Instead of expanding $f(x)$ in terms of sines and cosines, one can write this in terms of complex exponentials. Using the formulas</p>
+
+<script type="math/tex; mode=display">\sin\theta = \frac{e^{i\theta} - e^{-i\theta}}{2i},\qquad \cos\theta = \frac{e^{i\theta} + e^{-i\theta}}{2},</script>
+
+<p>we can rewrite the Fourier series as</p>
+
+<script type="math/tex; mode=display">f(x) = \frac{a_0}{2} + \sum_{n=1}^\infty a_n\left(\frac{e^{i n\pi x/L} + e^{-in\pi x/L}}{2}\right)  + b_n \left(\frac{e^{i n\pi x/L} - e^{-in\pi x/L}}{2i}\right)</script>
+
+<p>If we collect like terms, then we get</p>
+
+<script type="math/tex; mode=display">f(x) = \frac{a_0}{2} + \sum_{n=1}^\infty \frac{1}{2}(a_n - ib_n) e^{i n\pi x/L} + \frac{1}{2} (a_n + ib_n) e^{-in\pi x/L}.</script>
+
+<p>If we notice that, although we never had $n$ negative, we could technically plug in a negative $n$ into our formula for $a_n$ and $b_n$, then we find the relations $a_n = a_{-n}$ and $b_{n} = -b_{-n}$. Thus, defining $c_n = \frac{a_n - ib_n}{2} $, we have that $c_n^* = c_{-n}$. We now rewrite the sum in terms of the coefficients $c_n$.</p>
+
+<script type="math/tex; mode=display">f(x) = c_0+ \sum_{n=1}^\infty c_n e^{i n\pi x/L} + c_n^* e^{-in\pi x/L}.</script>
+
+<p>Now, we note that we can split this into two sums.</p>
+
+<script type="math/tex; mode=display">f(x) = c_0+ \sum_{n=1}^\infty c_n e^{i n\pi x/L} + \sum_{n=1}^\infty c_n^* e^{-in\pi x/L}.</script>
+
+<p>Now, in the second sum we relabel $n$ as $-n$.</p>
+
+<script type="math/tex; mode=display">f(x) = c_0+ \sum_{n=1}^\infty c_n e^{i n\pi x/L} + \sum_{n=-\infty}^{-1} c_{-n}^* e^{in\pi x/L}.</script>
+
+<p>Replacing $c_{-n}^*$ by $c_n$,</p>
+
+<script type="math/tex; mode=display">f(x) = c_0+ \sum_{n=1}^\infty c_n e^{i n\pi x/L} + \sum_{n=-\infty}^{-1} c_n e^{in\pi x/L}.</script>
+
+<p>and we can thus write this as a single sum over $n$.</p>
+:ET

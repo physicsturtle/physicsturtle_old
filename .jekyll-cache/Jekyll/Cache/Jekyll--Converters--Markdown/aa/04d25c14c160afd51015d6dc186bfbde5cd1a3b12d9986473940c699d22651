@@ -1,0 +1,8 @@
+I"±<p>In this section, we will evaluate the Fresnel integral rigorously using complex analysis. To do this integral, we consider integrating the complex function $f(z) = e^{iz^2}$ along the contour of three parts.</p>
+<ol>
+  <li>From the origin to the point $R$.</li>
+  <li>From the point $R$ to $Re^{i\theta}$, for some value of $\theta$. (what needs to be true about the value of $\theta$?)</li>
+  <li>Back to the origin.</li>
+</ol>
+
+:ET

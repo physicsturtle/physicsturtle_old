@@ -1,0 +1,9 @@
+I"…<p>Definition: Let $M$ be a set. Then $\tau\subset\mathcal{P}(M)$ is a <em>topology</em> on $M$ if the following three properties are satisfies</p>
+<ol>
+  <li>$\emptyset\in\tau$, $M\in\tau$</li>
+  <li>If $U_\alpha\in \tau$, then $\bigcup_\alpha U_\alpha\in \tau$</li>
+  <li>If $U,V\in\tau$, then $U\cap V\in\tau$.</li>
+</ol>
+
+<p>For our purposes, we will not explore much of topology.</p>
+:ET

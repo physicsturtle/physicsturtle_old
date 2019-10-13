@@ -1,0 +1,16 @@
+I"g<h3 id="reduced-row-echelon-form">Reduced Row Echelon Form</h3>
+
+<h3 id="adjoint-and-cofactors">Adjoint and Cofactors</h3>
+
+<p>The formula for the inverse of a matrix $A$ is</p>
+
+<script type="math/tex; mode=display">A^{-1} = \frac{\text{adj}(A)}{\det(A)}</script>
+
+<p>This method has three steps.</p>
+
+<ol>
+  <li>Calculate the minors</li>
+  <li></li>
+</ol>
+
+:ET

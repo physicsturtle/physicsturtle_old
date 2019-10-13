@@ -1,15 +1,9 @@
 ---
 layout: course
-title: Classical Mechanics III
-permalink: /cm-III/
+title: Kinetic Theory
+permalink: /kt/
 ---
 
-Hey everyone! Welcome to Classical Mechanics III. This course is on the topic of *Lagrangian and Hamiltonian Mechanics*, also known as *analytical mechanics*. The first half of the course is on Lagrangian Mechanics, and the second on Hamiltonian Mechanics. The first half of the course will contain many real-world examples 
-
-
-<a class="page-link" href="/cm-III/introduction">Introduction - What is analytical mechanics? </a>
-
-<a class="page-link" href="/cm-III/notation">Notation and Conventions </a>
 
 The prerequisites are as follows
 1. A strong background in Newtonian mechanics
@@ -21,13 +15,13 @@ The prerequisites are as follows
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/" | split: ', ' %}
 
-{% assign lessonNames1 = "Introduction, Euler_Lagrange_Equation, Hanging_Rope, Generalizations" | split: ', ' %}
+{% assign lessonNames1 = "" | split: ', ' %}
 
-{% assign lessonNames2 = "Introduction, Lagrangian_and_Principle_of_Least_Action, Equivalence_Between_Newtonian_and_Lagrangian_Formalisms*" | split: ', ' %}
+{% assign lessonNames2 = "" | split: ', ' %}
 
-{% assign lessonNames3 = "Introduction" | split: ', ' %}
+{% assign lessonNames3 = "" | split: ', ' %}
 
-{% assign lessonNames4 = "Relative-Coordinates" | split: ', ' %}
+{% assign lessonNames4 = "" | split: ', ' %}
 
 <ul>
 {% for unitName in unitNames %}

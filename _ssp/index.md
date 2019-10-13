@@ -1,18 +1,17 @@
 ---
 layout: page
-title: Introduction to Solid State Physics
-permalink: /physics/ssp/
+title: Solid State Physics
 banner: ssp.svg
 ---
 
-Welcome to Quantum Mechanics I
+Welcome to Solid State Physics
 
 <a class="page-link" href="/ssp/introduction">Introduction - Solid State Physics? </a>
 
 
 {% assign unitNames = "Unit 1 - Crystallography, Unit 2 - Phonons, Unit 3 - Free Electron Model, Unit 4 - Nearly Free Electron Model, Unit 5 - Tight Binding Model, Unit 6 - Semiconductors, Unit 7 - Metals, Unit 8 - Superconductivity" | split: ', ' %}
 
-{% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, supplements/" | split: ', ' %}
+{% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, unit6/, unit7/, appendices/" | split: ', ' %}
 
 {% assign lessonNames1 = "" | split: ', ' %}
 

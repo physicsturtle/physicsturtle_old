@@ -1,0 +1,2 @@
+I"0<p>Suppose we are interested in approximating a function $f(x)$ about a certain point $x = a$. Well, a very crude approximation might be $f(x) \approx f(a)$. This is a constant, and it only really works when $x = a$. This isn’t a very good approximation if it only works for a single value of $x$.</p>
+:ET

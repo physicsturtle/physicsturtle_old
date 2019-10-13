@@ -1,0 +1,7 @@
+I""<p>Consider a mechanical system with configuration space $Q$.</p>
+
+<div class="definition">
+<b>Definition:</b> Consider a mechanical system with configuration space $Q$. Then, the <i>phase space</i> of the system is the cotangent bundle $T^*Q$ of the configuration space manifold. 
+</div>
+
+:ET

@@ -1,0 +1,13 @@
+I"(<p>The Coulomb wavefunction can be found with the radial part of the spherically symmetric Schrödinger equation. The radial equation, after the substitution $R(r) = \frac{u(r)}{r}$, is</p>
+
+<script type="math/tex; mode=display">u'' + \left(\frac{2mE}{\hbar^2} - \frac{Ze^2 m}{2\pi\epsilon_0\hbar^2r} - \frac{\ell(\ell+1)}{r^2}\right)u = 0.</script>
+
+<p>Let $E = \hbar^2k^2/2m$, which yields</p>
+
+<script type="math/tex; mode=display">u'' + \left(k^2 - \frac{Ze^2 m}{2\pi\epsilon_0\hbar^2r} - \frac{\ell(\ell+1)}{r^2}\right)u = 0.</script>
+
+<p>Let $\rho = kr$ and $\eta = Ze^2m/4\pi\epsilon_0\hbar^2 k$, so that $u$ becomes a function of $\rho$. This gives us</p>
+
+<script type="math/tex; mode=display">\frac{d^2u}{d\rho^2} + \left(1 - \frac{2\eta}{\rho} - \frac{\ell(\ell+1)}{\rho^2}\right)u = 0.</script>
+
+:ET

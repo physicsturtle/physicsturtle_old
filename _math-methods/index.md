@@ -4,7 +4,7 @@ title: Mathematical Methods in Physics
 banner: math-methods.svg
 ---
 
-Welcome to Calculus II, single variable integral calculus!
+Welcome to Mathematical Methods in Physics! 
 
 {% assign unitNames = "Unit 1 - Partial Differential Equations, Unit 2 - Green's Functions, Unit 3 - Complex Variables, Unit 4 - Fourier Analysis, Unit 5 - Calculus of Variations, Unit 6 - Group Theory, Unit 7 - Differential Geometry, Unit 8 - Lie Theory, Unit 9 - Topology" | split: ', ' %}
 
@@ -22,11 +22,11 @@ Welcome to Calculus II, single variable integral calculus!
 
 {% assign lessonNames6 = "" | split: ', ' %}
 
-{% assign lessonNames5 = "" | split: ', ' %}
+{% assign lessonNames7 = "Riemann_Curvature_Tensor" | split: ', ' %}
 
-{% assign lessonNames5 = "" | split: ', ' %}
+{% assign lessonNames8 = "" | split: ', ' %}
 
-{% assign lessonNames5 = "" | split: ', ' %}
+{% assign lessonNames9 = "" | split: ', ' %}
 
 <ul>
 {% for unitName in unitNames %}
@@ -54,4 +54,16 @@ Welcome to Calculus II, single variable integral calculus!
 
 **Sources**
 
-1. Calculus, 7 ed. - Stewart, James (2012)
+1. Partial Differential Equations - Strauss
+2. Applied Partial Differential Equations - Haberman
+3. Partial Differential Equations of Applied Mathematics - Zauderer
+4. Complex Variables and Applications - Churchill and Brown
+5. Fourier Series - Tolstov
+6. Calculus of Variations - Weinstock
+7. Contemprary Abstract Algebra - Gallian
+8. Introduction to Smooth Manifolds - Lee
+9. Curvature in Mathematics and Physics - Sternberg
+10. Riemannian Manifolds - Lee
+11. Naïve Lie Theory - Stillwell
+12. Topology - Munkres
+13. Introduction to Topological Manifolds - Lee

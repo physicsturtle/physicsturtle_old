@@ -1,0 +1,9 @@
+I"Ö<p>In this section, we will solve the hydrogen atom. It is remarkable that this system can be solved exactly. I remember being amazed the first time I saw this derivation, and I would like to share it with you all here.</p>
+
+<p>In the hydrogen atom, there is a proton in the middle, and an electron <em>orbiting</em> it. We will soon see what the true behaviour of the electron is like. The proton is roughly 1836 times heavier than the electron, and thus will not move very much compared to the electron. We will assume that it is stationary. The electric potential $\Phi$ produced by the proton is</p>
+
+<script type="math/tex; mode=display">\Phi(r) = \frac{e}{4\pi\epsilon_0 r}</script>
+
+<p>and the potential energy is</p>
+
+:ET

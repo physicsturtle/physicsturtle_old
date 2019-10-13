@@ -1,0 +1,34 @@
+I"ﬁ<p>Exercise: For the three dimensional probability current, show that <script type="math/tex">\nabla\cdot J +\frac{\partial\rho}{\partial t} = 0,</script> where $\rho = |\psi|^2$.</p>
+
+<p>Solution: The divergence of the probability current is</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{eqnarray*}
+\nabla\cdot\textbf{J} &=& \frac{\hbar}{2mi}\nabla\cdot \left(\psi^*\nabla \psi - \psi\nabla\psi^*\right) \\
+&=&  \frac{\hbar}{2mi}\left( \psi^*\nabla^2 \psi + \nabla\psi \cdot \nabla\psi^* - \nabla \psi\nabla\psi^* - \psi^*\nabla^2\psi\right) \\
+&=& \frac{\hbar}{2mi}\left(\psi^*\nabla^2 \psi - \psi\nabla^2\psi^*\right) 
+\end{eqnarray*} %]]></script>
+
+<p>The time derivative of the density $\rho$ is most easily found by writing is as $\rho = \psi^*\psi$. We then get</p>
+
+<script type="math/tex; mode=display">\frac{\partial\rho}{\partial t} = \frac{\partial\psi}{\partial t}\psi^* + \psi\frac{\partial\psi^*}{\partial t}</script>
+
+<p>We can now substitute in from the Schr√∂dinger equation that</p>
+
+<script type="math/tex; mode=display">i\hbar\frac{\partial\psi}{\partial t} = -\frac{\hbar^2}{2m}\nabla^2\psi + V\psi.</script>
+
+<p>If we divide through by $i\hbar$ to isolate the time derivative, when we plug in we get</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{eqnarray*}
+\frac{\partial\rho}{\partial t} &=& \left[\frac{\hbar i}{2m}\nabla^2\psi - \frac{iV\psi}{\hbar}\right]\psi^* + \left[\frac{\hbar i}{2m}\nabla^2\psi - \frac{iV\psi}{\hbar}\right]^*\psi\\
+&=&  \left[\frac{\hbar i}{2m}\nabla^2\psi - \frac{iV\psi}{\hbar}\right]\psi^* - \left[\frac{\hbar i}{2m}\nabla^2\psi - \frac{iV\psi}{\hbar}\right]\psi\\
+&=& \left[\frac{\hbar i}{2m}\nabla^2\psi\right]\psi^* - \left[\frac{\hbar i}{2m}\nabla^2\psi\right]\psi\\
+&=&  -\frac{\hbar}{2mi}\left[\psi^* \nabla^2\psi -\psi \nabla^2\psi\right]\\
+\end{eqnarray*} %]]></script>
+
+<p>so we immediately recognize that</p>
+
+<script type="math/tex; mode=display">\nabla\cdot\textbf{J} + \frac{\partial\rho}{\partial t} = 0</script>
+
+:ET

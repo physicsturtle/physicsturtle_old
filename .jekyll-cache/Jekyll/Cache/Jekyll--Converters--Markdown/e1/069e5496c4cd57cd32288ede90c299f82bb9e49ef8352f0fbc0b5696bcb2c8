@@ -1,0 +1,91 @@
+I"�<p>Welcome to Quantum Mechanics III, or, a first course in graduate quantum mechanics. A lot of the same topics as were covered in undergraduate quantum mechanics will be covered, but with a greater level of abstraction and rigour; it is expected that the reader can make the ideas concrete by relating them to example systems from undergraduate quantum mechanics.</p>
+
+<ul>
+  <li>Course outline.</li>
+  <li>The Stern-Gerlach experiment.</li>
+  <li>The framework for quantum mechanics: Hilbert spaces, linear operators</li>
+  <li>foundations of quantum mechanics. 1. The measurement problem.</li>
+  <li>foundations of quantum mechanics. 2. Bell inequalities and Kochen-Specker theorem.</li>
+  <li>Measurement in quantum mechanics - the Born rule. Compatible and incompatible observables.</li>
+  <li>The uncertainty principle and the Heisenberg uncertainty relation.</li>
+  <li>The Schroedinger equation.</li>
+  <li>Unitarity. The Heisenberg picture. The Schroedinger wave equation.</li>
+  <li>The harmonic oscillator.</li>
+  <li>Mixed states. The no-cloning theorem. Imposibility of superluminal communication in quantum mechanics.</li>
+  <li>The theory of angular momentum (1).</li>
+  <li>The theory of angular momentum (2).</li>
+  <li>The theory of angular momentum (3). Lecture given by Dr. T.C. Wei.</li>
+  <li>The theory of angular momentum (4).</li>
+  <li>The theory of angular momentum (5).</li>
+  <li>The theory of angular momentum (6).</li>
+  <li>The theory of angular momentum (7).</li>
+  <li>Discrete symmetries: Parity and discrete translations.</li>
+  <li>Discrete symmetries: Time reversal.</li>
+  <li>Time-independent perturbation theory, non-degenerate case. The quadratic Stark effect.</li>
+  <li>Time-independent perturbation theory, degenerate case. The linear Stark effect.</li>
+  <li>The WKB approximation.</li>
+  <li>Approximation: Variational methods.</li>
+  <li>Time-dependent potentials - the interaction picture. Time-dependent perturbation theory.</li>
+  <li>Time-dependent perturbation theory continued. Fermi’s golden rule.</li>
+  <li>Identical particles. The symmetrization postulate. Bosons, fermions, Pauli exclusion principle.</li>
+  <li>The spin-statistics theorem. Two-electron systems. Exchange density. Ortho and para-helium.</li>
+  <li>Scattering theory. The Lippmann-Schwinger formalism. Methods: the Cauchy residue theorem.</li>
+  <li>Scattering theory continued. The Born-Oppenheimer approximation. Examples: Scattering off a Yukawa and Coulomb potential. Higher-order Born-Oppenheimer approximation.</li>
+  <li>Scattering theory continued. The optical theorem.</li>
+  <li>Classical and quantum cryptography. Classical: the Vernam pad, Diffie-Hellman public key exchange. Quantum: the Bennett-Brassard protocol (BB84).</li>
+</ul>
+
+<p><a class="page-link" href="/qm-I/introduction">Quantum Mechanics III </a></p>
+
+<ul>
+
+
+<li>  <a class="page-link" href="/qm-III/unit1/"> Unit 1 - Basic Formulation </a> </li>
+<ol> 
+
+
+</ol>
+
+
+<li>  <a class="page-link" href="/qm-III/unit2/"> Unit 2 - Time-Independent Schrödinger Equation </a> </li>
+<ol> 
+
+
+</ol>
+
+
+<li>  <a class="page-link" href="/qm-III/unit3/"> Unit 3 - Formalism </a> </li>
+<ol> 
+
+
+</ol>
+
+
+<li>  <a class="page-link" href="/qm-III/unit4/"> Unit 4 - Spin and Composite Systems </a> </li>
+<ol> 
+
+
+</ol>
+
+
+<li>  <a class="page-link" href="/qm-III/unit5/"> Unit 5 - Identical Particles </a> </li>
+<ol> 
+
+
+</ol>
+
+
+<li>  <a class="page-link" href="/qm-III/unit6/"> Unit 6 - Symmetries </a> </li>
+<ol> 
+
+
+</ol>
+
+</ul>
+
+<p><strong>Sources</strong></p>
+
+<ol>
+  <li></li>
+</ol>
+:ET

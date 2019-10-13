@@ -1,0 +1,56 @@
+I"H
+<div class="definition">
+<b>Definition:</b> A <i>Lie group</i> (Lie is pronounced Lee, not Lai) is a set $G$ satisfying the following properties:
+<ol type="i">
+<li> $G$ is a group with group operation $*$ </li>
+<li> $G$ is a smooth manifold (thus it is equipped with a topology and a smooth atlas) </li>
+<li> The map $\mu : G\times G\to G$ defined by $\mu(g_1,g_2) = g_1 * g_2$ is smooth as a map from the product manifold $G\times G$ to $G$ </li>
+<li> The map $i : G\to T$ defined by $i(g) = g^{-1}$ is smooth as a map from $G$ to $G$. </li>
+</ol>
+</div>
+
+<p>If the Lie group is also commutative, then it is called an Abelian Lie group.</p>
+
+<p>Now, we present some examples of Lie groups.</p>
+
+<ol>
+  <li>
+    <p>If $G = \R^n$, and we consider it as a smooth manifold with identity as the only chard, then if the group operation is componentwise addition, it is a Lie group. Furthermore, it is a commutative Lie group. It is known as the “$n$-dimensional translation group”.</p>
+  </li>
+  <li>
+    <p>The circle $\mathbb{S}^1$ is a commutative Lie group known as $U(1)$. The $U$ here stands for unitary, and the group operation is the multiplication of complex numbers.</p>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>If $G = {A : \R^n \to \R^n</td>
+          <td>\det A \not= 0} = GL(n,\R)$ is the general linear group, it is a Lie group with the group operation of matrix multiplication. It is noncommutative.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>The last example is the orthogonal group with respect to an inner product. This notion is likely unfamiliar to you, so we will present a couple definitions so that we can construct the group properly.</li>
+</ol>
+
+<p>Let $V$ be a $d$-dimensional vector space over $R$ equipped with a pseudo-inner product 
+<script type="math/tex">% <![CDATA[
+\left<\cdot,\cdot\right>: V\times V \to \R, %]]></script>
+satisfying 
+i. bilinearity
+ii. symmetry
+iii. non-degenerate</p>
+
+<p>Note that we could require positive definiteness instead of non-degeneracy.</p>
+
+<p>Theorem: THere are (up to isomorphism) only as many pseudo inner products on $V$ as there are different signatures.</p>
+
+<p>If we define the set 
+<script type="math/tex">% <![CDATA[
+O(p,q) = \{\varphi : V\to V : \left<\varphi(v),\varphi(w) = (v,w)\} %]]></script></p>
+
+<p>then this is a subgroup of the general linear group $GL(p+q,\R)$. This Lie group is called the “orthogonal group with respect to the pseudo inner product $\left&lt;\cdot,\cdot\right&gt;$”.</p>
+
+<p>The Lorentz group from special relativity is $O(1,3)$ and $O(3,0)$ is the rotation group on $\R^3$.</p>
+
+:ET

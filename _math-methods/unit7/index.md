@@ -1,14 +1,14 @@
 ---
 layout: unit
-title: Unit 1
+title: Unit 7
 dept: math
 course: calculus-II
 deptDisplay: Math
 courseDisplay: Calculus II
-unit: unit1
+unit: unit7
 ---
 
-{% assign lessonNames = "Riemann_Sums, The_Definite_Integral, Fundamental_Theorem_of_Calculus" | split: ', ' %}
+{% assign lessonNames = "" | split: ', ' %}
 
 <ol>
 {% for lessonName in lessonNames %}

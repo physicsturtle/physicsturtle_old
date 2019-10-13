@@ -64,6 +64,8 @@ collections:
         output: true
     math-cm:
         output: true
+    mb:
+        output: true
     nonlin-dyn-I:
         output: true
     ode-I:

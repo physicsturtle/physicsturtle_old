@@ -48,7 +48,4 @@ The prerequisites are as follows:
 
 **Sources**
 
-1. Calculus, 7 ed. - Stewart, James (2012)
-2. Vector Analysis - Spiegel, Murray R. (1959)
-3. Differential Geometry of Curves and Surfaces - 2 ed. do Carmo, Manfredo (2016)
-4. Calculus on Manifolds - Spivak, Michael (1965)
+1. 

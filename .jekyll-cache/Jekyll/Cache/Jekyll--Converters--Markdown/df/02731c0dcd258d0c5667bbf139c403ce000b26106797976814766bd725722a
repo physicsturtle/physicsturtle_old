@@ -1,0 +1,21 @@
+I"�<p>The Lagrangian density for the electromagnetic field is</p>
+
+<script type="math/tex; mode=display">\mathscr{L} = -\frac{1}{4}F_{\mu\nu} F^{\mu\nu},</script>
+
+<p>where the Faraday tensor $F$ has components defined by</p>
+
+<script type="math/tex; mode=display">F_{\mu \nu} = \partial_\mu A_\nu - \partial_\nu A_\mu.</script>
+
+<p>From this, we can calculate an action $S$, which is given by</p>
+
+<script type="math/tex; mode=display">S = \int-\frac{1}{4}F_{\mu\nu} F^{\mu\nu} d^4\textbf{x}.</script>
+
+<p>There will be 4 coupled PDEs for this action! Let’s see how calculating the Euler-Lagrange equations for this action can produce Maxwell’s equations.</p>
+
+<p>The Euler-Lagrange equations are (for $\mu = 0,1,2,3$)</p>
+
+<script type="math/tex; mode=display">\frac{\partial\mathscr{L}}{\partial A_u} - \frac{\partial}{\partial x^\nu}\frac{\partial\mathscr{L}}{\partial(\partial_n A_\mu)} = 0.</script>
+
+<p>There is no explicit dependent on the vector potential $A_\mu$ itself, but rather only on its derivatives.</p>
+
+:ET

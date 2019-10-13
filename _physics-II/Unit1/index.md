@@ -1,14 +1,19 @@
 ---
-layout: page
-title: Introduction to 3D Space and Vectors
-course: intro-to-physics
+layout: unit
+title: Unit 1
+dept: physics
+course: physics-II
+deptDisplay: Physics 
+courseDisplay: Physics II
 unit: unit1
 ---
 
-Unit 1 lays out the foundations for understanding how to work with objects in 3 dimensional space. There won't be any calculus yet, but we'll try and understand how to draw pictures, including vectors and graphs. This will be one of the most important skills throughout the rest of the course to intuitively understand the mathematics through graphical means. 
+{% assign lessonNames = "Coulomb's Law" | split: ', ' %}
 
-{% for my_page in site.pages %}
-{% if  my_page.course == "calculus-III" and my_page.unit == "unit1" %}
-<li> <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> </li>
-{% endif %}
+<ol>
+{% for lessonName in lessonNames %}
+{% assign lessonTitle = lessonName | replace:  '_', ' ' %}
+{% assign lowerName = lessonName | downcase %}
+<li> <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink }}"> {{lessonTitle}} </a> - <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink | append: "-exercises" }}"> Exercises </a> </li>
 {% endfor %}
+</ol>

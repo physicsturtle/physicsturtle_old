@@ -1,0 +1,134 @@
+I"P<p>Hey everyone! Welcome to Classical Mechanics III. This course is on the topic of <em>Lagrangian and Hamiltonian Mechanics</em>, also known as <em>analytical mechanics</em>. The first half of the course is on Lagrangian Mechanics, and the second on Hamiltonian Mechanics. The first half of the course will contain many real-world examples</p>
+
+<p><a class="page-link" href="/cm-III/introduction">Introduction - What is analytical mechanics? </a></p>
+
+<p><a class="page-link" href="/cm-III/notation">Notation and Conventions </a></p>
+
+<p>The prerequisites are as follows</p>
+<ol>
+  <li>A strong background in Newtonian mechanics</li>
+  <li>A working knowledge of multivariable and vector calculus</li>
+  <li>A working knowledge of ordinary differential equations</li>
+  <li>A working knowledge of basic electromagnetism</li>
+</ol>
+
+<ul>
+
+
+<li>  <a class="page-link" href="/cm-III/unit1/"> Unit 1 - The Calculus of Variations </a> </li>
+<ol> 
+
+
+
+
+<li> <a class="page-link" href="unit1/introduction"> Introduction </a> - <a class="page-link" href="unit1/introduction-exercises"> Exercises </a> </li>
+
+
+
+<li> <a class="page-link" href="unit1/euler_lagrange_equation"> Euler Lagrange Equation </a> - <a class="page-link" href="unit1/euler_lagrange_equation-exercises"> Exercises </a> </li>
+
+
+
+<li> <a class="page-link" href="unit1/hanging_rope"> Hanging Rope </a> - <a class="page-link" href="unit1/hanging_rope-exercises"> Exercises </a> </li>
+
+
+
+<li> <a class="page-link" href="unit1/generalizations"> Generalizations </a> - <a class="page-link" href="unit1/generalizations-exercises"> Exercises </a> </li>
+
+</ol>
+
+
+<li>  <a class="page-link" href="/cm-III/unit2/"> Unit 2 - Lagrange's Equations </a> </li>
+<ol> 
+
+
+
+
+<li> <a class="page-link" href="unit2/introduction"> Introduction </a> - <a class="page-link" href="unit2/introduction-exercises"> Exercises </a> </li>
+
+
+
+<li> <a class="page-link" href="unit2/lagrangian_and_principle_of_least_action"> Lagrangian and Principle of Least Action </a> - <a class="page-link" href="unit2/lagrangian_and_principle_of_least_action-exercises"> Exercises </a> </li>
+
+
+
+<li> <a class="page-link" href="unit2/equivalence_between_newtonian_and_lagrangian_formalisms*"> Equivalence Between Newtonian and Lagrangian Formalisms* </a> - <a class="page-link" href="unit2/equivalence_between_newtonian_and_lagrangian_formalisms*-exercises"> Exercises </a> </li>
+
+</ol>
+
+
+<li>  <a class="page-link" href="/cm-III/unit3/"> Unit 3 - Coupled Oscillators and Normal Modes </a> </li>
+<ol> 
+
+
+
+
+<li> <a class="page-link" href="unit3/introduction"> Introduction </a> - <a class="page-link" href="unit3/introduction-exercises"> Exercises </a> </li>
+
+</ol>
+
+
+<li>  <a class="page-link" href="/cm-III/unit4/"> Unit 4 - Two Body Central Force Problems </a> </li>
+<ol> 
+
+
+
+
+<li> <a class="page-link" href="unit4/relative-coordinates"> Relative-Coordinates </a> - <a class="page-link" href="unit4/relative-coordinates-exercises"> Exercises </a> </li>
+
+</ol>
+
+
+<li>  <a class="page-link" href="/cm-III/"> Unit 5 - Noninertial Reference Frames </a> </li>
+<ol> 
+
+
+
+
+<li> <a class="page-link" href="relative-coordinates"> Relative-Coordinates </a> - <a class="page-link" href="relative-coordinates-exercises"> Exercises </a> </li>
+
+</ol>
+
+
+<li>  <a class="page-link" href="/cm-III/"> Unit 6 - Rotational Motion of Rigid Bodies </a> </li>
+<ol> 
+
+
+
+
+<li> <a class="page-link" href="relative-coordinates"> Relative-Coordinates </a> - <a class="page-link" href="relative-coordinates-exercises"> Exercises </a> </li>
+
+</ol>
+
+
+<li>  <a class="page-link" href="/cm-III/"> Unit 7 - Collision Theory </a> </li>
+<ol> 
+
+
+
+
+<li> <a class="page-link" href="relative-coordinates"> Relative-Coordinates </a> - <a class="page-link" href="relative-coordinates-exercises"> Exercises </a> </li>
+
+</ol>
+
+
+<li>  <a class="page-link" href="/cm-III/"> Unit 8 - Hamiltonian Mechanics </a> </li>
+<ol> 
+
+
+
+
+<li> <a class="page-link" href="relative-coordinates"> Relative-Coordinates </a> - <a class="page-link" href="relative-coordinates-exercises"> Exercises </a> </li>
+
+</ol>
+
+</ul>
+
+<p><strong>Sources</strong></p>
+
+<ol>
+  <li>Classical Mechanics - John Taylor</li>
+  <li></li>
+</ol>
+
+:ET

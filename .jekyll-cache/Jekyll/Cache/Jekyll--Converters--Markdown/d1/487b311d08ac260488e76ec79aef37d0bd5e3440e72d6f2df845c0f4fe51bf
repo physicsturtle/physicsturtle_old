@@ -1,0 +1,12 @@
+I"Í<p>Here we will investigate one of the methods of evaluating integrals asymptotically.</p>
+
+<p>Suppose we had the integral</p>
+
+<script type="math/tex; mode=display">I = \int_0^1 \frac{\sin(x)}{\epsilon^2 + x^2} dx</script>
+
+<p>As $\epsilon\to 0$, the integral becomes logarithmically divergent. One way to simplify the problem is</p>
+
+<script type="math/tex; mode=display">\begin{eqnarray}
+\int_0^1 \frac{\sin(x)}{\epsilon^2 + x^2} dx 
+\end{eqnarray}</script>
+:ET
