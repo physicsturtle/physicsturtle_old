@@ -1,0 +1,35 @@
+I"�<p>In this section, we will discuss the first order perturbation theory.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Consider the Schrödinger equation for a Hamiltonian $\hat{H}^0$ with known eigenvalues ${E^0_n}$ and corresponding eigenvectors ${\left</td>
+      <td>\psi_n\right&gt;}$.</td>
+    </tr>
+  </tbody>
+</table>
+
+<script type="math/tex; mode=display">\hat{H}^0 \left| \psi^0_n\right>  = E^0_n \left| \psi^0_n \right></script>
+
+<p>We then look for how these energy eigenvalues and their states change when we change the Hamiltonian to $\hat{H} = \hat{H}^0 + \lambda \hat{H}’$. Note that when we do perturbation theory in quantum mechanics, we usually have that $\hat{H}’$ is a small Hamiltonian, and ramp the parameter $\lambda$ up to 1 at the end. In mathematics courses on asymptotic analysis (perturbation theory), one usually keeps $\lambda$ as a small parameter.</p>
+
+<p>We define power series to approximately satisfy the equation</p>
+
+<script type="math/tex; mode=display">\hat{H} \left| \psi_n\right>  = E_n \left| \psi_n \right>.</script>
+
+<p>The power series are</p>
+
+<script type="math/tex; mode=display">E_n = \sum_{k=0}^\infty \lambda^k E^k_n</script>
+
+<script type="math/tex; mode=display">\left|\psi_n\right> = \sum_{k=0}^\infty \lambda^k \left|\psi_n^k\right></script>
+
+<table>
+  <tbody>
+    <tr>
+      <td>where the notation $E^k_n$ means the $k$th correction to the $n$th eigenvalue, and the notation $\left</td>
+      <td>\psi_n^k\right&gt;$</td>
+    </tr>
+  </tbody>
+</table>
+
+:ET

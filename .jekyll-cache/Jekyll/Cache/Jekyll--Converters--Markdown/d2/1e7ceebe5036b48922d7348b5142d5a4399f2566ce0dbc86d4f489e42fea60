@@ -1,0 +1,106 @@
+I"c<p>Welcome to Quantum Mechanics II.</p>
+
+<p><a class="page-link" href="/qm-II/notation"> Notation and Conventions </a></p>
+
+<ul>
+
+
+<li>  <a class="page-link" href="unit1/">  Unit 1 - Fundamentals </a> </li>
+<ol> 
+
+
+
+
+<li> <a class="page-link" href="unit1/the_schrödinger_equation"> The_Schrödinger_Equation </a> - <a class="page-link" href="unit1/the_schrödinger_equation-exercises"> Exercises </a> </li>
+
+</ol>
+
+
+<li>  <a class="page-link" href="unit2/"> Unit 1 - Time Independent Perturbation Theory </a> </li>
+<ol> 
+
+
+
+
+<li> <a class="page-link" href="unit2/first_order_perturbation_theory"> First_Order_Perturbation_Theory </a> - <a class="page-link" href="unit2/first_order_perturbation_theory-exercises"> Exercises </a> </li>
+
+
+
+<li> <a class="page-link" href="unit2/second_order_perturbation_theory"> Second_Order_Perturbation_Theory </a> - <a class="page-link" href="unit2/second_order_perturbation_theory-exercises"> Exercises </a> </li>
+
+
+
+<li> <a class="page-link" href="unit2/degenerate_perturbation_theory"> Degenerate_Perturbation_Theory </a> - <a class="page-link" href="unit2/degenerate_perturbation_theory-exercises"> Exercises </a> </li>
+
+
+
+<li> <a class="page-link" href="unit2/fine_structure"> Fine_Structure </a> - <a class="page-link" href="unit2/fine_structure-exercises"> Exercises </a> </li>
+
+
+
+<li> <a class="page-link" href="unit2/hyperfine_structure"> Hyperfine_Structure </a> - <a class="page-link" href="unit2/hyperfine_structure-exercises"> Exercises </a> </li>
+
+
+
+<li> <a class="page-link" href="unit2/zeeman_effect"> Zeeman_Effect </a> - <a class="page-link" href="unit2/zeeman_effect-exercises"> Exercises </a> </li>
+
+</ol>
+
+
+<li>  <a class="page-link" href="unit3/"> Unit 2 - The Variational Principle </a> </li>
+<ol> 
+
+
+
+
+<li> <a class="page-link" href="unit3/theory"> Theory </a> - <a class="page-link" href="unit3/theory-exercises"> Exercises </a> </li>
+
+
+
+<li> <a class="page-link" href="unit3/helium_atom"> Helium_Atom </a> - <a class="page-link" href="unit3/helium_atom-exercises"> Exercises </a> </li>
+
+
+
+<li> <a class="page-link" href="unit3/hydrogen_molecule"> Hydrogen_Molecule </a> - <a class="page-link" href="unit3/hydrogen_molecule-exercises"> Exercises </a> </li>
+
+</ol>
+
+
+<li>  <a class="page-link" href="unit4/"> Unit 3 - WKB Approximation </a> </li>
+<ol> 
+
+
+</ol>
+
+
+<li>  <a class="page-link" href="unit5/"> Unit 4 - Time Dependent Perturbation Theory </a> </li>
+<ol> 
+
+
+</ol>
+
+
+<li>  <a class="page-link" href="supplements/"> Unit 5 - Adiabatic Approximation </a> </li>
+<ol> 
+
+
+</ol>
+
+
+<li>  <a class="page-link" href=""> Unit 6 - Scattering Theory </a> </li>
+<ol> 
+
+
+</ol>
+
+</ul>
+
+<p><strong>Sources</strong></p>
+
+<ol>
+  <li>Introduction to Quantum Mechanics, Griffiths</li>
+  <li>Modern Quantum Mechanics, Sakurai</li>
+  <li>Principles of Quantum Mechanics, Shankar</li>
+  <li>Quantum Mechanics of One and Two Electron Atoms, Salpeter and Bethe</li>
+</ol>
+:ET

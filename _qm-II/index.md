@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Quantum Mechanics II
-permalink: /physics/qm-II/
 banner: qm-II.svg
 ---
 

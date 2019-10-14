@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: lesson
 title: Bloch's Theorem
 dept: physics
 course: ssp
@@ -13,7 +13,11 @@ In this section, we will derive one of the most important results in solid state
 
 $$V(\r) = \sum_{\k} V_\k e^{i\k\cdot\r}$$
 
-where the coefficients $V_\k$ are 
+where the coefficients $V_\k$ are given by 
+
+$$V_\k = \frac{1}{V} \int_V V(\r) e^{-i\k\cdot\r} d^3\r$$
+
+and the integral is taken over the unit cell. 
 
 
 

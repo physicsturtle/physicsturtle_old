@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: lesson
 title: Tight Binding Model
 dept: physics
 course: ssp

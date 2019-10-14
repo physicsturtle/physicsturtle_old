@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: lesson
 title: Kronig Penney Model
 dept: physics
 course: ssp

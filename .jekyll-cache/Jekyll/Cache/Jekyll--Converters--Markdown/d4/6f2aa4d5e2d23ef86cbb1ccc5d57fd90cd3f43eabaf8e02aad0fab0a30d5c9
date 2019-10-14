@@ -1,0 +1,14 @@
+I"«<p>In this section, we will discuss the first order perturbation theory.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Consider the SchrÃ¶dinger equation for a Hamiltonian $H^0$ with known eigenvalues ${E^0_n}$ and corresponding eigenvectors ${\left</td>
+      <td>\psi_n\right&gt;}$.</td>
+    </tr>
+  </tbody>
+</table>
+
+<script type="math/tex; mode=display">\hat{H} \left| \psi_n\right>  = E^0_n \left| \psi^0_n \right></script>
+
+:ET

@@ -4,12 +4,11 @@ title: Solid State Physics
 banner: ssp.svg
 ---
 
-Welcome to Solid State Physics
+Welcome to Solid State Physics!
 
 <a class="page-link" href="/ssp/introduction">Introduction - Solid State Physics? </a>
 
-
-{% assign unitNames = "Unit 1 - Crystallography, Unit 2 - Phonons, Unit 3 - Free Electron Model, Unit 4 - Nearly Free Electron Model, Unit 5 - Tight Binding Model, Unit 6 - Semiconductors, Unit 7 - Metals, Unit 8 - Superconductivity" | split: ', ' %}
+{% assign unitNames = "Unit 1 - Crystallography, Unit 2 - Phonons, Unit 3 - Free Electron Model, Unit 4 - Electrons in Periodic Potential, Unit 5 - Semiconductors, Unit 6 - Metals, Unit 7 - Superconductivity, Appendices" | split: ', ' %}
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, unit6/, unit7/, appendices/" | split: ', ' %}
 
@@ -25,6 +24,10 @@ Welcome to Solid State Physics
 
 {% assign lessonNames6 = "" | split: ', ' %}
 
+{% assign lessonNames7 = "" | split: ', ' %}
+
+{% assign lessonNames8 = "Bravais_Lattices, Fourier_Series" | split: ', ' %}
+
 <ul>
 {% for unitName in unitNames %}
 {% assign unitLink = page.permalink | append: units[forloop.index0] %}
@@ -35,9 +38,12 @@ Welcome to Solid State Physics
 {% elsif unitIndex == 2 %}  {% assign lessonNames = lessonNames3 %}
 {% elsif unitIndex == 3 %}  {% assign lessonNames = lessonNames4 %}
 {% elsif unitIndex == 4 %}  {% assign lessonNames = lessonNames5 %}
+{% elsif unitIndex == 5 %}  {% assign lessonNames = lessonNames6 %}
+{% elsif unitIndex == 6 %}  {% assign lessonNames = lessonNames7 %}
+{% elsif unitIndex == 7 %}  {% assign lessonNames = lessonNames8 %}
 {% endif %}
 {% for lessonName in lessonNames %}
-{% assign lessonTitle = lessonName | replace:  '-', ' ' %}
+{% assign lessonTitle = lessonName | replace:  '_', ' ' %}
 {% assign lowerName = lessonName | downcase %}
 <li> <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink }}"> {{lessonTitle}} </a> - <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink | append: "-exercises" }}"> Exercises </a> </li>
 {% endfor %}

@@ -1,0 +1,27 @@
+I"<p>In this section, we will discuss the first order perturbation theory.</p>
+
+<p>Consider the Schrödinger equation for a Hamiltonian $\hat{H}^0$ with known eigenvalues $\{E^0_n\}$ and corresponding eigenvectors $\{\left|\psi_n\right&gt;\}$. Thus, they satisfy the equation</p>
+
+<script type="math/tex; mode=display">\hat{H}^0 \left| \psi^0_n\right>  = E^0_n \left| \psi^0_n \right>.</script>
+
+<p>In this section, we assume that the eigenvalues are nondegenerate; so there is one and only one eigenstate for each eigenvalue. We then look for how these energy eigenvalues and their states change when we change the Hamiltonian to $\hat{H} = \hat{H}^0 + \lambda \hat{H}’$.</p>
+
+<div class="remark">
+Remark: Note that when we do perturbation theory in quantum mechanics, we usually have that $\hat{H}'$ is a small Hamiltonian, and ramp the parameter $\lambda$ up to 1 at the end. So, $\lambda$ is used more as a bookkeeping device. In mathematics courses on asymptotic analysis/perturbation theory, one usually keeps $\lambda$ as a small parameter throughout the entire problem. 
+</div>
+
+<p>We define power series in $\lambda$ to approximately satisfy the equation for the full Hamiltonian</p>
+
+<script type="math/tex; mode=display">\hat{H} \left| \psi_n\right>  = E_n \left| \psi_n \right>.</script>
+
+<p>The power series are</p>
+
+<script type="math/tex; mode=display">E_n = \sum_{k=0}^\infty \lambda^k E^k_n</script>
+
+<script type="math/tex; mode=display">\left|\psi_n\right> = \sum_{k=0}^\infty \lambda^k \left|\psi_n^k\right></script>
+
+<p>where the notation $E^k_n$ means the $k$th correction to the $n$th eigenvalue, and the notation $\left|\psi_n^k\right&gt;$ means the $k$th correction to the $n$th eigenfunction. Let’s plug these power series representations into the Schrödinger equation.</p>
+
+<p>$$</p>
+
+:ET

@@ -55,11 +55,11 @@ Now, we define $k_n = 2n\pi/L$.
 
 $$f(x) = \sum_{n=-\infty}^\infty c_n e^{ik_n x}.$$
 
-This is the Fourier series in terms of the complex exponential for a real valued function $f(x)$ of a single real variable with period $2L$. 
+This is the Fourier series in terms of the complex exponential for a real valued function $f(x)$ of a single real variable with period $L$. 
 
 We now have different formulas for the coefficients $c_n$. The formula is
 
-$$c_n = \frac{2}{L} \int_0^L f(x) e^{-ik_n x} dx$$ 
+$$c_n = \frac{1}{L} \int_0^L f(x) e^{-ik_n x} dx$$ 
 
 You will prove this formula in the exercises.
 
@@ -74,7 +74,7 @@ $$e^{i\k_\textbf{n}\cdot\x}.$$
 
 where $\k_\textbf{n}$ are the vectors
 
-$$\k_{n_1 n_2 n_3}}= \left(\frac{2n_1\pi}{L_1},\frac{2n_2 \pi}{L_2}, \frac{2n_3\pi}{L_3} \right).$$
+$$\k_{n_1 n_2 n_3} = \left(\frac{2n_1\pi}{L_1},\frac{2n_2 \pi}{L_2}, \frac{2n_3\pi}{L_3} \right).$$
 
 Thus, we write the Fourier series as 
 
@@ -82,9 +82,13 @@ $$f(\x) = \sum_{n_1}\sum_{n_2}\sum_{n_3} c_{n_1 n_2 n_3} e^{i\k_{n_1 n_2 n_3}\cd
 
 where the coefficients are given by
 
-$$c_{n_1 n_2 n_3} = \frac{8}{L_1 L_2 L_3} \int_0^{L_1}\int_0^{L_2} \int_0^{L_3} f(\x) e^{-i k_{n_1 n_2 n_3}\cdot \x} dx dy dz $$
+$$c_{n_1 n_2 n_3} = \frac{1}{L_1 L_2 L_3} \int_0^{L_1}\int_0^{L_2} \int_0^{L_3} f(\x) e^{-i k_{n_1 n_2 n_3}\cdot \x} dx dy dz $$
 
+One can define the volume $V = L_1 L_2 L_3$ and get 
 
+$$c_{n_1 n_2 n_3} = \frac{1}{V} \int_0^{L_1}\int_0^{L_2} \int_0^{L_3} f(\x) e^{-i k_{n_1 n_2 n_3}\cdot \x} dx dy dz $$
+
+In the vector notation,  
 
 
 
