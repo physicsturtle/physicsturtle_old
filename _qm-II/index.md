@@ -8,7 +8,7 @@ Welcome to Quantum Mechanics II.
 
 <a class = "page-link" href = "/qm-II/notation"> Notation and Conventions </a>
 
-{% assign unitNames = " Unit 1 - Fundamentals, Unit 1 - Time Independent Perturbation Theory, Unit 2 - The Variational Principle, Unit 3 - WKB Approximation, Unit 4 - Time Dependent Perturbation Theory, Unit 5 - Adiabatic Approximation, Unit 6 - Scattering Theory" | split: ', ' %}
+{% assign unitNames = "Unit 1 - Fundamentals, Unit 2 - Time Independent Perturbation Theory, Unit 3 - The Variational Principle, Unit 4 - WKB Approximation, Unit 5 - Time Dependent Perturbation Theory, Unit 6 - Adiabatic Approximation, Unit 7 - Electromagnetism in Quantum Mechanics, Unit 8 - Scattering Theory" | split: ', ' %}
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, supplements/" | split: ', ' %}
 
@@ -23,6 +23,10 @@ Welcome to Quantum Mechanics II.
 {% assign lessonNames5 = "" | split: ', ' %}
 
 {% assign lessonNames6 = "" | split: ', ' %}
+
+{% assign lessonNames7 = "Hamiltonian_of_Charged_Particle_in_Electromagnetic_Field, Gauge_Invariance, " | split: ', ' %}
+
+{% assign lessonNames8 = "Review_of_Classical_Scattering, Mathematical_Preliminaries, Partial_Wave_Analysis, Phase_Shifts, Born_Approximation" | split: ', ' %}
 
 <ul>
 {% for unitName in unitNames %}

@@ -29,16 +29,17 @@
 \newcommand{\Q}{\mathbb{Q}}
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\C}{\mathbb{C}}
-\newcommand{\E}{\textbf{E}}
-\newcommand{\B}{\textbf{B}}
-\newcommand{\A}{\textbf{A}}
-\newcommand{\D}{\textbf{D}}
-\newcommand{\J}{\textbf{J}}
-\newcommand{\x}{\textbf{x}}
-\newcommand{\y}{\textbf{y}}
-\newcommand{\p}{\textbf{p}}
-\newcommand{\q}{\textbf{q}}
-\newcommand{\r}{\textbf{r}}
+\newcommand{\E}{\boldsymbol{E}}
+\newcommand{\B}{\boldsymbol{B}}
+\newcommand{\A}{\boldsymbol{A}}
+\newcommand{\D}{\boldsymbol{D}}
+\newcommand{\J}{\boldsymbl{J}}
+\newcommand{\x}{\boldsymbol{x}}
+\newcommand{\y}{\boldsymbol{y}}
+\newcommand{\p}{\boldsymbol{p}}
+\newcommand{\q}{\boldsymbol{q}}
+\newcommand{\r}{\boldsymbol{r}}
+\renewcommand{\k}{\boldsymbol{k}}
 
 \newcommand{\L}{\mathcal{L}}
 \newcommand{\H}{\mathcal{H}}
@@ -46,7 +47,7 @@
 
 \renewcommand{\a}{\hat{a}}
 \renewcommand{\b}{\hat{b}}
-\renewcommand{\k}{\textbf{k}}
+\newcommand{\c}{\hat{c}}
 
 
 \DeclareMathOperator{\O}{O}
@@ -71,12 +72,15 @@
 \DeclareMathOperator{\Arg}{Arg}
 \DeclareMathOperator{\Log}{Log}
 \DeclareMathOperator{\sgn}{\text{sgn}}
-\DeclareMathOperator{\Res}{\text{Res}}
-\DeclareMathOperator{\Tr}{Tr}
+
+\let\Res\relax
+\DeclareMathOperator*{\Res}{Res}
+
+\DeclareMathOperator{\tr}{tr}
 \let\Re\relax
-\DeclareMathOperator{\Re}{\text{Re}}
+\DeclareMathOperator{\Re}{Re}
 \let\Im\relax
-\DeclareMathOperator{\Im}{\text{Im}}
+\DeclareMathOperator{\Im}{Im}
 \)
 </div>
 

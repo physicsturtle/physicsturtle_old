@@ -4,15 +4,7 @@ title: Fluid Mechanics I
 permalink: /fm-I/
 ---
 
-<a class="page-link" href="/cm-III/introduction">Introduction - What is fluid mechanics? </a>
-
-<a class="page-link" href="/cm-III/notation">Notation and Conventions </a>
-
-The prerequisites are as follows
-1. A strong background in Newtonian mechanics
-2. A strong knowledge of multivariable and vector calculus
-3. A working knowledge of ordinary differential equations
-4. A working knowledge of basic electromagnetism
+<a class="page-link" href="/fm-I/notation">Notation and Conventions </a>
 
 {% assign unitNames = "Unit 1 - , Unit 2 - , Unit 3 - , Unit 4 - , Unit 5 - , Unit 6 - , Unit 7 - , Unit 8 - " | split: ', ' %}
 
@@ -47,6 +39,6 @@ The prerequisites are as follows
 
 **Sources**
 
-1. Classical Mechanics - John Taylor
+1. Fluid Mechanics - Landau & Lifshitz
 2. 
 

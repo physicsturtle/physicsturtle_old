@@ -1,8 +1,0 @@
-I"L<h4 id="simple-cubic">Simple Cubic</h4>
-<p>The Bravais lattice vectors for a simple cubic lattice with lattice constant $a$ are</p>
-
-<script type="math/tex; mode=display">\textbf{a}_1 = a\hat{\z},\qquad \textbf{a}_2 = a\hat{\y} ,\qquad \textbf{a}_3 = a\hat{\textbf{z}}</script>
-
-<h4 id="body-centred-cubic">Body-Centred Cubic</h4>
-
-:ET

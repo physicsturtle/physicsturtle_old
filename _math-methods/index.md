@@ -6,7 +6,7 @@ banner: math-methods.svg
 
 Welcome to Mathematical Methods in Physics! 
 
-{% assign unitNames = "Unit 1 - Partial Differential Equations, Unit 2 - Green's Functions, Unit 3 - Complex Variables, Unit 4 - Fourier Analysis, Unit 5 - Calculus of Variations, Unit 6 - Group Theory, Unit 7 - Differential Geometry, Unit 8 - Lie Theory, Unit 9 - Topology" | split: ', ' %}
+{% assign unitNames = "Unit 1 - Partial Differential Equations, Unit 2 - Green's Functions, Unit 3 - Complex Variables, Unit 4 - Fourier Analysis, Unit 5 - Calculus of Functionals, Unit 6 - Calculus of Variations, Unit 7 - Integral Equations, Unit 8 - Linear Algebra, Unit 9 - Group Theory, Unit 10 - Differential Geometry, Unit 11 - Lie Theory, Unit 12 - Topology" | split: ', ' %}
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, unit6/, unit7/, unit8/, unit9/" | split: ', ' %}
 
@@ -22,11 +22,15 @@ Welcome to Mathematical Methods in Physics!
 
 {% assign lessonNames6 = "" | split: ', ' %}
 
-{% assign lessonNames7 = "Riemann_Curvature_Tensor" | split: ', ' %}
-
-{% assign lessonNames8 = "" | split: ', ' %}
+{% assign lessonNames8 = "Riemann_Curvature_Tensor" | split: ', ' %}
 
 {% assign lessonNames9 = "" | split: ', ' %}
+
+{% assign lessonNames10 = "" | split: ', ' %}
+
+{% assign lessonNames11 = "" | split: ', ' %}
+
+{% assign lessonNames12 = "" | split: ', ' %}
 
 <ul>
 {% for unitName in unitNames %}

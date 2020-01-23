@@ -1,14 +1,14 @@
 ---
 layout: unit
-title: Unit 2
+title: Unit 7
 dept: math
-course: calculus-I
+course: calculus-II
 deptDisplay: Math
-courseDisplay: Calculus I
-unit: unit2
+courseDisplay: Calculus II
+unit: unit7
 ---
 
-{% assign lessonNames = "Limits, Limit_Laws, Squeeze_Theorem, Continuity, Intermediate_Value_Theorem, Limits_at_Infinity" | split: ', ' %}
+{% assign lessonNames = "Forms" | split: ', ' %}
 
 <ol>
 {% for lessonName in lessonNames %}

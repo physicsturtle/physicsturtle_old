@@ -23,22 +23,28 @@ Suppose we have a function $f(x) = x^2$. As $x$ approaches 2, it is clear that $
 
 <ol>
 <li> <div> Evaluate the limit.  $$\lim_{x \to 2} \left(x^3 - 2x +1\right) $$ </div>
-
+<div class="answerBox">
 <button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
 <div  id="answer1" class="answer">
 $$\lim_{x \to 2}  \left(x^3 - 2x +1\right) = 2^3 - 2(2) + 1 = 3$$
-</div> </li>
+</div> 
+</div>
+</li>
 
 <li> <div> Evaluate the limit.  $$\lim_{x \to \frac{\pi}{2}} x\sin x$$ </div>
 
+<div class="answerBox">
 <button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
 <div  id="answer2" class="answer">
 $$\lim_{x \to \frac{\pi}{2}} x\sin x = \frac{\pi}{2}\sin\frac{\pi}{2} = \frac{\pi}{2}$$
-</div> </li>
+</div>
+</div>
+</li>
 
 
 <li> <div> Evaluate the limit.  $$\lim_{x \to 0} \frac{3^x - 3^{-x}}{3^x + 3^{-x}}$$ </div>
 
+<div class="answerBox">
 <button onclick="myFunction('answer3')" class="answerButton">Show Answer</button>
 <div  id="answer3" class="answer">
 $$\begin{eqnarray*}
@@ -47,6 +53,8 @@ $$\begin{eqnarray*}
 &=& \frac{0}{2}\\
 &=& 0
 \end{eqnarray*}$$
-</div> </li>
+</div> 
+</div>
+</li>
 
 </ol>

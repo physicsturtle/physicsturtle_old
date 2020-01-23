@@ -112,7 +112,7 @@ $$c_{mn} = \frac{\left<\psi^0_m\right|\hat{H}'\left|\psi^0_n\right>}{E^0_n - E^0
 
 Now that we have the expansion coefficients, we get
 
-\left|\psi^1_n\right> = \sum_{m\neq n} \frac{\left<\psi^0_m\right|\hat{H}'\left|\psi^0_n\right>}{E^0_n - E^0_m}\left|\psi^0_m\right> 
+$$\left|\psi^1_n\right> = \sum_{m\neq n} \frac{\left<\psi^0_m\right|\hat{H}'\left|\psi^0_n\right>}{E^0_n - E^0_m}\left|\psi^0_m\right> $$
 
 and it is at this point we note that it is important that the energy eigenvalues were nondegenerate. If they were, we would have a division by zero! 
 

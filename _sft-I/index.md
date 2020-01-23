@@ -5,9 +5,9 @@ permalink: /sft-I/
 banner: sft-I.svg
 ---
 
-Welcome to Statistical Field Theory I
+Welcome to Statistical Field Theory I. Here, we will be looking at the theory of classical phase transitions. We will cover such topics 
 
-{% assign unitNames = "Unit 1 - , Unit 2 - , Unit 3 - , Unit 4 - , Unit 5 - , Unit 6 - " | split: ', ' %}
+{% assign unitNames = "Unit 1 - Mean Field Theory, Unit 2 - Landau Theory, Unit 3 - Position Space Renormalization Group, Unit 4 - Momentum Space Renormalization Group, Unit 5 - , Unit 6 - " | split: ', ' %}
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, unit6/" | split: ', ' %}
 

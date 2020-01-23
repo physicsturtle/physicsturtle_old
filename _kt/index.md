@@ -11,7 +11,7 @@ The prerequisites are as follows
 3. A working knowledge of ordinary differential equations
 4. A working knowledge of basic electromagnetism
 
-{% assign unitNames = "Unit 1 - The Calculus of Variations, Unit 2 - Lagrange's Equations, Unit 3 - Coupled Oscillators and Normal Modes, Unit 4 - Two Body Central Force Problems, Unit 5 - Noninertial Reference Frames, Unit 6 - Rotational Motion of Rigid Bodies, Unit 7 - Collision Theory, Unit 8 - Hamiltonian Mechanics" | split: ', ' %}
+{% assign unitNames = "Unit 1 - Boltzmann Formalism" | split: ', ' %}
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/" | split: ', ' %}
 

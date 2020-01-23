@@ -9,189 +9,150 @@ courseDisplay: Kinetic Theory
 unitDisplay: Unit 1
 ---
 
-In kinetic theory, we define a distribution function $\rho(\textbf{q},\textbf{p},t)$ for $N$ particles. This distribution function has units 
-
-$$[\rho] = \frac{1}{[\text{momentum}]^{3N}[\text{position}]^{3N}}$$
-
-and has the interpretation that the quantity (where $d\textbf{q}$ is a $3N$ dimensional element, and $d\textbf{q}$ is also a $3N$ dimensional element)
-
-$$\rho(\textbf{q},\textbf{p},t) d \textbf{q} d\textbf{p}$$
-
-is the probability that particle 1 is in $[\textbf{q}_1, \textbf{q}_1 + d\textbf{q}_1]$ with momentum $[\textbf{p}_1,\textbf{p}_1 + d\textbf{p}_1]$,  particle 2 is in $[\textbf{q}_2, \textbf{q}_2 + d\textbf{q}_2]$ with momentum $[\textbf{p}_2,\textbf{p}_2 + d\textbf{p}_2]\dots$  particle $N$ is in $[\textbf{q}_N, \textbf{q}_N + d\textbf{q}_N]$ with momentum $[\textbf{p}_N,\textbf{p}_N + d\textbf{p}_N]$, all at time $t$. 
-
-This distribution function is very complicated! It is a function of $6N$ variables (not including time) and $N$ is normally on the order of Avogadro's number. It is made simpler if we define a 1-particle distribution function $f_1(\textbf{q},\textbf{p},t)$ as the following: 
+### Boltzmann Equation
+To finally derive the Boltzmann equation, let's examine the first two equations of the BBGKY heierarchy. These equations are for $f_1(\q_1,\p_1,t)$ and $f_2(\q_1,\p_1,\q_2,\p_2,t)$. Written out explicitly for $s=1$ and $s=2$, they are 
 
 $$\begin{align*}
-f_1(\textbf{q},\textbf{p},t) =& \left<\sum_{i=1}^N\delta^{(3)}(\textbf{q}-\textbf{q}_i)\delta^{(3)}(\textbf{p}-\textbf{p}_i) \right>\\
-=& \int \sum_{i=1}^N\delta^{(3)}(\textbf{q}-\textbf{q}_i)\delta^{(3)}(\textbf{p}-\textbf{p}_i) \rho(\textbf{q},\textbf{p},t) d\textbf{q}d\textbf{p}\\
-=& \sum_{i=1}^N\int \delta^{(3)}(\textbf{q}-\textbf{q}_i)\delta^{(3)}(\textbf{p}-\textbf{p}_i) \rho(\textbf{q},\textbf{p},t) d\textbf{q}d\textbf{p}\\
-=& \sum_{i=1}^N\int \rho(\textbf{q}_1,..,\textbf{q}_{i-1},\textbf{q},\textbf{q}_{i+1},..,\textbf{q}_N,\textbf{p}_1, \dots \textbf{p}_i = \textbf{p},\dots,\textbf{p}_N,t) \prod_{\substack{j=1\\ j\neq i}}^N d\textbf{q}_j d\textbf{p}_j
+\frac{\partial f_1}{\partial t} + \{f_1,\H_1\} =& \int \sum_{j=1}^1 \frac{\partial V(\q_{2} - \q_j)}{\partial \q_j} \frac{\partial f_{2}}{\partial\p_j}d\q_{2} d\p_{2} \\
+\frac{\partial f_1}{\partial t} + \frac{\partial f_1}{\partial\q_1}\frac{\partial \H_1}{\partial\p_1} - \frac{\partial f_1}{\partial\p_1} \frac{\partial \H_1}{\partial\q_1} =& \int \frac{\partial V(\q_2 - \q_1)}{\partial \q_1} \frac{\partial f_2}{\partial\p_1} d\q_2 d\p_2\\
+\frac{\partial f_1}{\partial t} + \frac{\p_1}{m} \frac{\partial f_1}{\partial\q_1}- \frac{\partial U}{\partial\q_1}  \frac{\partial f_1}{\partial\p_1}=& \int \frac{\partial V(\q_2 - \q_1)}{\partial \q_1} \frac{\partial f_2}{\partial\p_1} d\q_2 d\p_2
 \end{align*}$$
 
-I claim that all of the integrals in this sum (there are $N$ integrals) will be the same. We assume that the distribution $\rho$ is symmetric upon permuting different particles' positions and momenta. Thus, this simplifies to (arbitrarily picking $1$ as the argument which we set to $\textbf{q}$,$\textbf{p}$.)
+The second equation in the BBGKY heierarchy is already much more complicated! To simplify this equation we will have to make note of the fact that $V$ is a symmetric potential. That is, $V(\q_1 - \q_2) = V(\q_2 - \q_1)$.
 
 $$\begin{align*}
-f_1(\textbf{q},\textbf{p},t) =& N\int \rho(\textbf{q}_1 = \textbf{q},\textbf{q}_2\dots \textbf{q}_N,\textbf{p}_1 = \textbf{p},\textbf{p}_2,\dots,\textbf{p}_N,t) \prod_{i=2}^N d\textbf{q}_i d\textbf{p}_i 
+\frac{\partial f_2}{\partial t} + \{f_2,\H_2\} =& \int \sum_{j=1}^2 \frac{\partial V(\q_{3} - \q_j)}{\partial \q_j} \frac{\partial f_{3}}{\partial\p_j}d\q_{3} d\p_{3}\\
+\frac{\partial f_2}{\partial t}  + \frac{\partial f_2}{\partial \q_1}\frac{\partial \H_2}{\partial\p_1} - \frac{\partial f_2}{\partial\p_1}\frac{\partial\H_2}{\partial\q_1} +  \frac{\partial f_2}{\partial \q_2}\frac{\partial \H_2}{\partial\p_2} - \frac{\partial f_2}{\partial\p_2}\frac{\partial\H_2}{\partial\q_2}  =& \int \left( \frac{\partial V(\q_{3} - \q_1)}{\partial \q_1} \frac{\partial f_{3}}{\partial\p_1} +  \frac{\partial V(\q_{3} - \q_2)}{\partial \q_2} \frac{\partial f_{3}}{\partial\p_2} \right) d\q_{3} d\p_{3}\\
+\frac{\partial f_2}{\partial t}  + \frac{\p_1}{m}\frac{\partial f_2}{\partial \q_1} - \left(\frac{\partial U}{\partial\q_1} + \frac{\partial V(\q_1 - \q_2)}{\partial\q_1}\right)\frac{\partial f_2}{\partial\p_1} +  \frac{\p_2}{m}\frac{\partial f_2}{\partial \q_2}- \left(\frac{\partial U}{\partial\q_2} + \frac{\partial V(\q_1 - \q_2)}{\partial\q_2}\right)\frac{\partial f_2}{\partial\p_2} =& \int \left( \frac{\partial V(\q_{3} - \q_1)}{\partial \q_1} \frac{\partial f_{3}}{\partial\p_1} +  \frac{\partial V(\q_{3} - \q_2)}{\partial \q_2} \frac{\partial f_{3}}{\partial\p_2} \right) d\q_{3} d\p_{3} 
 \end{align*}$$
 
-We can similarly define a 2-particle density 
+If we note that 
+
+$$\frac{\partial V(\q_2 - \q_1)}{\partial\q_1} = -\frac{\partial V(\q_2 - \q_1)}{\partial\q_2},$$
+
+then we can simplify this to 
 
 $$\begin{align*}
-f_2(\textbf{q}_1,\textbf{p}_1,\textbf{q}_2,\textbf{p}_2,t) =& N(N-1)\int \rho(\textbf{q}_1, \textbf{q}_2\dots \textbf{q}_N,\textbf{p}_1, \textbf{p}_2,\dots,\textbf{p}_N,t) \prod_{i=3}^N d\textbf{q}_i d\textbf{p}_i 
+\frac{\partial f_2}{\partial t}  + \frac{\p_1}{m}\frac{\partial f_2}{\partial \q_1} - \frac{\partial U}{\partial\q_1}\frac{\partial f_2}{\partial\p_1} +  \frac{\p_2}{m}\frac{\partial f_2}{\partial \q_2}- \frac{\partial U}{\partial\q_2}\frac{\partial f_2}{\partial\p_2} - \frac{\partial V(\q_1 - \q_2)}{\partial\q_1}\left(\frac{\partial f_2}{\partial\p_1} - \frac{\partial f_2}{\partial\p_2}\right) =& \int \left( \frac{\partial V(\q_{3} - \q_1)}{\partial \q_1} \frac{\partial f_{3}}{\partial\p_1} +  \frac{\partial V(\q_{3} - \q_2)}{\partial \q_2} \frac{\partial f_{3}}{\partial\p_2} \right) d\q_{3} d\p_{3} 
 \end{align*}$$
 
-which suggests the form for an $s$-particle density
+Let's summarize the two equations:
 
-$$f_s(\textbf{q}_1,\dots,\textbf{q}_s,\textbf{p}_1,\dots,\textbf{p}_s,t) = \frac{N!}{(N-s)!}\int \rho(\textbf{q}_1,\dots,\textbf{q}_s,\dots\textbf{q}_N,\textbf{p}_1,\dots,\textbf{p}_s,\dots,\textbf{p}_N,t)  \prod_{i=s+1}^N d\textbf{q}_i d\textbf{p}_i $$
+<div class="result">
+The two equations of the BBGKY heierarchy that are of interest to us are 
 
-and note that 
-
-$$f_N(\textbf{q},\textbf{p},t) = N!\rho(\textbf{q},\textbf{p},t).$$
-
-We further define $\rho_s$ by 
-
-$$f_s = \frac{N!}{(N-s)!} \rho_s.$$
-
-We can then ask, how does the $s$-particle density evolve through time at a fixed point in space (we want to know the partial derivative of $\rho_s$ with respect to time, not the total derivative)? We already know that the time evolution of an observable $\mathcal{O}$ of all the $\textbf{q}$'s and $\textbf{p}$'s evolves according to
-
-$$\frac{d\mathcal{O}}{dt} = \frac{\partial \mathcal{O}}{\partial t} + \left\{\mathcal{O}, \mathcal{H}\right\}.$$
-
-The form of the Hamiltonian clearly plays an important role in how the distribution evolves! We will use the simplest Hamiltonian including a two-body interaction. This two body interaction could be a Coulomb interaction, Lennard-Jones potential, or something else. The point is that we don't consider three or four body interactions. The Hamiltonian describing this is 
-
-$$\mathcal{H} = \sum_{i=1}^N\left[\frac{\textbf{p}_i^2}{2m} + U(\textbf{q}_i)\right] + \frac{1}{2}\sum_{i,j = 1}^N V(\textbf{q}_i - \textbf{q}_j)$$
-
-where the sum over $i,j$ omits term where $i=j$; the particles don't interact with themselves.
-
-Consider now
+$$\begin{align*}\left[\frac{\partial }{\partial t} + \frac{\p_1}{m} \frac{\partial }{\partial\q_1}- \frac{\partial U}{\partial\q_1}  \frac{\partial }{\partial\p_1}\right] f_1 =& \int \frac{\partial V(\q_2 - \q_1)}{\partial \q_1} \frac{\partial f_2}{\partial\p_1} d\q_2 d\p_2 \end{align*}$$
 
 $$\begin{align*}
-\frac{d\rho_s}{dt} =& \frac{d}{dt}\int\rho(\textbf{q},\textbf{p},t)  \prod_{i=s+1}^N d\textbf{q}_i d\textbf{p}_i \\
-=& \int  \frac{d}{dt}\rho(\textbf{q},\textbf{p},t)  \prod_{i=s+1}^N d\textbf{q}_i d\textbf{p}_i \\
-=& 0
-\end{align*} $$
-
-This tells us that $d\rho_s/dt = 0$ too! Thus, it is possible to represent 
-
-$$\begin{align*}
-\frac{\partial\rho_s}{\partial t} = \frac{\partial}{\partial t} \int\rho(\textbf{q},\textbf{p},t)  \prod_{i=s+1}^N d\textbf{q}_i d\textbf{p}_i \\
-=& \int   \frac{\partial}{\partial t}\rho(\textbf{q},\textbf{p},t)  \prod_{i=s+1}^N d\textbf{q}_i d\textbf{p}_i 
+\left[\frac{\partial }{\partial t}  + \frac{\p_1}{m}\frac{\partial }{\partial \q_1} - \frac{\partial U}{\partial\q_1}\frac{\partial }{\partial\p_1} +  \frac{\p_2}{m}\frac{\partial }{\partial \q_2}- \frac{\partial U}{\partial\q_2}\frac{\partial }{\partial\p_2} - \frac{\partial V(\q_1 - \q_2)}{\partial\q_1}\left(\frac{\partial }{\partial\p_1} - \frac{\partial }{\partial\p_2}\right)\right] f_2 =& \int \left( \frac{\partial V(\q_{3} - \q_1)}{\partial \q_1} \frac{\partial f_{3}}{\partial\p_1} +  \frac{\partial V(\q_{3} - \q_2)}{\partial \q_2} \frac{\partial f_{3}}{\partial\p_2} \right) d\q_{3} d\p_{3} 
 \end{align*}$$
 
-We can thus use the fact that 
+</div> <br>
 
-$$\frac{\partial\rho}{\partial t} + \{\rho,H\} = 0$$
+These are the two equations of the BBGKY heierarchy that we will analyze. These equations have different limits that can be studied. This is done by analyzing the different time scales over which these terms act. 
 
-to get 
+* The terms like $\partial U/\partial\q \cdot \partial/\partial\p_2$ have order $1/\tau$ which is the average collision time of a particle with the walls of the box it's contained in
+* The terms like $\partial V/\partial \q \cdot \partial/\partial \p$ have order $1/\tau_c$, which is the average time it takes for two particles to come together and then scatter.
+* The term on the right hand side of the second equation has order $1/\tau_x$ which is the average time between consecutive collisions of two particles. 
 
-$$\begin{align*}
-\frac{\partial\rho_s}{\partial t} =& - \int \{\rho,\mathcal{H}\}  \prod_{i=s+1}^N d\textbf{q}_i d\textbf{p}_i
-\end{align*}$$
+In the Boltzmann formalism, we set the RHS of the second equation to zero and simply have the first two equations in the BBGKY heierarchy as 
 
-We thus split up $\mathcal{H}$ into three parts:
-
-$$\mathcal{H} = \mathcal{H}_s + \mathcal{H}_{N-s} + \tilde{\mathcal{H}}$$
-
-whereby
-
-$$\mathcal{H}_s = \sum_{i=1}^s \left[\frac{\textbf{p}_i^2}{2m} + U_i(\textbf{q})\right] + \frac{1}{2}\sum_{i,j=1}^s V(\textbf{q}_i - \textbf{q}_j)$$
-
-$$\mathcal{H}_{N-s} = \sum_{i=s+1}^N \left[\frac{\textbf{p}_i^2}{2m} + U_i(\textbf{q})\right] + \frac{1}{2}\sum_{i,j=s+1}^N V(\textbf{q}_i - \textbf{q}_j)$$
-
-$$\tilde{\mathcal{H}}= \sum_{i=1}^s\sum_{j=s+1}^N V(\textbf{q}_i - \textbf{q}_j)$$
-
-so, 
-
-* $\mathcal{H}_s$ contains only energies of the first $s$ particles and their interactions with one another
-* $\mathcal{H}_{N-s}$ contains only energies of the last $N-s$ particles and their interactions with one another
-* $\tilde{\mathcal{H}}$ contains the interactions between the first $s$ particles and the last $N-s$ particles.
-
-We substitute these expressions in and note that we have three separate integrals to evaluate.  
+$$\begin{align*}\left[\frac{\partial }{\partial t} + \frac{\p_1}{m} \frac{\partial }{\partial\q_1}- \frac{\partial U}{\partial\q_1}  \frac{\partial }{\partial\p_1}\right] f_1 =& \int \frac{\partial V(\q_2 - \q_1)}{\partial \q_1} \frac{\partial f_2}{\partial\p_1} d\q_2 d\p_2 \end{align*}$$
 
 $$\begin{align*}
-\frac{\partial\rho_s}{\partial t} =& - \int \{\rho,\mathcal{H}_s + \mathcal{H}_{N-s} + \tilde{\mathcal{H}}\}  \prod_{i=s+1}^N d\textbf{q}_i d\textbf{p}_i
+\left[\frac{\partial }{\partial t}  + \frac{\p_1}{m}\frac{\partial }{\partial \q_1} - \frac{\partial U}{\partial\q_1}\frac{\partial }{\partial\p_1} +  \frac{\p_2}{m}\frac{\partial }{\partial \q_2}- \frac{\partial U}{\partial\q_2}\frac{\partial }{\partial\p_2} - \frac{\partial V(\q_1 - \q_2)}{\partial\q_1}\left(\frac{\partial }{\partial\p_1} - \frac{\partial }{\partial\p_2}\right)\right] f_2 =& 0
 \end{align*}$$
 
-Looking at the first Poisson bracket, we want to evaluate 
+The second equation is an equation for $f_2$, which can then be plugged into the first equation to find $f_1$. It is possible to do some more manipulations to simplify these further. We attempt to massage the first equation so that it looks like the second equation, which will allow us to "plug in" the second equation to the first. Let's look more closely at the first equation. 
 
-$$\int\{\rho,\mathcal{H}_s\}  \prod_{i=s+1}^N d\textbf{q}_i d\textbf{p}_i,$$
+$$\begin{align*}\left[\frac{\partial }{\partial t} + \frac{\p_1}{m} \frac{\partial }{\partial\q_1}- \frac{\partial U}{\partial\q_1}  \frac{\partial }{\partial\p_1}\right] f_1 =& \int \frac{\partial V(\q_2 - \q_1)}{\partial \q_1} \frac{\partial f_2}{\partial\p_2} d\q_2 d\p_2 \end{align*}$$
 
-but immediately notice that the (surviving) differentiations are all with respect to $\textbf{q}_1,\dots,\textbf{q}_s$, and $\textbf{p}_1,\dots,\textbf{p}_s$ because $\mathcal{H}_s$ is independent of 
+Let's add a term to the right hand side. 
 
-$\textbf{q}_{s+1},\dots,\textbf{q}_N$ and $\textbf{p}_s,\dots,\textbf{p}_N$. This means that we can interchange the order of differentiation and integration:
+$$\begin{align*}\left[\frac{\partial }{\partial t} + \frac{\p_1}{m} \frac{\partial }{\partial\q_1}- \frac{\partial U}{\partial\q_1}  \frac{\partial }{\partial\p_1}\right] f_1 =& \int \frac{\partial V(\q_2 - \q_1)}{\partial \q_1} \left(\frac{\partial }{\partial\p_1} - \frac{\partial}{\partial\p_2}\right)f_2  d\q_2 d\p_2 \end{align*}$$
 
-$$\int\{\rho,\mathcal{H}_s\}  \prod_{i=s+1}^N d\textbf{q}_i d\textbf{p}_i = \left\{\int\rho \prod_{i=s+1}^N d\textbf{q}_i d\textbf{p}_i,\mathcal{H}_s\right\} $$
+The term that we added is actually zero because we can integrate it over $\p_2$ and end up with a negligible surface term. This term looks exactly like part of the second equation in the BBGKY heierarchy! 
 
+When we discuss collision/scattering processes, it is often useful to consider the centre of mass coordinate system. Consider two particles with positions $\q_1$ and $\q_2$. Define the center of mass coordinate and relative coordinate to be 
 
+$$\textbf{Q} = \frac{\q_1 + \q_2}{2},\qquad \q = \q_2 - \q_1$$
 
+respectively. We then change the derivatives
 
+$$\frac{\partial}{\partial \q_1} = -\frac{\partial}{\partial\q}, \qquad \frac{\partial}{\partial \q_2} = \frac{\partial}{\partial\q}$$
 
+so that the second equation of the BBGKY heierarchy becomes 
 
+$$\begin{align*}
+\left[\frac{\partial }{\partial t} + \frac{\p_2-\p_1}{m}\frac{\partial }{\partial \q} - \frac{\partial U}{\partial\q_1}\frac{\partial }{\partial\p_1} - \frac{\partial U}{\partial\q_2}\frac{\partial }{\partial\p_2} - \frac{\partial V(\q_1 - \q_2)}{\partial\q_1}\left(\frac{\partial }{\partial\p_1} - \frac{\partial }{\partial\p_2}\right)\right] f_2 =& 0
+\end{align*}$$
 
+We now recognize that the external forces $\partial U/\partial\q_1$ and $\partial U/\partial\q_2$ are much smaller than the interaction term. Thus we ignore them to get 
 
+$$\begin{align*}
+\left[\frac{\partial }{\partial t} + \frac{\p_2-\p_1}{m}\frac{\partial }{\partial \q} - \frac{\partial V(\q_1 - \q_2)}{\partial\q_1}\left(\frac{\partial }{\partial\p_1} - \frac{\partial }{\partial\p_2}\right)\right] f_2 =& 0
+\end{align*}$$
 
+Now we isolate 
 
+$$\begin{align*}
+\left[\frac{\partial }{\partial t} + \frac{\p_2-\p_1}{m}\frac{\partial }{\partial \q}\right]  f_2 =& \frac{\partial V(\q_1 - \q_2)}{\partial\q_1}\left(\frac{\partial }{\partial\p_1} - \frac{\partial }{\partial\p_2}\right)f_2
+\end{align*}$$
 
+and thus plug this result into the first equation from the BBGKY heierarchy. 
 
+$$\begin{align*}\left[\frac{\partial }{\partial t} + \frac{\p_1}{m} \frac{\partial }{\partial\q_1}- \frac{\partial U}{\partial\q_1}  \frac{\partial }{\partial\p_1}\right] f_1 =& \int \left[\frac{\p_2-\p_1}{m}\frac{\partial }{\partial \q}\right]  f_2  d\q_2 d\p_2 \end{align*}$$
 
+Now we change variables in the integral from being over $\q_2$ to being over $\q$. 
 
+$$\begin{align*}\left[\frac{\partial }{\partial t} + \frac{\p_1}{m} \frac{\partial }{\partial\q_1}- \frac{\partial U}{\partial\q_1}  \frac{\partial }{\partial\p_1}\right] f_1 =& \int \left[\frac{\p_2-\p_1}{m}\frac{\partial }{\partial \q}\right]  f_2  d\q d\p_2 \end{align*}$$
 
+The volume element $\q$ can in fact be split up. Recall that $\q$ is the displacement vector between the two colliding particles. Recall that in any scattering event, we have an impact parameter $\textbf{b}$. Define the axial vector $\textbf{a}$ to be parallel to the momenta $\p_1 - \p_{cm}$ and $\p_2 - \p_{cm}$. Writing $d^3\q = d^2\b da$ allows us to integrate in the $a$ direction. 
 
+We also note that the change in variables for our coordinates implies changes of variables for our momenta as well. This allows us to simplify the integral by writing in terms of the momenta relevant to the collision. 
 
+(show figure of scattering event here)
 
+The vector $\textbf{a}$ is parallel to the line $\p_2 - \p_1$. It is also parallel to $\q$. This allows us to put an absolute value sign on the difference in momenta and integrate over $a$. 
 
+$$\int\left[\frac{\p_2 - \p_1}{m}\frac{\partial}{\partial\q} \right] f_2 d\q d\p_2 = \int\left[\frac{|\p_2 - \p_1|}{m}\frac{\partial}{\partial a} \right] f_2  da d^2\textbf{b} d\p_2$$
 
+Explicitly integrating over $a$, we can actually evaluate the bounds just outside the region of interaction as opposed to at the edges of the box we're working in. 
 
+$$\int\left[\frac{|\p_2 - \p_1|}{m}\frac{\partial}{\partial a} \right] f_2  da d^2\textbf{b} d\p_2 = \int\frac{|\p_2 - \p_1|}{m} [f_2(\p'_1,\p'_2,t) - f_2(\p_1,\p_2,t)] d^2\textbf{b} d\p_2 $$
 
+The explicit dependence on $\q$ has been integrated out, but $\p_1'$ and $\p_2'$ are both functions of $\p_1$, $\p_2,$ and $\textbf{b}$. Now, we claim the assumption of molecular chaos. If the two particles that are colliding are far away from one another, the distribution function $f_2$ can be split up into two. The assumption comes from assuming that they can also be split up when they are close to one another, and that this splitting up occurs just outside the region of interaction. Writing 
 
+$$f_2(\q_1,\q_2,\p_1,\p_2,t) = f_1(\q_1,\p_1,t) f_1(\q_2,\p_2,t),$$
 
+$$\int\left[\frac{|\p_2 - \p_1|}{m}\frac{\partial}{\partial a} \right] f_2  da d^2\textbf{b} d\p_2 = \int\frac{|\p_2 - \p_1|}{m} [f_1(\q_2,\p'_1,t) f_1(\q_2, \p'_2,t) - f_1(\q_1\p_1,t) f_1(\q_1,\p_2,t)] d^2\textbf{b} d\p_2 $$
 
+and then let the two positions $\q_1$ and $\q_2$ to be the same, which makes sense just outside the region of interaction.
 
+$$\int\left[\frac{|\p_2 - \p_1|}{m}\frac{\partial}{\partial a} \right] f_2  da d^2\textbf{b} d\p_2 = \int\frac{|\p_2 - \p_1|}{m} [f_1(\q_1,\p'_1,t) f_1(\q_1, \p'_2,t) - f_1(\q_1, \p_1,t) f_1(\q_1, \p_2,t)] d^2\textbf{b} d\p_2 $$
 
+We now define the collision integral
 
+$$C[f_1,f_1] =  \int\frac{|\p_2 - \p_1|}{m} [f_1(\p'_1,t) f_1(\p'_2,t) - f_1(\p_1,t) f_1(\p_2,t)] d^2\textbf{b} d\p_2$$
 
+We further define the Liouville operator 
 
+$$\L f_1 = \left[\frac{\partial }{\partial t} + \frac{\p_1}{m}\frac{\partial }{\partial \q_1} - \frac{\partial U}{\partial q}\frac{\partial }{\partial \p}\right]f_1$$
 
+which allows us to define 
 
+<div class="result">
+The Boltzmann equation $\L f_1 = C[f_1,f_2]$ is the PDE
 
+$$ \left[\frac{\partial }{\partial t} + \frac{\p_1}{m}\frac{\partial }{\partial \q_1} - \frac{\partial U}{\partial \q}\frac{\partial }{\partial \p}\right]f_1 = \int\frac{|\p_2 - \p_1|}{m} [f_1(\p'_1,t) f_1(\p'_2,t) - f_1(\p_1,t) f_1(\p_2,t)] d^2\textbf{b} d\p_2$$
+</div> <br>
+ 
+ The Boltzmann equation is a PDE of seven variables: $\q$ is a 3D vector, $\p$ is a 3D vector, and we also have time $t$. 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-$$\left(\frac{\partial\rho}{\partial\textbf{q}}\frac{\partial \mathcal{H}}{\partial\textbf{p}} - \frac{\partial\rho}{\partial\textbf{p}}\frac{\partial\mathcal{H}}{\partial\textbf{q}}\right)$$
 
 
 

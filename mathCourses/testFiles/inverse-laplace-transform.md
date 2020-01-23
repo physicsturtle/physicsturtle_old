@@ -12,7 +12,7 @@ $$f(t) = \frac{1}{2\pi i}\lim_{T\to\infty}\int_{\gamma - iT}^{\gamma + iT}e^{st}
 
 where $\Re(s) = \gamma$ is the vertical line where $\gamma$ is greater than all singularities of $F(s)$, and $F(s)$ is also bounded on the line $\Re(s) = \gamma$. In practice, this integral can be evaluated by constructing a semicircular contour going upward along the line $\Re(s) = \gamma$, then counterclockwise along the contour $s = \gamma + re^{i\theta}$ for $\theta$ from $\pi/2$ to $3\pi/2$. 
 
-
+$$\boldsymbol{k}$$
 
 <div class="example">
 <b>Example:</b> Find the inverse Laplace transform of $F(s) = 1/s$. 

@@ -37,3 +37,12 @@ London equation, BCS theory, pairing instability, Cooper pairs
 Transition temperature, energy gap, ground state wavefunction
 Meissner effect, tunneling experiments, flux quantization and the Josephson effect
 
+
+
+
+Why is the band structure important? What can be concluded by looking at the band structure? For example, insulator, conductor, semiconductor. 
+
+Note that one gets a Fermi surface for each band which crosses the Fermi energy.
+
+Question: Does the band structure change when temperature is changed?
+Answer: No! The bands that are occupied might change, but the band structure itself should stay constant. 

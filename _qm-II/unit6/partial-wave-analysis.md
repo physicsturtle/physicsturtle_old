@@ -1,8 +1,12 @@
 ---
 layout: page
 title: Partial Wave Analysis
-course: test
-unit: unit1
+dept: physics
+course: qm-II
+unit: unit6
+deptDisplay: Physics
+courseDisplay: Quantum Mechancis II
+unitDisplay: Unit 6
 ---
 
 In this section, we will discuss another approximation for scattering problems, known as the Born approximation. Consider the time independent Schrödinger equation

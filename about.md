@@ -69,7 +69,7 @@ The following curriculum is based on a maximum of 6 courses per semester for 4 y
 </tr>
 <tr> <!--- Semester 6 --->
 <td>6</td>
-<td> Electromagnetism II<br> Statistical Mechanics <br> Optics </td>
+<td> Electromagnetism II<br> Statistical Mechanics I <br> Optics </td>
 <td> Real Analysis II <br> Abstract Algebra <br> Green's Functions </td>
 </tr>
 <tr> <!--- Semester 7 --->

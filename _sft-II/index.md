@@ -5,7 +5,7 @@ permalink: /sft-II/
 banner: sft-II.svg
 ---
 
-Welcome to Statistical Field Theory II
+Welcome to Statistical Field Theory II. This course extends what we learned in the previous course into the quantum mechanical domain; we will now be looking at quantum mechanical phase transitions.
 
 {% assign unitNames = "Unit 1 - , Unit 2 - , Unit 3 - , Unit 4 - , Unit 5 - , Unit 6 - " | split: ', ' %}
 

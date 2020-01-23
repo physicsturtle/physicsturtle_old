@@ -43,7 +43,7 @@ Welcome to Quantum Mechanics III, or, a first course in graduate quantum mechani
 <a class="page-link" href="/qm-I/introduction">Quantum Mechanics III </a>
 
 
-{% assign unitNames = "Unit 1 - Basic Formulation, Unit 2 - Time-Independent Schrödinger Equation, Unit 3 - Formalism, Unit 4 - Spin and Composite Systems, Unit 5 - Identical Particles, Unit 6 - Symmetries" | split: ', ' %}
+{% assign unitNames = "Unit 1 - , Unit 2 - , Unit 3 - , Unit 4 - , Unit 5 - , Unit 6 - " | split: ', ' %}
 
 {% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, unit6/" | split: ', ' %}
 
