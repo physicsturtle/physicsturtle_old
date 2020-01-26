@@ -1,10 +1,12 @@
 ---
 layout: lesson
-title: GREEN'S THEOREM
+title: Green's Theorem
+dept: math
 course: calculus-III
 unit: unit5
-lessonID: green-theorem
-nextID: divergence
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 5
 ---
 
 Green's thoerem, as well as the divergence theorem and Stoke's theorem, which we will see later, is a generalization of integration by parts. Here we will define Green's theorem, prove it, as well as give some examples of its use. Green's theorem has two distinct formulations, with one corresponding to the divergence  theorem and the other to Stoke's theorem. 

@@ -1,8 +1,12 @@
 ---
 layout: lesson
 title: Curvature and Torsion
+dept: math
 course: calculus-III
 unit: unit2
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 2
 ---
 
 - Definitions of curvature and torsion using parametrization by arc length

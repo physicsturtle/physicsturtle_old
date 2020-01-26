@@ -1,10 +1,12 @@
 ---
 layout: lesson
-title: STOKES THEOREM
+title: Stokes Theorem
+dept: math
 course: calculus-III
 unit: unit5
-lessonID: stokes-theorem
-nextID: divergence-theorem
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 5
 ---
 
 Stoke's theorem relates the amount of rotation of a vector field 

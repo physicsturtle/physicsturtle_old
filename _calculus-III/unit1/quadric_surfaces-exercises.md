@@ -1,10 +1,12 @@
 ---
-layout: lesson
-title: QUADRIC SURFACES
+layout: exercises
+title: Quadric Surfaces - Exercises
+dept: math
 course: calculus-III
 unit: unit1
-lessonID: quadric-surfaces
-nextID: cylindrical-coordinates
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 1
 ---
 
 

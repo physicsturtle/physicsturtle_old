@@ -1,8 +1,12 @@
 ---
 layout: lesson
 title: Limits and Continuity
+dept: math
 course: calculus-III
 unit: unit2
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 2
 ---
 
 In first semester calculus, you learned how to take limits of functions $f : \mathbb{R}\to \mathbb{R}$. In this section, we perform a straightforward extension of this idea to functions in higher dimensions.  When taking the limit of a vector valued function, we define this by taking the limit of each component. Thus for a vector valued function $\textbf{r}(t) = (x(t),y(t),z(t))$,

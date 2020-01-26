@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: SPHERICAL COORDINATES
+title: Spherical Coordinates
 dept: math
 course: calculus-III
 unit: unit1

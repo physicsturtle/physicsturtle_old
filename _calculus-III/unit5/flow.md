@@ -1,10 +1,12 @@
 ---
 layout: lesson
-title: FLOW OF A VECTOR FIELD
+title: Flow of a Vector Field
+dept: math
 course: calculus-III
 unit: unit5
-lessonID: flow
-nextID: maxwell-equations
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 5
 ---
 
 Read up a bit on this before writing

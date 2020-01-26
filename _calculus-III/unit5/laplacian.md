@@ -1,10 +1,12 @@
 ---
 layout: lesson
-title: LAPLACIAN
+title: Laplacian
+dept: math
 course: calculus-III
 unit: unit5
-lessonID: laplacian
-nextID: surface-integrals
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 5
 ---
 
 - Definition of laplacian

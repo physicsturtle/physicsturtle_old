@@ -1,10 +1,12 @@
 ---
 layout: lesson
-title: SURFACE INTEGRALS 
+title: Surface Integrals
+dept: math
 course: calculus-III
 unit: unit5
-lessonID: surface-integrals
-nextID: stokes-theorem
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 5
 ---
 
 Things you should understand after completing this lesson.

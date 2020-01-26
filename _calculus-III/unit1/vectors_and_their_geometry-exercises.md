@@ -1,8 +1,12 @@
 ---
-layout: lesson
-title: Vectors and Their Geometry
+layout: exercises
+title: Vectors and Their Geometry - Exercises
+dept: math
 course: calculus-III
 unit: unit1
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 1
 ---
 In high school, we learned that a vector is a quantity with magnitude and direction. Here, we will present a more abstract notion of vectors, that we will be able to generalize in order to solve more complex problems. Physical examples of vectors that you have learned about before could be: *position*, *momentum*, or maybe *electric field*. These can be constrasted with scalars, which are just numbers. For example, *temperature*, *pressure*, or *altitude*. 
 

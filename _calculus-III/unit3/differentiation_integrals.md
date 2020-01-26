@@ -1,8 +1,12 @@
 ---
 layout: lesson
 title: Differentiation of Integrals
+dept: math
 course: calculus-III
 unit: unit3
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 3
 ---
 
 Here we will derive a useful formula for differentiating integrals. Suppose I have a function \\(g\\):

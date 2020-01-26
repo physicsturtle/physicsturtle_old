@@ -1,8 +1,12 @@
 ---
 layout: lesson
 title: Change of Variables
+dept: math
 course: calculus-III
 unit: unit4
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 4
 ---
 
 - the jacobian revisited

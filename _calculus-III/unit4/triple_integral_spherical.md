@@ -1,10 +1,12 @@
 ---
 layout: lesson
-title: TRIPLE INTEGRALS IN SPHERICAL COORDINATES
+title: Triple Integrals in Spherical Coordinates
+dept: math
 course: calculus-III
 unit: unit4
-lessonID: triple-integral-spherical
-nextID: change-of-variables
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 4
 ---
 
 - the jacobian for spherical coordiantes -- geometric derivation and determinant derivation

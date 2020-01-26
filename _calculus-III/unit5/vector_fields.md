@@ -1,10 +1,12 @@
 ---
 layout: lesson
-title: VECTOR FIELDS
+title: Vector Fields
+dept: math
 course: calculus-III
 unit: unit5
-lessonID: vector-fields
-nextID: line-integrals
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 5
 ---
 
 - Vector valued functions, graphing in 2D and 3D

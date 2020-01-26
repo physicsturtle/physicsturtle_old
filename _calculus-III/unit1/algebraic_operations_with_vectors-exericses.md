@@ -1,7 +1,7 @@
 ---
-layout: lesson
+layout: exercises
 dept: math
-title: Algebraic Operations with Vectors
+title: Algebraic Operations with Vectors - Exercises
 course: calculus-III
 unit: unit1
 deptDisplay: Math

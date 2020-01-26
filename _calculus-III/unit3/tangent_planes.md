@@ -1,8 +1,12 @@
 ---
 layout: lesson
 title: Tangent Planes and Linear Approximations
+dept: math
 course: calculus-III
 unit: unit3
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 3
 ---
 
 In single variable calculus, we learned that the significance of the derivative was that it was the slope of the function at a point. Here, we will show that the concept of a derivative has the same geometric interpretation as before. However, this time we will be looking at *tangent planes* instead of tangent lines.

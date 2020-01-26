@@ -1,8 +1,12 @@
 ---
 layout: lesson
 title: Limits and Continuity*
+dept: math
 course: calculus-III
 unit: unit3
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 3
 ---
 
 - Definition of continuity

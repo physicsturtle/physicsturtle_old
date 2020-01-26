@@ -1,10 +1,12 @@
 ---
 layout: lesson
-title: DIVERGENCE
+title: Divergence
+dept: math
 course: calculus-III
 unit: unit5
-lessonID: divergence
-nextID: curl
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 5
 ---
 
 - Definitions of divergence and curl

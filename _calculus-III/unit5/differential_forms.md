@@ -1,9 +1,12 @@
 ---
 layout: lesson
-title: DIFFERENTIAL FORMS*
+title: Differential Forms*
+dept: math
 course: calculus-III
 unit: unit5
-lessonID: differential-forms
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 5
 ---
 
 Differential forms are a way of extending multivariable calculus to arbitrary coordinate systems. In more advanced courses, this even allows one to do calculus when the *domain* of the function is a curved surface! Here we will be restricting our attention to as simple as can be, in hopes that you are inspired by this to look up further information on the topic on your own.

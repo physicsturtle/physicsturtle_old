@@ -1,8 +1,12 @@
 ---
 layout: lesson
 title: Chain Rule
+dept: math
 course: calculus-III
 unit: unit3
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 3
 ---
 
 The chain rule is often one of the more difficult sections for students to grasp in multivariable calculus. This is usually because of sloppy notation, both on the part of the instructor and student. Here we will try to be as explicit and clear as possible so that the student can learn good habits.

@@ -1,8 +1,12 @@
 ---
-layout: lesson
-title: Three Dimensional Cartesian Coordinates
+layout: exercises
+title: Three Dimensional Cartesian Coordinates - Exercises
+dept: math
 course: calculus-III
 unit: unit1
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 1
 ---
 
 ### Introduction

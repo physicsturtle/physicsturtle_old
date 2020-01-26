@@ -1,6 +1,7 @@
 ---
 layout: lesson
 title: Differentiation and Integration of Curves
+dept: math
 course: calculus-III
 unit: unit2
 deptDisplay: Math

@@ -1,10 +1,12 @@
 ---
 layout: lesson
-title: LINE INTEGRALS 2D
+title: Line Integrals in 2D
+dept: math
 course: calculus-III
 unit: unit5
-lessonID: line-integrals
-nextID: fundamental-theorem-line-integrals
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 5
 ---
 
 ### Introduction

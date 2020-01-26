@@ -1,8 +1,12 @@
 ---
 layout: lesson
 title: Partial Differentiation
+dept: math
 course: calculus-III
 unit: unit3
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 3
 ---
 
 - Geometric interpretation of partial derivative

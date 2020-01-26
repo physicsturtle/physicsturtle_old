@@ -1,8 +1,12 @@
 ---
 layout: lesson
 title: Double Integral over a General Plane Region
+dept: math
 course: calculus-III
 unit: unit4
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 4
 ---
 
 - Variable bounds of integration

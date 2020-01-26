@@ -1,10 +1,12 @@
 ---
 layout: lesson
-title: TRIPLE INTEGRALS
+title: Triple Integrals
+dept: math
 course: calculus-III
 unit: unit4
-lessonID: triple-integral
-nextID: triple-integral-cylindrical
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 4
 ---
 
 - Geometric interpretation of triple integration

@@ -1,8 +1,12 @@
 ---
 layout: lesson
 title: Double Integral over a Rectangle
+dept: math
 course: calculus-III
 unit: unit4
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 4
 ---
 
 - Fubini's theorem

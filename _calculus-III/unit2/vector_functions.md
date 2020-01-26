@@ -1,8 +1,12 @@
 ---
 layout: lesson
 title: Vector Functions
+dept: math
 course: calculus-III
 unit: unit2
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 2
 ---
 
 - Parametric form of a curve

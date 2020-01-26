@@ -1,8 +1,12 @@
 ---
-layout: lesson
-title: Norm
+layout: exercises
+title: Norm - Exercises
+dept: math
 course: calculus-III
 unit: unit1
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 1
 ---
 
 Here we continue with the possible operations that one can do with vectors. The topic of this lesson is the *norm* of a vector. This is just a fancy word for the *length* or the *magnitude* of a vector. 

@@ -1,10 +1,12 @@
 ---
 layout: lesson
-title: RIEMANN SUMS
+title: Riemann Sums
+dept: math
 course: calculus-III
 unit: unit4
-lessonID: riemann-sums
-nextID: double-integral-rectangle
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 4
 ---
 
 - Partitions of the plane

@@ -1,10 +1,12 @@
 ---
 layout: lesson
-title: SURFACE AREA
+title: Surface Area
+dept: math
 course: calculus-III
 unit: unit4
-lessonID: surface-area
-nextID: triple-integral
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 4
 ---
 
 - geometric derivation of surface area

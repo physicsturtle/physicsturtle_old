@@ -1,10 +1,12 @@
 ---
 layout: lesson
-title: APPLICATIONS
+title: Applications
+dept: math
 course: calculus-III
 unit: unit5
-lessonID: applications
-nextID: flow
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 5
 ---
 
 Don't know what to put in this section...

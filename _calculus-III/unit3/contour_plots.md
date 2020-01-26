@@ -1,8 +1,12 @@
 ---
 layout: lesson
 title: Contour Plots and Level Sets
+dept: math
 course: calculus-III
 unit: unit3
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 3
 ---
 
 

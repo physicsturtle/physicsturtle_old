@@ -1,10 +1,12 @@
 ---
 layout: lesson
-title: FUNDAMENTAL THEOREM OF LINE INTEGRALS
+title: Fundamental Theorem of Line Integrals
+dept: math
 course: calculus-III
 unit: unit5
-lessonID: fundamental-theorem-line-integrals
-nextID: green-theorem
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 5
 ---
 
 - Proof of fundamental theorem of line itnegrals using FTC from one dimension

@@ -1,10 +1,12 @@
 ---
 layout: lesson
 title: Maxwell's Equations*
+dept: math
 course: calculus-III
 unit: unit5
-lessonID: maxwell-equations
-nextID: differential-forms
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 5
 ---
 
 In this section, we will have a brief discussion of Maxwell's equations of electromagnetism. By this time, you are completely equipped to work with these equations in their full vector-calculus formulation. This is an essential skill for working through any course in electromagnetism, as well as any third year or beyond physics course. What we will do in this section is describe the relationship between the differential and integral forms of Maxwell's equations, as well as go through a short derivation for Maxwell's wave-equation in vacuum -- thus proving that light is an electromagnetic wave. 

@@ -1,8 +1,12 @@
 ---
 layout: lesson
 title: Double Integrals in Polar Coordinates
+dept: math
 course: calculus-III
 unit: unit4
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 4
 ---
 
 - Jacobian in polar coordiantes

@@ -1,10 +1,12 @@
 ---
 layout: lesson
-title: TRIPLE INTEGRALS IN CYLINDRICAL COORDINATES
+title: Triple Integrals in Cylindrical Coordinates
+dept: math
 course: calculus-III
 unit: unit4
-lessonID: triple-integral-cylindrical
-nextID: triple-integral-spherical
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 4
 ---
 
 - the jacobiuan for cylindrical coordinates -- geometric derivation and determinant derivation

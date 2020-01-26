@@ -1,10 +1,12 @@
 ---
 layout: lesson
-title: DIVERGENCE THEOREM
+title: Divergence Theorem
+dept: math
 course: calculus-III
 unit: unit5
-lessonID: divergence-theorem
-nextID: applications
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 5
 ---
 
 The divergence theorem relates the flux of a vector field through a closed surface to the volume integral of the divergence of the vector field inside the surface. This makes some sense, because if the divergence is everywhere positive inside the closed surface, then that means the vector field is spreading out everywhere inside the surface. This would then imply that there should be a lot of flux coming out of the surface. Let's now make this a bit more formal. 

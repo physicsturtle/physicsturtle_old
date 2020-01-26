@@ -1,8 +1,12 @@
 ---
-layout: lesson
-title: Dot Product
+layout: exercises
+title: Dot Product - Exercises
+dept: math
 course: calculus-III
 unit: unit1
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 1
 ---
 
 The dot product is one of the two ways of multiplying vectors. It can be defined between vectors in 1, 2, 3 or even more dimensions. There are two equivalent definitions of the dot product. One is very geometric, and helps us to get an intuition of what the dot product means. Unfortunately, it is not very useful when performing complex calculations. For this, the abstract definition will come in handy. 

@@ -1,8 +1,12 @@
 ---
 layout: lesson
 title: Function of Multiple Variables
+dept: math
 course: calculus-III
 unit: unit3
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 3
 ---
 
 - Evaluate a function at a point in the plane

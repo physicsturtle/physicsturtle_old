@@ -1,8 +1,12 @@
 ---
 layout: lesson
 title: Inflection and Saddle Points of Lagrange Multipliers
+dept: math
 course: calculus-III
 unit: unit3
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 3
 ---
 
 \subsection{Inflection and Saddle Points}

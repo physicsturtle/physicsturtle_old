@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: DETERMINANT AND CROSS PRODUCT
+title: Determinant and Cross Product
 dept: math
 course: calculus-III
 unit: unit1

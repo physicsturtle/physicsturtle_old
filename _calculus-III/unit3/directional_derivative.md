@@ -1,8 +1,12 @@
 ---
 layout: lesson
 title: Directional Derivative
+dept: math
 course: calculus-III
 unit: unit3
+deptDisplay: Math
+courseDisplay: Calculus III
+unitDisplay: Unit 3
 ---
 
 The partial derivatives represent the rate of change of a function in the \\(x\\) and \\(y\\) directions. It is also possible to calculate the rate of change of a function in any direction in the \\(xy\\) plane. This is called the directional derivative. Suppose we're interesting in calculating the derivative of a function \\(f(x,y)\\) in the direction of the *unit vector* \\(\hat{\textbf{u}}  = (a,b)\\). We define this as 
