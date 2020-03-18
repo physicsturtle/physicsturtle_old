@@ -8,7 +8,7 @@ courseDisplay: Calculus I
 unit: unit1
 ---
 
-{% assign lessonNames = "Sets, Functions, Inverse_Functions" | split: ', ' %}
+{% assign lessonNames = "Sets, Functions" | split: ', ' %}
 
 <ol>
 {% for lessonName in lessonNames %}

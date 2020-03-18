@@ -1,7 +1,7 @@
 ---
 layout: exercises
-title: Projections - Exercises
 dept: math
+title: Algebraic Operations with Vectors - Exercises
 course: calculus-III
 unit: unit1
 deptDisplay: Math
@@ -34,3 +34,4 @@ unitDisplay: Unit 1
 </div>
 </li>
 </ol>
+

@@ -20,13 +20,23 @@ Notation and conventions used in this course are here
 
 {% assign lessonNames1 = "Sets, Functions" | split: ', ' %}
 
-<!--- , Inverse_Functions --->
+<!--- Inverse_Functions --->
 
-{% assign lessonNames2 = "Limits, Limit_Laws, Squeeze_Theorem, Continuity, Intermediate_Value_Theorem, Limits_at_Infinity" | split: ', ' %}
+{% assign lessonNames2 = "Limits, Limit_Laws, Limits_at_Infinity" | split: ', ' %}
 
-{% assign lessonNames3 = "Definition_of_the_Derivative, Derivatives_of_Polynomials, Product_Rule, Quotient_Rule, Derivatives_of_Trigonometric_Functions, Derivatives_of_Exponentials, Derivatives_of_Hyperbolic_Functions*, Chain_Rule, Implicit_Differentiation, Derivatives_of_Logarithms, Derivatives_of_Inverse_Trigonometric_Functions, Derivatives_of_Inverse_Hyperbolic_Functions*, Logarithmic_Differentiation, Linear_Approximations_and_Differentials, Taylor_Polynomials, Lagrange_Remainder_Theorem" | split: ', ' %}
+<!--- Squeeze_Theorem, Continuity, Intermediate_Value_Theorem,--->
 
-{% assign lessonNames4 = "Kinematics_Problems, Exponential_Growth_and_Decay, Newton's_Law_of_Cooling, Related_Rates, Extrema, Mean_Value_Theorem, Curve_Sketching, Optimization_Problems, L'Hopital's_Rule, Newton's_Method" | split: ', ' %}
+{% assign lessonNames3 = "Linear_Approximations_and_Differentials" | split: ', ' %}
+
+<!--- Definition_of_the_Derivative, Derivatives_of_Polynomials, Product_Rule, Quotient_Rule, Derivatives_of_Trigonometric_Functions, Derivatives_of_Exponentials, Derivatives_of_Hyperbolic_Functions*, Chain_Rule, Implicit_Differentiation, Derivatives_of_Logarithms, Derivatives_of_Inverse_Trigonometric_Functions, Derivatives_of_Inverse_Hyperbolic_Functions*, Logarithmic_Differentiation,  -->
+
+<!--- , Taylor_Polynomials, Lagrange_Remainder_Theorem --->
+
+{% assign lessonNames4 = "Related_Rates" | split: ', ' %}
+
+<!--- Kinematics_Problems, Exponential_Growth_and_Decay, Newton's_Law_of_Cooling,  --->
+
+<!--- , Extrema, Mean_Value_Theorem, Curve_Sketching, Optimization_Problems, L'Hopital's_Rule, Newton's_Method --->
 
 <ul>
 {% for unitName in unitNames %}

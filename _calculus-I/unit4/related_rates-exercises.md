@@ -74,6 +74,7 @@ A'&=& 150\cos\left(\frac{\pi}{3}\right)\cdot\frac{\pi}{45}=\frac{75\pi}{45}
 <div class="answerBox">
 <button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
 <div  id="answer2" class="answer" >
+    
 <!--- 
 \begin{tikzpicture}[thick]
 \draw (-1,0) -- (4,0);
@@ -106,7 +107,7 @@ opacity=.4](A,O,B)
 The question can be simplified by setting $t=0$ at one hour where the east bound ship is 25km east, then turns north, and the south bound ship is 15km south, then find the rad/s after 2 hours instead of 3. Based on the diagram above, which is simplified to show some time after 1 hour displays the following: \textit{displacement}, \textit{x-component}, and \textit{y-component} of the displacement. It also shows the vectors along which the ships are travelling in red, and their rate of travel.
 
 First, determine the net change in $y$ of \textit{displacement} with respect to time: $y'=\frac{dy}{dt}=25+15=40$ km/h. Also, note that the \textit{x component} is a constant 15 km because the erstwhile eastbound ship only had 1 hour at 15 km/h to travel in the $+x$ direction, so this does not change with time.
-After 3 hours, the $y$ component of the displacement is $y = 2\cdot 25 + 3\cdot 15 = 95\,\si{km}$; remember that it is 2 times 25, not 3 times 25, because the north bound ship has been travelling north for the latter 2 hours.
+After 3 hours, the $y$ component of the displacement is $y = 2\cdot 25 + 3\cdot 15 = 95$ km; remember that it is 2 times 25, not 3 times 25, because the north bound ship has been travelling north for the latter 2 hours.
 Second, relate $\theta$ and \textit{y} using tan, then differentiate with respect to time using the chain rule:
 \begin{eqnarray*}
 \tan(\theta) &=& \frac{y}{25}\\
@@ -140,14 +141,14 @@ Now we differentiate both sides:
 When $r = 12$, $A = 4\pi\cdot144$, so then we can evaluate the derivative:
 \[-2 = \frac{12}{2}\frac{dA}{dt}\]
 Solving for $dA/dt$:
-\[\frac{dA}{dt} = -\frac{1}{3} \,\si{ft^2/s}\]
+\[\frac{dA}{dt} = -\frac{1}{3} \,\text{ft}^2/\text{s}\]
 
 </div>
 </div>
 </div>
 </li>
 
-<li> <div class="exercise"> Water, at the rate of $10\,\si{ft^3/min}$, is pouring into a leaky cistern whose shape is a cone 16 feet deep and 8 inches diameter at the top. At the time the water is 12 feet deep, the water level is observed to be rising 4 inches/min. How fast is the water leaking away?
+<li> <div class="exercise"> Water, at the rate of $10$ ft${}^3$/min, is pouring into a leaky cistern whose shape is a cone 16 feet deep and 8 inches diameter at the top. At the time the water is 12 feet deep, the water level is observed to be rising 4 inches/min. How fast is the water leaking away?
 
 <div class="answerBox">
 <button onclick="myFunction('answer4')" class="answerButton">Show Answer</button>
@@ -160,11 +161,11 @@ Substituting $r$ into the volume formula, we obtain
 \[V = \frac{\pi h^3}{3\cdot 48^2}\]
 Differentiating this new volume formula with respect to $t$, 
 \[\frac{dV}{dt} = \pi\frac{h^2}{48^2}\frac{dh}{dt}\]
-Now evaluating this at $h = 12\,\si{ft}$, and $h' = 1/3\,\si{ft/min}$, we get that
-\[\frac{dV}{dt} = \frac{\pi}{48}\,\si{ft^3/min}\]
+Now evaluating this at $h = 12$ ft, and $h' = 1/3$ ft/min, we get that
+\[\frac{dV}{dt} = \frac{\pi}{48}\,\text{ft}^3/\text{min}\]
 Let the net water flow in be $\displaystyle{\frac{dV}{dt} = 10 - \frac{dV_\text{out}}{dt}}$\\
 Then, $\displaystyle{10 - \frac{dV_\text{out}}{dt} = \frac{\pi}{48}}$, so the rate of water flow out of the cone is 
-\[\frac{dV_\text{out}}{dt} = \left(10 - \frac{\pi}{48}\right)\,\si{ft^3/min}\]
+\[\frac{dV_\text{out}}{dt} = \left(10 - \frac{\pi}{48}\right)\,\text{ft}^3/text{min}\]
 
 </div>
 </div>

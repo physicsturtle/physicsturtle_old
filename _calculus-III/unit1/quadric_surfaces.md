@@ -35,21 +35,3 @@ Definition: An ellipsoid has equation
 $$\frac{x^2}{a^2} + \frac{y^2}{b^2} + \frac{z^2}{c^2} = 1$$
 An ellipsoid which is centred at $x_0,y_0,z_0$ has equation 
 $$\frac{(x-x_0)^2}{a^2} + \frac{(y-y_0)^2}{b^2} + \frac{(z-z_0)^2}{c^2} = 1$$
-
-
-### Exercises
-
-<ol>
-<li> <div> Sketch all of the points such that \(y = 1\). </div>
-
-<button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
-<div  id="answer1" class="answer">
-This is a plane that is parallel to the \(xz\) plane. 
-</div> </li>
-<li> <div> Sketch all of the points such that \(y = 1\). </div>
-
-<button onclick="myFunction('answer2')" class="answerButton">Show Answer</button>
-<div  id="answer2" class="answer">
-This is a plane that is parallel to the \(xz\) plane. 
-</div> </li>
-</ol>

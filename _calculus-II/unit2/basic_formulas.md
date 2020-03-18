@@ -9,7 +9,9 @@ unitDisplay: Unit 1
 courseDisplay: Calculus II
 ---
 
-In this section, we will discuss the basic formulas for integration, all of which should be memorized. We recall the table of derivatives, which I will cast in a different form than usual so that it can be more easily inverted to make a table of antiderivatives.
+Integration, or, the inverse operation of differentiation, is in general more difficult than differentiation. Differentiation has a very formulaic procedure; one can use the product and chain rules to differentiate any elementary function! However, when we work with integrals, the techniques are much more varied! Although all methods can be thought of in terms of reversing the chain rule or product rule, sometimes realizing what needs to be done is much more subtle. Thus, we start our discussion of the techniques of integration with the integrals that can be derived directly from a table of derivatives! 
+
+In this section, we will discuss the basic formulas for integration, all of which should be memorized. We recall the table of derivatives, which I will write in a different form than usual so that it can be more easily inverted to make a table of integrals (aka antiderivatives). The table of derivatives is the following. 
 
 #### Table of Derivatives:
 
@@ -22,7 +24,7 @@ $$\begin{eqnarray*}
 \frac{d}{dx}\log|x| &=& \frac{1}{x} \\
 \end{eqnarray*}$$
 
-This table can be inverted to produce a table of integrals! The resulting table of integrals is 
+This table can be inverted to produce a table of integrals! By inverted, I mean getting rid of the differentiation sign, and adding an integral sign to the other side! The resulting table of integrals is 
 
 #### Table of Integrals:
 

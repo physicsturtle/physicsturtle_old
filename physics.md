@@ -17,36 +17,36 @@ Physics II - Coming soon
 The undergraduate physics education aims to explose the student to a wide variety of physics topics so that they will be able to determine an area of interest should they decide to pursue research in the future. I consider all courses in the "General Physics", "Classical Mechanics", "Electromagnetism", "Thermal Physics", and "Quantum Mechanics" essential for every physics student. Additionally, no matter your area of current research, in addition to the relevant course/s in that area, I also consider taking around 2 or 3 of the special topics courses a good idea for breadth.
 
 ### General Physics/Surveys of Physics
-<a class="page-link" href="/physics-I/">Physics I - Elasticity, Fluids, Thermodynamics, Oscillations, Acoustics </a> - In progress
+<a class="page-link" href="/physics-I/">Physics I - Elasticity, Fluids, Thermodynamics, Oscillations, Acoustics</a> - In progress
 
-<a class="page-link" href="/physics-II/">Physics II - Electromagnetism, Circuits, and Optics </a> - In progress
+<a class="page-link" href="/physics-II/">Physics II - Electromagnetism, Circuits, and Optics</a> - In progress
 
 Physics III - Introduction to Modern Physics - Coming soon
-<!--- <a class="page-link" href="/physics-III/">Physics III - Introduction to Modern Physics </a> - In progress --->
+<!--- <a class="page-link" href="/physics-III/">Physics III - Introduction to Modern Physics</a> - In progress --->
 
 ### Classical Mechanics
 Classical Mechanics I - Coming soon
-<!--- <a class="page-link" href="/cm-I/"> Classical Mechanics I </a> - In progress --->
+<!--- <a class="page-link" href="/cm-I/"> Classical Mechanics I</a> - In progress --->
 
 Classical Mechanics II - Coming soon
-<!--- <a class="page-link" href="/cm-II/"> Classical Mechanics II </a> - In progress --->
+<!--- <a class="page-link" href="/cm-II/"> Classical Mechanics II</a> - In progress --->
 
-<a class="page-link" href="/cm-III/"> Classical Mechanics III </a> - In progress
+<a class="page-link" href="/cm-III/"> Classical Mechanics III</a> - In progress
 
-<a class="page-link" href="/cm-IV/"> Classical Mechanics IV </a> - In progress
+<a class="page-link" href="/cm-IV/"> Classical Mechanics IV</a> - In progress
 
 Fluid Mechanics - Coming soon
-<!--- <a class="page-link" href="/fluid-mechanics-II/">Fluid Mechanics I </a> - In progress --->
+<!--- <a class="page-link" href="/fluid-mechanics-II/">Fluid Mechanics I</a> - In progress --->
 
 Elasticity - Coming soon
-<!--- <a class="page-link" href="/elasticity-I/">Elasticity I </a> - In progress --->
+<!--- <a class="page-link" href="/elasticity-I/">Elasticity I</a> - In progress --->
 
 ### Electromagnetism
 Electromagnetism I - Coming soon
-<!--- <a class="page-link" href="/electromagnetism-I/">Electromagnetism I </a> - In progress --->
+<!--- <a class="page-link" href="/electromagnetism-I/">Electromagnetism I</a> - In progress --->
 
 Electromagnetism II - Coming soon
-<!--- <a class="page-link" href="/electromagnetism-II/">Electromagnetism II </a> - In progress --->
+<!--- <a class="page-link" href="/electromagnetism-II/">Electromagnetism II</a> - In progress --->
 
 ### Thermal Physics 
 Thermodynamics - Coming soon

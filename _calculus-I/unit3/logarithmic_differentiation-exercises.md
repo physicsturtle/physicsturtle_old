@@ -11,7 +11,7 @@ unitDisplay: Unit 3
 
 ### Exercises
 <ol>
-<li> <div class="exercise> Differentiate the following function. $\displaystyle{y = (\tan x)^{1-x^2}}$
+<li> <div class="exercise"> Differentiate the following function. $\displaystyle{y = (\tan x)^{1-x^2}}$
 
 <div class="answerBox">
 <button onclick="myFunction('answer1')" class="answerButton">Show Answer</button>
