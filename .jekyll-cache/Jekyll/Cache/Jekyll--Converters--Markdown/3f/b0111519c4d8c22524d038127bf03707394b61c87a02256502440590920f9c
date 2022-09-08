@@ -1,4 +1,4 @@
-I"é<p>In mathematics, four of the most commonly used sets of numbers are the natural numbers $\mathbb{N}$, the integers $\mathbb{Z}$, the rational numbers $\mathbb{Q}$, and the real numbers $\mathbb{R}$. The first of these three have something in common with each other that is different for the real numbers $\mathbb{R}$. They are all countable, but the real numbers are not countable. This begs the question, how can one arrive at an irrational number by using the set of rational numbers? It is possible to define rational numbers by dividing integers, but none of the elementary arithmetic operations, i.e. addition, subtraction, multiplication, or division can help us to arrive at an irrational number. In this lesson, we will construct the real numbers out of the rational numbers using a method called \textit{Dedekind Cuts}.</p>
+I"Ã<p>In mathematics, four of the most commonly used sets of numbers are the natural numbers $\mathbb{N}$, the integers $\mathbb{Z}$, the rational numbers $\mathbb{Q}$, and the real numbers $\mathbb{R}$. The first of these three have something in common with each other that is different for the real numbers $\mathbb{R}$. They are all countable, but the real numbers are not countable. This begs the question, how can one arrive at an irrational number by using the set of rational numbers? It is possible to define rational numbers by dividing integers, but none of the elementary arithmetic operations, i.e. addition, subtraction, multiplication, or division can help us to arrive at an irrational number. In this lesson, we will construct the real numbers out of the rational numbers using a method called \textit{Dedekind Cuts}.</p>
 
 <p>\section{Dedekind Cuts}</p>
 
@@ -17,7 +17,7 @@ We will now have some examples with cuts. It turns out that cuts will be the def
 
 <p>%Counterexample of a Dedekind cut.
 \begin{example}
-Let <script type="math/tex">\alpha =\left\{ x \in \mathbb{Q} \left| \frac{1}{2} \leq x \leq 1 \right.\right\}</script>
+Let \(\alpha =\left\{ x \in \mathbb{Q} \left| \frac{1}{2} \leq x \leq 1 \right.\right\}\)
 We will check the three conditions to see if $\alpha$ is a cut. 
 \begin{enumerate}[(i)]
 \item Since $\alpha \not= \emptyset$ and $\alpha \not= \mathbb{Q}$, it satisfies the first condition.
@@ -29,8 +29,7 @@ We will check the three conditions to see if $\alpha$ is a cut.
 <p>%Example of a Dedekind cut with the resulting real number a rational
 \begin{example}
 Let 
-<script type="math/tex">% <![CDATA[
-\beta = \left\{ x \in \mathbb{Q} \left| x < 1 \right. \right\} %]]></script>
+\(\beta = \left\{ x \in \mathbb{Q} \left| x &lt; 1 \right. \right\}\)
 We will check the three conditions to see if $\beta$ is a cut. 
 \begin{enumerate}[(i)]
 \item Since $\beta \not= \emptyset$ and $\beta \not= \mathbb{Q}$, it satisfies the first condition.
@@ -43,8 +42,7 @@ Since $\beta$ satisfies all three conditions, we can conclude that it is a cut.
 <p>%Example of a Dedekind cut with the resulting real number irrational.
 \begin{example}
 Let
-<script type="math/tex">% <![CDATA[
-\gamma = \left\{ x \in \mathbb{Q} \left| x^2 < 2 \right. \right\} \cup \left\{ x \in \mathbb{Q} \left| x < 0 \right. \right\} %]]></script>
+\(\gamma = \left\{ x \in \mathbb{Q} \left| x^2 &lt; 2 \right. \right\} \cup \left\{ x \in \mathbb{Q} \left| x &lt; 0 \right. \right\}\)
 Thus $\gamma$ is the set of all rational numbers which are less than $\sqrt{2}$ (even though we have not defined $\sqrt{2}$ yet). We will check the three conditions to see if $\gamma$ is a cut. 
 \begin{enumerate}[(i)]
 \item Since $\gamma \not= \emptyset$ and $\gamma \not= \mathbb{Q}$, it satisfies the first condition.
@@ -67,22 +65,21 @@ It is important to recall that each real number $\alpha$ (a.k.a. cut) is \underl
 If $\alpha$ is a proper subset of $\beta$, define $\alpha &lt; \beta$. 
 \end{definition}
 Set theory gives us 
-<script type="math/tex">\alpha \subset \beta \wedge \beta \subset \gamma \Rightarrow \alpha \subset \gamma</script>
+\(\alpha \subset \beta \wedge \beta \subset \gamma \Rightarrow \alpha \subset \gamma\)
 which means that 
-<script type="math/tex">% <![CDATA[
-\alpha < \beta \wedge \beta < \gamma \Rightarrow \alpha < \gamma %]]></script></p>
+\(\alpha &lt; \beta \wedge \beta &lt; \gamma \Rightarrow \alpha &lt; \gamma\)</p>
 
 <p>\begin{definition}
 Let 
-<script type="math/tex">+ : \mathbb{R} \times \mathbb{R} \to \mathbb{R}</script> 
-where <script type="math/tex">(\alpha, \beta) \mapsto \alpha + \beta</script>
+\(+ : \mathbb{R} \times \mathbb{R} \to \mathbb{R}\) 
+where \((\alpha, \beta) \mapsto \alpha + \beta\)
 be defined by the following cut:
-<script type="math/tex">\alpha + \beta = \{ p + q | p \in \alpha \wedge q \in\beta\}</script>
+\(\alpha + \beta = \{ p + q | p \in \alpha \wedge q \in\beta\}\)
 \end{definition}
 However, we need to prove that the set $\alpha + \beta$ is actually a cut. 
 \begin{theorem}
 If $\alpha$ and $\beta$ are cuts, then 
-<script type="math/tex">\alpha + \beta = \{ p + q | p \in \alpha \wedge q \in\beta\}</script> is also a cut.
+\(\alpha + \beta = \{ p + q | p \in \alpha \wedge q \in\beta\}\) is also a cut.
 \end{theorem}</p>
 
 <p>\begin{proof}

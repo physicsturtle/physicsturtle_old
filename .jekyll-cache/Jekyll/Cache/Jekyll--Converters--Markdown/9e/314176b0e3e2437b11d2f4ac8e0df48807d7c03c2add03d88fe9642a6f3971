@@ -1,6 +1,6 @@
-I"¯<p>Suppose we are interested in differentiating the function</p>
+I"„<p>Suppose we are interested in differentiating the function</p>
 
-<script type="math/tex; mode=display">f(x) = u(v(x))</script>
+\[f(x) = u(v(x))\]
 
 <p>This is a nested function. The rule for differentiating this kind of function is known as the <em>chain rule</em>. It is more difficult to derive than the product and quotient rules, and is:</p>
 

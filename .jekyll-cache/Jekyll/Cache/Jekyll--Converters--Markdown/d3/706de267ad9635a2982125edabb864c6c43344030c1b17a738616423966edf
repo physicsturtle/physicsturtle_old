@@ -1,7 +1,7 @@
-I"<p>Consider systems of the form
-<script type="math/tex">x'' = F(x)</script>
+I"«<p>Consider systems of the form
+\(x'' = F(x)\)
 If we multiply both sides by $xâ€™$, then
-<script type="math/tex">x'' x' = x' F(x)</script>
+\(x'' x' = x' F(x)\)
 If we define 
-<script type="math/tex">V(x) = -\int_{\eta_0}^x F(\eta) d\eta,</script></p>
+\(V(x) = -\int_{\eta_0}^x F(\eta) d\eta,\)</p>
 :ET

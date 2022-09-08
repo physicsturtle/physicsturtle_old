@@ -1,9 +1,9 @@
-I"ö<p>The dot product is one of the two ways of multiplying vectors. It can be defined between vectors in 1, 2, 3 or even more dimensions. There are two equivalent definitions of the dot product. One is very geometric, and helps us to get an intuition of what the dot product means. Unfortunately, it is not very useful when performing complex calculations. For this, the abstract definition will come in handy.</p>
+I"_<p>The dot product is one of the two ways of multiplying vectors. It can be defined between vectors in 1, 2, 3 or even more dimensions. There are two equivalent definitions of the dot product. One is very geometric, and helps us to get an intuition of what the dot product means. Unfortunately, it is not very useful when performing complex calculations. For this, the abstract definition will come in handy.</p>
 
 <h3 id="geometric-definition">Geometric Definition</h3>
 <p>Suppose we have two vectors \(\textbf{a}\) and \(\textbf{b}\), in any number of dimensions. Then we define the <em>dot product</em></p>
 
-<script type="math/tex; mode=display">\textbf{a}\cdot\textbf{b} = \|\textbf{a}\|\|\textbf{b}\|\cos\theta</script>
+\[\textbf{a}\cdot\textbf{b} = \|\textbf{a}\|\|\textbf{b}\|\cos\theta\]
 
 <p>where \(\theta\) is the angle between the two vectors. This can be represented graphically by (insert picture here)</p>
 
@@ -14,11 +14,11 @@
 <h3 id="abstract-definition">Abstract Definition</h3>
 <p>The more abstract definition of the dot product uses the <em>components</em> of the vector. The dot product between the vectors \(\textbf{a} = (a_1,a_2,a_3)\) and \(\textbf{b} = (b_1,b_2,b_3)\) is</p>
 
-<script type="math/tex; mode=display">\textbf{a}\cdot\textbf{b} = a_1b_1 + a_2b_2 + a_3b_3</script>
+\[\textbf{a}\cdot\textbf{b} = a_1b_1 + a_2b_2 + a_3b_3\]
 
 <p>The definition for vectors in dimensions other than 3 has the same form. For example, in 2 dimensions with vectors \(\textbf{a} = (a_1,a_2)\) and \(\textbf{b} = (b_1,b_2)\), the dot product is</p>
 
-<script type="math/tex; mode=display">\textbf{a}\cdot\textbf{b} = a_1b_1 + a_2b_2</script>
+\[\textbf{a}\cdot\textbf{b} = a_1b_1 + a_2b_2\]
 
 <h3 id="properties">Properties</h3>
 
@@ -34,11 +34,11 @@
 
 <p>Commutativity:</p>
 
-<script type="math/tex; mode=display">\textbf{a}\cdot\textbf{b} = \textbf{b}\cdot\textbf{a}</script>
+\[\textbf{a}\cdot\textbf{b} = \textbf{b}\cdot\textbf{a}\]
 
 <p>Distributivity:</p>
 
-<script type="math/tex; mode=display">\textbf{a}\cdot(\textbf{b} + \textbf{c}) = \textbf{a}\cdot\textbf{b} + \textbf{a}\cdot\textbf{c}</script>
+\[\textbf{a}\cdot(\textbf{b} + \textbf{c}) = \textbf{a}\cdot\textbf{b} + \textbf{a}\cdot\textbf{c}\]
 
 <h3 id="terminology-and-notation">Terminology and Notation</h3>
 <p>Other terms that are synonymous with <em>dot product</em> are</p>
@@ -53,30 +53,29 @@
 
 <p>We start with the geometric definition:</p>
 
-<script type="math/tex; mode=display">\textbf{a}\cdot\textbf{b} = \|\textbf{a}\|\|\textbf{b}\|\cos\theta</script>
+\[\textbf{a}\cdot\textbf{b} = \|\textbf{a}\|\|\textbf{b}\|\cos\theta\]
 
 <p>By the cosine law, we know that \(|\textbf{c}|^2 = |\textbf{a}|^2 + |\textbf{b}|^2 - 2|\textbf{a}||\textbf{b}|\cos\theta\). Rearranging this, we get</p>
 
-<script type="math/tex; mode=display">\|\textbf{a}\|\|\textbf{b}\|\cos\theta = \frac{\|\textbf{a}\|^2 + \|\textbf{b}\|^2 - \|\textbf{c}\|^2}{2}</script>
+\[\|\textbf{a}\|\|\textbf{b}\|\cos\theta = \frac{\|\textbf{a}\|^2 + \|\textbf{b}\|^2 - \|\textbf{c}\|^2}{2}\]
 
 <p>so this means that</p>
 
-<script type="math/tex; mode=display">\textbf{a}\cdot\textbf{b} = \frac{\|\textbf{a}\|^2 + \|\textbf{b}\|^2 - \|\textbf{c}\|^2}{2}</script>
+\[\textbf{a}\cdot\textbf{b} = \frac{\|\textbf{a}\|^2 + \|\textbf{b}\|^2 - \|\textbf{c}\|^2}{2}\]
 
 <p>Since we have that \(\textbf{c} = \textbf{a} - \textbf{b}\), we can substitute this in</p>
 
-<script type="math/tex; mode=display">\textbf{a}\cdot\textbf{b} = \frac{\|\textbf{a}\|^2 + \|\textbf{b}\|^2 - \|\textbf{a} - \textbf{b}\|^2}{2}</script>
+\[\textbf{a}\cdot\textbf{b} = \frac{\|\textbf{a}\|^2 + \|\textbf{b}\|^2 - \|\textbf{a} - \textbf{b}\|^2}{2}\]
 
 <p>expanding this out in terms of components, we get</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{eqnarray}
-\textbf{a}\cdot\textbf{b} &=& \frac{\|\textbf{a}\|^2 + \|\textbf{b}\|^2 - \|\textbf{a} - \textbf{b}\|^2}{2}\\
-&=& \frac{a_1^2 + a_2^2 + b_1^2 + b_2^2 - ((a_1-b_1)^2 + (a_2-b_2)^2))}{2}\\
-&=& \frac{a_1^2 + a_2^2 + b_1^2 + b_2^2 - (a_1^2 - 2a_1b_1 + b_1^2 + a_2^2 - a_2b_2 + b_2^2)}{2}\\
-&=& \frac{2a_1b_1 + 2a_2b_2}{2}\\
-&=& a_1b_1 + a_2b_2
-\end{eqnarray} %]]></script>
+\[\begin{eqnarray}
+\textbf{a}\cdot\textbf{b} &amp;=&amp; \frac{\|\textbf{a}\|^2 + \|\textbf{b}\|^2 - \|\textbf{a} - \textbf{b}\|^2}{2}\\
+&amp;=&amp; \frac{a_1^2 + a_2^2 + b_1^2 + b_2^2 - ((a_1-b_1)^2 + (a_2-b_2)^2))}{2}\\
+&amp;=&amp; \frac{a_1^2 + a_2^2 + b_1^2 + b_2^2 - (a_1^2 - 2a_1b_1 + b_1^2 + a_2^2 - a_2b_2 + b_2^2)}{2}\\
+&amp;=&amp; \frac{2a_1b_1 + 2a_2b_2}{2}\\
+&amp;=&amp; a_1b_1 + a_2b_2
+\end{eqnarray}\]
 
 <p>which is precisely the second definition.</p>
 

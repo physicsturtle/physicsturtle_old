@@ -1,21 +1,19 @@
-I"ë<p>Spherical coordinates are a set of three coordinates used when the objects weâ€™re studying have spherical symmetry. They will simplify our calculations and make the results much more transparent. The three coordinates are the distance from the origin \(r\), the angle measured down from the \(z\) axis \(\theta\), and the angle measured in the \(xy\) plane, \(\varphi\). This can be represented graphically by</p>
+I"£<p>Spherical coordinates are a set of three coordinates used when the objects weâ€™re studying have spherical symmetry. They will simplify our calculations and make the results much more transparent. The three coordinates are the distance from the origin \(r\), the angle measured down from the \(z\) axis \(\theta\), and the angle measured in the \(xy\) plane, \(\varphi\). This can be represented graphically by</p>
 
 <p>(insert figure here)</p>
 
 <p>Algebraically, the transformation equations are</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\left\{\begin{eqnarray}
-r &=& \sqrt{x^2+y^2+z^2}\\
-\theta &=& \arccos\left(\frac{z}{\sqrt{x^2+y^2+z^2}}\right)\\
-\varphi &=& \arctan\left(\frac{y}{x}\right)
-\end{eqnarray} \right. %]]></script>
+\[\left\{\begin{eqnarray}
+r &amp;=&amp; \sqrt{x^2+y^2+z^2}\\
+\theta &amp;=&amp; \arccos\left(\frac{z}{\sqrt{x^2+y^2+z^2}}\right)\\
+\varphi &amp;=&amp; \arctan\left(\frac{y}{x}\right)
+\end{eqnarray} \right.\]
 
-<script type="math/tex; mode=display">% <![CDATA[
-\left\{\begin{eqnarray}
-x &=& r\sin\theta\cos\varphi \\
-y &=& r\sin\theta\sin\varphi \\
-z &=& r\cos\theta \end{eqnarray} \right. %]]></script>
+\[\left\{\begin{eqnarray}
+x &amp;=&amp; r\sin\theta\cos\varphi \\
+y &amp;=&amp; r\sin\theta\sin\varphi \\
+z &amp;=&amp; r\cos\theta \end{eqnarray} \right.\]
 
 <h3 id="exercises">Exercises</h3>
 

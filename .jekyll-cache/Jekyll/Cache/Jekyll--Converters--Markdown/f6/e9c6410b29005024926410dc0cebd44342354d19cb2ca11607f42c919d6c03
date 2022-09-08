@@ -1,6 +1,6 @@
-I"<p>In the Coulomb gauge, the gauge of preference in quantum mechanics, the vector potential satisfies the following equation</p>
+I"2<p>In the Coulomb gauge, the gauge of preference in quantum mechanics, the vector potential satisfies the following equation</p>
 
-<script type="math/tex; mode=display">\ddot{\textbf{A}} = \nabla^2\textbf{A}.</script>
+\[\ddot{\textbf{A}} = \nabla^2\textbf{A}.\]
 
 <p>We thus look for a solution to the above equation that also satisfies the following two additional properties:</p>
 
@@ -12,71 +12,70 @@
 <h4 id="fourier-transform">Fourier Transform</h4>
 <p>First, we write $\textbf{A}$ in terms of its Fourier components:</p>
 
-<script type="math/tex; mode=display">\textbf{A} = \frac{1}{(2\pi)^3} \int e^{i\textbf{k}\cdot \textbf{x}} \tilde{\textbf{A}} d^3 k</script>
+\[\textbf{A} = \frac{1}{(2\pi)^3} \int e^{i\textbf{k}\cdot \textbf{x}} \tilde{\textbf{A}} d^3 k\]
 
 <p>Substituting this Fourier representation of $\textbf{A}$ into the wave equation, we get</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{eqnarray*}
-\frac{\partial^2}{\partial t^2}\frac{1}{(2\pi)^3} \int e^{i\textbf{k}\cdot \textbf{x}} \tilde{\textbf{A}} d^3 k &=& \nabla^2 \frac{1}{(2\pi)^3} \int  e^{i\textbf{k}\cdot \textbf{x}} \tilde{\textbf{A}} d^3 k \\
-\frac{1}{(2\pi)^3} \int e^{i\textbf{k}\cdot \textbf{x}} \ddot{\tilde{\textbf{A}}} d^3 k &=& - \frac{1}{(2\pi)^3} \int |\textbf{k}|^2 e^{i\textbf{k}\cdot \textbf{x}} \tilde{\textbf{A}} d^3 k \\
-\end{eqnarray*} %]]></script>
+\[\begin{eqnarray*}
+\frac{\partial^2}{\partial t^2}\frac{1}{(2\pi)^3} \int e^{i\textbf{k}\cdot \textbf{x}} \tilde{\textbf{A}} d^3 k &amp;=&amp; \nabla^2 \frac{1}{(2\pi)^3} \int  e^{i\textbf{k}\cdot \textbf{x}} \tilde{\textbf{A}} d^3 k \\
+\frac{1}{(2\pi)^3} \int e^{i\textbf{k}\cdot \textbf{x}} \ddot{\tilde{\textbf{A}}} d^3 k &amp;=&amp; - \frac{1}{(2\pi)^3} \int |\textbf{k}|^2 e^{i\textbf{k}\cdot \textbf{x}} \tilde{\textbf{A}} d^3 k \\
+\end{eqnarray*}\]
 
 <p>This equation implies the the following relationship for $\tilde{\textbf{A}}$:</p>
 
-<script type="math/tex; mode=display">\ddot{\tilde{\textbf{A}}} = -|\textbf{k}|^2\tilde{\textbf{A}}</script>
+\[\ddot{\tilde{\textbf{A}}} = -|\textbf{k}|^2\tilde{\textbf{A}}\]
 
 <p>Defining $\omega_\textbf{k} = \sqrt{|\textbf{k}|^2}$, we can write the solution</p>
 
-<script type="math/tex; mode=display">\tilde{A}_i = \frac{1}{\sqrt{2\omega_\textbf{k}}}\left(e^{-i\omega_\textbf{k}t}\alpha_i(\textbf{k}) + e^{i\omega_\textbf{k}t}\beta_i(-\textbf{k})\right),\qquad i = 1,2,3,</script>
+\[\tilde{A}_i = \frac{1}{\sqrt{2\omega_\textbf{k}}}\left(e^{-i\omega_\textbf{k}t}\alpha_i(\textbf{k}) + e^{i\omega_\textbf{k}t}\beta_i(-\textbf{k})\right),\qquad i = 1,2,3,\]
 
 <p>where $\alpha_i$ and $\beta_i$ are arbitrary functions of $\textbf{k}$, and we have added the factor $1/\sqrt{2\omega_\textbf{k}}$ and the negative in the argument of $\beta_i$ both for notational convenience. Next, we take the inverse Fourier transform to get</p>
 
-<script type="math/tex; mode=display">A_i = \int  \frac{e^{i\textbf{k}\cdot\textbf{x}}}{\sqrt{2\omega_\textbf{k}}}\left(e^{-i\omega_\textbf{k}t}\alpha_i(\textbf{k}) + e^{i\omega_\textbf{k}t}\beta_i(-\textbf{k})\right) \frac{d^3k}{(2\pi)^3}</script>
+\[A_i = \int  \frac{e^{i\textbf{k}\cdot\textbf{x}}}{\sqrt{2\omega_\textbf{k}}}\left(e^{-i\omega_\textbf{k}t}\alpha_i(\textbf{k}) + e^{i\omega_\textbf{k}t}\beta_i(-\textbf{k})\right) \frac{d^3k}{(2\pi)^3}\]
 
 <p>We split this up into two integrals</p>
 
-<script type="math/tex; mode=display">A_i = \int  \frac{e^{i\textbf{k}\cdot\textbf{x}}}{\sqrt{2\omega_\textbf{k}}}e^{-i\omega_\textbf{k}t}\alpha_i(\textbf{k}) \frac{d^3k}{(2\pi)^3} + \int \frac{e^{i\textbf{k}\cdot\textbf{x}}}{\sqrt{2\omega_\textbf{k}}} e^{i\omega_\textbf{k}t}\beta_i(-\textbf{k}) \frac{d^3k}{(2\pi)^3}</script>
+\[A_i = \int  \frac{e^{i\textbf{k}\cdot\textbf{x}}}{\sqrt{2\omega_\textbf{k}}}e^{-i\omega_\textbf{k}t}\alpha_i(\textbf{k}) \frac{d^3k}{(2\pi)^3} + \int \frac{e^{i\textbf{k}\cdot\textbf{x}}}{\sqrt{2\omega_\textbf{k}}} e^{i\omega_\textbf{k}t}\beta_i(-\textbf{k}) \frac{d^3k}{(2\pi)^3}\]
 
 <p>In the second integral, we make the change of variables $\textbf{k}\mapsto \textbf{k}’$ and get</p>
 
-<script type="math/tex; mode=display">A_i = \int  \frac{e^{i\textbf{k}\cdot\textbf{x}}}{\sqrt{2\omega_\textbf{k}}}e^{-i\omega_\textbf{k}t}\alpha_i(\textbf{k}) \frac{d^3k}{(2\pi)^3} + \int \frac{e^{-i\textbf{k}'\cdot\textbf{x}}}{\sqrt{2\omega_{\textbf{k}'}}} e^{i\omega_{\textbf{k}'}t}\beta_i(\textbf{k}') \frac{d^3k'}{(2\pi)^3}</script>
+\[A_i = \int  \frac{e^{i\textbf{k}\cdot\textbf{x}}}{\sqrt{2\omega_\textbf{k}}}e^{-i\omega_\textbf{k}t}\alpha_i(\textbf{k}) \frac{d^3k}{(2\pi)^3} + \int \frac{e^{-i\textbf{k}'\cdot\textbf{x}}}{\sqrt{2\omega_{\textbf{k}'}}} e^{i\omega_{\textbf{k}'}t}\beta_i(\textbf{k}') \frac{d^3k'}{(2\pi)^3}\]
 
 <p>Note that the sign of the differential brings an overall minus sign, but each of the three integrals’ bounds also got flipped from $-\infty \to \infty$ to $\infty \to -\infty$. If we change all these back to $-\infty\to\infty$, then this brings three more overall minus signs, which cancel with the one produced by the differential. Since $\textbf{k}’$ was a dummy variable, we just rename it to be $\textbf{k}$. Now, we put the two integrals back together</p>
 
-<script type="math/tex; mode=display">A_i = \int  \frac{e^{i\textbf{k}\cdot\textbf{x}-i\omega_\textbf{k}t}\alpha_i(\textbf{k}) + e^{-i\textbf{k}\cdot\textbf{x}+i\omega_\textbf{k}t}\beta_i(\textbf{k}) }{\sqrt{2\omega_\textbf{k}}} \frac{d^3k}{(2\pi)^3}</script>
+\[A_i = \int  \frac{e^{i\textbf{k}\cdot\textbf{x}-i\omega_\textbf{k}t}\alpha_i(\textbf{k}) + e^{-i\textbf{k}\cdot\textbf{x}+i\omega_\textbf{k}t}\beta_i(\textbf{k}) }{\sqrt{2\omega_\textbf{k}}} \frac{d^3k}{(2\pi)^3}\]
 
 <p>We now impose that $A_i$ is real. Setting the integrand to be real, we find that $\beta_i(\textbf{k}) = \alpha^*_i(\textbf{k})$, so</p>
 
-<script type="math/tex; mode=display">A_i = \int  \frac{e^{i\textbf{k}\cdot\textbf{x}-i\omega_\textbf{k}t}\alpha_i(\textbf{k}) + e^{-i\textbf{k}\cdot\textbf{x}+i\omega_\textbf{k}t}\alpha^*_i(\textbf{k}) }{\sqrt{2\omega_\textbf{k}}} \frac{d^3k}{(2\pi)^3}.</script>
+\[A_i = \int  \frac{e^{i\textbf{k}\cdot\textbf{x}-i\omega_\textbf{k}t}\alpha_i(\textbf{k}) + e^{-i\textbf{k}\cdot\textbf{x}+i\omega_\textbf{k}t}\alpha^*_i(\textbf{k}) }{\sqrt{2\omega_\textbf{k}}} \frac{d^3k}{(2\pi)^3}.\]
 
 <p>Lastly, we need to impose the condition</p>
 
-<script type="math/tex; mode=display">\nabla\cdot\textbf{A} = \frac{\partial A_1}{\partial x^1} + \frac{\partial A_2}{\partial x^2} + \frac{\partial A_3}{\partial x^3} =0.</script>
+\[\nabla\cdot\textbf{A} = \frac{\partial A_1}{\partial x^1} + \frac{\partial A_2}{\partial x^2} + \frac{\partial A_3}{\partial x^3} =0.\]
 
 <p>Since</p>
 
-<script type="math/tex; mode=display">\frac{\partial A_j}{\partial x^j} = \int\frac{ ik_je^{i\textbf{k}\cdot\textbf{x} - i\omega_\textbf{k}t} \alpha_j(\textbf{k}) - ik_j e^{-i\textbf{k}\cdot\textbf{x} + i\omega_\textbf{k}t}\alpha^*_j(\textbf{k})}{\sqrt{2\omega_\textbf{k}}} \frac{d^3k}{(2\pi)^3},</script>
+\[\frac{\partial A_j}{\partial x^j} = \int\frac{ ik_je^{i\textbf{k}\cdot\textbf{x} - i\omega_\textbf{k}t} \alpha_j(\textbf{k}) - ik_j e^{-i\textbf{k}\cdot\textbf{x} + i\omega_\textbf{k}t}\alpha^*_j(\textbf{k})}{\sqrt{2\omega_\textbf{k}}} \frac{d^3k}{(2\pi)^3},\]
 
 <p>we conclude that</p>
 
-<script type="math/tex; mode=display">\sum_{j=1}^3 k_j \alpha_j(\textbf{k}) = \textbf{k}\cdot\boldsymbol{\alpha}(\textbf{k}) = 0</script>
+\[\sum_{j=1}^3 k_j \alpha_j(\textbf{k}) = \textbf{k}\cdot\boldsymbol{\alpha}(\textbf{k}) = 0\]
 
 <p>Thus, $\textbf{k}$ is perpendicular to $\boldsymbol{\alpha}$ at every point in space. This means that $\boldsymbol{\alpha}$ always lies in a plane perpendicular to $\textbf{k}$. We can thus define a basis $\{\hat{\textbf{e}}_1(\textbf{k}), \hat{\textbf{e}}_2(\textbf{k})\}$, in which every $\boldsymbol{\alpha}$ can be described. Note that this basis is a function of $\textbf{k}$! We thus write</p>
 
-<script type="math/tex; mode=display">\boldsymbol{\alpha}(\textbf{k}) = \sum_{n=1}^2 a_n(\textbf{k}) \hat{\textbf{e}}_n(\textbf{k}).</script>
+\[\boldsymbol{\alpha}(\textbf{k}) = \sum_{n=1}^2 a_n(\textbf{k}) \hat{\textbf{e}}_n(\textbf{k}).\]
 
 <p>Componentwise (components with respect to Cartesian basis), this equation becomes</p>
 
-<script type="math/tex; mode=display">\alpha_i(\textbf{k}) = \sum_{n=1}^2 a_n(\textbf{k}) e_{in}(\textbf{k}).</script>
+\[\alpha_i(\textbf{k}) = \sum_{n=1}^2 a_n(\textbf{k}) e_{in}(\textbf{k}).\]
 
 <p>Finally substituting this into our expression for the vector potential, we get</p>
 
-<script type="math/tex; mode=display">A_i = \int  \left(e^{i\textbf{k}\cdot\textbf{x}-i\omega_\textbf{k}t} \sum_{n=1}^2 a_n(\textbf{k}) e_{in}(\textbf{k})+ e^{-i\textbf{k}\cdot\textbf{x}+i\omega_\textbf{k}t}\sum_{n=1}^2 a_n^*(\textbf{k}) e_{in}(\textbf{k})\right)\frac{1}{\sqrt{2\omega_\textbf{k}}} \frac{d^3k}{(2\pi)^3}.</script>
+\[A_i = \int  \left(e^{i\textbf{k}\cdot\textbf{x}-i\omega_\textbf{k}t} \sum_{n=1}^2 a_n(\textbf{k}) e_{in}(\textbf{k})+ e^{-i\textbf{k}\cdot\textbf{x}+i\omega_\textbf{k}t}\sum_{n=1}^2 a_n^*(\textbf{k}) e_{in}(\textbf{k})\right)\frac{1}{\sqrt{2\omega_\textbf{k}}} \frac{d^3k}{(2\pi)^3}.\]
 
 <p>From now on, we leave the sum over $n$ implicit and write</p>
 
-<script type="math/tex; mode=display">A_i = \int  \left(e^{i\textbf{k}\cdot\textbf{x}-i\omega_\textbf{k}t} a_n(\textbf{k}) e_{in}(\textbf{k})+ e^{-i\textbf{k}\cdot\textbf{x}+i\omega_\textbf{k}t} a_n^*(\textbf{k}) e_{in}(\textbf{k})\right)\frac{1}{\sqrt{2\omega_\textbf{k}}} \frac{d^3k}{(2\pi)^3}.</script>
+\[A_i = \int  \left(e^{i\textbf{k}\cdot\textbf{x}-i\omega_\textbf{k}t} a_n(\textbf{k}) e_{in}(\textbf{k})+ e^{-i\textbf{k}\cdot\textbf{x}+i\omega_\textbf{k}t} a_n^*(\textbf{k}) e_{in}(\textbf{k})\right)\frac{1}{\sqrt{2\omega_\textbf{k}}} \frac{d^3k}{(2\pi)^3}.\]
 
 <p>We observe at this point that $A_i$ is made up of two independent harmonic oscillators: one in the $\hat{\textbf{e}}_1$ direction and one in the $\hat{\textbf{e}}_2$ direction. To quantize, we replace the coefficients $a$ and $a^*$ with $\hat{a}$ and $\hat{a}^\dagger$ respectively:</p>
 

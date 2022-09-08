@@ -1,10 +1,10 @@
-I"y<p>Imagine heating a gas at constant pressure. This means that we will need to increase the volume of the gas if it is to stay at constant pressure. The heat added to the system to cause this is</p>
+I"#<p>Imagine heating a gas at constant pressure. This means that we will need to increase the volume of the gas if it is to stay at constant pressure. The heat added to the system to cause this is</p>
 
-<script type="math/tex; mode=display">dQ = nC_VdT</script>
+\[dQ = nC_VdT\]
 
 <p>and the change in internal energy is</p>
 
-<script type="math/tex; mode=display">dU = nC_PdT</script>
+\[dU = nC_PdT\]
 
 <p>This</p>
 :ET

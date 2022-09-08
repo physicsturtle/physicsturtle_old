@@ -2,10 +2,10 @@
 layout: lesson
 title: Basic Formulas
 dept: math
-unit: unit1
+unit: unit2
 course: calculus-II
 deptDisplay: Math
-unitDisplay: Unit 1
+unitDisplay: Unit 2
 courseDisplay: Calculus II
 ---
 
@@ -37,4 +37,4 @@ $$\begin{eqnarray*}
 \int \frac{dx}{x} &=& \log|x| 
 \end{eqnarray*}$$
 
-In the following sections, it will frequently be necessary to reduce complicated integrals into one of the above forms. This is why it is important to commit these to memory; it will help guide your thought process if you learn these by heart. 
+In the following sections, it will frequently be necessary to reduce complicated integrals into one of the above forms. This is why it is important to commit these to memory; it will greatly speed up your computations to have certain common formulas memorized.

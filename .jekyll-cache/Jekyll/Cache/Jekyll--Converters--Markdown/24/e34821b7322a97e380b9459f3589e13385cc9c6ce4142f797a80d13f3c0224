@@ -1,17 +1,16 @@
-I"Z<h3 id="integral-formulas">Integral Formulas</h3>
+I"<h3 id="integral-formulas">Integral Formulas</h3>
 
 <h3 id="basic-formulas">Basic Formulas</h3>
-<p><script type="math/tex">% <![CDATA[
-\begin{eqnarray*}
-\int x^n dx &=& \frac{x^{n+1}}{n+1},\quad n\not= -1\\
-\int \frac{1}{x} dx &=& \log|x|\\
-\int e^x dx &=& e^x \\
-\int \sin x dx &=& -\cos x\\
-\int \cos x dx &=& \sin x\\
-\int \sec^2 x dx &=& \tan x\\
-\int \sec x \tan x dx &=& \sec x\\
-\int \frac{1}{1+x^2}dx  &=& \arctan x\\
-\end{eqnarray*} %]]></script></p>
+<p>\(\begin{eqnarray*}
+\int x^n dx &amp;=&amp; \frac{x^{n+1}}{n+1},\quad n\not= -1\\
+\int \frac{1}{x} dx &amp;=&amp; \log|x|\\
+\int e^x dx &amp;=&amp; e^x \\
+\int \sin x dx &amp;=&amp; -\cos x\\
+\int \cos x dx &amp;=&amp; \sin x\\
+\int \sec^2 x dx &amp;=&amp; \tan x\\
+\int \sec x \tan x dx &amp;=&amp; \sec x\\
+\int \frac{1}{1+x^2}dx  &amp;=&amp; \arctan x\\
+\end{eqnarray*}\)</p>
 
 <p>###</p>
 
@@ -23,9 +22,9 @@
 <h3 id="integration-rules">Integration Rules</h3>
 <p>$u$-substitution:</p>
 
-<script type="math/tex; mode=display">\int f'(g(x))g'(x) dx = f(g(x))</script>
+\[\int f'(g(x))g'(x) dx = f(g(x))\]
 
 <p>Integration by Parts:</p>
 
-<script type="math/tex; mode=display">\int u(x)v'(x) dx = u(x)v(x) - \int u'(x)v(x) dx</script>
+\[\int u(x)v'(x) dx = u(x)v(x) - \int u'(x)v(x) dx\]
 :ET

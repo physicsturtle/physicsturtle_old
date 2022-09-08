@@ -1,28 +1,27 @@
-I"<p>In this lesson, we will derive the Euler-Lagrange equation for the basic problem in the calculus of variations. The problem is to minimize the integral</p>
+I"e<p>In this lesson, we will derive the Euler-Lagrange equation for the basic problem in the calculus of variations. The problem is to minimize the integral</p>
 
-<script type="math/tex; mode=display">S[x] = \int_a^b \mathcal{L}(t,x,\dot{x}) dt</script>
+\[S[x] = \int_a^b \mathcal{L}(t,x,\dot{x}) dt\]
 
 <p>over differentiable functions $x$, where $x(a)$ and $x(b)$ are given. To do this, we assume that we have found a function $x_{*}$ which minimizes the integral. Then, we consider a general function $x = x_{*} + \epsilon\eta$, where $\eta$ is a any function satisfying $\eta(a) = \eta(b) = 0$; recall that we are only considering functions which satisfy the boundary conditions so we cannot have any extra contributions at $t = a$ and $t = b$. Thus, $\epsilon\eta$ is a small perturbing funciton. We note that for $\epsilon = 0$, $y$ becomes the minimizer of the integral. This means that</p>
 
-<script type="math/tex; mode=display">\frac{d}{d\epsilon} S[x]\bigg|_{\epsilon = 0} = 0.</script>
+\[\frac{d}{d\epsilon} S[x]\bigg|_{\epsilon = 0} = 0.\]
 
 <p>Armed with this condition, we compute the derivative of $S$ with respect to $\epsilon$.</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{eqnarray*}
-\frac{d}{d\epsilon}S[x] &=& \frac{d}{d\epsilon} \int_a^b \mathcal{L}(t,x,\dot{x}) dt\\
-&=& \int_a^b\left(\frac{\partial\mathcal{L}}{\partial x}\frac{dx}{d\epsilon} + \frac{\partial\mathcal{L}}{\partial \dot{x}} \frac{d\dot{x}}{d\epsilon}\right) dt \\
-&=& \int_a^b\left(\frac{\partial\mathcal{L}}{\partial x}\eta + \frac{\partial\mathcal{L}}{\partial \dot{x}} \dot{\eta} \right) dt \\
-&=&  \int_a^b\left(\frac{\partial\mathcal{L}}{\partial x}\eta \right) dt +  \int_a^b\left(\frac{\partial\mathcal{L}}{\partial \dot{x}} \dot{\eta} \right) dt \\
-&=&  \int_a^b\left(\frac{\partial\mathcal{L}}{\partial x}\eta \right) dt +  \left(\frac{\partial\mathcal{L}}{\partial \dot{x}} \eta\right)\bigg|_a^b - \int_a^b \frac{d}{dt}\left(\frac{\partial\mathcal{L}}{\partial \dot{x}} \right)\eta dt \\
-&=&  \int_a^b\left[\frac{\partial\mathcal{L}}{\partial x}- \frac{d}{dt}\left(\frac{\partial\mathcal{L}}{\partial \dot{x}} \right)\right]\eta dt 
+\[\begin{eqnarray*}
+\frac{d}{d\epsilon}S[x] &amp;=&amp; \frac{d}{d\epsilon} \int_a^b \mathcal{L}(t,x,\dot{x}) dt\\
+&amp;=&amp; \int_a^b\left(\frac{\partial\mathcal{L}}{\partial x}\frac{dx}{d\epsilon} + \frac{\partial\mathcal{L}}{\partial \dot{x}} \frac{d\dot{x}}{d\epsilon}\right) dt \\
+&amp;=&amp; \int_a^b\left(\frac{\partial\mathcal{L}}{\partial x}\eta + \frac{\partial\mathcal{L}}{\partial \dot{x}} \dot{\eta} \right) dt \\
+&amp;=&amp;  \int_a^b\left(\frac{\partial\mathcal{L}}{\partial x}\eta \right) dt +  \int_a^b\left(\frac{\partial\mathcal{L}}{\partial \dot{x}} \dot{\eta} \right) dt \\
+&amp;=&amp;  \int_a^b\left(\frac{\partial\mathcal{L}}{\partial x}\eta \right) dt +  \left(\frac{\partial\mathcal{L}}{\partial \dot{x}} \eta\right)\bigg|_a^b - \int_a^b \frac{d}{dt}\left(\frac{\partial\mathcal{L}}{\partial \dot{x}} \right)\eta dt \\
+&amp;=&amp;  \int_a^b\left[\frac{\partial\mathcal{L}}{\partial x}- \frac{d}{dt}\left(\frac{\partial\mathcal{L}}{\partial \dot{x}} \right)\right]\eta dt 
 \\
-&=& 0
-\end{eqnarray*} %]]></script>
+&amp;=&amp; 0
+\end{eqnarray*}\]
 
 <p>Since this integral is 0 for all $\eta$, we conclude that the object multiplying it is zero, or,</p>
 
-<script type="math/tex; mode=display">\frac{\partial\mathcal{L}}{\partial x}- \frac{d}{dt}\left(\frac{\partial\mathcal{L}}{\partial \dot{x}}\right)  = 0</script>
+\[\frac{\partial\mathcal{L}}{\partial x}- \frac{d}{dt}\left(\frac{\partial\mathcal{L}}{\partial \dot{x}}\right)  = 0\]
 
 <p>This is known as the Euler-Lagrange equation.</p>
 
@@ -37,7 +36,7 @@ $$\frac{\partial\mathcal{L}}{\partial x}- \frac{d}{dt}\left(\frac{\partial\mathc
 
 <p>Note that in this derivation, we have $t$ as the independent variable and $x = x(t)$ as the dependent variable. The Euler Lagrange equation works equally well if we simply relabel the variables; some problems have $x$ as the independent variable and $y = y(x)$ as the dependent variable. In these cases we have $\L = \L(x,y,y’)$ and the Euler Lagrange equation is</p>
 
-<script type="math/tex; mode=display">\frac{\partial\L}{\partial y} = \frac{d}{dx}\frac{\partial\L}{\partial y'}.</script>
+\[\frac{\partial\L}{\partial y} = \frac{d}{dx}\frac{\partial\L}{\partial y'}.\]
 
 <h3 id="examples">Examples</h3>
 <p>To get a feel for how this works, let us now find the Euler Lagrange equation for certain Lagrangians.</p>

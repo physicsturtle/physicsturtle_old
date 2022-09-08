@@ -1,4 +1,4 @@
-I"6<h3 id="introduction">Introduction</h3>
+I"Ñ<h3 id="introduction">Introduction</h3>
 <p>In special relativity, it is very important to understand the idea that different observers will have different notions of time and space. The first step to understanding this concept is looking at events and inertial reference frames.</p>
 
 <div class="definition">
@@ -28,14 +28,14 @@
 <p>\textbf{Definition}: If you measure the distance between two events in the frame in which two events occur simultaneously, then this length is called the \textit{proper length}, and is the longest length that one can observe between the two events.</p>
 
 <p>\textbf{Time Dilation}: Suppose the time interval measured between two events is $t$ in some reference frame. Now, suppose we have another reference frame moving at speed $v$ with respect to the first reference frame. The time interval measured between the two events in the second reference frame is 
-<script type="math/tex">t' = \frac{t}{\sqrt{1-v^2/c^2}}</script></p>
+\(t' = \frac{t}{\sqrt{1-v^2/c^2}}\)</p>
 
 <p>\textbf{Length Contraction}: Suppose the distance measured between two events is $\ell$ in some reference frame. Now, suppose we have another reference frame moving at speed $v$ with respect to the first reference frame. The time interval measured between the two events in the second reference frame is 
-<script type="math/tex">\ell' = \ell\sqrt{1-v^2/c^2}</script></p>
+\(\ell' = \ell\sqrt{1-v^2/c^2}\)</p>
 
 <p>\textbf{Velocity Addition}: Suppose $v_{AB}$ is the velocity of $A$ relative to $B$, $v_{AC}$ is the velocity of $A$ relative to $C$, and $v_{BC}$ is the velocity of $B$ relative to $C$. Then,</p>
 
-<script type="math/tex; mode=display">v_{AB} = \frac{v_{AC} + v_{CB}}{1+v_{AC}v_{CB}/c^2}</script>
+\[v_{AB} = \frac{v_{AC} + v_{CB}}{1+v_{AC}v_{CB}/c^2}\]
 
 <p>\newpage
 \begin{questions}

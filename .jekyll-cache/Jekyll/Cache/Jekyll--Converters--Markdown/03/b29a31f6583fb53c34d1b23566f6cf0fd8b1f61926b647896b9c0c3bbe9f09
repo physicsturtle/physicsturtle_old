@@ -1,6 +1,6 @@
-I"ü<p>A topic that is often overlooked is how to compute the differential of a function. This is closely related to the gradient vector, as well as tangent planes. Taking the differential is an operation that is done on functions. In single variable calculus, the differential \(df\) of a function \(f\) was defined as</p>
+I"Ñ<p>A topic that is often overlooked is how to compute the differential of a function. This is closely related to the gradient vector, as well as tangent planes. Taking the differential is an operation that is done on functions. In single variable calculus, the differential \(df\) of a function \(f\) was defined as</p>
 
-<script type="math/tex; mode=display">df = f'(x) dx.</script>
+\[df = f'(x) dx.\]
 
 <p>For a fuction of three variables, we define</p>
 

@@ -1,8 +1,8 @@
-I"÷<p>In this section, we will rigorously develop the Debye model, which is useful in statistical or condensed matter physics for calculating heat capacities of solids.</p>
+I"Ì<p>In this section, we will rigorously develop the Debye model, which is useful in statistical or condensed matter physics for calculating heat capacities of solids.</p>
 
 <p>Consider $N$ atoms in a line. Atoms can move longitudinally or transversally. Letâ€™s construct the Hamiltonian for this system.</p>
 
-<script type="math/tex; mode=display">H = \sum_j \frac{\textbf{p}_j^2}{2m} + \frac{k}{2}\left(\textbf{q}_{j+1} - \textbf{q}_j\right)^2.</script>
+\[H = \sum_j \frac{\textbf{p}_j^2}{2m} + \frac{k}{2}\left(\textbf{q}_{j+1} - \textbf{q}_j\right)^2.\]
 
 <p>What are the normal modes of the system?</p>
 

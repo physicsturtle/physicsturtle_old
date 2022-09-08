@@ -1,10 +1,10 @@
-I"T9<p>In this section, we study integrals of the form</p>
+I"þ8<p>In this section, we study integrals of the form</p>
 
-<script type="math/tex; mode=display">\int \frac{p(x)}{q(x)} dx,</script>
+\[\int \frac{p(x)}{q(x)} dx,\]
 
 <p>where both $p$ and $q$ are polynomial functions. In solving these problems we do a partial fraction decomposition, which splits the integrand into a sum of simple terms. For example, a rational function and its partial fraction decomposition is</p>
 
-<script type="math/tex; mode=display">\frac{1}{(x+1)(x+2)} = \frac{1}{x+1} - \frac{1}{x+2}.</script>
+\[\frac{1}{(x+1)(x+2)} = \frac{1}{x+1} - \frac{1}{x+2}.\]
 
 <p>The decomposed function is much easier to integrate, but how would we actually calculate this? That is the goal of this lesson.</p>
 

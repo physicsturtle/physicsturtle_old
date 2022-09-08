@@ -1,8 +1,9 @@
-I"ó<p>The chain rule is often one of the more difficult sections for students to grasp in multivariable calculus. This is usually because of sloppy notation, both on the part of the instructor and student. Here we will try to be as explicit and clear as possible so that the student can learn good habits.</p>
+I"Æ
+<p>The chain rule is often one of the more difficult sections for students to grasp in multivariable calculus. This is usually because of sloppy notation, both on the part of the instructor and student. Here we will try to be as explicit and clear as possible so that the student can learn good habits.</p>
 
 <p>Letâ€™s first recall the chain rule from single variable calculus. If \(y = f(g(x))\), then</p>
 
-<script type="math/tex; mode=display">y' = f'(g(x))g'(x)</script>
+\[y' = f'(g(x))g'(x)\]
 
 <p>The chain rule for functions of several variables is a direct extension of this. Additionally, there is a single formula just like the one above.</p>
 
@@ -10,11 +11,11 @@
 
 <p>Consider a function of the form \(f(t) = g(x(t),y(t))\). What is \(fâ€™(t)\)? It is</p>
 
-<script type="math/tex; mode=display">\frac{df}{dt} = \frac{\partial g}{\partial x}\frac{dx}{dt} + \frac{\partial g}{\partial y}\frac{dy}{dt}</script>
+\[\frac{df}{dt} = \frac{\partial g}{\partial x}\frac{dx}{dt} + \frac{\partial g}{\partial y}\frac{dy}{dt}\]
 
 <p>which can be rewritten as</p>
 
-<script type="math/tex; mode=display">\frac{df}{dt} = \nabla f \cdot \frac{d\textbf{r}}{dt}</script>
+\[\frac{df}{dt} = \nabla f \cdot \frac{d\textbf{r}}{dt}\]
 
 <p>where \(\textbf{r}(t) = (x(t),y(t))\). What does this mean physically? This represents how \(f\) changes as we move along the curve \((x(t),y(t))\) in the \(xy\) plane!</p>
 
@@ -24,19 +25,19 @@
 
 <p>What about functions of the form \(f(x,y) = h(g(x,y))\)? Now \(f\) is a function of two variables, so we can look at computing its partials.</p>
 
-<script type="math/tex; mode=display">\frac{\partial f}{\partial x} = \frac{dh}{dg}\frac{\partial g}{\partial x}, \quad \frac{\partial f}{\partial y} = \frac{dh}{dg}\frac{\partial g}{\partial y}</script>
+\[\frac{\partial f}{\partial x} = \frac{dh}{dg}\frac{\partial g}{\partial x}, \quad \frac{\partial f}{\partial y} = \frac{dh}{dg}\frac{\partial g}{\partial y}\]
 
 <p>This can be rewritten as</p>
 
-<script type="math/tex; mode=display">\nabla f = \frac{dh}{dg}\nabla g</script>
+\[\nabla f = \frac{dh}{dg}\nabla g\]
 
 <h4 id="chain-rule-3">Chain Rule 3</h4>
 
 <p>Now we combine the two concepts to look at functions of the form \(f(x,y) = g(u(x,y),v(x,y))\). This looks like</p>
 
-<script type="math/tex; mode=display">\frac{\partial f}{\partial x} = \frac{\partial g}{\partial u}\frac{\partial u}{\partial x} + \frac{\partial g}{\partial v} \frac{\partial v}{\partial x}</script>
+\[\frac{\partial f}{\partial x} = \frac{\partial g}{\partial u}\frac{\partial u}{\partial x} + \frac{\partial g}{\partial v} \frac{\partial v}{\partial x}\]
 
-<script type="math/tex; mode=display">\frac{\partial f}{\partial y} = \frac{\partial g}{\partial u}\frac{\partial u}{\partial y} + \frac{\partial g}{\partial v} \frac{\partial v}{\partial y}</script>
+\[\frac{\partial f}{\partial y} = \frac{\partial g}{\partial u}\frac{\partial u}{\partial y} + \frac{\partial g}{\partial v} \frac{\partial v}{\partial y}\]
 
 <h4 id="second-derivatives">Second Derivatives</h4>
 

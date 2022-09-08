@@ -1,5 +1,4 @@
-I"H
-<div class="definition">
+I"�	<div class="definition">
 <b>Definition:</b> A <i>Lie group</i> (Lie is pronounced Lee, not Lai) is a set $G$ satisfying the following properties:
 <ol type="i">
 <li> $G$ is a group with group operation $*$ </li>
@@ -34,8 +33,7 @@
 </ol>
 
 <p>Let $V$ be a $d$-dimensional vector space over $R$ equipped with a pseudo-inner product 
-<script type="math/tex">% <![CDATA[
-\left<\cdot,\cdot\right>: V\times V \to \R, %]]></script>
+\(\left&lt;\cdot,\cdot\right&gt;: V\times V \to \R,\)
 satisfying 
 i. bilinearity
 ii. symmetry
@@ -46,8 +44,7 @@ iii. non-degenerate</p>
 <p>Theorem: THere are (up to isomorphism) only as many pseudo inner products on $V$ as there are different signatures.</p>
 
 <p>If we define the set 
-<script type="math/tex">% <![CDATA[
-O(p,q) = \{\varphi : V\to V : \left<\varphi(v),\varphi(w) = (v,w)\} %]]></script></p>
+\(O(p,q) = \{\varphi : V\to V : \left&lt;\varphi(v),\varphi(w) = (v,w)\}\)</p>
 
 <p>then this is a subgroup of the general linear group $GL(p+q,\R)$. This Lie group is called the “orthogonal group with respect to the pseudo inner product $\left&lt;\cdot,\cdot\right&gt;$”.</p>
 

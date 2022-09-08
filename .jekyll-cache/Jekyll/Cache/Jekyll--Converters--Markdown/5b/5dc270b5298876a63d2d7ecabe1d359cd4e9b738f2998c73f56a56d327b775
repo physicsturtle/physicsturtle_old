@@ -1,30 +1,29 @@
-I"A<p>Consider a system with a spherical metal shell of radius $a$, and a spherical shell outside of it with inner radius $b$ and outer radius $c$. There is a potential difference of $V_0$ between the inner shell and outer shell. The potential is described by Laplace’s equation</p>
+I"L<p>Consider a system with a spherical metal shell of radius $a$, and a spherical shell outside of it with inner radius $b$ and outer radius $c$. There is a potential difference of $V_0$ between the inner shell and outer shell. The potential is described by Laplace’s equation</p>
 
-<script type="math/tex; mode=display">\nabla^2 V = 0</script>
+\[\nabla^2 V = 0\]
 
 <p>with boundary conditions $V(a) = $V_0$, and $V(b) = 0$. This is a radially symmetric system, so we rewrite this as</p>
 
-<script type="math/tex; mode=display">\frac{1}{r^2}\frac{\partial}{\partial r}\left( r^2 \frac{\partial V}{\partial r}\right) = 0</script>
+\[\frac{1}{r^2}\frac{\partial}{\partial r}\left( r^2 \frac{\partial V}{\partial r}\right) = 0\]
 
 <p>Multiplying by $r^2$ and then integrating both sides gives us</p>
 
-<script type="math/tex; mode=display">r^2\frac{\partial V}{\partial r} = c_1</script>
+\[r^2\frac{\partial V}{\partial r} = c_1\]
 
 <p>Now dividing by $r^2$ and integrating again,</p>
 
-<script type="math/tex; mode=display">V = c_2 - \frac{c_1}{r}</script>
+\[V = c_2 - \frac{c_1}{r}\]
 
 <p>If we plug in the boundary conditions, we get the final solution, which holds for $a &lt; r &lt; b$.</p>
 
-<script type="math/tex; mode=display">V(r) = \frac{V_0}{1-b/a}\left(1 - \frac{b}{r}\right)</script>
+\[V(r) = \frac{V_0}{1-b/a}\left(1 - \frac{b}{r}\right)\]
 
 <p>Now, we can construct the full solution</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-V(r) = \begin{cases}
-V_0 & 0 < r < a \\
-\frac{V_0}{1-b/a}\left(1 - \frac{b}{r}\right) & a < r < b\\
-0 & b < r < \infty
-\end{cases} %]]></script>
+\[V(r) = \begin{cases}
+V_0 &amp; 0 &lt; r &lt; a \\
+\frac{V_0}{1-b/a}\left(1 - \frac{b}{r}\right) &amp; a &lt; r &lt; b\\
+0 &amp; b &lt; r &lt; \infty
+\end{cases}\]
 
 :ET

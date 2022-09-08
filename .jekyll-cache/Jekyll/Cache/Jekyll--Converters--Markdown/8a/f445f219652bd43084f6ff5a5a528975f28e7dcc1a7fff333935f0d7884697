@@ -1,26 +1,26 @@
-I"<p>In the last section, we discussed adding and subtracting vectors geometrically. Now we will do the same, but algebraically. This is a little bit more abstract, but is much more useful when solving problems that are difficult to draw by hand.</p>
+I"™<p>In the last section, we discussed adding and subtracting vectors geometrically. Now we will do the same, but algebraically. This is a little bit more abstract, but is much more useful when solving problems that are difficult to draw by hand.</p>
 
 <h4 id="addition">Addition</h4>
 <p>Two vectors $\textbf{v} = (v_1,v_2,v_3)$ and $\textbf{u} = (u_1,u_2,u_3)$ can be added <em>componentwise</em>.</p>
 
-<script type="math/tex; mode=display">\textbf{v} + \textbf{u} = (v_1+u_1,v_2+u_2,v_3+u_3)</script>
+\[\textbf{v} + \textbf{u} = (v_1+u_1,v_2+u_2,v_3+u_3)\]
 
 <p>from which we see that $\textbf{u} + \textbf{v} = \textbf{v} + \textbf{u}$.</p>
 
 <h4 id="subtraction">Subtraction</h4>
 <p>Next, we have subtraction, which is defined in the obvious way</p>
 
-<script type="math/tex; mode=display">\textbf{v} - \textbf{u} = (v_1-u_1,v_2-u_2,v_3-u_3)</script>
+\[\textbf{v} - \textbf{u} = (v_1-u_1,v_2-u_2,v_3-u_3)\]
 
 <h4 id="scalar-multiplication">Scalar Multiplication</h4>
 
 <p>Vectors can also be scaled by some <em>scalar</em> $\lambda \in \mathbb{R}$. The scalar $\lambda$ is distributed in to each component.</p>
 
-<script type="math/tex; mode=display">\lambda\textbf{v} = (\lambda v_1, \lambda v_2, \lambda v_3)</script>
+\[\lambda\textbf{v} = (\lambda v_1, \lambda v_2, \lambda v_3)\]
 
 <p>It is then straightforward to define <em>linear combinations</em> of multiple vectors. A linear combination is a sum of vectors, each multiplied by their own scalar (which could be any number, positive or negative, 1 or 0, rational or irrational). For example, a linear combination of \(\textbf{u}\) and \(\textbf{v}\) could be</p>
 
-<script type="math/tex; mode=display">a\textbf{u} + b\textbf{v} = (au_1 + bv_1,au_2 + bv_2, au_3 + bv_3)</script>
+\[a\textbf{u} + b\textbf{v} = (au_1 + bv_1,au_2 + bv_2, au_3 + bv_3)\]
 
 <p>Linear combinations can also be taken between more than 2 vectors.</p>
 
@@ -32,16 +32,15 @@
 <h4 id="notation">Notation</h4>
 <p>In addition to the notation that we will be using, $\textbf{v} = (a,b,c)$, it is also common for vectors to be written as follows:</p>
 
-<script type="math/tex; mode=display">\textbf{v} = \langle a,b,c \rangle</script>
+\[\textbf{v} = \langle a,b,c \rangle\]
 
-<script type="math/tex; mode=display">% <![CDATA[
-\textbf{v} = \begin{bmatrix} a & b & c \end{bmatrix} %]]></script>
+\[\textbf{v} = \begin{bmatrix} a &amp; b &amp; c \end{bmatrix}\]
 
-<script type="math/tex; mode=display">\textbf{v} = \begin{pmatrix} a \\ b \\ c \end{pmatrix}</script>
+\[\textbf{v} = \begin{pmatrix} a \\ b \\ c \end{pmatrix}\]
 
-<script type="math/tex; mode=display">\textbf{v} = \begin{bmatrix} a \\ b \\ c \end{bmatrix}</script>
+\[\textbf{v} = \begin{bmatrix} a \\ b \\ c \end{bmatrix}\]
 
-<p>When vectors are written this way, at least in this course, they will usually be referring to the <em>Cartesian</em> components of the vectors. That is, each of these notations can also be written as <script type="math/tex">\textbf{v} = a\hat{\textbf{x}} + b\hat{\textbf{y}} + c\hat{\textbf{z}}</script>.  If we want to write vectors in different basis, then we will denote that explicitly by writing in terms of the basis elements.</p>
+<p>When vectors are written this way, at least in this course, they will usually be referring to the <em>Cartesian</em> components of the vectors. That is, each of these notations can also be written as \(\textbf{v} = a\hat{\textbf{x}} + b\hat{\textbf{y}} + c\hat{\textbf{z}}\).  If we want to write vectors in different basis, then we will denote that explicitly by writing in terms of the basis elements.</p>
 
 <h3 id="exercises">Exercises</h3>
 

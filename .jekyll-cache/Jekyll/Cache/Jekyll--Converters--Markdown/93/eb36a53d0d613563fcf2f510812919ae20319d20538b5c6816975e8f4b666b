@@ -1,23 +1,23 @@
-I"ÿ<p>The fundamental relation</p>
+I"(<p>The fundamental relation</p>
 
-<script type="math/tex; mode=display">dE = TdS - PdV</script>
+\[dE = TdS - PdV\]
 
 <p>tells us that</p>
 
-<script type="math/tex; mode=display">T = \frac{\partial E}{\partial S}\bigg|_V,\qquad -P = \frac{\partial E}{\partial V}\bigg|_S.</script>
+\[T = \frac{\partial E}{\partial S}\bigg|_V,\qquad -P = \frac{\partial E}{\partial V}\bigg|_S.\]
 
 <p>other content here</p>
 
 <p>Sometimes however, we are interested in calculating quantities such as</p>
 
-<script type="math/tex; mode=display">\frac{\partial E}{\partial T}\bigg_V.</script>
+\[\frac{\partial E}{\partial T}\bigg_V.\]
 
 <p>Can we come up with a Maxwell relation that helps with this? Consider the Legendre trasnformed quantity $F = E - TS$. Thus,</p>
 
-<script type="math/tex; mode=display">dF = -SdT - PdV,</script>
+\[dF = -SdT - PdV,\]
 
 <p>which tells us that</p>
 
-<script type="math/tex; mode=display">-S = \frac{\partial F}{\partial T}\bigg|_V</script>
+\[-S = \frac{\partial F}{\partial T}\bigg|_V\]
 
 :ET

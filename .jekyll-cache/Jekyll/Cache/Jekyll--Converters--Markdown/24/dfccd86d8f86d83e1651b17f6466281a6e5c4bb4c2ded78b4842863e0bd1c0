@@ -1,10 +1,10 @@
-I"|<p>A thin lens has the same equations as the ones for the spherical mirror, but the conventions are different.</p>
+I"&<p>A thin lens has the same equations as the ones for the spherical mirror, but the conventions are different.</p>
 
-<script type="math/tex; mode=display">\frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{f}</script>
+\[\frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{f}\]
 
 <p>and the magnification</p>
 
-<script type="math/tex; mode=display">m = \frac{h_i}{h_o} = -\frac{d_i}{d_o}</script>
+\[m = \frac{h_i}{h_o} = -\frac{d_i}{d_o}\]
 
 <ol>
   <li>$f$ is positive for a convex lens, and negative for a concave lens</li>

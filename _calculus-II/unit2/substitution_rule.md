@@ -9,9 +9,21 @@ unitDisplay: Unit 2
 courseDisplay: Calculus II
 ---
 
-In this section, we will discuss the inverse of the chain rule for differentiation. This substitution technique is often called $u$-substitution because that is the most common letter to use. The substitution rule says the following:
+In this section, we will discuss the inverse of the chain rule for differentiation. We recall that the chain rule for differentiation is
 
-$$\int f'(g(x))g'(x) dx = f(g(x))$$
+$$\frac{d}{dx}f(g(x)) = f'(g(x))g'(x).$$
+
+The way we invert the chain rule is by doing a substitution, and it is often called a "$u$-substitution" because that is the most common letter that people use. The substitution rule says the following.
+
+To evaluate the integral
+
+$$\int f'(g(x))g'(x) dx,$$
+
+make the substitution $u = g(x)$. Writing $u = g(x)$ isn't the whole story how
+
+Then, $\d u = g'(x) dx$. Thus, we get
+
+$$\int f'(g(x))g'(x) dx \int f'(u) du = f(u) = f(g(x)).$$
 
 This seems a little bit abstract, so we will do several examples. 
 
@@ -22,7 +34,7 @@ This seems a little bit abstract, so we will do several examples.
 $$\int\cos(2x) dx $$ </p>
 <b>Solution:</b> We already know how to integrate $\cos x$, but not $\cos 2x$. How can we change this into a form that we recognize? Let's make the substitution $u = 2x$. If we make this substitution, then we also need to change the differential, which gives $du = 2dx$. This means that $dx = \frac{1}{2} du$. Thus, the integral becomes
 $$\int\cos(2x) dx = \int\cos u \frac{du}{2}$$
-If we just move the $2$ out to the front, then we are integrating a normal cosine! 
+If we just move the $1/2$ out to the front, then we are integrating a normal cosine! 
 $$\frac{1}{2}\int\cos u du = \frac{1}{2}\sin u + C$$
 Thus, if we substitute back in our original variable $u = 2x$, we find that
 
@@ -43,7 +55,7 @@ Lastly, substituting in $u = x^2$, we find that
 $$\int xe^{x^2} dx = \frac{1}{2} e^{x^2}$$ 
 </div> <br>
 
-You may have started to notice a theme here. If we see a function (in the previous example, $x^2$) and its derivative (in the previous example, $x$), then we can do a $u$-substitution for the function (in the previous example $u = x^2$). Obviously $x$ is not the derivative of $x^2$, but it is a constant multiple, and this is sufficient. 
+You may have started to notice a theme here. If we see a function (in the previous example, $x^2$) and its derivative, or something which is a constant multiple of its derivative (in the previous example, $x$ is not the derivative of $2x$, but it is a constant multiple thereof), then we can do a $u$-substitution for the function (in the previous example $u = x^2$).
 
 <div class="example">
 <p><b>Example:</b> Calculate the following integral
@@ -95,7 +107,7 @@ $$\int x^3\sqrt{x^2+9}dx$$
 </p>
 <b>Solution:</b> In this example, it is not obvious at all what we need to do! We can make use of a clever trick. Let $u = x^2 + 9$ and $du = 2x dx$. Then, we get that 
 $$\int x^3\sqrt{x^2+9}dx = \frac{1}{2}\int x^2\sqrt{u} du$$
-but we haven't gotten rid of all of the $x$ terms! The way to solve this is substitute in $x^2 = u-9$. Thus, 
+but we haven't gotten rid of all of the $x$ terms! The way to solve this is substitute in $x^2 = u-9$. T8hus, 
 $$\int x^3\sqrt{x^2+9}dx = \frac{1}{2}\int(u-9)\sqrt{u} du = \frac{1}{2} \int (u^{3/2} - 9 u^{1/2}) du$$
 This is now simple integrate by using the power rule, so 
 $$\frac{1}{2} \int (u^{3/2} - 9 u^{1/2}) du = \frac{1}{5}u^{5/2} - 3u^{3/2} + C.$$

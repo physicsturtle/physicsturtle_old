@@ -1,4 +1,4 @@
-I"<h3 id="tangent-lines">Tangent Lines</h3>
+I"�<h3 id="tangent-lines">Tangent Lines</h3>
 <p>Consider a curve $f(x)$. Suppose we already know the value of $f(a)$, but we want to know the value of $f(x)$, with $x$ being quite close to $a$. If we draw the tangent line to $f(x)$ at $x = a$, then this line will be pretty close to $f$ as long as $x$ is close to $a$. We know for sure that it is really easy to plug in values into a linear approximation to get a clean answer, even if it is not possible for the original function!</p>
 
 <figure class="center">
@@ -7,11 +7,11 @@
 
 <p>The tangent line to the curve $f(x)$ at the point $x=a$ can be found by using the form</p>
 
-<script type="math/tex; mode=display">\frac{y - f(a)}{x-a} = m,</script>
+\[\frac{y - f(a)}{x-a} = m,\]
 
 <p>where $m = f’(a)$ is the slope of the tangent line at $x=a$. Thus, the formula for the tangent line is</p>
 
-<script type="math/tex; mode=display">y = f(a) + f'(a)(x-a).</script>
+\[y = f(a) + f'(a)(x-a).\]
 
 <p>Sometimes, people use the letter $L$ for the tangent line because it is also called a “linear approximation”; $L$ for linear. To illustrate how this idea can be applied, let’s do some examples!</p>
 
@@ -62,7 +62,7 @@ $$dy = f'(x) dx.$$
 
 <p>What the differential allows us to do is find the small change in a function $y=f(x)$ given a small change in the independent variable $x$. This can be written more intuitively as</p>
 
-<script type="math/tex; mode=display">\Delta y \approx f'(x) \Delta x.</script>
+\[\Delta y \approx f'(x) \Delta x.\]
 
 <p>In the figure, we see that $\Delta y$ is the actual change in $y$ when $x$ is increased by $dx$ (or $\Delta x$), but $dy$ is the approximate amount.</p>
 

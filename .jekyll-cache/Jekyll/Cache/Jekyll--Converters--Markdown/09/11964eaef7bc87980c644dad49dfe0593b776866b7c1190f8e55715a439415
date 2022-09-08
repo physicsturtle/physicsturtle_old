@@ -1,6 +1,6 @@
-I"Å<p>Suppose we are interested in differentiating the function</p>
+I"š<p>Suppose we are interested in differentiating the function</p>
 
-<script type="math/tex; mode=display">f(x) = x^\alpha</script>
+\[f(x) = x^\alpha\]
 
 <p>where $\alpha$ is a real number. This can be derived easily for the case of $\alpha$ being a real number. That derivation will be shown here, and the derivation for other $\alpha$, such as rational or arbitrary real, will be shown in later sections, after we have developed more tools for differentiation.</p>
 

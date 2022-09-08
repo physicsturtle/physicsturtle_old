@@ -1,4 +1,4 @@
-I"=<p>In physics, tensors are often introduced as matrices that transform vectors to vectors. Here, we will take that approach because it is the most physically intuitive. However, we want to be able to understand the inertia tensor in the more general tensor formulation that one would see in general relativity. That explanation will be postponed to another time.</p>
+I" <p>In physics, tensors are often introduced as matrices that transform vectors to vectors. Here, we will take that approach because it is the most physically intuitive. However, we want to be able to understand the inertia tensor in the more general tensor formulation that one would see in general relativity. That explanation will be postponed to another time.</p>
 
 <h3 id="review-of-angular-velocity-angular-momentum-moment-of-inertia">Review of Angular Velocity, Angular Momentum, Moment of Inertia</h3>
 
@@ -33,6 +33,6 @@ where $\textbf{p}_i = m_i\frac{d\textbf{r}_i}{dt}$ is the momentum of the $i$th 
 
 <h3 id="exercises">Exercises:</h3>
 <p>Given $\textbf{v} = \boldsymbol{\omega} \times\textbf{r}$, prove that 
-<script type="math/tex">\boldsymbol{\omega} = \frac{\textbf{r}\times\textbf{v}}{r^2}.</script></p>
+\(\boldsymbol{\omega} = \frac{\textbf{r}\times\textbf{v}}{r^2}.\)</p>
 
 :ET

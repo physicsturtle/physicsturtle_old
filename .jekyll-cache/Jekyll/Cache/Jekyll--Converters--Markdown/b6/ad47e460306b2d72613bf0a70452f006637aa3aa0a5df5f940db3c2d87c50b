@@ -1,8 +1,8 @@
-I"Ý<h3 id="introduction">Introduction</h3>
+I""<h3 id="introduction">Introduction</h3>
 
 <p>There are many functions whose inverse function is multi-valued. For example, inverting any of the following functions (for complex $z$)</p>
 
-<script type="math/tex; mode=display">f(z) = z^2, \qquad f(z) = \sin z,\qquad f(z) = \cos z,\qquad f(z) = e^z</script>
+\[f(z) = z^2, \qquad f(z) = \sin z,\qquad f(z) = \cos z,\qquad f(z) = e^z\]
 
 <p>will produce multiple values. In the world of calculus of a real variable, all of these have mutivalued inverses except the exponential. In the calculus of complex variables, we have to recall the polar form of complex numbers $z = re^{i\theta}$. Notice that changing $\theta$ by $2\pi$ would produce the same value of $z$. Thus, if we take the logarithm of both sides, we get $\log z = \log r + i(\theta + 2\pi n)$, where $n\in \Z$. Thus $\log z$ can take multiple values.</p>
 
@@ -14,13 +14,13 @@
 
 <h3 id="logarithm-function">Logarithm Function</h3>
 <p>All multivalued function inverses in complex analysis can be related back to the logarithm function, so we study the logarithm first. Suppose we have the equation 
-<script type="math/tex">z = e^w;</script>
+\(z = e^w;\)
 we want to solve for $w$ in terms of $z$ (note that this is the opposite of the notation that we used in the introduction, where it was $w = e^z$). For a given $z = re^{i\theta}$, where $\theta = \Arg(z)$ (recall that $-\pi &lt; \Arg(z) \leq \pi$), we want to write $w = u + iv$. The equation is thus 
-<script type="math/tex">r e^{i\theta} = e^{u + iv}.</script></p>
+\(r e^{i\theta} = e^{u + iv}.\)</p>
 
 <p>This allows us to work entirely in terms of real numbers! If we take the magnitude of both sides, then we find that $r = e^u$. Thus, $u = \ln r$. We use $\ln$ here to mean the natural logarithm of real argument only. This is conventional in complex analysis; for the (multivalued) natural logarithm of a complex number, we use $\log$. For the imaginary part, we get $v = \theta + 2\pi n = \Arg(z) + 2\pi n$, where $n\in \Z$ is any integer. Putting these together, and recalling that $r = |z|$ and $\theta = \Arg(z)$, we have our expression for $w$:</p>
 
-<script type="math/tex; mode=display">w = u + iv = \ln|z| + i[\Arg(z) + 2\pi n].</script>
+\[w = u + iv = \ln|z| + i[\Arg(z) + 2\pi n].\]
 
 <div class="definition">
 <b>Definition:</b> Let $z\in\C$ be a complex number. Then, we define the <i>multivalued logarithm of $z$</i> to be
@@ -29,7 +29,7 @@ $$\log z = \ln|z| + i(\Arg(z) + 2\pi n).$$
 
 <p>This definition is equivalent to saying that</p>
 
-<script type="math/tex; mode=display">\log z = \ln|z| + i\arg(z),</script>
+\[\log z = \ln|z| + i\arg(z),\]
 
 <p>because $\arg z$ is multivalued. It is possible to define a single valued logarith by simply picking one value for its imaginary part. We call this value the <em>principal value</em>.</p>
 

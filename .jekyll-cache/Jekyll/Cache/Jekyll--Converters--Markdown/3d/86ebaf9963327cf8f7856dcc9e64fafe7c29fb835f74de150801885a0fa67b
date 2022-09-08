@@ -1,9 +1,9 @@
-I"e<p>In this section we examine Rutherford scattering. Rutherford scattering is the situation when a particle of charge $q$ and mass $m$ is incident with impact parameter $b$ on the Coulomb potential</p>
+I"<p>In this section we examine Rutherford scattering. Rutherford scattering is the situation when a particle of charge $q$ and mass $m$ is incident with impact parameter $b$ on the Coulomb potential</p>
 
-<script type="math/tex; mode=display">V(r) = \frac{Q}{4\pi\epsilon_0 r}.</script>
+\[V(r) = \frac{Q}{4\pi\epsilon_0 r}.\]
 
 <p>We wish to know the behaviour of the particle as after a long time. We do not care about the region where the particle is close to the potential, but rather its asymptotic behaviour when it is far away. Newton’s second law for the system is</p>
 
-<script type="math/tex; mode=display">F(\x) = m\frac{d^2\x}{dt^2}</script>
+\[F(\x) = m\frac{d^2\x}{dt^2}\]
 
 :ET

@@ -1,7 +1,7 @@
-I"p	<h3 id="introduction">Introduction</h3>
+I"	<h3 id="introduction">Introduction</h3>
 <p>Most people, when they hear of tensors for the first time, are given a definition along the lines of “a tensor is an object whose components transform between coordinate systems $x$ to $x’$ according to the rule:</p>
 
-<script type="math/tex; mode=display">T^{\prime\alpha}_\beta = \frac{\partial x^{\prime \alpha}}{\partial x^\gamma}\frac{\partial x^\delta}{x^{\prime\beta}} T^\gamma_\delta."</script>
+\[T^{\prime\alpha}_\beta = \frac{\partial x^{\prime \alpha}}{\partial x^\gamma}\frac{\partial x^\delta}{x^{\prime\beta}} T^\gamma_\delta."\]
 
 <p>This so-called “definition” has many problems.</p>
 <ol>
@@ -26,5 +26,5 @@ $$T : \underbrace{V^*\times\cdots\times V^*}_{p\,\text{times}} \times \underbrac
 
 <p>If $\{ e_i\}$ is a basis for $V$, and $\{\epsilon^j\}$ is the corresponding dual basis for $V^*$, then we can define the components of a tensor with respect to this choice of basis. Suppose $T$ is a $(p,q)$ tensor over $V$, then its components are</p>
 
-<script type="math/tex; mode=display">T^{i_1 \dots i_p}_{j_1\dots i_q} = T(\epsilon^{i_1},\dots,\epsilon^{i_p},e_{j_1},\dots, e_{j_q})</script>
+\[T^{i_1 \dots i_p}_{j_1\dots i_q} = T(\epsilon^{i_1},\dots,\epsilon^{i_p},e_{j_1},\dots, e_{j_q})\]
 :ET

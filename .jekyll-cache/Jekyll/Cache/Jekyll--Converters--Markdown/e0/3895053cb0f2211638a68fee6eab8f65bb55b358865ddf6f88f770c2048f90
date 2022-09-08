@@ -1,6 +1,6 @@
-I"i<p>Consider a free particle, whose Lagrangian is</p>
+I"><p>Consider a free particle, whose Lagrangian is</p>
 
-<script type="math/tex; mode=display">\mathcal{L} = \frac{m}{2}\dot{x}^2.</script>
+\[\mathcal{L} = \frac{m}{2}\dot{x}^2.\]
 
 <p>The initial condition is $x(t_0) = x_0$, and the final condition is $x(t) = x$.</p>
 

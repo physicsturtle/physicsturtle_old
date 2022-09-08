@@ -1,14 +1,14 @@
-I"G<p>The partition function is the sum of all the Boltzmann factors. if $E(s)$ is the energy of microstate $s$, then the Boltzmann factor is</p>
+I"Æ<p>The partition function is the sum of all the Boltzmann factors. if $E(s)$ is the energy of microstate $s$, then the Boltzmann factor is</p>
 
-<script type="math/tex; mode=display">e^{-E(s)/kT}</script>
+\[e^{-E(s)/kT}\]
 
 <p>and the partition function is the sum of all of the Boltzmann factors.</p>
 
-<script type="math/tex; mode=display">Z = \sum_s e^{-E(s)/kT}</script>
+\[Z = \sum_s e^{-E(s)/kT}\]
 
 <p>The probability of measuring the system in state $s$ is given by</p>
 
-<script type="math/tex; mode=display">P(s) = \frac{1}{Z}e^{-E(s)/kT}</script>
+\[P(s) = \frac{1}{Z}e^{-E(s)/kT}\]
 
 <div class="example">
 <p><b>Example:</b> Calculate the partition function of the quantum harmonic oscillator. </p>

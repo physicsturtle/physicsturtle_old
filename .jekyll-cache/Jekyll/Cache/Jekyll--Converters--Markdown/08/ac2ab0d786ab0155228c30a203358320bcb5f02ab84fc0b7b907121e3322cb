@@ -1,20 +1,20 @@
-I"�<p>Calculating residues in complex analysis is very useful for a variety of applications, from purely mathematical purposes to integrals from physics. Here let’s discuss a few tricks.</p>
+I"1<p>Calculating residues in complex analysis is very useful for a variety of applications, from purely mathematical purposes to integrals from physics. Here let’s discuss a few tricks.</p>
 
 <p>We expand a function \(f : \mathbb{C}\to\mathbb{C}\) in a Laurent series</p>
 
-<script type="math/tex; mode=display">f(z) = \sum_{n = -\infty}^{\infty} a_n(z-z_0)^n</script>
+\[f(z) = \sum_{n = -\infty}^{\infty} a_n(z-z_0)^n\]
 
 <p>the coefficient \(a_{-1}\) is known as the <em>residue of \(f\) at \(z_0\)</em>.</p>
 
-<script type="math/tex; mode=display">\text{Res}(f,z_0) = a_{-1}</script>
+\[\text{Res}(f,z_0) = a_{-1}\]
 
 <p>Depending on what kind of pole \(z_0\) is, there are different tricks for calculating the residue.</p>
 
 <p>If \(z_0\) is a simple pole (pole of order 1), then</p>
 
-<script type="math/tex; mode=display">\text{Res}(f,z_0) = \lim_{z\to z_0}f(z)(z-z_0)</script>
+\[\text{Res}(f,z_0) = \lim_{z\to z_0}f(z)(z-z_0)\]
 
 <p>If \(z_0\) is a pole of order \(k\), then</p>
 
-<script type="math/tex; mode=display">\text{Res}(f,z_0) = \frac{1}{(k-1)!}\left.\frac{d^{k-1}}{dz^{k-1}} f(z)(z-z_0)^{k}\right|_{z=z_0}</script>
+\[\text{Res}(f,z_0) = \frac{1}{(k-1)!}\left.\frac{d^{k-1}}{dz^{k-1}} f(z)(z-z_0)^{k}\right|_{z=z_0}\]
 :ET

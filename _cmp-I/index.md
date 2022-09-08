@@ -8,12 +8,12 @@ banner: cmp-I.svg
 Welcome to your first graduate course in Condensed Matter Physics.
 
 The prerequisites are as follows:
-1. An excellent background in undergraduate quantum and statistical mechanics
+1. A background in undergraduate quantum and statistical mechanics
 2. An undergraduate course in condensed matter physics.
 
-{% assign unitNames = "Unit 1 - , Unit 2 - , Unit 3 - , Unit 4 - " | split: ', ' %}
+{% assign unitNames = "Unit 1 - Lattice Systems, Unit 2 - Second Quantization, Unit 3 - Electrons in a Periodic Potential, Unit 4 - Weakly Interacting Electrons, Unit 5 - Phonons, Unit 6 - Electron-Phonon Coupling, Unit 7 - Superconductivity" | split: ', ' %}
 
-{% assign units = "unit1/, unit2/, unit3/, unit4/" | split: ', ' %}
+{% assign units = "unit1/, unit2/, unit3/, unit4/, unit5/, unit6/, unit7/" | split: ', ' %}
 
 {% assign lessonNames1 = "" | split: ', ' %}
 

@@ -1,7 +1,6 @@
-I"6
-<p>In this section, we will work to reduce complicated integrals to trigonometric integrals, which we explored in a previous section. For this section, recall the Pythagorean trigonometric identities:</p>
+I"à	<p>In this section, we will work to reduce complicated integrals to trigonometric integrals, which we explored in a previous section. For this section, recall the Pythagorean trigonometric identities:</p>
 
-<script type="math/tex; mode=display">\sin^2 \theta + \cos^2\theta = 1,\qquad 1 + \tan^2\theta = \sec^2\theta.</script>
+\[\sin^2 \theta + \cos^2\theta = 1,\qquad 1 + \tan^2\theta = \sec^2\theta.\]
 
 <p>There are three trigonometric substitutions which we will most commonly use.</p>
 
@@ -13,7 +12,7 @@
 
 <p>The reason that these substitutions work is because it changes the complicated square root expressions into simple trigonometric expressions. For example, in $\sqrt{a^2 -x^2}$, if we put $x = a\sin\theta$, then the expression becomes</p>
 
-<script type="math/tex; mode=display">\sqrt{a^2 - x^2} = \sqrt{a^2 - a^2\sin^2\theta} = \sqrt{a^2\cos^2\theta} = a\cos\theta,</script>
+\[\sqrt{a^2 - x^2} = \sqrt{a^2 - a^2\sin^2\theta} = \sqrt{a^2\cos^2\theta} = a\cos\theta,\]
 
 <p>which is much simpler than before!</p>
 

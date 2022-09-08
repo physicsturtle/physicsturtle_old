@@ -1,6 +1,6 @@
-I"ž<p>Suppose we have two vectors, are we are interested in finding the component of one onto the other. This is known as projecting one vector onto another. If we project $\textbf{a}$ onto $\textbf{b}$, then we write this as:</p>
+I"s<p>Suppose we have two vectors, are we are interested in finding the component of one onto the other. This is known as projecting one vector onto another. If we project $\textbf{a}$ onto $\textbf{b}$, then we write this as:</p>
 
-<script type="math/tex; mode=display">\text{proj}_\textbf{b}\textbf{a} = \frac{\textbf{a}\cdot\textbf{b}}{\textbf{b}\cdot\textbf{b}}\textbf{b}</script>
+\[\text{proj}_\textbf{b}\textbf{a} = \frac{\textbf{a}\cdot\textbf{b}}{\textbf{b}\cdot\textbf{b}}\textbf{b}\]
 
 <h3 id="exercises">Exercises</h3>
 

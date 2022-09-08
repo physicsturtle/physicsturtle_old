@@ -1,4 +1,4 @@
-I"o<div class="definition">
+I"'<div class="definition">
 <b>Definition:</b> Let $(G,*)$ be a Lie group. Then, for any $g\in G$, there exists a map 
 $$\ell_g : G\to G$$ 
 where 
@@ -12,7 +12,7 @@ and this map is called <i>the left translation with respect to $g$</i>.
 
 <p>Thus, since $\ell_g$ is a diffeomorphism, we can push-forward vector fields with respect to it! This is done in the following way. Let $X$ be a vector field on $G$. (So, $X\in \Gamma(TG)$ is a smooth section of the tangent bundle). Let $g\in G$. Then, the action of $\ell_{g*}$ on the vector field $X$ (evaluated at the point $gh$) is given by the push forward of the vector at the point $h\in G$.</p>
 
-<script type="math/tex; mode=display">(\ell_{g*}(X))_{gh} = \ell_{g*}(X_h)</script>
+\[(\ell_{g*}(X))_{gh} = \ell_{g*}(X_h)\]
 
 <div class="definition">
 <b>Definition:</b> Let $(G,*)$ be a Lie group, and $X$ a vector field on $G$. Then, $X$ is said to be <i>left invariant</i> if, for all $g\in G$, 
@@ -41,7 +41,7 @@ $$[x,[y,z]] + [y,[x,z]] + [z,[x,y]] = 0$$
 <p><br /></p>
 
 <p>An example of a Lie algebra is 
-<script type="math/tex">L = \Gamma(TM)</script>
+\(L = \Gamma(TM)\)
 which forms a $\R$ vector space , and the Lie bracket is the commutator of vector fields.</p>
 
 <p>Note that any $C^\infty(M)$ module is an $\R$ vector space.</p>

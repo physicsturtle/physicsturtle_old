@@ -1,8 +1,7 @@
-I"µ	<p>Definition: Let $S$ be a set. Then an <em>order</em> on $S$ is a relation $&lt;$ on $S$ which satisfies the following properties:</p>
+I"ç	<p>Definition: Let $S$ be a set. Then an <em>order</em> on $S$ is a relation $&lt;$ on $S$ which satisfies the following properties:</p>
 <ol>
   <li>For every $x,y\in S$, one and only one of the following is true:
-<script type="math/tex">% <![CDATA[
-x < y, \quad x = y,\quad y < x %]]></script></li>
+\(x &lt; y, \quad x = y,\quad y &lt; x\)</li>
   <li>For $x,y,z\in S$, if $x &lt; y$ and $y &lt; z$, then $x &lt; z$.</li>
 </ol>
 

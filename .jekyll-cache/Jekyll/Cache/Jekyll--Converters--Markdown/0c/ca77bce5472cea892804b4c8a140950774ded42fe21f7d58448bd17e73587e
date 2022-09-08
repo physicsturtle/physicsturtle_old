@@ -1,4 +1,4 @@
-I"\<p>In this section we introduce differentiation of curves and integration of curves. This is directly applicable to 2D and 3D kinematics of point particles, as well as the study of geometric properties of curves. It also lays the groundwork for topics later in the course where we will be integrating vector fields over curves.</p>
+I"¾<p>In this section we introduce differentiation of curves and integration of curves. This is directly applicable to 2D and 3D kinematics of point particles, as well as the study of geometric properties of curves. It also lays the groundwork for topics later in the course where we will be integrating vector fields over curves.</p>
 
 <p>We now want to discuss how to differentiate vector valued functions. The definition of differentiation of vector valued functions is identical to the definition for a single variable.</p>
 
@@ -8,17 +8,17 @@
 If this limit does not exist at a particular point $t$, the derivative is said not to exist at $t$.
 </div>
 
-<p>This derivative exists if and only if all of the <em>components</em> $(x_1,x_2,\dots,x_n)$ of <script type="math/tex">\textbf{r}(t) = (x_1(t),x_2(t),\dots,x_n(t))</script> have derivatives at $t$.</p>
+<p>This derivative exists if and only if all of the <em>components</em> $(x_1,x_2,\dots,x_n)$ of \(\textbf{r}(t) = (x_1(t),x_2(t),\dots,x_n(t))\) have derivatives at $t$.</p>
 
 <!--- It can be shown that this is equivalent to the condition that the derivatives of all the  components have derivatives. Show the proof --->
 
 <p>When computing this derivative in practice, we take the derivative componentwise. If $\textbf{r}(t) = (x_1(t),x_2(t),\dots,x_n(t))$, we can calculate its deerivative</p>
 
-<script type="math/tex; mode=display">\frac{d\textbf{r}}{dt} = \left(\frac{dx_1}{dt},\frac{dx_2}{dt},\dots,\frac{dx_n}{dt}\right).</script>
+\[\frac{d\textbf{r}}{dt} = \left(\frac{dx_1}{dt},\frac{dx_2}{dt},\dots,\frac{dx_n}{dt}\right).\]
 
 <p>Geometrically, $\textbf{r}â€™(t)$ represents the <em>tangent</em> vector to the curve at the point $\textbf{r}(t)$. We then define the <em>unit tangent vector</em> by</p>
 
-<script type="math/tex; mode=display">\hat{\textbf{T}}(t) = \frac{\textbf{r}'(t)}{|\textbf{r}'(t)|}</script>
+\[\hat{\textbf{T}}(t) = \frac{\textbf{r}'(t)}{|\textbf{r}'(t)|}\]
 
 <h4 id="remark-on-mechanics">Remark on Mechanics</h4>
 
@@ -46,7 +46,7 @@ If this limit does not exist at a particular point $t$, the derivative is said n
 <h3 id="integration">Integration</h3>
 <p>Integration for curves is defined componentwise. This is identical to how differentiation is defined. If we have a curve $\textbf{r} : \mathbb{R}\to\mathbb{R}^n$, then in symbols,</p>
 
-<script type="math/tex; mode=display">\int_a^b \textbf{r}(t) dt = \left(\int_a^b x_1(t) dt, \int_a^b x_2(t) dt,\dots,\int_a^b x_n(t) dt\right)</script>
+\[\int_a^b \textbf{r}(t) dt = \left(\int_a^b x_1(t) dt, \int_a^b x_2(t) dt,\dots,\int_a^b x_n(t) dt\right)\]
 
 <p>This way of integrating a curve is not used very often, except perhaps when doing kinematics of particles moving in several dimensions. We will not enter a lengthy discussion of integration of curves here.</p>
 

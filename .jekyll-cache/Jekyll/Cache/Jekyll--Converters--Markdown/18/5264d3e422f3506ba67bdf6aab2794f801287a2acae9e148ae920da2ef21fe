@@ -1,63 +1,60 @@
-I"¦<p>We are interested in solving the differential equation</p>
+I"<p>We are interested in solving the differential equation</p>
 
-<script type="math/tex; mode=display">m\frac{d\textbf{v}}{dt} = q\left(\textbf{E} + \textbf{v}\times\textbf{B}\right)</script>
+\[m\frac{d\textbf{v}}{dt} = q\left(\textbf{E} + \textbf{v}\times\textbf{B}\right)\]
 
 <p>for uniform $\textbf{E}$ and $\textbf{E}$. When we expand out the cross product, we can turn this into a vector differential equation.</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-m\frac{d\textbf{v}}{dt} = q\textbf{E} + q\underbrace{\begin{pmatrix} 0 & B_3 & -B_2 \\ -B_3 & 0 & B_1 \\ B_2 & -B_1 & 0 \end{pmatrix}}_{B}\textbf{v} %]]></script>
+\[m\frac{d\textbf{v}}{dt} = q\textbf{E} + q\underbrace{\begin{pmatrix} 0 &amp; B_3 &amp; -B_2 \\ -B_3 &amp; 0 &amp; B_1 \\ B_2 &amp; -B_1 &amp; 0 \end{pmatrix}}_{B}\textbf{v}\]
 
 <p>To solve this, we can use standard techniques from ODE theory. First we need to find the eigenvalues of the matrix $B$. First note that this is a skew-symmetric matrix, which means that all of its eigenvalues will have zero real part, i.e. all nonzero eigenvalues will be purely imaginary. Recall the definition of the matrix exponential. If $A$ is a matrix, then its exponential is defined by</p>
 
-<script type="math/tex; mode=display">e^{A} = \sum_{n=0}^\infty \frac{A^n}{n!}</script>
+\[e^{A} = \sum_{n=0}^\infty \frac{A^n}{n!}\]
 
 <p>If we now include a variable $t$, then</p>
 
-<script type="math/tex; mode=display">e^{At} = \sum_{n=0}^\infty \frac{A^n t^n}{n!}</script>
+\[e^{At} = \sum_{n=0}^\infty \frac{A^n t^n}{n!}\]
 
 <p>This also means that its derivative is</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{eqnarray}
-\frac{d}{dt} e^{At} &=& \frac{d}{dt} \sum_{n=0}^\infty \frac{A^n t^n}{n!}\\
-&=& \sum_{n=1}^\infty \frac{A^n t^{n-1}}{(n-1)!} \\
-&=& \sum_{n=0}^\infty \frac{A^{n+1} t^{n}}{n!} \\
-&=& A\left(\sum_{n=0}^\infty \frac{A^n t^{n}}{n!}\right)\\
-&=& Ae^{At}\\
-\end{eqnarray} %]]></script>
+\[\begin{eqnarray}
+\frac{d}{dt} e^{At} &amp;=&amp; \frac{d}{dt} \sum_{n=0}^\infty \frac{A^n t^n}{n!}\\
+&amp;=&amp; \sum_{n=1}^\infty \frac{A^n t^{n-1}}{(n-1)!} \\
+&amp;=&amp; \sum_{n=0}^\infty \frac{A^{n+1} t^{n}}{n!} \\
+&amp;=&amp; A\left(\sum_{n=0}^\infty \frac{A^n t^{n}}{n!}\right)\\
+&amp;=&amp; Ae^{At}\\
+\end{eqnarray}\]
 
 <p>This also implies that</p>
 
-<script type="math/tex; mode=display">\frac{d}{dt} e^{At} = A e^{At} = e^{At} A.</script>
+\[\frac{d}{dt} e^{At} = A e^{At} = e^{At} A.\]
 
 <p>for differentiation, and that if $A$ is invertible,</p>
 
-<script type="math/tex; mode=display">\int e^{At} dt = A^{-1} e^{At} = e^{At} A^{-1}.</script>
+\[\int e^{At} dt = A^{-1} e^{At} = e^{At} A^{-1}.\]
 
 <p>Now we are ready to solve the ODE, by using an integrating factor. The ODE is first order linear, with matrix coefficients, so</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{eqnarray}
-m\frac{d\textbf{v}}{dt} &=& q\textbf{E} + qB\textbf{v}\\
-\textbf{v}' - \frac{q}{m} B\textbf{v} &=& \frac{q}{m}\textbf{E}\\
-\exp\left(-\frac{qBt}{m}\right) \textbf{v}' - \frac{q}{m}\exp\left(-\frac{qBt}{m}\right)B\textbf{v} &=& \frac{q}{m}\exp\left(-\frac{qBt}{m}\right)\textbf{E}\\
-\frac{d}{dt}\left(\exp\left(-\frac{qBt}{m}\right)\textbf{v}\right) &=& \frac{q}{m}\exp\left(-\frac{qBt}{m}\right)\textbf{E}\\
-\exp\left(-\frac{qBt}{m}\right)\textbf{v} &=& \int \frac{q}{m}\exp\left(-\frac{qBt}{m}\right)\textbf{E} dt \\
-\exp\left(-\frac{qBt}{m}\right)\textbf{v} &=&  -B^{-1}\exp\left(-\frac{qBt}{m}\right)\textbf{E} + \textbf{c}\\
-\textbf{v} &=&  -B^{-1}\textbf{E} + \exp\left(\frac{qBt}{m}\right)\textbf{c}\\
-\end{eqnarray} %]]></script>
+\[\begin{eqnarray}
+m\frac{d\textbf{v}}{dt} &amp;=&amp; q\textbf{E} + qB\textbf{v}\\
+\textbf{v}' - \frac{q}{m} B\textbf{v} &amp;=&amp; \frac{q}{m}\textbf{E}\\
+\exp\left(-\frac{qBt}{m}\right) \textbf{v}' - \frac{q}{m}\exp\left(-\frac{qBt}{m}\right)B\textbf{v} &amp;=&amp; \frac{q}{m}\exp\left(-\frac{qBt}{m}\right)\textbf{E}\\
+\frac{d}{dt}\left(\exp\left(-\frac{qBt}{m}\right)\textbf{v}\right) &amp;=&amp; \frac{q}{m}\exp\left(-\frac{qBt}{m}\right)\textbf{E}\\
+\exp\left(-\frac{qBt}{m}\right)\textbf{v} &amp;=&amp; \int \frac{q}{m}\exp\left(-\frac{qBt}{m}\right)\textbf{E} dt \\
+\exp\left(-\frac{qBt}{m}\right)\textbf{v} &amp;=&amp;  -B^{-1}\exp\left(-\frac{qBt}{m}\right)\textbf{E} + \textbf{c}\\
+\textbf{v} &amp;=&amp;  -B^{-1}\textbf{E} + \exp\left(\frac{qBt}{m}\right)\textbf{c}\\
+\end{eqnarray}\]
 
 <p>Then plugging in the initial condition $\textbf{v}(0) = \textbf{v}_0$, we find the value for $\textbf{c}$:</p>
 
-<script type="math/tex; mode=display">\textbf{v} = \exp\left(\frac{qBt}{m}\right)\textbf{v}_0 + \left(\exp\left(\frac{qBt}{m}\right) - I\right) B^{-1}\textbf{E}</script>
+\[\textbf{v} = \exp\left(\frac{qBt}{m}\right)\textbf{v}_0 + \left(\exp\left(\frac{qBt}{m}\right) - I\right) B^{-1}\textbf{E}\]
 
 <p>Now finally integrating once to get the position,</p>
 
-<script type="math/tex; mode=display">\textbf{r}(t)  = \frac{mB^{-1}}{q}\exp\left(\frac{qBt}{m}\right)\textbf{b}_0 + \left(\frac{m B^{-1}}{q}\exp\left(\frac{qBt}{m}\right) - tI\right) B^{-1}\textbf{E} + \textbf{c}</script>
+\[\textbf{r}(t)  = \frac{mB^{-1}}{q}\exp\left(\frac{qBt}{m}\right)\textbf{b}_0 + \left(\frac{m B^{-1}}{q}\exp\left(\frac{qBt}{m}\right) - tI\right) B^{-1}\textbf{E} + \textbf{c}\]
 
 <p>Setting $\textbf{r}(t) = \textbf{r}_0$, we find the final result:</p>
 
-<script type="math/tex; mode=display">\textbf{r}(t)  = \frac{mB^{-1}}{q}\left(\exp\left(\frac{qBt}{m}\right)-1\right)\textbf{v}_0 + \left(\frac{m B^{-1}}{q}\left(\exp\left(\frac{qBt}{m}\right) - 1\right) - tI\right) B^{-1}\textbf{E} + \textbf{r}_0</script>
+\[\textbf{r}(t)  = \frac{mB^{-1}}{q}\left(\exp\left(\frac{qBt}{m}\right)-1\right)\textbf{v}_0 + \left(\frac{m B^{-1}}{q}\left(\exp\left(\frac{qBt}{m}\right) - 1\right) - tI\right) B^{-1}\textbf{E} + \textbf{r}_0\]
 
 <p>Now, we need to evaluate the matrix exponential.</p>
 

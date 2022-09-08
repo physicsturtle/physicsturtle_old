@@ -1,6 +1,6 @@
-I"�<p>Suppose we are interested in differentiating the function</p>
+I"�<p>Suppose we are interested in differentiating the function</p>
 
-<script type="math/tex; mode=display">f(x) = \frac{u(x)}{v(x)}.</script>
+\[f(x) = \frac{u(x)}{v(x)}.\]
 
 <p>We have already learned that the derivative of a sum of functions, $f(x) = u(x) + v(x)$ is $f’(x) = u’(x) + v’(x)$. However, it is not the case that if $f(x) = \frac{u(x}{)v(x)}$, then $\cancel{f’(x) = \frac{u’(x)}{v’(x)}}$. The correct formula for the derivative of a product of functions is:</p>
 

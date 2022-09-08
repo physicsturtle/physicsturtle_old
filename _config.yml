@@ -24,6 +24,8 @@ collections:
         output: true
     calculus-III:
         output: true
+    cft:
+        output: true
     classical-ft:
         output: true
     cm-I:
@@ -33,6 +35,14 @@ collections:
     cm-III:
         output: true
     cm-IV:
+        output: true
+    cmft:
+        output: true
+    cmp-I:
+        output: true
+    cmp-II:
+        output: true
+    cmp-III:
         output: true
     complex-variables:
         output: true
@@ -66,6 +76,8 @@ collections:
         output: true
     mb:
         output: true
+    neqft:
+        output: true
     nonlin-dyn-I:
         output: true
     ode-I:
@@ -86,6 +98,8 @@ collections:
         output: true
     qft-I:
         output: true
+    qft-II:
+        output: true
     qm-I:
         output: true
     qm-II:
@@ -93,6 +107,14 @@ collections:
     qm-III:
         output: true
     qm-IV:
+        output: true
+    qmag:
+        output: true
+    qpt:
+        output: true
+    sft-I:
+        output: true
+    sft-II:
         output: true
     ssp:
         output: true

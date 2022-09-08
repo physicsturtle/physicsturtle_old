@@ -1,6 +1,6 @@
-I"ù<p>The first law of thermodynamics is</p>
+I"r<p>The first law of thermodynamics is</p>
 
-<script type="math/tex; mode=display">dU = TdS - PdV + \mu dN.</script>
+\[dU = TdS - PdV + \mu dN.\]
 
 <p>In general, if one has a function $f(x,y)$ of two variables, $x$ and $y$, its differential is</p>
 

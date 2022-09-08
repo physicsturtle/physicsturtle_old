@@ -1,11 +1,11 @@
-I"Ø)<ul>
+I"J)<ul>
   <li>Geometric interpretation of partial derivative</li>
   <li>implicit differentiation</li>
 </ul>
 
 <p>Here we will finally learn about how to differentiate functions of multiple variables. Recall the definition of the derivative from single variable calculus:</p>
 
-<script type="math/tex; mode=display">f'(x) = \lim_{h\to 0} \frac{f(x+h) - f(x)}{h}</script>
+\[f'(x) = \lim_{h\to 0} \frac{f(x+h) - f(x)}{h}\]
 
 <p>This represents the slope of the graph of \(y = f(x)\) at the point \(x\). If we instead have a function \(f(x,y)\), it is now possible to calculate its derivative with respect to either \(x\) or \(y\). These are correspondingly called the <em>partial derivative with respect to \(x\)</em> and  <em>partial derivative with respect to \(y\)</em>, respectively.</p>
 
@@ -25,13 +25,12 @@ $$ \frac{\partial f}{\partial y} = \lim_{h\to 0} \frac{f(x,y+h) - f(x,y)}{h}$$
 <h3 id="second-partial-derivative">Second Partial Derivative</h3>
 <p>Once we have calculated the first partial derivative, it is possible to calculate the second partial derivative just by taking the derivatives again. Thus, we write</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{eqnarray} 
-\frac{\partial^2 f}{\partial x^2} &=& \frac{\partial}{\partial x}\frac{\partial f}{\partial x} \\
-\frac{\partial^2 f}{\partial y^2} &=& \frac{\partial}{\partial y}\frac{\partial f}{\partial y}\\
-\frac{\partial^2 f}{\partial x\partial y} &=& \frac{\partial}{\partial x}\frac{\partial f}{\partial y} \\
-\frac{\partial^2 f}{\partial y\partial x} &=& \frac{\partial}{\partial y}\frac{\partial f}{\partial x}
-\end{eqnarray} %]]></script>
+\[\begin{eqnarray} 
+\frac{\partial^2 f}{\partial x^2} &amp;=&amp; \frac{\partial}{\partial x}\frac{\partial f}{\partial x} \\
+\frac{\partial^2 f}{\partial y^2} &amp;=&amp; \frac{\partial}{\partial y}\frac{\partial f}{\partial y}\\
+\frac{\partial^2 f}{\partial x\partial y} &amp;=&amp; \frac{\partial}{\partial x}\frac{\partial f}{\partial y} \\
+\frac{\partial^2 f}{\partial y\partial x} &amp;=&amp; \frac{\partial}{\partial y}\frac{\partial f}{\partial x}
+\end{eqnarray}\]
 
 <p>so there are <em>four</em> second partial derivatives for a function of two variables.</p>
 
@@ -67,20 +66,19 @@ In order to calculate the second partial derivatives, we simply need to take the
 <h3 id="notation">Notation</h3>
 <p>There are various ways to denote partial differentiation. For first derivatives, we have</p>
 
-<script type="math/tex; mode=display">\begin{eqnarray}
+\[\begin{eqnarray}
 \frac{\partial f}{\partial x} = f_x = \partial_x f = \partial_1 f\\
 \frac{\partial f}{\partial y} = f_y = \partial_y f = \partial_2 f\\
-\end{eqnarray}</script>
+\end{eqnarray}\]
 
 <p>For second derivatives,</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{eqnarray} 
-\frac{\partial^2 f}{\partial x^2} &=& (f_x)_x = f_{xx} = (f_1)_1 = \partial_1(\partial_1 f) = \partial_{11}f = \partial_x(\partial_x f) = \partial_{xx} f \\
-\frac{\partial^2 f}{\partial y^2} &=& (f_y)_y = f_{yy} = (f_2)_2 = \partial_2(\partial_2 f) =  \partial_{22}f = \partial_y(\partial_y f) = \partial_{yy} f\\
-\frac{\partial^2 f}{\partial x\partial y} &=& (f_y)_x = f_{yx} =  f_{yy} = (f_2)_2 = \partial_{22}f = \partial_y(\partial_y f) = \partial_{xy} f\\
-\frac{\partial^2 f}{\partial y\partial x} &=& (f_x)_y = f_{xy} = \partial_{yx} f
-\end{eqnarray} %]]></script>
+\[\begin{eqnarray} 
+\frac{\partial^2 f}{\partial x^2} &amp;=&amp; (f_x)_x = f_{xx} = (f_1)_1 = \partial_1(\partial_1 f) = \partial_{11}f = \partial_x(\partial_x f) = \partial_{xx} f \\
+\frac{\partial^2 f}{\partial y^2} &amp;=&amp; (f_y)_y = f_{yy} = (f_2)_2 = \partial_2(\partial_2 f) =  \partial_{22}f = \partial_y(\partial_y f) = \partial_{yy} f\\
+\frac{\partial^2 f}{\partial x\partial y} &amp;=&amp; (f_y)_x = f_{yx} =  f_{yy} = (f_2)_2 = \partial_{22}f = \partial_y(\partial_y f) = \partial_{xy} f\\
+\frac{\partial^2 f}{\partial y\partial x} &amp;=&amp; (f_x)_y = f_{xy} = \partial_{yx} f
+\end{eqnarray}\]
 
 <p>Similar to how the ordinary derivative of a function told us information about the slope of a curve at a certain point, the partial derivatives tell us information about the slope of a <em>surface</em> at a certain point. However, in the case of surfaces, it is not as clear what slope means.</p>
 

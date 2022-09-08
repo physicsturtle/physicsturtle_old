@@ -1,7 +1,7 @@
-I"{<h3 id="introduction">Introduction</h3>
+I"P<h3 id="introduction">Introduction</h3>
 <p>What happens to the function</p>
 
-<script type="math/tex; mode=display">f(x) = \frac{\sin x}{x}</script>
+\[f(x) = \frac{\sin x}{x}\]
 
 <p>as $x\to\infty$? The function $\sin x$ is always between positive and negative 1, but the function $1/x$ shrinks to be smaller and smaller as $x$ gets big. Even though $\sin x$ oscillates and has no limit, we can in fact assign a limit to the combination $f(x) = \frac{\sin x}{x}$ due to a result which we will state here.</p>
 

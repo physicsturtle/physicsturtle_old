@@ -1,17 +1,16 @@
-I"¢<p>Here we will derive a useful formula for differentiating integrals. Suppose I have a function \(g\):</p>
+I"c<p>Here we will derive a useful formula for differentiating integrals. Suppose I have a function \(g\):</p>
 
-<script type="math/tex; mode=display">g(x) = \int_a^b f(x,y) dy</script>
+\[g(x) = \int_a^b f(x,y) dy\]
 
 <p>How do we differentiate this (with respect to \(x\))? Well, letâ€™s apply the definition of the derivative.</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{eqnarray}
-g'(x) &=& \lim_{h\to 0} \frac{g(x+h) - g(x)}{h}\\
-&=& \lim_{h\to 0} \frac{1}{h}\left(\int_a^b f(x+h,y) dy - \int_a^b f(x,y) dy\right)\\
-&=& \lim_{h\to 0} \frac{1}{h}\int_a^b f(x+h,y) - f(x,y) dy\\
-&=& \int_a^b \lim_{h\to 0} \frac{f(x+h,y) - f(x,y)}{h}dy\\
-&=& \int_a^b \partial_x f(x,y)dy\\
-\end{eqnarray} %]]></script>
+\[\begin{eqnarray}
+g'(x) &amp;=&amp; \lim_{h\to 0} \frac{g(x+h) - g(x)}{h}\\
+&amp;=&amp; \lim_{h\to 0} \frac{1}{h}\left(\int_a^b f(x+h,y) dy - \int_a^b f(x,y) dy\right)\\
+&amp;=&amp; \lim_{h\to 0} \frac{1}{h}\int_a^b f(x+h,y) - f(x,y) dy\\
+&amp;=&amp; \int_a^b \lim_{h\to 0} \frac{f(x+h,y) - f(x,y)}{h}dy\\
+&amp;=&amp; \int_a^b \partial_x f(x,y)dy\\
+\end{eqnarray}\]
 
 <p>so we see that the ordinary derivative becomes a partial derivative when it igoes inside the integral.</p>
 

@@ -1,4 +1,4 @@
-I"{
+I"P
 <p>There are a few different ways to define a line in three dimensional space.</p>
 
 <h3 id="parametric-form-of-a-line">Parametric Form of a Line</h3>
@@ -6,7 +6,7 @@
 
 <p>We learned before that we can draw a  vector $\textbf{r}_0 = (x_0,y_0,z_0)$ pointing from the origin to the point $(x_0,y_0,z_0)$. If we have the direction $\textbf{v}$ of a line, then we can trace out all the points on the line by starting at the point $\textbf{r}_0$, and then adding vectors of different lengths but in the same direction as $\textbf{v}$. This gives us the parametric equation</p>
 
-<script type="math/tex; mode=display">\textbf{r}(t) = \textbf{r}_0 + \textbf{v}t</script>
+\[\textbf{r}(t) = \textbf{r}_0 + \textbf{v}t\]
 
 <p>This can be visualized by (insert graphic here)</p>
 

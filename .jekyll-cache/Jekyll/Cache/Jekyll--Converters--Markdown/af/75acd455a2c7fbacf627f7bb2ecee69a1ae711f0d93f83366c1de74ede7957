@@ -1,6 +1,6 @@
-I"l<p>Among the most intuitive applications of differential calculus is kinematics problems. In physics, we describe the motion of a particle by specifying its position $x$ as a function of time $t$. This then allows us to calculate the particle’s velocity $v$ and acceleration $a$ by taking derivatives:</p>
+I"A<p>Among the most intuitive applications of differential calculus is kinematics problems. In physics, we describe the motion of a particle by specifying its position $x$ as a function of time $t$. This then allows us to calculate the particle’s velocity $v$ and acceleration $a$ by taking derivatives:</p>
 
-<script type="math/tex; mode=display">v(t) = \frac{dx}{dt},\qquad a(t) = \frac{d^2 x}{dt^2}.</script>
+\[v(t) = \frac{dx}{dt},\qquad a(t) = \frac{d^2 x}{dt^2}.\]
 
 <div class="example">
 <p><b>Example:</b> Calculate the velocity and acceleration of the following motion: 

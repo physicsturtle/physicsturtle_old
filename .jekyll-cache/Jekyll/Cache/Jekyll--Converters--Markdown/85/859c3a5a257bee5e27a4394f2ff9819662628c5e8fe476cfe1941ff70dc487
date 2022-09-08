@@ -1,17 +1,17 @@
-I"U<p>Consider systems of the form
-<script type="math/tex">x'' = F(x)</script>
+I"<p>Consider systems of the form
+\(x'' = F(x)\)
 If we multiply both sides by $x’$, then
-<script type="math/tex">x'' x' = x' F(x)</script>
+\(x'' x' = x' F(x)\)
 If we define 
-<script type="math/tex">V(x) = -\int_{\eta_0}^x F(\eta) d\eta,</script></p>
+\(V(x) = -\int_{\eta_0}^x F(\eta) d\eta,\)</p>
 
 <p>then we can rewrite this system as</p>
 
-<script type="math/tex; mode=display">\frac{d}{dt}\left[\frac{1}{2}x^{\prime 2} + V(x)\right] = 0.</script>
+\[\frac{d}{dt}\left[\frac{1}{2}x^{\prime 2} + V(x)\right] = 0.\]
 
 <p>Since the derivative is zero, we can say that the quantitiy inside the brackets is a constant, and we call this constant $E$, which suggests energy.</p>
 
-<script type="math/tex; mode=display">\frac{1}{2}x^{\prime 2} + V(x) = E</script>
+\[\frac{1}{2}x^{\prime 2} + V(x) = E\]
 
 <div class="example">
 If we set $V(x) = \frac{1}{4}(1-x^2)^2$, then plot the functions $V(x)$ vs $x$ and also $x'$ vs $x$. 
@@ -26,23 +26,23 @@ If we set $V(x) = -\frac{1}{4}(1-x^2)^2$, then plot the functions $V(x)$ vs $x$ 
 <h3 id="equilibria">Equilibria</h3>
 <p>Suppose that there is some $x_*$ such that $V’(x_*) = 0$. Let’s consider the values of $x$ in a small neighbourhood of $x_*$. To do this, let $x = x_* + \hat{x}$, where $\hat{x} \ll 1$. Then, putting the differential equation in terms of $\hat{x}$, we get</p>
 
-<script type="math/tex; mode=display">\hat{x}'' = - \hat{x}V''(x_*)</script>
+\[\hat{x}'' = - \hat{x}V''(x_*)\]
 
 <p>where we had to substitute in the fact that $x_*$ was a stationary point and thus the derivative of the potential was zero there. Now, substituting in $\hat{x} = e^{\lambda t}$, we find that</p>
 
-<script type="math/tex; mode=display">\lambda^2 + V''(x_*) = 0.</script>
+\[\lambda^2 + V''(x_*) = 0.\]
 
 <p>What this tells us is that there are two cases, depending on the sign of $V’’$.</p>
 
 <ol>
   <li>
     <p>If $V’‘(x_*) &gt; 0$, then $x_*$ is a local minima of $V$. This means that $\lambda = \pm i(V’‘(x_*))^{1/2}$. Thus, we get sinusoidal solutions 
-<script type="math/tex">\hat{x} \sim A\cos(\omega_* t) + V\sin(\omega_* t),</script>
+\(\hat{x} \sim A\cos(\omega_* t) + V\sin(\omega_* t),\)
 where $\omega_* = \sqrt{V’‘(x_*)}$. We call the equilibrium point $x_*$ a center. Thus $\hat{x}$ is bounded as $t\to\infty$, so $x_*$ is said to be neutrally stable.</p>
   </li>
   <li>
     <p>If $V’‘(x_*) &lt; 0$, then $x_*$ is a local maxima of $V$. This means that $\lambda = \pm \sqrt{-V’‘(x_*)}$, so we get exponential growth and decay solutions. 
-<script type="math/tex">\hat{x} \sim Ae^{\sqrt{-V''(x_*)}t} + Be^{-\sqrt{V''(x_*)}t}</script>
+\(\hat{x} \sim Ae^{\sqrt{-V''(x_*)}t} + Be^{-\sqrt{V''(x_*)}t}\)
 and we call $x_*$ a saddle point.</p>
   </li>
 </ol>

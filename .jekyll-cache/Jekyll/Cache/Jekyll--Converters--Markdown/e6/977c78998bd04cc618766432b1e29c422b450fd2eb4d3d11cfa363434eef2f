@@ -1,4 +1,4 @@
-I"r<h3 id="introduction">Introduction</h3>
+I"ù<h3 id="introduction">Introduction</h3>
 
 <p>In the last section, we introduced the idea of a limit and worked some elementary examples. In this section, we introduce some rules for calculating limits and some strategies for evaluating more complicated limits.</p>
 
@@ -8,15 +8,15 @@
 
 <ul>
   <li>
-    <script type="math/tex; mode=display">\lim_{x\to a} \left[ f(x) \pm g(x)\right] = \lim_{x\to a} f(x) \pm \lim_{x\to a} g(x)</script>
+\[\lim_{x\to a} \left[ f(x) \pm g(x)\right] = \lim_{x\to a} f(x) \pm \lim_{x\to a} g(x)\]
   </li>
   <li>
-    <script type="math/tex; mode=display">\lim_{x\to a} \left[ f(x)g(x)\right] = \left[\lim_{x\to a} f(x)\right]\left[ \lim_{x\to a} g(x)\right]</script>
+\[\lim_{x\to a} \left[ f(x)g(x)\right] = \left[\lim_{x\to a} f(x)\right]\left[ \lim_{x\to a} g(x)\right]\]
   </li>
   <li>
-    <script type="math/tex; mode=display">\lim_{x\to a} \left[ cf(x)\right] = c\lim_{x\to a} f(x)</script>
+\[\lim_{x\to a} \left[ cf(x)\right] = c\lim_{x\to a} f(x)\]
   </li>
-  <li>If $\lim_{x\to a} g(x) \not= 0$, then <script type="math/tex">\lim_{x\to a}\left[\frac{f(x)}{g(x)}\right] = \frac{\lim_{x\to a} f(x)}{\lim_{x\to a}g(x)}</script></li>
+  <li>If $\lim_{x\to a} g(x) \not= 0$, then \(\lim_{x\to a}\left[\frac{f(x)}{g(x)}\right] = \frac{\lim_{x\to a} f(x)}{\lim_{x\to a}g(x)}\)</li>
   <li></li>
 </ul>
 
@@ -69,7 +69,7 @@ where we notice again that plugging in $x = 1$ only works after we have done the
 
 <p>There are certain limits whose values are known, but which are difficult to prove. I advise that you memorize these results. A couple examples of ones which you should memorize are</p>
 
-<script type="math/tex; mode=display">\lim_{x\to 0} \frac{\sin x}{x},\qquad \lim_{n\to\infty} \left(1 + \frac{x}{n}\right)^{n} = e^x</script>
+\[\lim_{x\to 0} \frac{\sin x}{x},\qquad \lim_{n\to\infty} \left(1 + \frac{x}{n}\right)^{n} = e^x\]
 
 <p>The first of these two will be shown geometrically in a separate lesson. The second is much more difficult to prove, and we quote it without proof.</p>
 

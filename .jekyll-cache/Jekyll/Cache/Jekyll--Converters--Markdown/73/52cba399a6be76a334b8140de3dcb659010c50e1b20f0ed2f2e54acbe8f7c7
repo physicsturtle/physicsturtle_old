@@ -1,6 +1,6 @@
-I"n	<p>So far we have looked at functions of the form $y = f(x)$, where $y$ is explicitly determined in terms given any $x$. It is also possible to construct curves in the $xy$ plane for which it is not possible to solve for $y$ in terms of $x$. For example, the points which satisfy the equation</p>
+I"C	<p>So far we have looked at functions of the form $y = f(x)$, where $y$ is explicitly determined in terms given any $x$. It is also possible to construct curves in the $xy$ plane for which it is not possible to solve for $y$ in terms of $x$. For example, the points which satisfy the equation</p>
 
-<script type="math/tex; mode=display">y^3 + 2y = 3x + \sin x</script>
+\[y^3 + 2y = 3x + \sin x\]
 
 <p>form a curve, yet we cannot solve for $y = f(x)$, at least easily. In cases like these, we may be interested in finding the slope at some point along the curve. How can we calculate the slope without having it expressed in the form $y = f(x)$? It is possible to apply <em>implicit differentiation</em> to calculate this slope. This can be done by differentiating both sides of such an equation with respect to $x$ and then applying the chain rule. This is best illustrated by an example.</p>
 

@@ -1,12 +1,12 @@
-I"”<p>Here we will discuss how we can calculate with mirrors. There are two important equations:</p>
+I"><p>Here we will discuss how we can calculate with mirrors. There are two important equations:</p>
 
-<script type="math/tex; mode=display">\frac{1}{d_o} + \frac{1}{d_i} =  \frac{1}{f}</script>
+\[\frac{1}{d_o} + \frac{1}{d_i} =  \frac{1}{f}\]
 
 <p>where $f$ is the focal length. We need to take into account sign here.</p>
 
 <p>We also have the magnification equation:</p>
 
-<script type="math/tex; mode=display">m = \frac{h_i}{h_o} = -\frac{d_i}{d_o}</script>
+\[m = \frac{h_i}{h_o} = -\frac{d_i}{d_o}\]
 
 <p>these come with the following sign conventions:</p>
 

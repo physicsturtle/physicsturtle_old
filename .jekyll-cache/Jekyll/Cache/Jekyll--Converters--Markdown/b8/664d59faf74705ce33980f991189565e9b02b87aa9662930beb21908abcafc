@@ -1,36 +1,36 @@
-I" <h3 id="introduction">Introduction</h3>
+I"s<h3 id="introduction">Introduction</h3>
 <p>Newtonâ€™s law of cooling captures one of the three modes of heat transfer, convection, and we will apply it here to solve problems of cooling and heating. We consider an object of a certain temperature $T$ placed in a room of ambient temperature $T_a$. If $T_a &gt; T$, then we expect that the object will start to heat up, and if $T_a &lt; T$ we expect that the object will start to cool down. The goal is then to find the temperature $T$ of the object as a function of time $t$.</p>
 
 <p>In convective heat transfer, the rate at which the temperature of the object changes, $dT/dt$, is proportional to the difference between the temperature of the object and the room. This is captured in the following equation:</p>
 
-<script type="math/tex; mode=display">\frac{dT}{dt} = k(T_a - T)</script>
+\[\frac{dT}{dt} = k(T_a - T)\]
 
 <p>where we expect that $k$ is a positive constant. This makes sense because if $T_a &gt; T$ (or, equivalently, $T_a - T &gt;  0$), then we want that $dT/dt &gt;0$ (the object heats up), and if $T_a &lt; T$ (or, equivalently, $T_a - T &lt; 0$), then we want that $dT/dt &lt; 0$ (the object cools down). What we have here is an <em>ordinary differential equation</em>. An ordinary differential equation is an equation which relates a function (in our case $T(t)$) to its own derivative (in our case $dT/dt$). To complete the problem that we want to solve, we need an <em>initial condition</em>, or, the temperature of the object at $t = 0$. This makes an <em>initial value problem</em>, which consists of an ordinary differential equation together with an initial condition. The initial value problem (IVP) that we want to solve is thus the following:</p>
 
-<script type="math/tex; mode=display">\begin{cases}
+\[\begin{cases}
 \frac{dT}{dt} = k(T_a - T) \\
-T(0) = T_0 \end{cases}</script>
+T(0) = T_0 \end{cases}\]
 
 <h3 id="solving-the-model">Solving the Model</h3>
 <p>Our goal now is to solve the problem that we just formulated. To do this, we will recall what we learned in the previous section on exponential growth and decay. The first step is to make the substitution $z = T_a - T$. Thus, $z$ is a function of time because $T$ is a function of time. If we differentiate both sides, we get that $dz/dt = -dT/dt$. The equation therefore becomes (ignoring the initial condition for now)</p>
 
-<script type="math/tex; mode=display">-\frac{dz}{dt} = kz</script>
+\[-\frac{dz}{dt} = kz\]
 
 <p>The solution to this, which we established in the exponential growth/decay section was</p>
 
-<script type="math/tex; mode=display">z(t) = Ae^{-kt},</script>
+\[z(t) = Ae^{-kt},\]
 
 <p>where $A$ is a constant that depends on the initial condition. If we recall that $z = T_a - T$, then we can find $T$ as a function of time. This gives us</p>
 
-<script type="math/tex; mode=display">T(t) = T_a - Ae^{-kt}.</script>
+\[T(t) = T_a - Ae^{-kt}.\]
 
 <p>Finally, we plug in the initial condition $T(0) = T_0$. If we do this, then we find that</p>
 
-<script type="math/tex; mode=display">T_0 = T_a - A</script>
+\[T_0 = T_a - A\]
 
 <p>which gives us that $A = T_a - T_0$. Thus, the full solution is</p>
 
-<script type="math/tex; mode=display">T(t) = T_a(1-e^{-kt}) + T_0e^{-kt}.</script>
+\[T(t) = T_a(1-e^{-kt}) + T_0e^{-kt}.\]
 
 <h3 id="examples">Examples</h3>
 <div class="example">

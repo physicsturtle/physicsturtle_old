@@ -1,12 +1,13 @@
-I"`<p>In this section, we discuss the concept of normalization of a wavefunction. This allows us to make the idea of the squared magnitude of the wave function consistent with the interpretation of it as a probability density function. T</p>
+I"
+<p>In this section, we discuss the concept of normalization of a wavefunction. This allows us to make the idea of the squared magnitude of the wave function consistent with the interpretation of it as a probability density function. T</p>
 
 <p>In the field of probability, we define a <em>probability density function</em> $\rho = \rho(x)$. This probability density function has units of $1/x$, whatever $x$ is. In quantum mechanics, $x$ will be position, so $\rho$ will have units of reciprocal length. This means that the probability $P$ of finding a particle between $x$ and $x+dx$ is given by</p>
 
-<script type="math/tex; mode=display">P(x,x+dx) = \rho(x)dx.</script>
+\[P(x,x+dx) = \rho(x)dx.\]
 
 <p>Since we know that the particle is always somewhere, it has probability 1 of existing. This means that the condition</p>
 
-<script type="math/tex; mode=display">1 = \int_{-\infty}^\infty \rho(x)dx</script>
+\[1 = \int_{-\infty}^\infty \rho(x)dx\]
 
 <p>must hold if this is to make any sense. If you solve the Schrödinger equation, you might not always come up with a normalized wave function; the Schrödinger equation is linear and if $\psi$ is any solution, then $\lambda\psi$ is also a solution.</p>
 

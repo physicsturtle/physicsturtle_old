@@ -1,8 +1,8 @@
-I"Ø<h3 id="introduction">Introduction</h3>
+I"­<h3 id="introduction">Introduction</h3>
 
 <p>The summation of series has been studied for many years, with several famous results having been derived in many different ways. For example, you may have seen</p>
 
-<script type="math/tex; mode=display">\sum_{n=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6},</script>
+\[\sum_{n=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6},\]
 
 <p>which was first derived by Euler (check this!). We will study how to sum results of that form (check this!) and others through the use of complex analysis.</p>
 

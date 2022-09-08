@@ -1,14 +1,13 @@
-I"R<p>Special relativity is defined as physics that happens in flat spacetime. This spacetime is defined by the metric
-<script type="math/tex">ds^2 = -dt^2 + dx^2 + dy^2 + dz^2.</script></p>
+I"þ<p>Special relativity is defined as physics that happens in flat spacetime. This spacetime is defined by the metric
+\(ds^2 = -dt^2 + dx^2 + dy^2 + dz^2.\)</p>
 
 <p>This can be written as the <em>Minkowski metric</em></p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\eta = \begin{pmatrix} -1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{pmatrix} %]]></script>
+\[\eta = \begin{pmatrix} -1 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 1 \end{pmatrix}\]
 
 <p>which allows us to condense the metric</p>
 
-<script type="math/tex; mode=display">ds^2 = \eta_{\alpha\beta}dx^\alpha dx^\beta</script>
+\[ds^2 = \eta_{\alpha\beta}dx^\alpha dx^\beta\]
 
 <p>In flat spacetime, there is a subcase that we can consider before generalizing. The subcase is the case of constant velocity. For the case of constant velocity, we can transform between inertial frames by using the Lorentz Transformation. The Lorentz transformation can be derived as:</p>
 

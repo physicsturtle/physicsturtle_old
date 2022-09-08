@@ -1,6 +1,6 @@
-I"é<p>In this section, we consider integrals of the form</p>
+I"¾<p>In this section, we consider integrals of the form</p>
 
-<script type="math/tex; mode=display">I = \int_{-\infty}^\infty f(x) dx.</script>
+\[I = \int_{-\infty}^\infty f(x) dx.\]
 
 <p>First, we need to know when this integral exist.</p>
 

@@ -1,4 +1,4 @@
-I"­<p>In high school, we learned that a vector is a quantity with magnitude and direction. Here, we will present a more abstract notion of vectors, that we will be able to generalize in order to solve more complex problems. Physical examples of vectors that you have learned about before could be: <em>position</em>, <em>momentum</em>, or maybe <em>electric field</em>. These can be constrasted with scalars, which are just numbers. For example, <em>temperature</em>, <em>pressure</em>, or <em>altitude</em>.</p>
+I"‚<p>In high school, we learned that a vector is a quantity with magnitude and direction. Here, we will present a more abstract notion of vectors, that we will be able to generalize in order to solve more complex problems. Physical examples of vectors that you have learned about before could be: <em>position</em>, <em>momentum</em>, or maybe <em>electric field</em>. These can be constrasted with scalars, which are just numbers. For example, <em>temperature</em>, <em>pressure</em>, or <em>altitude</em>.</p>
 
 <p>In the previous lesson, we talked about points in three dimensional space. Now we will discuss the concept of direction in space. A <em>vector</em> in three dimensional space is an ordered triplet $\textbf{v} = (a,b,c)$, where $a,b,c$ are each real numbers. This is represented visually by drawing an arrow from the origin to the point $(a,b,c)$. The numbers $a,b,c$ are known as the <em>components</em> of the vector, where $a$ is the $x$ component, $b$ the $y$ component, and $c$ the $z$ component. Just as important are vector in two dimensional space, written as $(a,b)$. Most of our examples, at least with pictures, will be with two-dimensional vectors because they are easier to depict graphically.</p>
 
@@ -37,7 +37,7 @@
 
 <p>The three numbers \(a,b,c\), defined before as the <em>components</em> of the vector, allow us to write <em>decompose</em> vector in terms of a basis. For this, we write</p>
 
-<script type="math/tex; mode=display">\textbf{v} = (a,b,c) = a\hat{\textbf{i}} + b\hat{\textbf{j}} + c\hat{\textbf{k}}</script>
+\[\textbf{v} = (a,b,c) = a\hat{\textbf{i}} + b\hat{\textbf{j}} + c\hat{\textbf{k}}\]
 
 <p>where we call $\hat{\textbf{i}},\hat{\textbf{j}},\hat{\textbf{k}}$ the basis vectors in the $x,y,z$ directions respectively. Geometrically, $\hat{\textbf{i}}$ is the vector with length 1 pointing along the $x$ axis, and similarly for the other two.</p>
 

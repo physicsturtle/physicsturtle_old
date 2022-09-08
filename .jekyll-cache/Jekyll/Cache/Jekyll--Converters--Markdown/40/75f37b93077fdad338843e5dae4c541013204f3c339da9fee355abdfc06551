@@ -1,6 +1,6 @@
-I"<p>In the last section, we considered the Taylor polynomial to $f(x)$ at $x=a$, the formula for which is</p>
+I"Ú<p>In the last section, we considered the Taylor polynomial to $f(x)$ at $x=a$, the formula for which is</p>
 
-<script type="math/tex; mode=display">T_n(x) = \sum_{k=0}^n \frac{(x-a)^k f^{(k)}(a)}{k!}</script>
+\[T_n(x) = \sum_{k=0}^n \frac{(x-a)^k f^{(k)}(a)}{k!}\]
 
 <p>We said that this approximated $f(x)$, and thus wrote $f(x) \approx T_n(x)$. This means that there is some difference between the approximation $T$ and the original function $f$. We call this difference the <em>remainder</em>.</p>
 

@@ -106,7 +106,7 @@ padding: 10px;
 
 .proof {
 width: 100%;
-background-color: rgb(214, 180, 231); /* purple */
+background-color: rgb(216, 179, 216); /* purple */
 border-style: solid;
 border-radius: 4px;
 border-width: 2px;
@@ -115,7 +115,7 @@ padding: 10px;
 
 .result{
 width: 100%;
-background-color: rgb(162,203,230); /*blue*/
+background-color: rgb(200,231,240); /*light blue*/
 border-style: solid;
 border-radius: 4px;
 border-width: 2px;
@@ -134,7 +134,25 @@ padding: 10px;
 
 .theorem{
 width: 100%;
-background-color: rgb(248, 199, 200);
+background-color: rgb(254, 204, 205); /*red*/
+border-style: solid;
+border-radius: 4px;
+border-width: 2px;
+padding: 10px;
+}
+
+.lesson{
+width: 100%;
+background-color: rgb(254, 216, 181); /*red*/
+border-style: solid;
+border-radius: 4px;
+border-width: 2px;
+padding: 10px;
+}
+
+.remark{
+width: 100%;
+background-color: rgb(205, 254, 206); /*green*/
 border-style: solid;
 border-radius: 4px;
 border-width: 2px;

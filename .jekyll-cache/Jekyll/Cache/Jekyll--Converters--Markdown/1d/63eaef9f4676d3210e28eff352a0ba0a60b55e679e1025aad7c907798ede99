@@ -1,4 +1,4 @@
-I"¥<ul>
+I"z<ul>
   <li>Geometric interpretation of triple integration</li>
   <li>Riemann sums</li>
   <li>calculating volumes using triple integrals</li>
@@ -7,7 +7,7 @@
 
 <p>Triple integrals are, in general, more difficult to visualize geometrically, because we would need four dimensions! There are however many physical applications that make the concept of a triple integral very transparent. Let us consider a function</p>
 
-<script type="math/tex; mode=display">f : \mathbb{R}^3 \to \mathbb{R},</script>
+\[f : \mathbb{R}^3 \to \mathbb{R},\]
 
 <p>and suppose that we are interested in integrating it over a region $\Omega \subset \mathbb{R}^3$.</p>
 

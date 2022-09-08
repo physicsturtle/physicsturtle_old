@@ -1,6 +1,6 @@
-I"Ð	<p>It is possible to solve ODEs with the Fourier transform by finding integral representation for their solution. Many of these integrals cannot be evaluated as elementary functions, but integral representations are useful for other things. For example, one can derive asymptotic formulas for certain special functions, which may be difficult with only a Taylor series representation. We will start by recalling the following useful formula:</p>
+I"¥	<p>It is possible to solve ODEs with the Fourier transform by finding integral representation for their solution. Many of these integrals cannot be evaluated as elementary functions, but integral representations are useful for other things. For example, one can derive asymptotic formulas for certain special functions, which may be difficult with only a Taylor series representation. We will start by recalling the following useful formula:</p>
 
-<script type="math/tex; mode=display">\mathcal{F}(x^n y^{(m)})(k) = \frac{1}{(-i)^n}\frac{d^n}{dk^n}\left((-ik)^m\mathcal{F}(y)\right)</script>
+\[\mathcal{F}(x^n y^{(m)})(k) = \frac{1}{(-i)^n}\frac{d^n}{dk^n}\left((-ik)^m\mathcal{F}(y)\right)\]
 
 <p>This formula allows us to calculate the Fourier transforms of many types of differential equations. It does of course require that we look for solutions which decay sufficiently rapidly at infinity.</p>
 
