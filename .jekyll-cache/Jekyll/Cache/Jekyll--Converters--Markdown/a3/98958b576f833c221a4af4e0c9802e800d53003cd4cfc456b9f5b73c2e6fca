@@ -1,3 +1,0 @@
-I"É<h3 id="introduction">Introduction</h3>
-<p>We are all familiar with the sine, cosine, tangent, etc. functions. One term used to describe them all is the <em>circular functions</em>. This term is used because they relate to quantities on the <em>unit circle</em>; we can write $x = \cos\theta$ and $y = \sin\theta$ to describe any point on the unit circle $x^2+y^2 = 1$. What if we now wish to define a unit hyperbola, $x^2 - y^2 = 1$? How can we write $x$ and $y$ parametrically in terms of some variable analogous to the circular angle $\theta$? We define hyperbolic functions $\cosh$ and $\sinh$ such that if we set $x = \cosh \theta$ and $y = \sinh\theta$, then $x^2 - y^2 = 1$ for all values of $\theta$.</p>
-:ET

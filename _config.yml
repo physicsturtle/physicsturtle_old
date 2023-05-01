@@ -74,7 +74,9 @@ collections:
         output: true
     math-cm:
         output: true
-    mb:
+    many-body-I:
+        output: true
+    many-body-II:
         output: true
     neqft:
         output: true

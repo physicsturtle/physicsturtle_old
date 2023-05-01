@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Many Body Physics
-permalink: /mb/
-banner: mb.svg
+title: Many Body Physics I
+permalink: /many-body-I/
+banner: many-body-I.svg
 ---
 
-Welcome to Many Body Physics
+Welcome to Many Body Physics I
 
 {% assign unitNames = "Unit 1 - , Unit 2 - , Unit 3 - , Unit 4 - , Unit 5 - , Unit 6 - " | split: ', ' %}
 

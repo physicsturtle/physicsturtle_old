@@ -1,3 +1,0 @@
-I"%<h3 id="definition">Definition</h3>
-<p>Our definition of a function $f : A\to B$ before was from the set $A$ to the set $B$, where, to each element of $A$, a single element of $B$ was specified. It is possible that two elements from $A$ map to the same element of $B$. You have seen before that if we want to solve $x^2 = 4$ for $x$, we have to consider the positive or negative square root of 4, that is, $x = \pm 2$. This is an example of inverting a function which <em>does not have an inverse</em>. Let’s make this statement more precise.</p>
-:ET

@@ -1,19 +1,19 @@
 ---
-layout: unit
-title: Unit 2
+layout: lesson
+title: Limits and Continuity
 dept: math
 course: calculus-I
+unit: unit2
 deptDisplay: Math
 courseDisplay: Calculus I
-unit: unit2
+unitDisplay: Unit 2
 ---
-
-{% assign lessonNames = "Limits, Limit_Laws, Squeeze_Theorem, Continuity, Intermediate_Value_Theorem, Limits_at_Infinity" | split: ', ' %}
+{% assign lessonNames = "" | split: ', ' %}
 
 <ol>
 {% for lessonName in lessonNames %}
 {% assign lessonTitle = lessonName | replace:  '_', ' ' %}
-{% assign lowerName = lessonName | downcase %}
-<li> <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink }}"> {{lessonTitle}} </a> - <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink | append: "-exercises" }}"> Exercises </a> </li>
+{% assign linkName = lessonName | replace: ' ', '' %}
+<li> <a class = "page-link" href = "{{ linkName | prepend: units[unitIndex] | prepend: current_page.permalink }}"> {{lessonTitle}} </a> - <a class = "page-link" href = "{{ linkName | prepend: units[unitIndex] | prepend: current_page.permalink | append: "-exercises" }}"> Exercises </a> </li>
 {% endfor %}
 </ol>

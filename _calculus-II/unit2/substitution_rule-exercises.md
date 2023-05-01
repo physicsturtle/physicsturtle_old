@@ -204,7 +204,7 @@ We first find an antiderivative.
 \begin{equation} \label{int3.1} \int \frac{1 - \sqrt {x} }{1 + \sqrt {x} }\d x  = x - 2\int \frac{\sqrt {x}}{1 + \sqrt {x}} \d x \end{equation}
 Consider the remaining integral
 \[\int \frac{\sqrt{x}}{1 + \sqrt{x} }\d x. \]
-Make the substitution $u = 1 + \sqrt{x}$, which gives $ \d u = \frac{{\d x}}{2\sqrt{x}}$, or, rearranging, $\d x = 2(u - 1)\d u$. We then have the integral
+Make the substitution $u = 1 + \sqrt{x}$, which gives $ \d u = \frac{\d x}{2\sqrt{x}}$, or, rearranging, $\d x = 2(u - 1)\d u$. We then have the integral
 \begin{eqnarray*}
 \int \frac{\sqrt{x}}{1 + \sqrt{x}}\d x &=& \int \frac{2(u - 1)^2}{u}\d u \\
 &=& 2 \int \frac{u^2 - 2u + 1}{u} \d u \\

@@ -5,20 +5,27 @@
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    
 <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   MathJax.Hub.Config({
                      tex2jax: {
                      inlineMath: [['$','$'], ['\\(','\\)']],
                      processEscapes: true
                      }
                      });
+
 </script>
+    
+
+    
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
                        TeX: { equationNumbers: { autoNumber: "AMS" } }
                        });
 </script>
+    
+
 
 <div style="display:none">
 \(
@@ -47,9 +54,6 @@
 \newcommand{\Sphere}{\mathbb{S}}
 \newcommand{\Torus}{\mathbb{T}}
 
-%Useful notations for thermodynamics
-\newcommand{\dbar}{{\mathchar'26\mkern-11mu\mathrm{d}}}
-
 %Useful notations for electromagnetism
 \newcommand{\E}{\textbf{E}}
 \newcommand{\B}{\textbf{B}}
@@ -58,7 +62,7 @@
 \newcommand{\J}{\textbf{J}}
 
 %Useful symbols for vector notation
-\newcommand{\x}{\textbf{x}}
+\newcommand{\x}{\mathbf{x}}
 \newcommand{\y}{\textbf{y}}
 \newcommand{\z}{\textbf{z}}
 \newcommand{\p}{\textbf{p}}
@@ -200,6 +204,7 @@
 \DeclareMathOperator{\Re}{Re}
 \let\Im\relax
 \DeclareMathOperator{\Im}{Im}
+
 \)
 </div>
 

@@ -1,6 +1,0 @@
-I"¯<h3 id="exercises">Exercises</h3>
-<ol>
-  <li>Derive the Euler Lagrange equation(s) for the functional
-\(S[x_1,x_2] = \int_a^b\L(t,x_1,x_2,\dot{x}_1,\dot{x}_2) dt\)</li>
-</ol>
-:ET
