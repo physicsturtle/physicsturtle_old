@@ -1,6 +1,6 @@
 ---
-layout: lesson
-title: Problems in 1 Dimension
+layout: unit
+title: Problems in 1 Dimension 
 dept: physics
 course: qm-I
 unit: unit6

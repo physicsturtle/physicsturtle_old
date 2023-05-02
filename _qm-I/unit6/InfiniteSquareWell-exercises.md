@@ -40,13 +40,6 @@ A(a^2-x^2) & -a < x < a \\
 </li></ol>
 </li></ol>
 
-<div class="answerBox"> 
- <button onclick="myFunction('answer29')" class="answerButton">Show Answer</button> 
- <div  id='answer29' class="answer" >
-put solution here
-</div> 
- </div>
-
 </div> </li>
 <li> <div class="exercise">  Consider a particle in the \(n\)th energy eigenstate state of the infinite square well.
 <ol type="a">
@@ -61,8 +54,8 @@ $$\begin{equation}
 </li></ol>
 
 <div class="answerBox"> 
- <button onclick="myFunction('answer44')" class="answerButton">Show Answer</button> 
- <div  id='answer44' class="answer" >
+ <button onclick="myFunction('answer40')" class="answerButton">Show Answer</button> 
+ <div  id='answer40' class="answer" >
 <ol type="a">
 <li> 
 We simply compute the Fourier transform 

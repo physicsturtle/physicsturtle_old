@@ -12,7 +12,7 @@ Secondary school physics covers the basics of classical mechanics, heat, optics,
 
 <!--- <a class="page-link" href="/hs-physics-II/">Physics II </a> - In progress --->
 
-<!--- ## Undergraduate Physics --->
+## Undergraduate Physics
 
 <!--- ### General Physics/Surveys of Physics --->
 <!--- <a class="page-link" href="/physics-I/">Physics I - Elasticity, Fluids, Thermodynamics, Oscillations, Acoustics</a> - In progress --->
@@ -21,12 +21,13 @@ Secondary school physics covers the basics of classical mechanics, heat, optics,
 
 <!--- <a class="page-link" href="/physics-III/">Physics III - Introduction to Modern Physics</a> - In progress --->
 
-### Classical Mechanics
+
+<!--- ### Classical Mechanics --->
 <!--- <a class="page-link" href="/cm-I/"> Classical Mechanics I</a> - In progress --->
 
 <!--- <a class="page-link" href="/cm-II/"> Classical Mechanics II</a> - In progress --->
 
-<a class="page-link" href="/cm-III/"> Classical Mechanics III</a>
+<!--- <a class="page-link" href="/cm-III/"> Classical Mechanics III</a> --->
 
 <!--- <a class="page-link" href="/cm-IV/"> Classical Mechanics IV</a> - In progress --->
 
@@ -34,8 +35,8 @@ Secondary school physics covers the basics of classical mechanics, heat, optics,
 
 <!--- <a class="page-link" href="/elasticity-I/">Elasticity I</a> - In progress --->
 
-### Electromagnetism
-<a class="page-link" href="/em-I/"> Electromagnetism I </a>
+<!--- ### Electromagnetism --->
+<!--- <a class="page-link" href="/em-I/"> Electromagnetism I </a> --->
 
 <!--- <a class="page-link" href="/electromagnetism-II/">Electromagnetism II</a> - In progress --->
 
@@ -70,7 +71,7 @@ Secondary school physics covers the basics of classical mechanics, heat, optics,
 <!--- <a class="page-link" href="/atomic-physics/"> Atomic Physics </a> - In progress --->
 
 
-<!--- ## Graduate Physics --->
+## Graduate Physics
 
 <!--- ### Mathematical Methods 
 In this section, we will have pure and applied mathematics courses but both will be written in the applied mathematics style. There will be fewer proofs and the focus is on being able to calculate physically relevant quantities. Differential Geometry 
@@ -119,14 +120,14 @@ Mathematical Classical Mechanics I
 
 <!--- <a class="page-link" href="/conformal-field-theory/"> Conformal Field Theory </a> --->
 
-<!--- ### Condensed Matter Physics --->
+### Condensed Matter Physics
 <!--- <a class="page-link" href="/cmt-I/"> Condensed Matter Theory I </a> --->
 
 <!--- <a class="page-link" href="/cmt-II/"> Condensed Matter Theory II </a> --->
 
 <!--- <a class="page-link" href="/many-body-I/"> Many-Body Theory I </a> --->
 
-<!--- <a class="page-link" href="/many-body-II/"> Many-Body Theory II </a> --->
+<a class="page-link" href="/many-body-II/"> Many-Body Theory II </a>
 
 <!--- <a class="page-link" href="/superconductivity/"> Superconductivity </a> --->
 
