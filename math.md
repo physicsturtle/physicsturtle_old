@@ -13,7 +13,7 @@ Coming soon --->
 ### Calculus
 <a class="page-link" href="/calculus-I/">Calculus I - Differential Calculus</a>
 
-<!--- <a class="page-link" href="/calculus-II/">Calculus II - Integral Calculus</a> - In progress --->
+<a class="page-link" href="/calculus-II/">Calculus II - Integral Calculus</a> 
 
 <!--- <a class="page-link" href="/calculus-III/">Calculus III - Multivariable and Vector Calculus</a> - In progress --->
 
@@ -70,10 +70,9 @@ Nonlinear Dynamics and Chaos I - Coming soon --->
 Complex Variables - Coming soon --->
 <!--- <a class="page-link" href="/complex-variables/"> Complex Variables </a> - In progress --->
 
-<!--- 
+
 ### Partial Differential Equations
-Partial Differential Equations I - Coming soon --->
-<!--- <a class="page-link" href="/pde-I/"> Partial Differential Equations I  </a> - In progress --->
+<a class="page-link" href="/pde-I/"> Partial Differential Equations I  </a>
 
 <!---  Partial Differential Equations II - Coming soon
 <a class="page-link" href="/pde-II/"> Partial Differential Equations II  </a> - In progress --->

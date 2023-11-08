@@ -35,8 +35,8 @@ Secondary school physics covers the basics of classical mechanics, heat, optics,
 
 <!--- <a class="page-link" href="/elasticity-I/">Elasticity I</a> - In progress --->
 
-<!--- ### Electromagnetism --->
-<!--- <a class="page-link" href="/em-I/"> Electromagnetism I </a> --->
+### Electromagnetism
+<a class="page-link" href="/em-I/"> Electromagnetism I </a>
 
 <!--- <a class="page-link" href="/electromagnetism-II/">Electromagnetism II</a> - In progress --->
 
@@ -53,6 +53,8 @@ Secondary school physics covers the basics of classical mechanics, heat, optics,
 <a class="page-link" href="/qm-I/"> Quantum Mechanics I </a>
 
 <!--- <a class="page-link" href="/qm-II/"> Quantum Mechanics II </a> - In progress --->
+
+<a class="page-link" href="/qm-III/"> Quantum Mechanics III </a>
 
 <!--- ### Miscellaneous --->
 
@@ -129,7 +131,7 @@ Mathematical Classical Mechanics I
 
 <a class="page-link" href="/many-body-II/"> Many-Body Theory II </a>
 
-<!--- <a class="page-link" href="/superconductivity/"> Superconductivity </a> --->
+<a class="page-link" href="/superconductivity/"> Superconductivity & Superfluidity</a>
 
 <!--- <a class="page-link" href="/topological-insulators/"> Topological Insulators </a> --->
 

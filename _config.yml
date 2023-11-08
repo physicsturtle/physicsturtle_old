@@ -13,6 +13,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://zestymath.github.io" # the base hostname & protocol for your site
 twitter_username:
 github_username: zestymath
+plugins:
+    - jekyll-seo-tag
 collections:
     math:
         permalink: /:collection:/:title
@@ -110,6 +112,8 @@ collections:
         output: true
     qm-IV:
         output: true
+    qm-V:
+        output: true
     qmag:
         output: true
     qpt:
@@ -119,6 +123,8 @@ collections:
     sft-II:
         output: true
     ssp:
+        output: true
+    superconductivity:
         output: true
     td:
         output: true

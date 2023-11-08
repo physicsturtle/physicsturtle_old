@@ -46,7 +46,7 @@ Here is a rough trajectory of the order in which I think topics should be studie
 </tr>
 <tr> <!--- Semester 1 --->
 <td> Year 1 Term 1 </td>
-<td> <!---<a class = "page-link" href = "/physics-I/"> Physics I </a> ---> 
+<td> <a class = "page-link" href = "/physics-I/"> Physics I </a>
     <!--- <a class = "page-link" href = "/modern-physics/"> Modern Physics </a>  ---></td>
 <td> <a class = "page-link" href = "/calculus-I/">Calculus I</a> <br>
     <!--- <a class = "page-link" href = "/linear-algebra-I/"> Linear Algebra I </a> ---> <br>
@@ -58,7 +58,7 @@ Here is a rough trajectory of the order in which I think topics should be studie
 <td> <!--- <a class = "page-link" href = "/physics-II/"> Physics II </a> ---> <br>
     <!--- <a class = "page-link" href = "/cm-I/"> Classical Mechanics I </a> --->
     </td>
-<td> <!--- <a class = "page-link" href = "/calculus-II/"> Calculus II </a> ---> <br> 
+<td> <a class = "page-link" href = "/calculus-II/">Calculus II</a> <br> 
     <!--- <a class = "page-link" href = "/group-theory/"> Group Theory </a> ---> <br>
     <!--- <a class = "page-link" href = "/linear-algebra-II/"> Linear Algebra II </a> --->
     </td>
@@ -78,7 +78,7 @@ Here is a rough trajectory of the order in which I think topics should be studie
 <tr> <!--- Semester 4 --->
 <td>Year 2 Term 2</td>
 <td> <!--- <a class = "page-link" href = "/cm-III/"> Classical Mechanics III </a> ---> <br> 
-     <!--- <a class = "page-link" href = "/em-I/"> Electromagnetism I </a> ---> <br> 
+     <a class = "page-link" href = "/em-I/"> Electromagnetism I </a> <br> 
     <!--- <a class = "page-link" href = "/td/"> Thermodynamics I </a> ---><br>
     <!--- <a class = "page-link" href = "/fluids-I/"> Fluid Mechanics I </a> ---> 
 </td>
@@ -104,7 +104,7 @@ Here is a rough trajectory of the order in which I think topics should be studie
 <td>Year 3 Term 2</td>
 <td> <!--- <a class = "page-link" href = "/complex-vars/"> Elasticity </a> ---> <br> 
     <!--- <a class = "page-link" href = "/complex-vars/"> Statistical Mechanics I</a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/">Quantum Mechanics II</a> ---> <br>
+    <!--- <a class = "page-link" href = "/qm-III/">Quantum Mechanics III</a> ---> <br>
     <!--- <a class = "page-link" href = "/complex-vars/"> Optics I </a> ---> </td>
 <td> <!--- <a class = "page-link" href = "/complex-vars/"> Green Functions  </a> ---><br> 
     <!--- <a class = "page-link" href = "/complex-vars/"> Numerical Analysis I</a> ---> <br> 
@@ -133,7 +133,7 @@ Here is a rough trajectory of the order in which I think topics should be studie
 </td>
 <td> <!--- <a class = "page-link" href = "/complex-vars/"> Asymptotic Analysis II </a> ---> <br> 
      <!--- <a class = "page-link" href = "/complex-vars/"> Differential Geometry II </a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Calculus of Variations  </a> ---><br> 
+    <!--- <a class = "page-link" href = "/complex-vars/"> Calculus of Variations </a> ---><br> 
     <!--- <a class = "page-link" href = "/complex-vars/"> Lie Theory </a> ---><br>
     <!--- <a class = "page-link" href = "/complex-vars/"> Partial Differential Equations III </a> ---> 
 </td>
@@ -150,7 +150,7 @@ Here is a rough trajectory of the order in which I think topics should be studie
 </tr>
 <tr> 
 <td>Year 1 Term 1 </td>
-<td> <!--- <a class = "page-link" href = "/complex-vars/"> Quantum Mechanics III </a> ---> <br> 
+<td> <!--- <a class = "page-link" href = "/qm-IV/"> Quantum Mechanics IV </a> ---> <br> 
     <!--- <a class = "page-link" href = "/complex-vars/"> Electromagnetism III</a> ---> <br> 
     <!--- <a class = "page-link" href = "/complex-vars/"> Quantum Field Theory I  </a> ---><br> 
     <!--- <a class = "page-link" href = "/complex-vars/"> Condensed Matter Physics I </a> ---> <br> 
@@ -160,7 +160,7 @@ Here is a rough trajectory of the order in which I think topics should be studie
 </tr>
 <tr> 
 <td>Year 1 Term 2</td>
-<td> <!--- <a class = "page-link" href = "/complex-vars/"> Quantum Mechanics IV </a> ---> <br> 
+<td> <a class = "page-link" href = "/qm-V/"> Quantum Mechanics V </a> <br> 
     <!--- <a class = "page-link" href = "/complex-vars/"> Electromagnetism IV </a> ---> <br> 
     <!--- <a class = "page-link" href = "/complex-vars/"> Quantum Field Theory II</a> ---> <br> 
     <!--- <a class = "page-link" href = "/complex-vars/"> Condensed Matter Physics II </a> ---> <br> 
@@ -173,7 +173,7 @@ Here is a rough trajectory of the order in which I think topics should be studie
 <td>Year 2 </td>
 <td> <!--- <a class = "page-link" href = "/complex-vars/"> Nonequilibrium Quantum Field Theory  </a> ---><br> 
     <!--- <a class = "page-link" href = "/complex-vars/"> Quantum Magnetism </a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Superfluidity & Superconductivity </a> ---> <br> 
+    <a class = "page-link" href = "/superconductivity/"> Superfluidity & Superconductivity </a> <br> 
     <!--- <a class = "page-link" href = "/complex-vars/"> Conformal Field Theory </a> ---> <br> 
     <!--- <a class = "page-link" href = "/complex-vars/"> Quantum Phase Transitions </a> ---> <br> 
     <!--- <a class = "page-link" href = "/complex-vars/"> Transport Theory </a> ---> <br> 

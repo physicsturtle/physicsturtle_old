@@ -1,19 +1,19 @@
 ---
 layout: unit
-title: Unit 2
+title: Methods of Integration 
 dept: math
 course: calculus-II
+unit: unit2
 deptDisplay: Math
 courseDisplay: Calculus II
-unit: unit2
+unitDisplay: Unit 2
 ---
-
-{% assign lessonNames = "Basic_Formulas, Substitution_Rule, Integration_by_Parts, Trigonometric_Integrals, Method_of_Partial_Fractions, Trigonometric_Substitution, Hyperbolic_Substitution*, Improper_Integrals, Numerical_Integration, Miscellaneous_Tricks" | split: ', ' %}
+{% assign lessonNames = "Substitution Rule , Integration by Parts , Trigonometric Integrals , Method of Partial Fractions , " | split: ', ' %}
 
 <ol>
 {% for lessonName in lessonNames %}
 {% assign lessonTitle = lessonName | replace:  '_', ' ' %}
-{% assign lowerName = lessonName | downcase %}
-<li> <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink }}"> {{lessonTitle}} </a> - <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink | append: "-exercises" }}"> Exercises </a> </li>
+{% assign linkName = lessonName | replace: ' ', '' %}
+<li> <a class = "page-link" href = "{{ linkName | prepend: units[unitIndex] | prepend: current_page.permalink }}"> {{lessonTitle}} </a> - <a class = "page-link" href = "{{ linkName | prepend: units[unitIndex] | prepend: current_page.permalink | append: "-exercises" }}"> Exercises </a> </li>
 {% endfor %}
 </ol>
