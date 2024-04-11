@@ -11,16 +11,17 @@ unitDisplay: Unit 2
 Electrostatics is the study of electric charges at rest (hence ``statics"). At the centre of this is <i>Coulomb's law</i>. Coulomb's law is the statement that the force of \\(q_a\\) on \\(q_b\\) is given by 
 
 $$\begin{equation}
-\mathbf{F}_{ab} = \frac{q_aq_b}{4\pi\epsilon_0 r^2}\hat{r}_{ab}
+\mathbf{F}_{ab} = \frac{q_aq_b}{4\pi\epsilon_0 r^2}\hat{r}_{ab},
 \end{equation}$$
 
-where \\(\hat{r}_{ab}\\) is the unit vector which points from \\(q_a\\) to \\(q_b\\). \\(\epsilon_0 = 8.85\times 10^{-12}\text{C}^2/\text{N}\text{m}^2\\) is called the <i>permittivity of free space</i>. Coulomb's law is known to very high precision. It goes as \\(1/r^n\\), where \\(n\\) has been measured experimentally to be very close to 2, in fact \\( \|n-2\| < 10^{-16}\\). 
+where \\(\hat{r}_{ab}\\) is the unit vector which points from \\(q_a\\) to \\(q_b\\). The constant \\(\epsilon_0 = 8.85\times 10^{-12}\text{C}^2/\text{N}\text{m}^2\\) is called the <i>permittivity of free space</i>. Coulomb's law is known to very high precision. It goes as \\(1/r^n\\), where \\(n\\) has been measured experimentally to be very close to 2, in fact \\( \|n-2\| < 10^{-16}\\). 
 
 <figure class="center">
 <p><img src="figures/coulomb_law.pdf" alt="Function" class="center" style="width:192.252px;height:33.886px;"> </p><figcaption class="center">Schematic of Coulomb's law for the case where \(q_a\) and \(q_b\) are like charges. Because the two charges are like, they repel one another.</figcaption>
 </figure>
 
-Surrounding a point charge is the <i>electric field</i>, and the electric field due to an isolated charge \\(Q\\) is 
+
+Surrounding a point charge is the <i>electric field</i>, and the electric field due to an isolated charge \\(Q\\) is given by 
 
 $$\begin{equation}
 \mathbf{E} = \frac{Q}{4\pi\epsilon_0 r^2}\hat{r}.
@@ -114,5 +115,11 @@ These expressions have been written somewhat compactly. For clarity, if we expan
 $$\begin{equation}
 \mathbf{E}(\x) = \frac{1}{4\pi\epsilon_0}\int\frac{(x-',y-y',z-z')\rho(\x')}{[(x-x')^2+(y-y')^2+(z-z')^2]^{3/2}}\d x' \d y' \d z'.
 \end{equation}$$
+
+<div class="example">
+<b>Example:</b>
+Consider an infinite line of charge, with linear charge density \(\lambda\). Compute the electric field at all points in space. 
+
+</div>
 
 

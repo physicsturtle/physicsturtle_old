@@ -8,7 +8,7 @@ deptDisplay: Physics
 courseDisplay: Electromagnetism I
 unitDisplay: Unit 2
 ---
-{% assign lessonNames = "Coulomb's Law , " \| split: ', ' %}
+{% assign lessonNames = "Coulomb's Law , Electric Flux , " \| split: ', ' %}
 
 <ol>
 {% for lessonName in lessonNames %}

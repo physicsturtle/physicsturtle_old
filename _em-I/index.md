@@ -8,7 +8,7 @@ permalink: /em-I/
 
 {% assign units = "unit2/, " \| split: ', ' %}
 
-{% assign lessonNames2 = "Coulomb's Law , " \| split: ', ' %}
+{% assign lessonNames2 = "Coulomb's Law , Electric Flux , " \| split: ', ' %}
 <ul>
 
 {% for unitName in unitNames %}

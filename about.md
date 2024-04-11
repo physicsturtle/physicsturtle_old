@@ -6,15 +6,21 @@ permalink: /about/
 
 
 ### Goal of this website
-I hope that these notes will provide the interested student with a comprehensive overview of physics and mathematics content. The website was last updated on {{ "now" | date: "%Y-%m-%d %H:%M" }}
+My vision for the website is a set of notes that provide a comprehensive overview of undergraduate physics and mathematics, as well as selected graduate physics topics, all from the point of view of condensed matter (or, solid state) physics. There are many resources online to learn math and physics, and I hope to differentiate this site from them in the following ways: 
+
+<ol>
+<li> Many online resources stop after first year undergraduate physics, and second year undergraduate math. I will try to provide resources on the whole range of undergraduate physics and math, and some selected graduate physics topics. </li>
+<li> Many textbooks are expensive, and also do not show many details regarding complicated calculations. I want to provide these details in a self-contained and free resource. </li>
+<li> Many mathematics courses focus on theorems and proofs and either do not have enough examples, or the examples are not easy to visualize and appear unrelated to applications. One of my goals is to write the math notes with the physicist in mind, and provide relationships between abstract math and concrete physical examples. </li>
+</ol>
+
+The website was last updated on {{ "now" | date: "%Y-%m-%d %H:%M" }}
 
 ### About the author
-I am a PhD student studying theoretical condensed matter physics, and all material posted here will likely be described through the lens of a condensed matter physicist.
-
-<!--- As for the author, I am currently a graduate student studying condensed matter physics. I have been interested in pedagogy for several years now, and have been trying to get this project off the ground for almost as long. The website was created on June 3, 2018, and I would like to have most of my planned content finished by 2030. . --->
+I am a lifelong enjoyer of teaching, especially of math and physics. I have a bachelor's degree, where I majored in engineering physics and minored in mathematics. I also have a PhD in theoretical physics. In particular, I studied theoretical condensed matter physics, which is the study of exotic phases of matter. 
 
 <!---  ### How to use this website
-There are numerous courses, each of which includes the text, examples, and exercises. One day I hope to include accompanying videos. I recommend that you read the text, and work through the examples as you read through. There are three types of exercises which should help you understand the material better, all of which are essential. The first type is an exercise which fills in gaps in the text, and such exercises occur more in the more advanced material. The second type is the application of results derived in the text. The third type is to make explicit connections with other material on the site. --->
+There are numerous "courses", each of which includes the text, examples, and exercises. One day I hope to include accompanying videos. If there are any topics you are interested in, or errors on the website, please email me! --->
 
 <!--- This is some CSS which helps to display the curriculum table. --->
 <style>
@@ -36,7 +42,7 @@ background-color: #dddddd;
 </style>
 
 ### Undergraduate Notes
-Here is a rough trajectory of the order in which I think topics should be studied, which also provides a reasonable prerequisite path.
+Here is a rough trajectory of the order in which I think topics should be studied, which also provides a reasonable prerequisite path. It is planned around a 4 year degree, typical in many North American post-secondary institutions. 
 
 <table style="width:100%">
 <tr style="border-bottom:1px solid black">
@@ -48,7 +54,7 @@ Here is a rough trajectory of the order in which I think topics should be studie
 <td> Year 1 Term 1 </td>
 <td> <a class = "page-link" href = "/physics-I/"> Physics I </a>
     <!--- <a class = "page-link" href = "/modern-physics/"> Modern Physics </a>  ---></td>
-<td> <a class = "page-link" href = "/calculus-I/">Calculus I</a> <br>
+<td> <a class = "page-link" href = "/calculus-I/"> Calculus I </a> <br>
     <!--- <a class = "page-link" href = "/linear-algebra-I/"> Linear Algebra I </a> ---> <br>
     <!--- <a class = "page-link" href = "/math-proof/"> Mathematical Proof </a> --->
  </td>
@@ -84,58 +90,59 @@ Here is a rough trajectory of the order in which I think topics should be studie
 </td>
 <td> <!--- <a class = "page-link" href = "/pde-I/"> Partial Differential Equations I </a> ---> <br> 
     <!--- <a class = "page-link" href = "/complex-vars/"> Complex Variables </a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Dynamical Systems I </a> --->  <br> 
+    <!--- <a class = "page-link" href = "/nonlin_dyn-I/"> Dynamical Systems I </a> --->  <br> 
     <!--- <a class = "page-link" href = "/complex-vars/"> Vector Calculus and Forms  </a> ---> <br>
-    <!--- <a class = "page-link" href = "/complex-vars/"> Probability II </a> ---> 
+    <!--- <a class = "page-link" href = "/probability-II/"> Probability II </a> ---> 
 </td>
 </tr>
 <tr> <!--- Semester 5 --->
 <td>Year 3 Term 1</td>
-<td> <!--- <a class = "page-link" href = "/complex-vars/"> Classical Mechanics IV</a> --->  <br> 
-    <!--- <a class = "page-link" href = "/qm-I/"> Quantum Mechanics II </a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Fluid Mechanics II  </a> ---><br>
-    <!--- <a class = "page-link" href = "/complex-vars/"> Electromagnetism II  </a> ---></td>
-<td> <!--- <a class = "page-link" href = "/complex-vars/">Ordinary Differential Equations II  </a> ---><br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Partial Differential Equations II  </a> ---><br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Applied Analysis</a> ---> <br>
-    <!--- <a class = "page-link" href = "/complex-vars/"> Classical Differential Geometry </a> ---> </td>
+<td> <!--- <a class = "page-link" href = "/cm-IV/"> Classical Mechanics IV</a> --->  <br>
+    <a class = "page-link" href = "/qm-I/"> Quantum Mechanics II </a> <br> 
+    <!--- <a class = "page-link" href = "/fluids-II/"> Fluid Mechanics II  </a> ---><br>
+    <!--- <a class = "page-link" href = "/em-II/"> Electromagnetism II  </a> ---></td>
+    <!--- <a class = "page-link" href = "/complex-vars/"> Statistical Mechanics I</a> ---> <br>
+<td> <!--- <a class = "page-link" href = "/ode-II/">Ordinary Differential Equations II  </a> ---><br> 
+    <!--- <a class = "page-link" href = "/pde-II/"> Partial Differential Equations II  </a> ---><br> 
+    <!--- <a class = "page-link" href = "/applied_analysis/"> Applied Analysis</a> ---> <br>
+    <!--- <a class = "page-link" href = "/class_diff_geo/"> Classical Differential Geometry </a> ---> </td>
 </tr>
 <tr> <!--- Semester 6 --->
 <td>Year 3 Term 2</td>
 <td> <!--- <a class = "page-link" href = "/complex-vars/"> Elasticity </a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Statistical Mechanics I</a> ---> <br> 
+    <!--- <a class = "page-link" href = "/sm-II/"> Statistical Mechanics II </a> ---><br>
     <!--- <a class = "page-link" href = "/qm-III/">Quantum Mechanics III</a> ---> <br>
-    <!--- <a class = "page-link" href = "/complex-vars/"> Optics I </a> ---> </td>
-<td> <!--- <a class = "page-link" href = "/complex-vars/"> Green Functions  </a> ---><br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Numerical Analysis I</a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Dynamical Systems II </a> ---> </td>
+    <!--- <a class = "page-link" href = "/optics-I/"> Optics I </a> ---> </td>
+<td> <!--- <a class = "page-link" href = "/green_functions/"> Green Functions  </a> ---><br> 
+    <!--- <a class = "page-link" href = "/num_analysis-I/"> Numerical Analysis I</a> ---> <br> 
+    <!--- <a class = "page-link" href = "/nonlin_dyn-II/"> Dynamical Systems II </a> ---> </td>
 </tr>
 <tr> <!--- Semester 7 --->
 <td>Year 4 Term 1</td>
-<td> <!--- <a class = "page-link" href = "/complex-vars/"> Classical Field Theory  </a> ---><br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Statistical Mechanics II </a> ---><br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Optics II  </a> ---><br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Relativity I  </a> --->
+<td> <!--- <a class = "page-link" href = "/classical_fields/"> Classical Field Theory  </a> ---><br> 
+     <!--- <a class = "page-link" href = "/solid_state-I/"> Solid State Physics I </a> ---> <br>
+    <!--- <a class = "page-link" href = "/optics-II/"> Optics II </a> ---><br> 
+    <!--- <a class = "page-link" href = "/gr-I/"> Relativity I </a> --->
 </td>
-<td> <!--- <a class = "page-link" href = "/complex-vars/">Differential Geometry I </a> ---> <br>
-    <!--- <a class = "page-link" href = "/complex-vars/"> Integral Equations</a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Asymptotic Analysis I</a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Theory of Functionals </a> ---> <br>
-    <!--- <a class = "page-link" href = "/complex-vars/"> Topology</a> ---> </td>
+<td> <!--- <a class = "page-link" href = "/diff_geo-I/"> Differential Geometry I </a> ---> <br>
+    <!--- <a class = "page-link" href = "/int-eq/"> Integral Equations</a> ---> <br> 
+    <!--- <a class = "page-link" href = "/perturb-I/"> Asymptotic Analysis I </a> ---> <br> 
+    <!--- <a class = "page-link" href = "/functionals/"> Theory of Functionals </a> ---> <br>
+    <!--- <a class = "page-link" href = "/topology/"> Topology</a> ---> </td>
 </tr>
 <tr> <!--- Semester 8 --->
 <td>Year 4 Term 2</td>
-<td> <!--- <a class = "page-link" href = "/complex-vars/">Solid State Physics</a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Atomic Physics </a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Relativity II </a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Plasma Physics </a> ---> <br>
+<td> <!--- <a class = "page-link" href = "/solid_state-II/"> Solid State Physics II </a> ---> <br>
+    <!--- <a class = "page-link" href = "/atomic/"> Atomic Physics </a> ---> <br>
+    <!--- <a class = "page-link" href = "/gr-II/"> Relativity II </a> ---> <br>
+    <!--- <a class = "page-link" href = "/plasma/"> Plasma Physics </a> ---> <br>
     <!--- <a class = "page-link" href = "/complex-vars/"> Kinetic Theory</a> ---> 
 </td>
-<td> <!--- <a class = "page-link" href = "/complex-vars/"> Asymptotic Analysis II </a> ---> <br> 
-     <!--- <a class = "page-link" href = "/complex-vars/"> Differential Geometry II </a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Calculus of Variations </a> ---><br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Lie Theory </a> ---><br>
-    <!--- <a class = "page-link" href = "/complex-vars/"> Partial Differential Equations III </a> ---> 
+<td> <!--- <a class = "page-link" href = "/perturb-II/"> Asymptotic Analysis II </a> ---> <br>
+     <!--- <a class = "page-link" href = "/diff_geo-II/"> Differential Geometry II </a> ---> <br>
+    <!--- <a class = "page-link" href = "/cov/"> Calculus of Variations </a> ---><br>
+    <!--- <a class = "page-link" href = "/lie_theory/"> Lie Theory </a> ---><br>
+    <!--- <a class = "page-link" href = "/pde-III/"> Partial Differential Equations III </a> --->
 </td>
 </tr>
 </table> <br>
@@ -151,34 +158,37 @@ Here is a rough trajectory of the order in which I think topics should be studie
 <tr> 
 <td>Year 1 Term 1 </td>
 <td> <!--- <a class = "page-link" href = "/qm-IV/"> Quantum Mechanics IV </a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Electromagnetism III</a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Quantum Field Theory I  </a> ---><br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Condensed Matter Physics I </a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Many-Body Physics I </a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Statistical Field Theory I </a> ---> </td>
+    <!--- <a class = "page-link" href = "/em-III/"> Electromagnetism III </a> ---> <br> 
+    <!--- <a class = "page-link" href = "/qft-I/"> Quantum Field Theory I </a> ---><br> 
+    <!--- <a class = "page-link" href = "/cmp-I/"> Condensed Matter Physics I </a> ---> <br> 
+    <!--- <a class = "page-link" href = "/many-body-I/"> Many-Body Physics I </a> ---> <br> 
+    <!--- <a class = "page-link" href = "/sft-I/"> Statistical Field Theory I </a> ---> </td>
 <td>  </td>
 </tr>
-<tr> 
+<tr>
 <td>Year 1 Term 2</td>
-<td> <a class = "page-link" href = "/qm-V/"> Quantum Mechanics V </a> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Electromagnetism IV </a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Quantum Field Theory II</a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Condensed Matter Physics II </a> ---> <br> 
-    <a class = "page-link" href = "/many-body-II/">Many-Body Physics II</a>  <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Statistical Field Theory II  </a> ---><br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Topological Physics </a> ---> </td>
+<td> <a class = "page-link" href = "/qm-V/"> Quantum Mechanics V </a> <br>
+    <!--- <a class = "page-link" href = "/em-IV/"> Electromagnetism IV </a> ---> <br>
+    <!--- <a class = "page-link" href = "/qft-II/"> Quantum Field Theory II </a> ---> <br>
+    <!--- <a class = "page-link" href = "/cmp-II/"> Condensed Matter Physics II </a> ---> <br>
+    <a class = "page-link" href = "/many-body-II/"> Many-Body Physics II </a>  <br>
+    <!--- <a class = "page-link" href = "/sft-II/"> Statistical Field Theory II </a> ---><br>
+    <!--- <a class = "page-link" href = "/top_phys/"> Topological Physics </a> ---> </td>
 <td> </td>
 </tr>
 <tr> 
 <td>Year 2 </td>
-<td> <!--- <a class = "page-link" href = "/complex-vars/"> Nonequilibrium Quantum Field Theory  </a> ---><br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Quantum Magnetism </a> ---> <br> 
+<td> <!--- <a class = "page-link" href = "/non_eq_fields/"> Nonequilibrium Quantum Field Theory  </a> ---><br> 
+    <!--- <a class = "page-link" href = "/quantum-magnetism/"> Quantum Magnetism </a> ---> <br> 
     <a class = "page-link" href = "/superconductivity/"> Superfluidity & Superconductivity </a> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Conformal Field Theory </a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Quantum Phase Transitions </a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Transport Theory </a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Topological Field Theory </a> ---> <br> 
-    <!--- <a class = "page-link" href = "/complex-vars/"> Heavy Fermion Physics </a> --->  </td>
+    <!--- <a class = "page-link" href = "/cft/"> Conformal Field Theory </a> ---> <br> 
+    <!--- <a class = "page-link" href = "/qpt/"> Quantum Phase Transitions </a> ---> <br> 
+    <!--- <a class = "page-link" href = "/transport/"> Transport Theory </a> ---> <br> 
+    <!--- <a class = "page-link" href = "/tft/"> Topological Field Theory </a> ---> <br> 
+    <!--- <a class = "page-link" href = "/hf/"> Heavy Fermion Physics </a> ---> <br>
+    <!--- <a class = "page-link" href = "/top_quantum/"> Topological Phases of Matter </a> ---> <br>
+    <!--- <a class = "page-link" href = "/non_hermitian/"> Non-Hermitian Physics </a> ---> </td>
+
 <td>  </td>
 </tr>
 </table>

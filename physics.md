@@ -52,7 +52,7 @@ Secondary school physics covers the basics of classical mechanics, heat, optics,
 ### Quantum Mechanics
 <a class="page-link" href="/qm-I/"> Quantum Mechanics I </a>
 
-<!--- <a class="page-link" href="/qm-II/"> Quantum Mechanics II </a> - In progress --->
+<a class="page-link" href="/qm-II/"> Quantum Mechanics II </a>
 
 <a class="page-link" href="/qm-III/"> Quantum Mechanics III </a>
 

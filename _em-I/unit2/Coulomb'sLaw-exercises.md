@@ -45,14 +45,14 @@ $$\begin{equation}
  <button onclick="myFunction('answer36')" class="answerButton">Show Answer</button> 
  <div  id='answer36' class="answer" >
 <ol type="a">
-<li> The potential \(dV\) at the point \((0,0,r)\) due to a small length \(dx\) of the line is given by 
+<li> The potential \(\d V\) at the point \((0,0,r)\) due to a small length \(\d x\) of the line is given by 
 
 $$\begin{equation}
-dV = \frac{\d Q}{4\pi\epsilon_0 R} = \frac{\lambda dx}{4\pi\epsilon_0\sqrt{x^2+r^2}}\end{equation}$$
+\d V = \frac{\d Q}{4\pi\epsilon_0 R} = \frac{\lambda \d x}{4\pi\epsilon_0\sqrt{x^2+r^2}}\end{equation}$$
 Thus 
 
 $$\begin{equation}
-V = \int_{-\ell_1}^{\ell_2}  \frac{\lambda dx}{4\pi\epsilon_0\sqrt{x^2+r^2}} = \frac{\lambda}{4\pi\epsilon_0}\ln \left\| \frac{\ell_2 +\sqrt{\ell_2^2+r^2}}{-\ell_1 + \sqrt{\ell_1^2+r^2}}\right\|
+V = \int_{-\ell_1}^{\ell_2}  \frac{\lambda \d x}{4\pi\epsilon_0\sqrt{x^2+r^2}} = \frac{\lambda}{4\pi\epsilon_0}\ln \left\| \frac{\ell_2 +\sqrt{\ell_2^2+r^2}}{-\ell_1 + \sqrt{\ell_1^2+r^2}}\right\|
 \end{equation}$$
 
 </li>
@@ -60,11 +60,11 @@ V = \int_{-\ell_1}^{\ell_2}  \frac{\lambda dx}{4\pi\epsilon_0\sqrt{x^2+r^2}} = \
 
 $$\begin{align}
 V ={}&  \frac{\lambda}{4\pi\epsilon_0}\ln \left\| \frac{\ell_2 +\sqrt{\ell_2^2+r^2}}{-\ell_1 + \sqrt{\ell_1^2+r^2}}\right\|\\
-&\approx& \frac{\lambda}{4\pi\epsilon_0}\ln\left\|\frac{\ell_2 + r}{r - \ell_1}\right\| \\
+\approx{}& \frac{\lambda}{4\pi\epsilon_0}\ln\left\|\frac{\ell_2 + r}{r - \ell_1}\right\| \\
 ={}& \frac{\lambda}{4\pi\epsilon_0}\ln\left\|\frac{\ell_2 +\ell_1 + r - \ell_1}{r - \ell_1}\right\|\\
 ={}& \frac{\lambda}{4\pi\epsilon_0}\ln\left\|1 + \frac{\ell_2 +\ell_1}{r - \ell_1}\right\|\\
-&\approx& \frac{\lambda}{4\pi\epsilon_0} \frac{\ell_2 +\ell_2}{r - \ell_1}\\
-&\approx& \frac{\lambda}{4\pi\epsilon_0} \frac{\ell_2 +\ell_2}{r}
+\approx{}& \frac{\lambda}{4\pi\epsilon_0} \frac{\ell_2 +\ell_2}{r - \ell_1}\\
+\approx{}& \frac{\lambda}{4\pi\epsilon_0} \frac{\ell_2 +\ell_2}{r}
 \end{align}$$
 
 Which agrees with what we have from the potential formula as if the length of charge was a point charge.
@@ -75,9 +75,9 @@ Which agrees with what we have from the potential formula as if the length of ch
 $$\begin{align}
 V ={}&  \frac{\lambda}{4\pi\epsilon_0}\ln \left\| \frac{\ell_2 +\sqrt{\ell_2^2+r^2}}{-\ell_1 + \sqrt{\ell_1^2+r^2}}\right\|\\
 ={}&  \frac{\lambda}{4\pi\epsilon_0}\ln \left\| \frac{\ell_2(1 +\sqrt{1+r^2/\ell_2^2})}{\ell_1(-1 + \sqrt{1+r^2/\ell_1^2})}\right\|\\
-&\approx&  \frac{\lambda}{4\pi\epsilon_0}\ln \left\| \frac{\ell_2(1 +1+r^2/2\ell_2^2)}{\ell_1(-1 +1+r^2/2\ell_1^2)}\right\|\\
+\approx{}&  \frac{\lambda}{4\pi\epsilon_0}\ln \left\| \frac{\ell_2(1 +1+r^2/2\ell_2^2)}{\ell_1(-1 +1+r^2/2\ell_1^2)}\right\|\\
 ={}&  \frac{\lambda}{4\pi\epsilon_0}\ln \left\| \frac{\ell_2(2+r^2/2\ell_2^2)}{\ell_1(r^2/2\ell_1^2)}\right\|\\
-&\approx&  \frac{\lambda}{4\pi\epsilon_0}\ln \left\| \frac{\ell_2(2)}{r^2/2\ell_1}\right\|\\
+\approx{}&  \frac{\lambda}{4\pi\epsilon_0}\ln \left\| \frac{\ell_2(2)}{r^2/2\ell_1}\right\|\\
 ={}& \frac{\lambda}{4\pi\epsilon_0}\ln \left\| \frac{4\ell_1\ell_2}{r^2}\right\|\\
 \end{align}$$
 
