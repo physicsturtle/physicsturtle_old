@@ -14,7 +14,7 @@
       </a>
       <!--hide the physics content for now... my_page.title == "Physics" or -->
       <div class="trigger" >
-          {% assign baseNames = "Physics, Math, About" | split: ', ' %}
+          {% assign baseNames = "Physics, Math, Guides, About" | split: ', ' %}
           {% for baseName in baseNames %}
           {% assign baseTitle = baseName | replace:  '-', ' '%}
           {% assign categoryUrl = baseName | prepend: "/" | downcase %}

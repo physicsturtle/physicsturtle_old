@@ -6,13 +6,13 @@
 #i 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Zestymath
-email: contact@zestymath.com
-description: "Welcome to Zestymath! Please use the e-mail contact to let me know if you find any mistakes, you feel an explanation could be improved, or you have a suggestion for content. \n"
+title: Physicsturtle
+email: nanoturtle2@gmail.com
+description: "Welcome to Physicsturtle! Please use the e-mail contact to let me know if you find any mistakes or omissions, you feel an explanation could be improved, or you have a suggestion for content. \n"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://zestymath.github.io" # the base hostname & protocol for your site
+url: "http://physicsturtle.github.io" # the base hostname & protocol for your site
 twitter_username:
-github_username: zestymath
+github_username: physicsturtle
 plugins:
     - jekyll-seo-tag
 collections:
@@ -60,7 +60,9 @@ collections:
         output: true
     gr:
         output: true
-    greens-functions:
+    green_functions:
+        output: true
+    guides:
         output: true
     hs-physics-I:
         output: true
@@ -79,6 +81,8 @@ collections:
     many-body-I:
         output: true
     many-body-II:
+        output: true
+    many-body-III:
         output: true
     neqft:
         output: true

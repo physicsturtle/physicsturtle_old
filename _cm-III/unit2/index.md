@@ -1,17 +1,19 @@
 ---
-layout: page
-title: The Calculus of Variations
+layout: unit
+title: The Calculus of Variations 
+dept: physics
 course: cm-III
-unit: unit1
+unit: unit2
+deptDisplay: Physics
+courseDisplay: Classical Mechanics III
+unitDisplay: Unit 2
 ---
-
-The Calculus of Variations
+{% assign lessonNames = "Introduction to the problem , Euler-Lagrange equation , Hanging rope , " \| split: ', ' %}
 
 <ol>
-{% assign lessonNames = "Euler-Lagrange, Hanging-Rope" | split: ', ' %}
 {% for lessonName in lessonNames %}
-{% assign lessonTitle = lessonName | replace:  '-', ' ' %}
-{% assign lowerName = lessonName | downcase %}
-<li> <a class = "page-link" href = "{{ lowerName | prepend: current_page.permalink}}"> {{lessonTitle}} </a> </li>
+{% assign lessonTitle = lessonName \| replace:  '_', ' ' %}
+{% assign linkName = lessonName \| replace: ' ', " %}
+<li> <a class = "page-link" href = "{{ linkName \| prepend: units[unitIndex] \| prepend: current_page.permalink }}"> {{lessonTitle}} </a> - <a class = "page-link" href = "{{ linkName \| prepend: units[unitIndex] \| prepend: current_page.permalink \| append: "-exercises" }}"> Exercises </a> </li>
 {% endfor %}
 </ol>

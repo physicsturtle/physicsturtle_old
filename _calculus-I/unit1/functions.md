@@ -25,8 +25,7 @@ Let \(A\) and \(B\) be sets. We say \(f\) is a <i>function from \(A\) to \(B\)</
 This can be represented schematically by the following Figure 
 
 <figure class="center">
-
-<p><img src="figures/function.jpg" alt="Function" style="width:350px;height:250px;"> </p><figcaption class="center">A function \\(f : A \to B\\)</figcaption>
+<p><img src="figures/function.pdf" alt="Function" class="center" style="width:360.0px;height:250.0px;"> </p><figcaption class="center">A function \(f : A \to B\)</figcaption>
 </figure>
 
 We call \\(A\\) the domain of the function \\(f\\), and \\(B\\) the codomain. It is possible that not every element of \\(B\\) is reached by the function \\(f\\). For example, if we define \\(f : \RR\to\RR\\) by \\(f(x) = x^2\\), then, although the codomain is \\(\RR\\), we never actually reach the negative numbers. This leads us to the following definition.
@@ -34,7 +33,7 @@ We call \\(A\\) the domain of the function \\(f\\), and \\(B\\) the codomain. It
 <div class="definition">
 <b>Definition:</b>
 Let \(f:A\to B\) be a function. We define the <i>range</i> of \(f\) to be 
-\(\)\text{range}(f) = \{f(x) | x\in A\}.\(\)
+\(\)\text{range}(f) = \{f(x) \| x\in A\}.\(\)
 
 </div>
 
@@ -44,7 +43,7 @@ Closely related to the definition of range are the definitions of image and prei
 <b>Definition:</b>
 Suppose we have a function \(f:A\to B\), and that \(U\) is a subset of \(A\). Then, we define 
 $$\begin{equation}
-f(U) = \{f(x)\in B | x\in U|\}
+f(U) = \{f(x)\in B \| x\in U\|\}
 \end{equation}$$
 as the <i>image of \(U\) under \(f\)</i>.
 
@@ -54,7 +53,7 @@ as the <i>image of \(U\) under \(f\)</i>.
 <b>Definition:</b> 
 Suppose we have a function \(f:A\to B\), and that \(V\) is a subset of \(B\). Then, we define 
 $$\begin{equation}
-f^{-1}(V) = \{x\in A | f(x)\in V|\}
+f^{-1}(V) = \{x\in A \| f(x)\in V\|\}
 \end{equation}$$
 as the <i>preimage of \(V\) under \(f\)</i>.
 

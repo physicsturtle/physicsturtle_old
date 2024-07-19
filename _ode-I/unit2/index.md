@@ -1,19 +1,19 @@
 ---
 layout: unit
-title: Unit 2
+title: First Order Differential Equations 
 dept: math
-course: calculus-I
-deptDisplay: Math
-courseDisplay: Calculus I
+course: ode-I
 unit: unit2
+deptDisplay: Math
+courseDisplay: Ordinary Differential Equations I
+unitDisplay: Unit 2
 ---
-
-{% assign lessonNames = "Limits, Limit_Laws, Limit_Details, Squeeze_Theorem, Continuity, Intermediate_Value_Theorem, Limits_at_Infinity" | split: ', ' %}
+{% assign lessonNames = "Integrating Factor , " \| split: ', ' %}
 
 <ol>
 {% for lessonName in lessonNames %}
-{% assign lessonTitle = lessonName | replace:  '_', ' ' %}
-{% assign lowerName = lessonName | downcase %}
-<li> <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink }}"> {{lessonTitle}} </a> - <a class = "page-link" href = "{{ lowerName | prepend: units[unitIndex] | prepend: current_page.permalink | append: "-exercises" }}"> Exercises </a> </li>
+{% assign lessonTitle = lessonName \| replace:  '_', ' ' %}
+{% assign linkName = lessonName \| replace: ' ', " %}
+<li> <a class = "page-link" href = "{{ linkName \| prepend: units[unitIndex] \| prepend: current_page.permalink }}"> {{lessonTitle}} </a> - <a class = "page-link" href = "{{ linkName \| prepend: units[unitIndex] \| prepend: current_page.permalink \| append: "-exercises" }}"> Exercises </a> </li>
 {% endfor %}
 </ol>

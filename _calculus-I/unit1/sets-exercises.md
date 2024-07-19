@@ -89,7 +89,7 @@ A \cap B = (0,2)
 <ol type="a">
 <li> Draw a Venn diagram to schematically represent \(C\)
 </li>
-<li> If \(A = \{1,2,3\}\) and \(B = =\{0,1,2\}\), calculate \(A\setminus B\)
+<li> If \(A = \{1,2,3\}\) and \(B =\{0,1,2\}\), calculate \(A\setminus B\)
 </li></ol>
 
 <div class="answerBox"> 
@@ -97,12 +97,7 @@ A \cap B = (0,2)
  <div  id='answer65' class="answer" >
 <ol type="a">
 <li> 
-\begin{tikzpicture} %setminus_venn_diagram
-\draw[fill = gray](0,0) circle (1) (0,0) circle (1) node[xshift = -1em, yshift = 4em] {\(A\)};
-\draw[fill = white](1,0) circle (1) node[xshift = 1em, yshift = 4em] {\(B\)};
-\draw (0,0) circle (1);
-\node at (0.5,-1.25) {\(A\setminus B\)};
-\end{tikzpicture}
+<figure class="center"><p><img src="figures/setminus_venn_diagram.pdf" alt="Function" class="center" style="width:85.438px;height:90.31px;"> </p></figure>
 </li>
 <li> \(A\setminus B = \{3\}\)
 </li></ol>
@@ -112,10 +107,7 @@ A \cap B = (0,2)
 </div> </li>
 <li> <div class="exercise">  Define the symmetric difference between \(A\) and \(B\) as 
 
-\begin{tikzpicture} %symm_diff_venn_diagram
-\fill[even odd rule, gray] (0,0) circle (1) (1,0) circle (1);
-\draw(0,0) circle (1);
-\end{tikzpicture}
+<figure class="center"><p><img src="figures/symm_diff_venn_diagram.pdf" alt="Function" class="center" style="width:85.239px;height:57.091px;"> </p></figure>
 
 Write the expression for this set using union and intersection symbols.
 

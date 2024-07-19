@@ -53,8 +53,7 @@ Given two sets, it is possible to combine them in certain ways to make new sets.
 Suppose we have two sets \\(A\\) and \\(B\\). The *union* of \\(A\\) and \\(B\\) is denoted by \\(A\cup B\\), and it consists of all elements which are in \\(A\\), in \\(B\\), or in both \\(A\\) and \\(B\\). We can represent this schematically with a Venn diagram, as shown
 
 <figure class="center">
-
-<p><img src="figures/union_venn_diagram.pdf" alt="Function" style="width:350px;height:250px;"> </p><figcaption class="center">Schematic representation of the union between two sets.</figcaption>
+<p><img src="figures/union_venn_diagram.pdf" alt="Function" class="center" style="width:85.438px;height:57.091px;"> </p><figcaption class="center">Schematic representation of the union between two sets.</figcaption>
 </figure>
 
 ### Intersection
@@ -63,18 +62,17 @@ Suppose we have two sets \\(A\\) and \\(B\\). The *union* of \\(A\\) and \\(B\\)
 Suppose we have two sets \\(A\\) and \\(B\\). The *intersection* of \\(A\\) and \\(B\\) is denoted by \\(A\cap B\\), and it consists of all elements which are in both \\(A\\) and \\(B\\). We can represent this schematically with a Venn diagram, as shown
 
 <figure class="center">
-
-<p><img src="figures/intersection_venn_diagram.pdf" alt="Function" style="width:350px;height:250px;"> </p><figcaption class="center">Schematic representation of the intersection between two sets.</figcaption>
+<p><img src="figures/intersection_venn_diagram.pdf" alt="Function" class="center" style="width:85.438px;height:88.732px;"> </p><figcaption class="center">Schematic representation of the intersection between two sets.</figcaption>
 </figure>
 
 ### Set Building Notation
 
 A useful notation for defining sets is the following. Given a set \\(A\\), we can form the set \\(S\\) by defining \\(S\\) as the set of elements which are in \\(A\\), but satisfy some further property. The notation looks like
 
-$$S = \{x \in A | x\text{ satisfies some property}\}.$$
+$$S = \{x \in A \| x\text{ satisfies some property}\}.$$
 
 For example, I could write the set \\(S = \{1,2,3\}\\) in this notation in the following way:
-$$S = \{x \in \ZZ | 1\leq x \leq 3\}.$$
+$$S = \{x \in \ZZ \| 1\leq x \leq 3\}.$$
 
 ### Examples
 

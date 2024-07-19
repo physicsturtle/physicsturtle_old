@@ -15,11 +15,10 @@ Coming soon --->
 
 <a class="page-link" href="/calculus-II/">Calculus II - Integral Calculus</a> 
 
-<!--- <a class="page-link" href="/calculus-III/">Calculus III - Multivariable and Vector Calculus</a> - In progress --->
+<a class="page-link" href="/calculus-III/">Calculus III - Multivariable and Vector Calculus</a>
 
-<!--- ### Linear Algebra
-Linear Algebra I - Coming soon
-<a class="page-link" href="/linear-algebra-I/"> Linear Algebra I </a> - In progress --->
+### Linear Algebra
+<a class="page-link" href="/linear-algebra-I/"> Linear Algebra I </a>
 
 <!--- Applied Linear Algebra - Coming soon
 <a class="page-link" href="/appl-lin-alg/"> Applied Linear Algebra </a> - In progress --->
@@ -30,9 +29,8 @@ Linear Algebra I - Coming soon
 <!--- Linear Algebra III - Coming soon
 <a class="page-link" href="/linear-algebra-III/"> Linear Algebra III </a> - In progress --->
 
-<!---
 ### Ordinary Differential Equations
-<a class="page-link" href="/ode-I/"> Ordinary Differential Equations I  </a> - In progress --->
+<a class="page-link" href="/ode-I/"> Ordinary Differential Equations I  </a>
 
 <!--- Ordinary Differential Equations II - Coming soon
 <a class="page-link" href="/ode-II/"> Ordinary Differential Equations II  </a> - In progress --->
@@ -65,10 +63,8 @@ Nonlinear Dynamics and Chaos I - Coming soon --->
 <!--- Stabilization of Dynamical Systems - Coming soon
 <a class="page-link" href="/nonlin-dyn-I/"> Stabilization of Dynamical Systems </a> --->
 
-<!---
 ### Complex Analysis
-Complex Variables - Coming soon --->
-<!--- <a class="page-link" href="/complex-variables/"> Complex Variables </a> - In progress --->
+<a class="page-link" href="/complex-variables/"> Complex Variables </a>
 
 
 ### Partial Differential Equations
@@ -80,8 +76,7 @@ Complex Variables - Coming soon --->
 <!---  Partial Differential Equations III - Coming soon
 <a class="page-link" href="/pde-III/"> Partial Differential Equations III  </a> --->
 
-<!--- Green's Functions - Coming soon
-<a class="page-link" href="/greens-functions/"> Green's Functions </a> - In progress --->
+<a class="page-link" href="/green_functions/"> Green Functions </a>
 
 <!---  Theory of Partial Differential Equations - Coming soon
 <a class="page-link" href="/pdet-I/"> Theory of Partial Differential Equations I </a> - In progress --->
